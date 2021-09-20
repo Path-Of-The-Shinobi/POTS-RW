@@ -1,0 +1,1377 @@
+﻿uchihagene = {
+	opposites = {
+		hyugagene
+		forbiddengene
+	}
+
+	index = 2000
+	name = trait_uchihagene
+	
+	martial = 2
+	learning = 2
+	prowess = 4
+	
+	fame = yes
+	
+	monthly_prestige_gain_mult = 0.2
+	inbreeding_chance = -1
+	positive_random_genetic_chance = 0.5
+	
+	general_opinion = -5
+	opposite_opinion = -100
+	
+	shown_in_ruler_designer = yes
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_uchihagene
+			}
+			desc = trait_uchihagene_desc
+		}
+	}
+}
+
+onetomoe = {
+	index = 2001
+	name = trait_onetomoe
+	
+	martial = 2
+	intrigue = 2
+	prowess = 3
+	
+	good = yes
+	physical = yes
+	
+	general_opinion = -5
+	
+	shown_in_ruler_designer = yes
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_onetomoe
+			}
+			desc = trait_onetomoe_desc
+		}
+	}
+}
+
+twotomoe = {
+	index = 2002
+	name = trait_twotomoe
+	
+	martial = 3
+	intrigue = 4
+	prowess = 4
+	
+	good = yes
+	physical = yes
+	
+	general_opinion = -5
+	
+	shown_in_ruler_designer = yes
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_twotomoe
+			}
+			desc = trait_twotomoe_desc
+		}
+	}
+}
+
+threetomoe = {
+	index = 2003
+	name = trait_threetomoe
+	
+	martial = 4
+	intrigue = 5
+	prowess = 6
+	
+	good = yes
+	physical = yes
+	
+	general_opinion = -7
+	personal_scheme_power_mult = 4.0
+	
+	shown_in_ruler_designer = yes
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_threetomoe
+			}
+			desc = trait_threetomoe_desc
+		}
+	}
+}
+
+mangekyosharingan_1 = {
+	index = 2004
+	name = trait_mangekyosharingan_1
+	
+	martial = 6
+	intrigue = 8
+	prowess = 10
+	
+	good = yes
+	physical = yes
+	
+	general_opinion = -10
+	shown_in_ruler_designer = yes
+	
+	general_opinion = -10
+	monthly_prestige = 0.6
+	dread_baseline_add = 40
+	hostile_scheme_resistance_add = 0.6
+	enemy_hostile_scheme_success_chance_add = -60
+	personal_scheme_power_mult = 8.0
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_mangekyosharingan_1
+			}
+			desc = trait_mangekyosharingan_1_desc
+		}
+	}
+}
+
+mangekyosharingan_2 = {
+	index = 2005
+	name = trait_mangekyosharingan_2
+	
+	martial = 6
+	intrigue = 8
+	prowess = 10
+	
+	good = yes
+	physical = yes
+	
+	shown_in_ruler_designer = yes	
+	
+	general_opinion = -10
+	monthly_prestige = 0.6
+	dread_baseline_add = 40
+	hostile_scheme_resistance_add = 00.6
+	enemy_hostile_scheme_success_chance_add = -60
+	personal_scheme_power_mult = 8.0
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_mangekyosharingan_2
+			}
+			desc = trait_mangekyosharingan_2_desc
+		}
+	}
+}
+
+mangekyosharingan_3 = {
+	index = 2006
+	name = trait_mangekyosharingan_3
+	
+	martial = 6
+	intrigue = 8
+	prowess = 10
+	
+	good = yes
+	physical = yes
+	
+	shown_in_ruler_designer = yes
+	
+	general_opinion = -10
+	monthly_prestige = 0.6
+	dread_baseline_add = 40
+	hostile_scheme_resistance_add = 00.6
+	enemy_hostile_scheme_success_chance_add = -60
+	personal_scheme_power_mult = 8.0
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_mangekyosharingan_3
+			}
+			desc = trait_mangekyosharingan_3_desc
+		}
+	}
+}
+
+mangekyosharingan_4 = {
+	index = 2007
+	name = trait_mangekyosharingan_4
+	
+	martial = 6
+	intrigue = 8
+	prowess = 10
+	
+	good = yes
+	physical = yes
+	
+	shown_in_ruler_designer = yes
+	
+	general_opinion = -10
+	monthly_prestige = 0.6
+	dread_baseline_add = 40
+	hostile_scheme_resistance_add = 00.6
+	enemy_hostile_scheme_success_chance_add = -60
+	personal_scheme_power_mult = 8.0
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_mangekyosharingan_4
+			}
+			desc = trait_mangekyosharingan_4_desc
+		}
+	}
+}
+
+eternalsharingan = {
+	index = 2008
+	name = trait_eternalsharingan
+	
+	martial = 10
+	intrigue = 10
+	prowess = 15
+	
+	good = yes
+	physical = yes
+	
+	shown_in_ruler_designer = yes
+	
+	general_opinion = -15
+	monthly_prestige = 0.7
+	dread_baseline_add = 50
+	hostile_scheme_resistance_add = 00.7
+	enemy_hostile_scheme_success_chance_add = -70
+	personal_scheme_power_mult = 8.5
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_eternalsharingan
+			}
+			desc = trait_eternalsharingan_desc
+		}
+	}
+}
+
+rinnegan = {
+	index = 2009
+	name = trait_rinnegan
+	
+	good = yes
+	physical = yes
+	
+	martial = 12
+	intrigue = 14
+	prowess = 20
+	
+	good = yes
+	physical = yes
+	
+	shown_in_ruler_designer = yes
+	
+	general_opinion = -15
+	monthly_prestige = 1
+	dread_baseline_add = 50
+	hostile_scheme_resistance_add = 0.8
+	enemy_hostile_scheme_success_chance_add = -80
+	personal_scheme_power_mult = 9.0
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_rinnegan
+			}
+			desc = trait_rinnegan_desc
+		}
+	}
+}
+
+rinnesharingan = {
+	index = 2010
+	name = trait_rinnesharingan
+	
+	good = yes
+	physical = yes
+	
+	martial = 15
+	intrigue = 18
+	prowess = 30
+	
+	good = yes
+	physical = yes
+	
+	shown_in_ruler_designer = yes
+	
+	general_opinion = -15
+	monthly_prestige = 1.5
+	dread_baseline_add = 60
+	hostile_scheme_resistance_add = 0.9
+	enemy_hostile_scheme_success_chance_add = -90
+	personal_scheme_power_mult = 9.5
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_rinnesharingan
+			}
+			desc = trait_rinnesharingan_desc
+		}
+	}
+}
+
+byakugan = {
+	index = 2014
+	name = trait_byakugan
+	
+	martial = 5
+	diplomacy = 10
+	intrigue = 20
+	prowess = 20
+	
+	good = yes
+	physical = yes
+	
+	monthly_prestige = 2
+	hostile_scheme_resistance_add = 0.9
+	enemy_hostile_scheme_success_chance_add = -90
+	personal_scheme_power_mult = 4.0
+	
+	shown_in_ruler_designer = yes
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_byakugan
+			}
+			desc = trait_byakugan_desc
+		}
+	}
+}
+
+tenseigan = {
+	index = 2012
+	name = trait_tenseigan
+	
+	martial = 10
+	diplomacy = 15
+	intrigue = 25
+	prowess = 40
+	
+	good = yes
+	physical = yes
+	
+	monthly_prestige = 2
+	hostile_scheme_resistance_add = 1
+	enemy_hostile_scheme_success_chance_add = -100
+	personal_scheme_power_mult = 8.0
+	
+	shown_in_ruler_designer = yes
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+			desc = trait_tenseigan
+			}
+			desc = trait_tenseigan_desc
+		}
+	}
+}
+
+################ FORBIDDEN EYES ################
+forbiddengene = {
+	opposites = {
+		uchihagene
+		hyugagene
+	}
+	
+	index = 2015
+	name = trait_forbiddengene
+	
+	fame = yes
+	
+	martial = 4
+	diplomacy = 4
+	intrigue = 2
+	prowess = 10
+	
+	inbreeding_chance = -0.5
+	positive_random_genetic_chance = 0.1
+	
+	opposite_opinion = -50
+	
+	shown_in_ruler_designer = yes
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_forbiddengene_desc
+			}
+			desc = trait_forbiddengene_character_desc
+		}
+	}
+}
+
+forbiddeneyes = {
+	index = 2016
+	name = trait_forbiddeneyes
+	
+	martial = 20
+	diplomacy = 20
+	intrigue = 20
+	prowess = 50
+	
+	good = yes
+	physical = yes
+	
+	monthly_prestige = 2
+	hostile_scheme_resistance_add = 1
+	enemy_hostile_scheme_success_chance_add = -100
+	
+	shown_in_ruler_designer = yes
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_forbiddeneyes_desc
+			}
+			desc = trait_forbiddeneyes_character_desc
+		}
+	}
+}
+
+fushitenseigood = {
+	index = 675
+	health_trait = yes
+	health = 500
+	ruler_designer_cost = 200
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_fushitenseigood
+			}
+			desc = trait_fushitenseigood_desc
+		}
+	}
+}
+
+fushitenseibad = {
+	index = 676
+	health_trait = yes
+	health = -500
+	ruler_designer_cost = -150
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_fushitenseibad
+			}
+			desc = trait_fushitenseibad_desc
+		}
+	}
+}
+
+jogan = {
+	index = 2013
+	name = trait_jogan
+	
+	martial = 8
+	diplomacy = 12
+	intrigue = 22
+	prowess = 25
+	
+	good = yes
+	physical = yes
+	
+	monthly_prestige = 2
+	hostile_scheme_resistance_add = 0.9
+	enemy_hostile_scheme_success_chance_add = -90
+	personal_scheme_power_mult = 2.0
+	
+	shown_in_ruler_designer = yes
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_jogan
+			}
+			desc = trait_jogan_desc
+		}
+	}
+}
+
+one_tail = {
+	index = 678
+	physical = yes
+	martial = 15
+	health = 10
+	prowess = 25
+	ruler_designer_cost = 10
+	monthly_dynasty_prestige = 1
+	monthly_prestige = 10
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_one_tail
+			}
+			desc = trait_one_tail_desc
+		}
+	}
+}
+
+two_tail = {
+	index = 679
+	physical = yes
+	martial = 20
+	monthly_dynasty_prestige = 1
+	health = 11
+	prowess = 30
+	ruler_designer_cost = 20
+	monthly_prestige = 10
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_two_tail
+			}
+			desc = trait_two_tail_desc
+		}
+	}
+}
+
+three_tail = {
+	index = 680
+	physical = yes
+	martial = 21
+	monthly_dynasty_prestige = 1
+	health = 12
+	prowess = 27
+	ruler_designer_cost = 30
+	monthly_prestige = 10
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_three_tail
+			}
+			desc = trait_three_tail_desc
+		}
+	}
+}
+
+four_tail = {
+	index = 681
+	physical = yes
+	martial = 22
+	health = 13
+	monthly_dynasty_prestige = 1
+	prowess = 29
+	ruler_designer_cost = 40
+	monthly_prestige = 10
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_four_tail
+			}
+			desc = trait_four_tail_desc
+		}
+	}
+}
+
+five_tail = {
+	index = 682
+	physical = yes
+	martial = 23
+	monthly_dynasty_prestige = 1
+	health = 14
+	prowess = 30
+	ruler_designer_cost = 50
+	monthly_prestige = 10
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_five_tail
+			}
+			desc = trait_five_tail_desc
+		}
+	}
+}
+
+six_tail = {
+	index = 683
+	physical = yes
+	martial = 24
+	health = 15
+	monthly_dynasty_prestige = 1
+	prowess = 31
+	monthly_prestige = 10
+	ruler_designer_cost = 60
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_six_tail
+			}
+			desc = trait_six_tail_desc
+		}
+	}
+}
+
+seven_tail = {
+	index = 684
+	physical = yes
+	martial = 25
+	health = 16
+	monthly_dynasty_prestige = 1
+	prowess = 32
+	ruler_designer_cost = 70
+	monthly_prestige = 10
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_seven_tail
+			}
+			desc = trait_seven_tail_desc
+		}
+	}
+}
+
+eight_tail = {
+	index = 685
+	physical = yes
+	martial = 26
+	health = 17
+	monthly_dynasty_prestige = 1
+	prowess = 33
+	ruler_designer_cost = 80
+	monthly_prestige = 10
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_eight_tail
+			}
+			desc = trait_eight_tail_desc
+		}
+	}
+}
+
+nine_tail = {
+	index = 686
+	physical = yes
+	martial = 28
+	health = 18
+	prowess = 34
+	monthly_dynasty_prestige = 1
+	ruler_designer_cost = 90
+	monthly_prestige = 10
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_nine_tail
+			}
+			desc = trait_nine_tail_desc
+		}
+	}
+}
+
+ten_tail = {
+	index = 687
+	physical = yes
+	martial = 30
+	health = 20
+	prowess = 50
+	monthly_dynasty_prestige = 1
+	ruler_designer_cost = 100
+	monthly_prestige = 10
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_ten_tail
+			}
+			desc = trait_ten_tail_desc
+		}
+	}
+}
+
+hyugagene = {
+	opposites = {
+		uchihagene
+		forbiddengene
+	}
+	
+	index = 2011
+	name = trait_hyugagene
+	
+	fame = yes
+	
+	martial = 2
+	diplomacy = 2
+	prowess = 2
+	
+	inbreeding_chance = -1
+	positive_random_genetic_chance = 0.3
+	
+	opposite_opinion = -100
+	
+	shown_in_ruler_designer = yes
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_hyugagene
+			}
+			desc = trait_hyugagene_desc
+		}
+	}
+}
+
+firerelease = {
+	index = 689
+	martial = 2
+	prowess = 5
+	ruler_designer_cost = 7
+	monthly_dynasty_prestige = 0.5
+	inherit_chance = 5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_firerelease
+			}
+			desc = trait_firerelease_desc
+		}
+	}
+}
+
+windrelease = {
+	index = 690
+	intrigue = 2
+	prowess = 5
+	ruler_designer_cost = 7
+	monthly_dynasty_prestige = 0.5
+	inherit_chance = 5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_windrelease
+			}
+			desc = trait_windrelease_desc
+		}
+	}
+}
+
+lightningrelease = {
+	index = 691
+	diplomacy = 2
+	ruler_designer_cost = 7
+	monthly_dynasty_prestige = 0.5
+	prowess = 5
+	inherit_chance = 5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_lightningrelease
+			}
+			desc = trait_lightningrelease_desc
+		}
+	}
+}
+
+earthrelease = {
+	index = 692
+	stewardship = 2
+	prowess = 5
+	inherit_chance = 5
+	ruler_designer_cost = 7
+	monthly_dynasty_prestige = 0.5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_earthrelease
+			}
+			desc = trait_earthrelease_desc
+		}
+	}
+}
+
+waterrelease = {
+	index = 693
+	learning = 2
+	prowess = 5
+	ruler_designer_cost = 7
+	monthly_dynasty_prestige = 0.5
+	inherit_chance = 5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_waterrelease
+			}
+			desc = trait_waterrelease_desc
+		}
+	}
+}
+
+icerelease = {
+	index = 694
+	intrigue = 2
+	learning = 3
+	ruler_designer_cost = 7
+	monthly_dynasty_prestige = 0.5
+	prowess = 5
+	inherit_chance = 5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_icerelease
+			}
+			desc = trait_icerelease_desc
+		}
+	}
+}
+
+woodrelease = {
+	index = 695
+	stewardship = 2
+	learning = 3
+	ruler_designer_cost = 7
+	monthly_dynasty_prestige = 00.7
+	prowess = 5
+	inherit_chance = 5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_woodrelease
+			}
+			desc = trait_woodrelease_desc
+		}
+	}
+}
+
+lavarelease = {
+	index = 696
+	stewardship = 2
+	martial = 3
+	ruler_designer_cost = 7
+	monthly_dynasty_prestige = 0.5
+	prowess = 5
+	inherit_chance = 5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_lavarelease
+			}
+			desc = trait_lavarelease_desc
+		}
+	}
+}
+
+stormrelease = {
+	index = 697
+	learning = 2
+	ruler_designer_cost = 7
+	monthly_dynasty_prestige = 0.5
+	diplomacy = 3
+	prowess = 5
+	inherit_chance = 5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_stormrelease
+			}
+			desc = trait_stormrelease_desc
+		}
+	}
+}
+
+boilrelease = {
+	index = 698
+	learning = 2
+	martial = 3
+	ruler_designer_cost = 7
+	monthly_dynasty_prestige = 0.5
+	prowess = 5
+	inherit_chance = 5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_boilrelease
+			}
+			desc = trait_boilrelease_desc
+		}
+	}
+}
+
+dustrelease = {
+	index = 699
+	stewardship = 2
+	intrigue = 2
+	martial = 3
+	ruler_designer_cost = 7
+	monthly_dynasty_prestige = 0.5
+	prowess = 5
+	inherit_chance = 5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_dustrelease
+			}
+			desc = trait_dustrelease_desc
+		}
+	}
+}
+
+explosionrelease = {
+	index = 700
+	stewardship = 2
+	ruler_designer_cost = 7
+	monthly_dynasty_prestige = 0.5
+	diplomacy = 3
+	prowess = 5
+	inherit_chance = 5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_explosionrelease
+			}
+			desc = trait_explosionrelease_desc
+		}
+	}
+}
+
+scorchrelease = {
+	index = 701
+	intrigue = 2
+	martial = 3
+	ruler_designer_cost = 7
+	monthly_dynasty_prestige = 0.5
+	prowess = 5
+	inherit_chance = 5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_scorchrelease
+			}
+			desc = trait_scorchrelease_desc
+		}
+	}
+}
+
+magnetrelease = {
+	index = 702
+	stewardship = 2
+	intrigue = 3
+	ruler_designer_cost = 7
+	monthly_dynasty_prestige = 0.5
+	prowess = 4
+	inherit_chance = 5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_magnetrelease
+			}
+			desc = trait_magnetrelease_desc
+		}
+	}
+}
+
+yinrelease = {
+	index = 703
+	learning = 3
+	inherit_chance = 5
+	ruler_designer_cost = 7
+	monthly_dynasty_prestige = 0.5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_yinrelease
+			}
+			desc = trait_yinrelease_desc
+		}
+	}
+}
+
+yangrelease = {
+	index = 704
+	learning = 3
+	ruler_designer_cost = 7
+	inherit_chance = 5
+	monthly_dynasty_prestige = 0.5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_yangrelease
+			}
+			desc = trait_yangrelease_desc
+		}
+	}
+}
+
+yin_yangrelease = {
+	index = 705
+	learning = 5
+	ruler_designer_cost = 7
+	inherit_chance = 5
+	monthly_dynasty_prestige = 0.5
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_yin_yangrelease
+			}
+			desc = trait_yin_yangrelease_desc
+		}
+	}
+}
+
+uzumakigene = {
+	index = 706
+	diplomacy = 5
+	health = 10
+	inherit_chance = 100
+	monthly_dynasty_prestige = 1
+	ruler_designer_cost = 2
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_uzumakigene
+			}
+			desc = trait_uzumakigene_desc
+		}
+	}
+}
+
+senjugene = {
+	index = 707
+	diplomacy = 4
+	health = 5
+	ruler_designer_cost = 2
+	monthly_dynasty_prestige = 1
+	inherit_chance = 100
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_senjugene
+			}
+			desc = trait_senjugene_desc
+		}
+	}
+}
+
+ninjarank_genin = {
+	index = 708
+	diplomacy = 1
+	health = 0.2
+	ruler_designer_cost = 2
+	monthly_dynasty_prestige = 0.2
+	inherit_chance = 0
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_ninjarank_genin
+			}
+			desc = trait_ninjarank_genin_desc
+		}
+	}
+}
+
+ninjarank_chunin = {
+	index = 709
+	diplomacy = 2
+	health = 0.4
+	ruler_designer_cost = 4
+	monthly_dynasty_prestige = 0.4
+	inherit_chance = 0
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_ninjarank_chunin
+			}
+			desc = trait_ninjarank_chunin_desc
+		}
+	}
+}
+
+ninjarank_jonin = {
+	index = 710
+	diplomacy = 3
+	health = 0.6
+	ruler_designer_cost = 6
+	monthly_dynasty_prestige = 0.6
+	inherit_chance = 0
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_ninjarank_jonin
+			}
+			desc = trait_ninjarank_jonin_desc
+		}
+	}
+}
+
+ninjarank_kage = {
+	index = 711
+	diplomacy = 4
+	health = 1
+	ruler_designer_cost = 10
+	monthly_dynasty_prestige = 1
+	inherit_chance = 0
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_ninjarank_kage
+			}
+			desc = trait_ninjarank_kage_desc
+		}
+	}
+}
+
+medical_nin = {
+	index = 712
+	learning = 4
+	health = 2
+	ruler_designer_cost = 20
+	monthly_dynasty_prestige = 2
+	inherit_chance = 0
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_medical_nin
+			}
+			desc = trait_medical_nin_desc
+		}
+	}
+}
+
+seal_novice = {
+	index = 713
+	learning = 5
+	ruler_designer_cost = 20
+	monthly_dynasty_prestige = 0.5
+	inherit_chance = 0
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_seal_novice
+			}
+			desc = trait_seal_novice_desc
+		}
+	}
+}
+
+seal_basic = {
+	index = 714
+	learning = 7
+	ruler_designer_cost = 30
+	monthly_dynasty_prestige = 0.7
+	inherit_chance = 0
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_seal_basic
+			}
+			desc = trait_seal_basic_desc
+		}
+	}
+}
+
+seal_specialist = {
+	index = 715
+	learning = 9
+	ruler_designer_cost = 40
+	monthly_dynasty_prestige = 0.9
+	inherit_chance = 0
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_seal_specialist
+			}
+			desc = trait_seal_specialist_desc
+		}
+	}
+}
+
+seal_master = {
+	index = 716
+	learning = 11
+	ruler_designer_cost = 50
+	monthly_dynasty_prestige = 1.1
+	inherit_chance = 0
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_seal_master
+			}
+			desc = trait_seal_master_desc
+		}
+	}
+}

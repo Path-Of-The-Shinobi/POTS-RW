@@ -1,0 +1,4 @@
+﻿interaction_category_dojutsu = {
+	index = 20964
+	desc = Dojutsu_Interaction_Desc
+}

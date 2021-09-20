@@ -1,0 +1,122 @@
+﻿#####################################
+#									#
+# 			Female					#
+#									#
+#####################################
+
+female_eyes_mangekyo_1 = {
+    entity = { entity = "female_eyes_mangekyo_1_entity" shared_pose_entity = head }
+}
+
+female_eyes_mangekyo_2 = {
+    entity = { entity = "female_eyes_mangekyo_2_entity" shared_pose_entity = head }
+}
+
+female_eyes_mangekyo_3 = {
+    entity = { entity = "female_eyes_mangekyo_3_entity" shared_pose_entity = head }
+}
+
+female_eyes_mangekyo_4 = {
+    entity = { entity = "female_eyes_mangekyo_4_entity" shared_pose_entity = head }
+}
+
+female_eyes_one_tomoe = {
+    entity = { entity = "female_eyes_one_tomoe_entity" shared_pose_entity = head }
+}
+
+female_eyes_two_tomoe = {
+    entity = { entity = "female_eyes_two_tomoe_entity" shared_pose_entity = head }
+}
+
+female_eyes_three_tomoe = {
+    entity = { entity = "female_eyes_three_tomoe_entity" shared_pose_entity = head }
+}
+
+female_eyes_byakugan = {
+    entity = { entity = "female_eyes_byakugan_entity" shared_pose_entity = head }
+}
+
+female_eyes_eternal_mangekyo = {
+    entity = { entity = "female_eyes_eternal_mangekyo_entity" shared_pose_entity = head }
+}
+
+female_eyes_rinnegan = {
+    entity = { entity = "female_eyes_rinnegan_entity" shared_pose_entity = head }
+}
+
+female_eyes_rinne_sharingan = {
+    entity = { entity = "female_eyes_rinne_sharingan_entity" shared_pose_entity = head }
+}
+
+female_eyes_tenseigan = {
+    entity = { entity = "female_eyes_tenseigan_entity" shared_pose_entity = head }
+}
+
+female_eyes_jogan = {
+    entity = { entity = "female_eyes_jogan_entity" shared_pose_entity = head }
+}
+
+female_eyes_forbidden_eyes = {
+    entity = { entity = "female_eyes_forbidden_eyes_entity" shared_pose_entity = head }
+}
+#####################################
+#									#
+# 			Male					#
+#									#
+#####################################
+
+male_eyes_mangekyo_1 = {
+    entity = { entity = "male_eyes_mangekyo_1_entity" shared_pose_entity = head }
+}
+
+male_eyes_mangekyo_2 = {
+    entity = { entity = "male_eyes_mangekyo_2_entity" shared_pose_entity = head }
+}
+
+male_eyes_mangekyo_3 = {
+    entity = { entity = "male_eyes_mangekyo_3_entity" shared_pose_entity = head }
+}
+
+male_eyes_mangekyo_4 = {
+    entity = { entity = "male_eyes_mangekyo_4_entity" shared_pose_entity = head }
+}
+
+male_eyes_one_tomoe = {
+    entity = { entity = "male_eyes_one_tomoe_entity" shared_pose_entity = head }
+}
+
+male_eyes_two_tomoe = {
+    entity = { entity = "male_eyes_two_tomoe_entity" shared_pose_entity = head }
+}
+
+male_eyes_three_tomoe = {
+    entity = { entity = "male_eyes_three_tomoe_entity" shared_pose_entity = head }
+}
+
+male_eyes_byakugan = {
+    entity = { entity = "male_eyes_byakugan_entity" shared_pose_entity = head }
+}
+
+male_eyes_eternal_mangekyo = {
+    entity = { entity = "male_eyes_eternal_mangekyo_entity" shared_pose_entity = head }
+}
+
+male_eyes_rinnegan = {
+    entity = { entity = "male_eyes_rinnegan_entity" shared_pose_entity = head }
+}
+
+male_eyes_rinne_sharingan = {
+    entity = { entity = "male_eyes_rinne_sharingan_entity" shared_pose_entity = head }
+}
+
+male_eyes_tenseigan = {
+    entity = { entity = "male_eyes_tenseigan_entity" shared_pose_entity = head }
+}
+
+male_eyes_jogan = {
+    entity = { entity = "male_eyes_jogan_entity" shared_pose_entity = head }
+}
+
+male_eyes_forbidden_eyes = {
+    entity = { entity = "male_eyes_forbidden_eyes_entity" shared_pose_entity = head }
+}

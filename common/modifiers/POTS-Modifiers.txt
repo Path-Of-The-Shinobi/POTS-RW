@@ -1,0 +1,8 @@
+﻿#POTS-Modifier
+
+#Dojutsu Modifiers
+
+amaterasu_modifier = {
+    icon = health_negative
+    health = -0.75
+}

@@ -1,0 +1,46 @@
+﻿l_english:
+
+#Dojutsu Localization
+ trait_onetomoe:0 "Sharingan with One Tomoe"
+ trait_onetomoe_desc:0 "The first stage of Sharingan after awakening."
+
+ trait_twotomoe:0 "Sharingan with Two Tomoe"
+ trait_twotomoe_desc:0 "The Sharingan with two Tomoe."
+
+ trait_threetomoe:0 "Sharingan with Three Tomoe"
+ trait_threetomoe_desc:0 "A fully developed Sharingan with three Tomoe, for many Uchiha the last stage of their development."
+
+ trait_mangekyosharingan_1:0 "Mangekyō Sharingan"
+ trait_mangekyosharingan_1_desc:0 "The Mangekyō Sharingan is usually acquired by killing someone close to the owner and looks different for each user, but they all have in common that the Tomoe melt into a new shape. It is much stronger than a normal Sharingan and gives the user special abilities, but its use damages the eyesight and ultimately leads to complete blindness. Very few Uchiha have achieved this advancement of Sharingan."
+
+ trait_mangekyosharingan_2:0 "Mangekyō Sharingan"
+ trait_mangekyosharingan_2_desc:0 "The Mangekyō Sharingan is usually acquired by killing someone close to the owner and looks different for each user, but they all have in common that the Tomoe melt into a new shape. It is much stronger than a normal Sharingan and gives the user special abilities, but its use damages the eyesight and ultimately leads to complete blindness. Very few Uchiha have achieved this advancement of Sharingan."
+
+ trait_mangekyosharingan_3:0 "Mangekyō Sharingan"
+ trait_mangekyosharingan_3_desc:0 "The Mangekyō Sharingan is usually acquired by killing someone close to the owner and looks different for each user, but they all have in common that the Tomoe melt into a new shape. It is much stronger than a normal Sharingan and gives the user special abilities, but its use damages the eyesight and ultimately leads to complete blindness. Very few Uchiha have achieved this advancement of Sharingan."
+
+ trait_mangekyosharingan_4:0 "Mangekyō Sharingan"
+ trait_mangekyosharingan_4_desc:0 "The Mangekyō Sharingan is usually acquired by killing someone close to the owner and looks different for each user, but they all have in common that the Tomoe melt into a new shape. It is much stronger than a normal Sharingan and gives the user special abilities, but its use damages the eyesight and ultimately leads to complete blindness. Very few Uchiha have achieved this advancement of Sharingan."
+
+
+ trait_eternalsharingan:0 "Eternal Mangekyō Sharingan"
+ trait_eternalsharingan_desc:0 "The eternal (permanent) Mangekyō Sharingan. You only get it by implanting another Mangekyō Sharingan and already owning one, the two Sharingan mix and you get a new, improved Sharingan."
+
+ trait_rinnegan:0 "Rinnegan"
+ trait_rinnegan_desc:0 "According to legend, it is said to be sent from heaven in times of chaos and its user becomes either a "god of creation" who brings peace to the world, or a "destroyer" who puts the world back into nothingness. The Rinnegan grants the user godlike abilities and is represented as a completely purple-colored eye with circles around the iris."
+
+ trait_rinnesharingan:0 "Rinne Sharingan"
+ trait_rinnesharingan_desc:0 "The Rinne Sharingan is a Dou-Jutsu that has so far only been awakened by a few individuals. It is the origin of the Sharingan and Rinnegan eye techniques. The eye appears as an additional third eye on the user's forehead. It's appearance is that of a red rinnegan with nine tomoes."
+ 
+ trait_byakugan:0 "Byakugan"
+ trait_byakugan_desc:0 "The Byakugan is the Kekkei Genkai of the Hyuuga clan. The owners of the Byakugan have almost completely white eyes with practically invisible pupils. If you activate the Byakugan, the veins around the eyes thicken dramatically and the pupils become visible as they turn a gray-white color."
+
+ trait_tenseigan:0 "Tenseigan"
+ trait_tenseigan_desc:0 "The Tenseigan is characterized by a blurred, white-blue iris with a blue pupil. It is awakened by the merging of the Hyuuga clan and the Ōtsutsuki clan chakra. The owner receives godlike abilities."
+
+ trait_jogan:0 "Jōgan"
+ trait_jogan_desc:0 "The Jōgan is a unique Kekkei Genkai, which could be a kind of intermediate stage between Byakugan and Tenseigan and thus of course primarily works like a Byakugan, but can be used even more precisely and skillfully."
+
+ trait_forbiddeneyes:0 "Forbidden Eyes"
+ trait_forbiddeneyes_desc:0 "This character has eyes with powers that is believed to have powers so great that no dojutsu can rival its overwhelming strength. These eyes were the creation of the unificiation between the sharingan and byakugan."
+ trait_forbiddeneyes_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has eyes with powers that is believed to have powers so great that no dojutsu can rival its overwhelming strength. These eyes were the creation of the unificiation between the sharingan and byakugan."

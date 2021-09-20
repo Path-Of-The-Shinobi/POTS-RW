@@ -1,0 +1,90 @@
+﻿#POTS Trait Localization
+l_english:
+
+ trait_one_tail:0 "The One Tail jinchuriki"
+ trait_one_tail_desc:0 "This person is known to be the jinchuriki of the one tailed biju known as Shukaku"
+
+ trait_two_tail:0 "The Two Tails jinchuriki"
+ trait_two_tail_desc:0 "This person is known to be the jinchuriki of the two tailed biju known as Matatabi"
+
+ trait_three_tail:0 "The Three Tails jinchuriki"
+ trait_three_tail_desc:0 "This person is known to be the jinchuriki of the three tailed biju known as Isobu"
+
+ trait_four_tail:0 "The Four Tails jinchuriki"
+ trait_four_tail_desc:0 "This person is known to be the jinchuriki of the four tailed biju known as Son Goku"
+
+ trait_five_tail:0 "The Five Tails jinchuriki"
+ trait_five_tail_desc:0 "This person is known to be the jinchuriki of the five tailed biju known as Kokuō"
+
+ trait_six_tail:0 "The Six Tails jinchuriki"
+ trait_six_tail_desc:0 "This person is known to be the jinchuriki of the six tailed biju known as Saiken"
+
+ trait_seven_tail:0 "The Seven Tails jinchuriki"
+ trait_seven_tail_desc:0 "This person is known to be the jinchuriki of the seven tailed biju known as Chōmei"
+
+ trait_eight_tail:0 "The Eight Tails jinchuriki"
+ trait_eight_tail_desc:0 "This person is known to be the jinchuriki of the eight tailed biju known as Gyūki"
+
+ trait_nine_tail:0 "The Nine Tails jinchuriki"
+ trait_nine_tail_desc:0 "This person is known to be the jinchuriki of the nine tailed biju known as Kurama"
+
+ trait_ten_tail:0 "The Ten Tails jinchuriki"
+ trait_ten_tail_desc:0 "This person is known to be the jinchuriki of the ten tailed biju known as Jubi"
+
+ trait_hyugagene:0 "Hyuga-Gene"
+ trait_hyugagene_desc:0 "The bloodline of the Hyuga clan with their unique Kekkei Genkai the byakugan."
+ 
+ trait_forbiddengene:0 "Forbidden-Blood"
+ trait_forbiddengene_desc:0 "Through the rare occurrance of both Hyuga and Uchiha Clan blood intercepting, this character has been born with eyes with unfathomable powers."
+ trait_forbiddengene_character_desc:0 "Through the rare occurrance of both Hyuga and Uchiha Clan blood intercepting, [ROOT.GetCharacter.GetFirstNameNoTooltip] has been born with eyes with unfathomable powers."
+
+ trait_fushitenseigood:0 "Positive FushiTensei"
+ trait_fushitenseigood_desc:0 "You feel the powers of your Fushi Tensei Jutsu."
+
+ trait_fushitenseibad:0 "Negative FushiTensei"
+ trait_fushitenseibad_desc:0 "Your body became the target of a Fushi Tensei Jutsu."
+
+ trait_uchihagene:0 "Uchiha-Gene"
+ trait_uchihagene_desc:0 "The bloodline of the Uchiha clan with their unique Kekkei Genkai the Sharingan."
+
+ trait_uzumakigene:0 "Uzumaki-Gene"
+ trait_uzumakigene_desc:0 "The Bloodline Of The Uzumaki Clan With Their Long Life And Longevity"
+ 
+ trait_senjugene:0 "Senju-Gene"
+ trait_senjugene_desc:0 "The Bloodline Of The Senju Clan With Their Strange Kekkei Genkai"
+
+ #Elemental Release
+ trait_firerelease:0 "Fire Release"
+ trait_firerelease_desc:0 "The Fire Release Chakra Nature"
+ trait_windrelease:0 "Wind Release"
+ trait_windrelease_desc:0 "The Wind Release Chakra Nature"
+ trait_lightningrelease:0 "Lightning Release"
+ trait_lightningrelease_desc:0 "The Lightning Release Chakra Nature"
+ trait_earthrelease:0 "Earth Release"
+ trait_earthrelease_desc:0 "The Earth Release Chakra Nature"
+ trait_waterrelease:0 "Water Release"
+ trait_waterrelease_desc:0 "The Water Release Chakra Nature"
+ trait_lavarelease:0 "Lava Release"
+ trait_lavarelease_desc:0 "The Lava Release Chakra Nature"
+ trait_woodrelease:0 "Wood Release"
+ trait_woodrelease_desc:0 "The Wood Release Chakra Nature"
+ trait_icerelease:0 "Ice Release"
+ trait_icerelease_desc:0 "The Ice Release Chakra Nature"
+ trait_stormrelease:0 "Storm Release"
+ trait_stormrelease_desc:0 "The Storm Release Chakra Nature"
+ trait_boilrelease:0 "Boil Release"
+ trait_boilrelease_desc:0 "The Boil Release Chakra Nature"
+ trait_dustrelease:0 "Dust Release"
+ trait_dustrelease_desc:0 "The Dust Release Chakra Nature"
+ trait_explosionrelease:0 "Explosion Release"
+ trait_explosionrelease_desc:0 "The Explosion Release Chakra Nature"
+ trait_scorchrelease:0 "Scorch Release"
+ trait_scorchrelease_desc:0 "The Scorch Release Chakra Nature"
+ trait_magnetrelease:0 "Magnet Release"
+ trait_magnetrelease_desc:0 "The Magnet Release Chakra Nature"
+ trait_yinrelease:0 "Yin Release"
+ trait_yinrelease_desc:0 "The Yin Release Chakra Nature"
+ trait_yangrelease:0 "Yang Release"
+ trait_yangrelease_desc:0 "The Yang Release Chakra Nature"
+ trait_yin_yangrelease:0 "Yin/Yang Release"
+ trait_yin_yangrelease_desc:0 "The Yin/Yang Release Chakra Nature"

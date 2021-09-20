@@ -1,0 +1,195 @@
+﻿mangekyo_1_eyes = {
+	mangekyo_1_eyes = {
+		traits = { mangekyosharingan_1 }
+		dna_modifiers = {			
+			accessory = {
+			    mode = replace
+			    gene = eye_accessory
+				template = mangekyo_1_eyes
+				value = { 0 0 }
+			}			
+		}
+	}
+}
+
+mangekyo_2_eyes = {
+	mangekyo_2_eyes = {
+		traits = { mangekyosharingan_2 }
+		dna_modifiers = {			
+			accessory = {
+			    mode = replace
+			    gene = eye_accessory
+				template = mangekyo_2_eyes
+				value = { 0 0 }
+			}			
+		}
+	}
+}
+
+mangekyo_3_eyes = {
+	mangekyo_3_eyes = {
+		traits = { mangekyosharingan_3 }
+		dna_modifiers = {			
+			accessory = {
+			    mode = replace
+			    gene = eye_accessory
+				template = mangekyo_3_eyes
+				value = { 0 0 }
+			}			
+		}
+	}
+}
+
+mangekyo_4_eyes = {
+	mangekyo_4_eyes = {
+		traits = { mangekyosharingan_4 }
+		dna_modifiers = {			
+			accessory = {
+			    mode = replace
+			    gene = eye_accessory
+				template = mangekyo_4_eyes
+				value = { 0 0 }
+			}			
+		}
+	}
+}
+
+one_tomoe_eyes = {
+	one_tomoe_eyes = {
+		traits = { onetomoe }
+		dna_modifiers = {			
+			accessory = {
+			    mode = replace
+			    gene = eye_accessory
+				template = one_tomoe_eyes
+				value = { 0 0 }
+			}			
+		}
+	}
+}
+
+two_tomoe_eyes = {
+	two_tomoe_eyes = {
+		traits = { twotomoe }
+		dna_modifiers = {			
+			accessory = {
+			    mode = replace
+			    gene = eye_accessory
+				template = two_tomoe_eyes
+				value = { 0 0 }
+			}			
+		}
+	}
+}
+
+three_tomoe_eyes = {
+	three_tomoe_eyes = {
+		traits = { threetomoe }
+		dna_modifiers = {			
+			accessory = {
+			    mode = replace
+			    gene = eye_accessory
+				template = three_tomoe_eyes
+				value = { 0 0 }
+			}			
+		}
+	}
+}
+
+byakugan_eyes = {
+	byakugan_eyes = {
+		traits = { byakugan }
+		dna_modifiers = {			
+			accessory = {
+			    mode = replace
+			    gene = eye_accessory
+				template = byakugan_eyes
+				value = { 0 0 }
+			}			
+		}
+	}
+}
+
+eternal_mangekyo_eyes = {
+	eternal_mangekyo_eyes = {
+		traits = { eternalsharingan }
+		dna_modifiers = {			
+			accessory = {
+			    mode = replace
+			    gene = eye_accessory
+				template = eternal_mangekyo_eyes
+				value = { 0 0 }
+			}			
+		}
+	}
+}
+
+rinnegan_eyes = {
+	rinnegan_eyes = {
+		traits = { rinnegan }
+		dna_modifiers = {			
+			accessory = {
+			    mode = replace
+			    gene = eye_accessory
+				template = rinnegan_eyes
+				value = { 0 0 }
+			}			
+		}
+	}
+}
+
+rinne_sharingan_eyes = {
+	rinne_sharingan_eyes = {
+		traits = { rinnesharingan }
+		dna_modifiers = {			
+			accessory = {
+			    mode = replace
+			    gene = eye_accessory
+				template = rinne_sharingan_eyes
+				value = { 0 0 }
+			}			
+		}
+	}
+}
+
+tenseigan_eyes = {
+	tenseigan_eyes = {
+		traits = { tenseigan }
+		dna_modifiers = {			
+			accessory = {
+			    mode = replace
+			    gene = eye_accessory
+				template = tenseigan_eyes
+				value = { 0 0 }
+			}			
+		}
+	}
+}
+
+jogan_eyes = {
+	jogan_eyes = {
+		traits = { jogan }
+		dna_modifiers = {			
+			accessory = {
+			    mode = replace
+			    gene = eye_accessory
+				template = jogan_eyes
+				value = { 0 0 }
+			}			
+		}
+	}
+}
+
+forbidden_eyes_eyes = {
+	forbidden_eyes_eyes = {
+		traits = { forbiddeneyes }
+		dna_modifiers = {			
+			accessory = {
+			    mode = replace
+			    gene = eye_accessory
+				template = forbidden_eyes_eyes
+				value = { 0 0 }
+			}			
+		}
+	}
+}
