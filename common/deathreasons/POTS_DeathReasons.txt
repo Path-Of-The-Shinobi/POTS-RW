@@ -1,0 +1,12 @@
+﻿death_reaper_death_seal = {
+	icon = "death_murder.dds"
+}
+
+stolen_sharingan_reason = {
+	icon = "death_murder.dds"
+}
+
+killed_for_power = {
+	public_knowledge = yes
+	icon = "death_murder.dds"
+}

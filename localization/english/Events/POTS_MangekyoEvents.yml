@@ -12,3 +12,7 @@ l_english:
  MangekyoEvents.003.t:0 "Mangekyo Sharingan;Tsukuyomi"
  MangekyoEvents.003.d:0 "With this mangekyo sharingan ability one can transport both themselves and the recipient to the realm of the Moon Reader dimension where the caster can torture the oponent for as long as they want"
  MangekyoEvents.003.o:0 "Tsukuyomi"
+ #Obtain Mangekyo Sharingan
+ MangekyoEvents.004.t:0 "Obtaining The Mangekyo Sharingan"
+ MangekyoEvents.004.d:0 "Through Reading Ancient Texts, whilst trying to discover more information about your new eyes you come accross a peice of text thats says 'The power of my new eyes are incrediable through research conducted triyng to discover how i unlocked these new eyes i discovered that when my mother died i experienced an agonizing pain in my eyes but i brushed it off perhaps through the death of ones family i might be ableo to re-create the situation and pass this knowledge down through these ancient history texts."
+ MangekyoEvents.004.o:0 "Obtain The Mangekyo Sharingan"

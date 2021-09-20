@@ -4,4 +4,7 @@
  interaction_category_dojutsu:0 "POTS Dojutsu"
  Dojutsu_Interaction_Desc:0 "Dojutsu Interactions"
  killed_for_power:0 "was killed for power"
+ stolen_sharingan_reason:0 "[TARGET_CHARACTER.GetUIName] was killed by having their sharingan stolen"
+ death_reaper_death_seal:0 "[TARGET_CHARACTER.GetUIName] was killed ny using the reaper death seal"
  killed_for_power_killer:0 "was killed for power by [TARGET_CHARACTER.GetUIName]"
+ obtain_mangekyo_sharingan_interaction:0 "Obtain Mangekyo Sharingan"

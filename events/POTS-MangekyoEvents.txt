@@ -97,3 +97,54 @@ MangekyoEvents.003 = {
 		}
 	}
 }
+
+MangekyoEvents.004 = {
+    title = MangekyoEvents.004.t
+	desc = MangekyoEvents.004.d
+	theme = martial
+	left_portrait = {
+		character = root
+		animation = rage
+	}
+	right_portrait = {
+		character = scope:recipient
+		animation = worry
+	}
+	
+	option = {
+		name = MangekyoEvents.004.a
+		trigger = {
+			has_trait = threetomoe
+            NOT = { has_trait = mangekyosharingan_1 }
+			NOT = { has_trait = mangekyosharingan_2 }
+			NOT = { has_trait = mangekyosharingan_3 }
+			NOT = { has_trait = mangekyosharingan_4 }
+		}
+		random_list = {
+			20 = {
+				add_trait = mangekyosharingan_1
+				remove_trait = threetomoe
+			}
+			20 = {
+				add_trait = mangekyosharingan_2
+				remove_trait = threetomoe
+			}
+			20 = {
+				add_trait = mangekyosharingan_3
+				remove_trait = threetomoe
+			}
+			20 = {
+				add_trait = mangekyosharingan_4
+				remove_trait = threetomoe
+			}
+		}
+		hidden_effect = {
+			scope:recipient = {
+				death = {
+					killer = scope:actor
+					death_reason = killed_for_power
+				}
+			}
+		}
+	}
+}
