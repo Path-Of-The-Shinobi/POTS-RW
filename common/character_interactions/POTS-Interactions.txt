@@ -10,7 +10,7 @@ perform_amaterasu_interaction = {
     is_shown = {
         scope:actor = {
             has_trait = mangekyosharingan_4
-            NOT = { has_character_flag = amaterasu_flag }
+            NOT = { has_character_flag = performed_amaterasu }
         }
         scope:recipient = {
             NOT = { has_character_modifier = amaterasu_modifier }
@@ -23,6 +23,33 @@ perform_amaterasu_interaction = {
                 id = MangekyoEvents.001
                 days = 1
             }
+            add_character_flag = {
+                flag = performed_amaterasu
+                months = 6
+            }
+        }
+    }
+}
+
+perform_kotoamatsukami_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    ai_maybe = no
+
+    is_shown = {
+        scope:actor = {
+            has_trait = mangekyosharingan_2
+            NOT = { has_character_flag = recently_performed_kotoamatsukami }
+        }
+    }
+
+    on_send = {
+        scope:actor = {
+			trigger_event = MangekyoEvents.002
+			add_character_flag = {
+				flag = recently_performed_kotoamatsukami
+				years = 15
+			}
         }
     }
 }

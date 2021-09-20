@@ -1,0 +1,26 @@
+﻿#Sharingan Houses
+
+house_Hygua = {
+	name = dynn_hygua
+	dynasty = 700080
+}
+
+house_Ōtsutsuki = {
+	name = dynn_otsutsuki
+	dynasty = 700081
+}
+
+house_Uchiha = {
+	name = dynn_uchiha
+	dynasty = 700082
+}
+
+house_Uzumaki = {
+	name = dynn_uzumaki
+	dynasty = 700083
+}
+
+house_Senju = {
+	name = dynn_senju
+	dynasty = 700084
+}

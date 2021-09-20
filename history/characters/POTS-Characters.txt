@@ -1,0 +1,22 @@
+﻿#POTS Characters
+
+999001 = {
+    name = kagyua_otsutsuki
+	dynasty = 700081
+	female = yes
+	martial = 14
+	diplomacy = 23
+	intrigue = 10
+	stewardship = 21
+	trait = byakugan
+	trait = education_intrigue_4
+	trait = rinnesharingan
+	religion = "sixpaths"
+	culture = "uchiha"
+	850.1.1 = {
+	birth = yes
+	}
+	869.1.1 = {
+		add_spouse = 999002
+	}
+}

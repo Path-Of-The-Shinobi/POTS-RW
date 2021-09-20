@@ -1,0 +1,26 @@
+﻿#Sharingan Dynasties
+
+700080 = {
+    name = dynn_hygua
+    culture = "french"
+}
+
+700081 = {
+    name = dynn_otsutsuki
+    culture = "french"
+}
+
+700082 = {
+    name = dynn_uchiha
+    culture = "french"
+}
+
+700083 = {
+    name = dynn_uzumaki
+    culture = "french"
+}
+
+700084 = {
+    name = dynn_senju
+    culture = "french"
+}
