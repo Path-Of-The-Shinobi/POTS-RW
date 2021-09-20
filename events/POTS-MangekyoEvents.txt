@@ -1,0 +1,99 @@
+﻿namespace = MangekyoEvents
+
+MangekyoEvents.001 = {
+    type = character_event
+    title = MangekyoEvents.001.t
+    desc = MangekyoEvents.001.d
+
+    theme = martial
+
+    right_portrait = {
+        character = scope:actor
+        animation = anger
+    }
+
+    left_portrait = {
+	character = scope:recipient
+	animation = worry
+	}
+
+    option = {
+		name = MangekyoEvents.001.o
+		hidden_effect = {
+			scope:actor = {
+				add_character_modifier = {
+                    modifier = used_amaterasu_modifier
+                    months = 6
+                }
+			}
+			scope:recipient = {
+				add_character_modifier = {
+                    modifier = amaterasu_modifier
+                    months = 6
+                }
+			}
+		}
+	}
+}
+
+MangekyoEvents.002 = {
+    type = character_event
+	title = MangekyoEvents.002.t
+	desc = MangekyoEvents.002.d
+	theme = crown
+
+	right_portrait = {
+		character = root
+		animation = anger
+	}
+	option = {
+		name = MangekyoEvents.002.o
+		trigger = {
+			age >= 16
+		}
+		scope:actor = {
+			hidden_effect = {
+				add_hook = {
+					type = fabrication_hook
+					target = scope:recipient
+				}
+			}
+	    }
+    }
+}
+
+MangekyoEvents.003 = {
+    type = character_event
+    title = MangekyoEvents.003.t
+    desc = MangekyoEvents.003.d
+
+    theme = martial
+
+    right_portrait = {
+        character = scope:actor
+        animation = worry
+    }
+
+    left_portrait = {
+	character = scope:recipient
+	animation = worry
+	}
+
+    option = {
+		name = MangekyoEvents.003.o
+		hidden_effect = {
+			scope:actor = {
+				add_character_modifier = {
+                    modifier = used_tsukuyomi_modifier
+                    months = 6
+                }
+			}
+			scope:recipient = {
+				add_character_modifier = {
+                    modifier = under_tsukuyomi_modifier
+                    months = 6
+                }
+			}
+		}
+	}
+}

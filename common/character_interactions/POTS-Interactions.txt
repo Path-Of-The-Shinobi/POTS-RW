@@ -53,3 +53,24 @@ perform_kotoamatsukami_interaction = {
         }
     }
 }
+
+perform_tsukuyomi_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    ai_maybe = no
+    is_shown = {
+        scope:actor = {
+            has_trait = mangekyosharingan_4
+            NOT = { has_character_flag = used_tsukuyomi }
+        }
+    }
+    on_send = {
+        scope:actor = {
+            trigger_event = MangekyoEvents.003
+            add_character_flag = {
+                flag = used_tsukuyomi
+                months = 6
+            }
+        }
+    }
+}

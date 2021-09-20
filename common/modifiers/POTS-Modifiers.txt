@@ -1,8 +1,25 @@
 ﻿#POTS-Modifier
 
-#Dojutsu Modifiers
+#Mangekyo Dojutsu Modifiers
 
 amaterasu_modifier = {
     icon = health_negative
-    health = -0.75
+    health = -2
+}
+
+used_amaterasu_modifier = {
+    icon = health_negative
+    health = -0.25
+}
+
+used_tsukuyomi_modifier = {
+    icon = health_negative
+    health = -0.5
+}
+
+under_tsukuyomi_modifier = {
+    icon = health_negative
+    health = -1
+    intrigue -2
+    martial -2
 }

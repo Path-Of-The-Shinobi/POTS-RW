@@ -1,0 +1,14 @@
+﻿#POTS Mangekyo Sharingan Events
+l_english:
+ #Amaterasu
+ MangekyoEvents.001.t:0 "Mangekyo Sharingan;Amaterasu"
+ MangekyoEvents.001.d:0 "With this mangekyo sharingan ability one can utilize the unstoppable black flames of hell, the flames of amaterasu and cause their target to be burned and scarred"
+ MangekyoEvents.001.o:0 "Amaterasu"
+ #Kotoamtsukami
+ MangekyoEvents.002.t:0 "Mangekyo Sharingan;Kotoamtsukami"
+ MangekyoEvents.002.d:0 "With this mangekyo sharingan ability one can place an unbreakable genjutsu on the recipient and force them to follow what ever the castor desires"
+ MangekyoEvents.002.o:0 "Kotoamtsukami"
+ #Tsukuyomi
+ MangekyoEvents.003.t:0 "Mangekyo Sharingan;Tsukuyomi"
+ MangekyoEvents.003.d:0 "With this mangekyo sharingan ability one can transport both themselves and the recipient to the realm of the Moon Reader dimension where the caster can torture the oponent for as long as they want"
+ MangekyoEvents.003.o:0 "Tsukuyomi"

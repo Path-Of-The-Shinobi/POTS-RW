@@ -1,0 +1,69 @@
+﻿#Special Troops
+
+ShadowClones = {
+	type = skirmishers
+	
+	damage = 25
+	toughness = 15
+	pursuit = 35
+	screen = 45
+    siege_value = 1.5
+    fights_in_main_phase = yes
+	
+	terrain_bonus = {
+		taiga = { damage = 4 toughness = 6 }
+		jungle = { damage = 4 toughness = 6 }
+	}
+
+	counters = {
+		heavy_infantry = 2
+        light_cavalry = 2
+	}
+
+	buy_cost = { gold = 400 }
+	low_maintenance_cost = { prestige = 0.75 }
+	high_maintenance_cost = { prestige = 4.25 }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 500
+	icon = skirmishers
+    can_recruit = no
+    max_sub_regiments = 10
+    ai_quality = { value = -200 }
+}
+
+TailedBeasts = {
+	type = heavy_infantry
+	
+	damage = 35
+	toughness = 25
+	pursuit = 25
+	screen = 28
+    siege_value = 2.5
+    fights_in_main_phase = yes
+	
+	terrain_bonus = {
+		taiga = { damage = 4 toughness = 6 }
+		jungle = { damage = 4 toughness = 6 }
+	}
+
+	counters = {
+		skirmishers = 2
+        light_cavalry = 2
+	}
+
+	buy_cost = { gold = 400 }
+	low_maintenance_cost = { prestige = 0.75 }
+	high_maintenance_cost = { prestige = 4.25 }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 500
+	icon = heavy_infantry
+    can_recruit = no
+    max_sub_regiments = 10
+    ai_quality = { value = -200 }
+}

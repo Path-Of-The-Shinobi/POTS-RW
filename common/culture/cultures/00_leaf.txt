@@ -9,13 +9,13 @@
 		dde_hre_clothing_gfx
 	}
 
-	ninja = {
+	uchiha = {
 		
 		mercenary_names = {
-			{ name = "mercenary_company_army_of_ninja" }
-			{ name = "mercenary_company_company_of_ninja" }
-			{ name = "mercenary_company_heirs_of_the_bloodline" }
-			{ name = "mercenary_company_band_of_secret_police" }
+			{ name = "mercenary_company_army_of_uchiha" }
+			{ name = "mercenary_company_company_of_sharingan" }
+			{ name = "mercenary_company_heirs_of_the_sharingan" }
+			{ name = "mercenary_company_band_of_leaf_police" }
 		}
 		
 		color = { 0.4 0.6 0.8 }
@@ -26,9 +26,16 @@
 		}
 		
 		dynasty_names = {
+			"dynn_Uchiha"
+			"dynn_Itachi"
+			"dynn_Madara"
+			"dynn_Sasuke"
 		}
-		
 		cadet_dynasty_names = {
+			"dynn_Itachi"
+			"dynn_Sasuke"
+			"dynn_Madara"
+			"dynn_Uchiha"
 		}
 		
 		male_names = {
@@ -46,6 +53,69 @@
 			Kiyomi
 			Mikoto
 			Sarada
+			Uruchi
+		}
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+		
+		ethnicities = {
+			20 = leaf_blond
+			15 = leaf_ginger
+			30 = leaf_brown_hair
+			35 = leaf_dark_hair
+		}
+	}
+	
+	hyuga = {
+	
+		mercenary_names = {
+			{ name = "mercenary_company_army_of_hyuga" }
+			{ name = "mercenary_company_company_of_byakugan" }
+			{ name = "mercenary_company_heirs_of_the_byakugan" }
+		}
+
+		color = { 0.4 0.6 0.8 }
+	
+		character_modifier = {
+			ai_war_chance = 1
+			ai_war_cooldown = -0.5
+		}
+		
+		dynasty_names = {
+			"dynn_Hyuga"
+			"dynn_Itachi"
+			"dynn_Madara"
+			"dynn_Sasuke"
+		}
+		cadet_dynasty_names = {
+			"dynn_Byakugan"
+			"dynn_Hinata"
+			"dynn_Neji"
+			"dynn_Hyuga"
+		}
+		
+		male_names = {
+			Boruto
+			Hizashi Hiashi
+			Iroha
+			Ko
+			Neji
+			Sasuke Setsuna Shisui
+			Tokuma
+			Yakumi Yashiro
+		}
+		female_names = {
+			Hinata Hanabi
+			Izumi
+			Kawaki
+			Mikoto
 			Uruchi
 		}
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.

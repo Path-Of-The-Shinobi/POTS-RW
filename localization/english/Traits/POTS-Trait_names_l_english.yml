@@ -3,55 +3,49 @@ l_english:
 
  trait_one_tail:0 "The One Tail jinchuriki"
  trait_one_tail_desc:0 "This person is known to be the jinchuriki of the one tailed biju known as Shukaku"
-
  trait_two_tail:0 "The Two Tails jinchuriki"
  trait_two_tail_desc:0 "This person is known to be the jinchuriki of the two tailed biju known as Matatabi"
-
  trait_three_tail:0 "The Three Tails jinchuriki"
  trait_three_tail_desc:0 "This person is known to be the jinchuriki of the three tailed biju known as Isobu"
-
  trait_four_tail:0 "The Four Tails jinchuriki"
  trait_four_tail_desc:0 "This person is known to be the jinchuriki of the four tailed biju known as Son Goku"
-
  trait_five_tail:0 "The Five Tails jinchuriki"
  trait_five_tail_desc:0 "This person is known to be the jinchuriki of the five tailed biju known as Kokuō"
-
  trait_six_tail:0 "The Six Tails jinchuriki"
  trait_six_tail_desc:0 "This person is known to be the jinchuriki of the six tailed biju known as Saiken"
-
  trait_seven_tail:0 "The Seven Tails jinchuriki"
  trait_seven_tail_desc:0 "This person is known to be the jinchuriki of the seven tailed biju known as Chōmei"
-
  trait_eight_tail:0 "The Eight Tails jinchuriki"
  trait_eight_tail_desc:0 "This person is known to be the jinchuriki of the eight tailed biju known as Gyūki"
-
  trait_nine_tail:0 "The Nine Tails jinchuriki"
  trait_nine_tail_desc:0 "This person is known to be the jinchuriki of the nine tailed biju known as Kurama"
-
  trait_ten_tail:0 "The Ten Tails jinchuriki"
  trait_ten_tail_desc:0 "This person is known to be the jinchuriki of the ten tailed biju known as Jubi"
-
  trait_hyugagene:0 "Hyuga-Gene"
  trait_hyugagene_desc:0 "The bloodline of the Hyuga clan with their unique Kekkei Genkai the byakugan."
- 
  trait_forbiddengene:0 "Forbidden-Blood"
  trait_forbiddengene_desc:0 "Through the rare occurrance of both Hyuga and Uchiha Clan blood intercepting, this character has been born with eyes with unfathomable powers."
  trait_forbiddengene_character_desc:0 "Through the rare occurrance of both Hyuga and Uchiha Clan blood intercepting, [ROOT.GetCharacter.GetFirstNameNoTooltip] has been born with eyes with unfathomable powers."
-
  trait_fushitenseigood:0 "Positive FushiTensei"
  trait_fushitenseigood_desc:0 "You feel the powers of your Fushi Tensei Jutsu."
-
  trait_fushitenseibad:0 "Negative FushiTensei"
  trait_fushitenseibad_desc:0 "Your body became the target of a Fushi Tensei Jutsu."
-
  trait_uchihagene:0 "Uchiha-Gene"
  trait_uchihagene_desc:0 "The bloodline of the Uchiha clan with their unique Kekkei Genkai the Sharingan."
-
  trait_uzumakigene:0 "Uzumaki-Gene"
  trait_uzumakigene_desc:0 "The Bloodline Of The Uzumaki Clan With Their Long Life And Longevity"
- 
  trait_senjugene:0 "Senju-Gene"
  trait_senjugene_desc:0 "The Bloodline Of The Senju Clan With Their Strange Kekkei Genkai"
+ trait_ninjarank_genin:0 "Genin"
+ trait_ninjarank_genin_desc:0 "By graduating the acadamey [TARGET_CHARACTER.GetUIName] has achieved the rank of Genin"
+ trait_ninjarank_chunin:0 "Chunin"
+ trait_ninjarank_chunin_desc:0 "By sucessfully completing the Chunin examse and proving their worth as a ninja [TARGET_CHARACTER.GetUIName] has been promoted to the rank of Chunin"
+ trait_ninjarank_jonin:0 "Jonin"
+ trait_ninjarank_jonin_desc:0 "By sucessfully harnessing two different nature transformations [TARGET_CHARACTER.GetUIName] has successfully proven their worth as a Chunin and is therefore promoted the rank of Jonin"
+ trait_ninjarank_kage:0 "Kage"
+ trait_ninjarank_kage_desc:0 "Having been elected by the council and the majority of the populace [TARGET_CHARACTER.GetUIName] has been awarded the title of Kage"
+ trait_medical_nin:0 "Medical Ninja"
+ trait_medical_nin_desc:0 "By Achieveing a high level of learning and enough study of the human body [TARGET_CHARACTER.GetUIName] has been awarded the title Medical Ninja"
 
  #Elemental Release
  trait_firerelease:0 "Fire Release"
@@ -88,3 +82,13 @@ l_english:
  trait_yangrelease_desc:0 "The Yang Release Chakra Nature"
  trait_yin_yangrelease:0 "Yin/Yang Release"
  trait_yin_yangrelease_desc:0 "The Yin/Yang Release Chakra Nature"
+
+ #Sealing Traits
+ trait_seal_novice:0 "Novice Seal Master"
+ trait_seal_novice_desc:0 "[TARGET_CHARACTER.GetUIName] has started down the path of becomming a fuinjutsu specialist"
+ trait_seal_basic:0 "Sealing Adept"
+ trait_seal_basic_desc:0 "[TARGET_CHARACTER.GetUIName] has successfully completed novice training and can now be called a sealing adept"
+ trait_seal_specialist:0 "Sealing Specialist"
+ trait_seal_specialist_desc:0 "[TARGET_CHARACTER.GetUIName] has successfully completed adept training and can now be called a sealing specialist"
+ trait_seal_master:0 "Sealing Master"
+ trait_seal_master_desc:0 "[TARGET_CHARACTER.GetUIName] has successfully completed specialist training and is now permitted to design A-rank seals and discuss S-rank seals, and also be awarded the title of Sealing Master"
