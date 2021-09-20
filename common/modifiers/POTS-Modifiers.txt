@@ -23,3 +23,8 @@ under_tsukuyomi_modifier = {
     intrigue -2
     martial -2
 }
+
+train_recently = {
+    icon = health_negative
+    health = -0.15
+}

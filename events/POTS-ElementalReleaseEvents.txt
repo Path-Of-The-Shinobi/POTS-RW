@@ -1,0 +1,224 @@
+﻿namespace = ElementalRelease
+
+ElementalRelease.1 = {
+    type = character_event
+	title = ElementalRelease.1.t
+	desc = ElementalRelease.1.d
+
+	theme = martial
+
+	right_portrait = {
+	character = root
+	animation = anger
+	}
+
+	option = {
+		name = ElementalRelease.1.o
+			random_list = {
+				50 = { add_trait = firerelease }
+				50 = { add_trait = windrelease }
+				50 = { add_trait = earthrelease }
+                50 = { add_trait = waterrelease }
+                50 = { add_trait = lightningrelease }
+			}
+		}
+}
+
+ElementalRelease.2 = {
+    type = character_event
+	title = ElementalRelease.2.t
+	desc = ElementalRelease.2.d
+
+	theme = martial
+
+	right_portrait = {
+	character = root
+	animation = anger
+	}
+
+	option = {
+		name = ElementalRelease.2.o
+			random_list = {
+				100 = { add_trait = icerelease }
+			}
+            remove_trait = windrelease
+            remove_trait = waterrelease
+		}
+}
+
+ElementalRelease.3 = {
+    type = character_event
+	title = ElementalRelease.3.t
+	desc = ElementalRelease.3.d
+
+	theme = martial
+
+	right_portrait = {
+	character = root
+	animation = anger
+	}
+
+	option = {
+		name = ElementalRelease.3.o
+			random_list = {
+				100 = { add_trait = woodrelease }
+			}
+            remove_trait = earthrelease
+            remove_trait = waterrelease
+		}
+}
+
+ElementalRelease.4 = {
+    type = character_event
+	title = ElementalRelease.4.t
+	desc = ElementalRelease.4.d
+
+	theme = martial
+
+	right_portrait = {
+	character = root
+	animation = anger
+	}
+
+	option = {
+		name = ElementalRelease.4.o
+			random_list = {
+				100 = { add_trait = lavarelease }
+			}
+            remove_trait = earthrelease
+            remove_trait = firerelease
+		}
+}
+
+ElementalRelease.5 = {
+    type = character_event
+	title = ElementalRelease.5.t
+	desc = ElementalRelease.5.d
+
+	theme = martial
+
+	right_portrait = {
+	character = root
+	animation = anger
+	}
+
+	option = {
+		name = ElementalRelease.5.o
+			random_list = {
+				100 = { add_trait = stormrelease }
+			}
+            remove_trait = lightningrelease
+            remove_trait = waterrelease
+		}
+}
+
+ElementalRelease.6 = {
+    type = character_event
+	title = ElementalRelease.6.t
+	desc = ElementalRelease.6.d
+
+	theme = martial
+
+	right_portrait = {
+	character = root
+	animation = anger
+	}
+
+	option = {
+		name = ElementalRelease.6.o
+			random_list = {
+				100 = { add_trait = boilrelease }
+			}
+            remove_trait = firerelease
+            remove_trait = waterrelease
+		}
+}
+
+ElementalRelease.7 = {
+    type = character_event
+	title = ElementalRelease.7.t
+	desc = ElementalRelease.7.d
+
+	theme = martial
+
+	right_portrait = {
+	character = root
+	animation = anger
+	}
+
+	option = {
+		name = ElementalRelease.7.o
+			random_list = {
+				100 = { add_trait = dustrelease }
+			}
+            remove_trait = earthrelease
+            remove_trait = windrelease
+			remove_trait = firerelease
+		}
+}
+
+ElementalRelease.8 = {
+    type = character_event
+	title = ElementalRelease.8.t
+	desc = ElementalRelease.8.d
+
+	theme = martial
+
+	right_portrait = {
+	character = root
+	animation = anger
+	}
+
+	option = {
+		name = ElementalRelease.8.o
+			random_list = {
+				100 = { add_trait = explosionrelease }
+			}
+            remove_trait = earthrelease
+            remove_trait = lightningrelease
+		}
+}
+
+ElementalRelease.9 = {
+    type = character_event
+	title = ElementalRelease.9.t
+	desc = ElementalRelease.9.d
+
+	theme = martial
+
+	right_portrait = {
+	character = root
+	animation = anger
+	}
+
+	option = {
+		name = ElementalRelease.9.o
+			random_list = {
+				100 = { add_trait = scorchrelease }
+			}
+            remove_trait = firerelease
+            remove_trait = windrelease
+		}
+}
+
+ElementalRelease.10 = {
+    type = character_event
+	title = ElementalRelease.10.t
+	desc = ElementalRelease.10.d
+
+	theme = martial
+
+	right_portrait = {
+	character = root
+	animation = anger
+	}
+
+	option = {
+		name = ElementalRelease.10.o
+			random_list = {
+				100 = { add_trait = magnetrelease }
+			}
+            remove_trait = earthrelease
+            remove_trait = windrelease
+		}
+}

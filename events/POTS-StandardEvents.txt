@@ -1,0 +1,84 @@
+namespace = sharingan_level
+
+sharingan_level.1 = {
+	title = sharingan_level.1.t
+	desc = sharingan_level.1.d
+	theme = martial
+	left_portrait = {
+		character = root
+		animation = rage
+	}
+	
+	option = {
+		name = sharingan_level.1.a
+		trigger = {
+			has_trait = uchihagene
+            NOT = { has_trait = onetomoe }
+		}
+		random_list = {
+			100 = {
+                add_trait = onetomoe
+				add_character_modifier = {
+					modifier = train_recently
+					months = 6
+            	}
+			}
+		}
+	}
+}
+
+sharingan_level.2 = {
+	title = sharingan_level.2.t
+	desc = sharingan_level.2.d
+	theme = martial
+	left_portrait = {
+		character = root
+		animation = rage
+	}
+	
+	option = {
+		name = sharingan_level.2.a
+		trigger = {
+			has_trait = onetomoe
+            NOT = { has_trait = twotomoe }
+		}
+		random_list = {
+			100 = {
+                add_trait = twotomoe
+				remove_trait = onetomoe
+				add_character_modifier = {
+					modifier = train_recently
+					months = 6
+            	}
+			}
+		}
+	}
+}
+
+sharingan_level.3 = {
+	title = sharingan_level.3.t
+	desc = sharingan_level.3.d
+	theme = martial
+	left_portrait = {
+		character = root
+		animation = rage
+	}
+	
+	option = {
+		name = sharingan_level.3.a
+		trigger = {
+			has_trait = twotomoe
+            NOT = { has_trait = threetomoe }
+		}
+		random_list = {
+			100 = {
+                add_trait = threetomoe
+				remove_trait = twotomoe
+				add_character_modifier = {
+					modifier = train_recently
+					months = 6
+            	}
+			}
+		}
+	}
+}

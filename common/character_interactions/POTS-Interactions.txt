@@ -95,3 +95,71 @@ obtain_mangekyo_sharingan_interaction = {
         }
     }
 }
+
+train_sharingan_level_one_interaction = {
+	category = interaction_category_hostile
+	common_interaction = no
+	desc = train_sharingan_level_one_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			has_trait = uchihagene
+			NOT = { has_character_modifier = train_recently }
+			NOT = { has_trait = onetomoe }
+			NOT = { has_trait = twotomoe }
+			NOT = { has_trait = threetomoe }
+			NOT = { has_trait = mangekyosharingan_1 }
+			NOT = { has_trait = mangekyosharingan_2 }
+			NOT = { has_trait = mangekyosharingan_3 }
+			NOT = { has_trait = mangekyosharingan_4 }
+			NOT = { has_trait = eternalsharingan }
+		}
+	}
+
+	on_send = {
+		scope:actor = {
+			trigger_event = sharingan_level.1
+		}
+	}
+}
+
+train_sharingan_level_two_interaction = {
+	category = interaction_category_hostile
+	common_interaction = no
+	desc = train_sharingan_level_two_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			has_trait = onetomoe
+			NOT = { has_character_modifier = train_recently }
+			NOT = { has_trait = threetomoe }
+			NOT = { has_trait = twotomoe }
+		}
+	}
+
+	on_send = {
+		scope:actor = {
+			trigger_event = sharingan_level.2
+		}
+	}
+}
+
+train_sharingan_level_three_interaction = {
+	category = interaction_category_hostile
+	common_interaction = no
+	desc = train_sharingan_level_three_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			has_trait = twotomoe
+			NOT = { has_character_modifier = train_recently }
+			NOT = { has_trait = threetomoe }
+		}
+	}
+
+	on_send = {
+		scope:actor = {
+			trigger_event = sharingan_level.3
+		}
+	}
+}

@@ -8,3 +8,21 @@
  death_reaper_death_seal:0 "[TARGET_CHARACTER.GetUIName] was killed ny using the reaper death seal"
  killed_for_power_killer:0 "was killed for power by [TARGET_CHARACTER.GetUIName]"
  obtain_mangekyo_sharingan_interaction:0 "Obtain Mangekyo Sharingan"
+ train_sharingan_level_one_interaction:0 "Train Sharingan"
+ train_sharingan_level_one_interaction_desc:0 "Train to try and level up your sharingan"
+ train_sharingan_level_two_interaction:0 "Train Sharingan level Two"
+ train_sharingan_level_two_interaction_desc:0 "Train to try and level up your sharingan"
+ train_sharingan_level_three_interaction:0 "Train Sharingan level Three"
+ train_sharingan_level_three_interaction_desc:0 "Train to try and level up your sharingan"
+
+ #Sharingan Level Interaction Events
+
+ sharingan_level.1.t:0 "Training Your Sharingan"
+ sharingan_level.1.d:0 "Now that you have unlocked your families ancient bloodline you decide to train yourself in the bloodline to try and obtain the legendery Sharingan of your ancestors"
+ sharingan_level.1.a:0 "Try to level your Sharingan"
+ sharingan_level.2.t:0 "Awaken The Two Tomoe Sharingan"
+ sharingan_level.2.d:0 "Now that you have unlocked your families ancient bloodline you decide to train yourself in the bloodline to try and obtain the legendery Sharingan of your ancestors"
+ sharingan_level.2.a:0 "Try to level your Sharingan"
+ sharingan_level.3.t:0 "Awaken The Three Tomoe Sharingan"
+ sharingan_level.3.d:0 "Now that you have unlocked your families ancient bloodline you decide to train yourself in the bloodline to try and obtain the legendery Sharingan of your ancestors"
+ sharingan_level.3.a:0 "Try to level your Sharingan"

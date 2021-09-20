@@ -1,0 +1,372 @@
+﻿#POTS Elemental Release on Action
+
+on_birth_child = {
+    on_actions = {
+        ElementalBirth
+        on_uchiha_birth
+		on_hyuga_birth
+		on_forbidden_birth
+    }
+}
+
+ElementalBirth = {
+    events = {
+        ElementalRelease.1
+    }
+}
+
+on_uchiha_birth = {
+	effect = {
+		if = {
+			limit = {
+				AND = {
+					scope:real_father = {
+						is_uchiha = yes
+					}
+					scope:mother = {
+						is_uchiha = yes
+					}
+				}
+			}
+			add_trait = uchihagene
+		}
+		if = {
+			limit = {
+				AND = {
+					scope:real_father = {
+						is_uchiha = yes
+					}
+					scope:mother = {
+						is_uchiha = no
+					}
+				}
+			}
+			add_trait = uchihagene
+		}
+		if = {
+			limit = {
+				AND = {
+					scope:real_father = {
+						is_uchiha = no
+					}
+					scope:mother = {
+						is_uchiha = yes
+						patrilinear_marriage = no
+					}
+				}
+			}
+			add_trait = uchihagene
+		}
+	}
+}
+
+on_forbidden_birth = {
+	effect = {
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						scope:real_father = {
+							is_uchiha = yes
+						}
+						scope:mother = {
+							is_hyuga = yes
+						}
+					}
+					AND = {
+						scope:real_father = {
+							is_hyuga = yes
+						}
+						scope:mother = {
+							is_uchiha = yes
+						}
+					}
+				}
+			}
+			random_list = {
+				30 = {
+					add_trait = forbiddengene
+					add_trait = forbiddeneyes
+				}
+				35 = {
+					add_trait = uchihagene
+				}
+				35 = {
+					add_trait = hyugagene
+					random_list = {
+						95 = {
+							add_trait = byakugan
+						}
+						5 = {
+							add_trait = jogan
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					scope:real_father = {
+						is_forbidden = yes
+					}
+					scope:mother = {
+						is_forbidden = yes
+					}
+				}
+			}
+			add_trait = forbiddengene
+			add_trait = forbiddeneyes
+		}
+		if = {
+			limit = {
+				AND = {
+					scope:real_father = {
+						is_forbidden = yes
+					}
+					scope:mother = {
+						is_forbidden = no
+					}
+				}
+			}
+			add_trait = forbiddengene
+			add_trait = forbiddeneyes
+		}
+		if = {
+			limit = {
+				AND = {
+					scope:real_father = {
+						is_forbidden = no
+					}
+					scope:mother = {
+						is_forbidden = yes
+						patrilinear_marriage = no
+					}
+				}
+			}
+			add_trait = forbiddengene
+			add_trait = forbiddeneyes
+		}
+	}
+}
+
+on_hyuga_birth = {
+	effect = {
+		if = {
+			limit = {
+				AND = {
+					scope:real_father = {
+						is_hyuga = yes
+					}
+					scope:mother = {
+						is_hyuga = yes
+					}
+				}
+			}
+			add_trait = hyugagene
+			add_trait = byakugan
+			random_list = {
+				95 = {
+					add_trait = byakugan
+				}
+				5 = {
+					add_trait = jogan
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					scope:real_father = {
+						is_hyuga = yes
+					}
+					scope:mother = {
+						is_hyuga = no
+					}
+				}
+			}
+			add_trait = hyugagene
+			add_trait = byakugan
+			random_list = {
+				95 = {
+					add_trait = byakugan
+				}
+				5 = {
+					add_trait = jogan
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					scope:real_father = {
+						is_hyuga = no
+					}
+					scope:mother = {
+						is_hyuga = yes
+						patrilinear_marriage = no
+					}
+				}
+			}
+			add_trait = hyugagene
+			random_list = {
+				95 = {
+					add_trait = byakugan
+				}
+				5 = {
+					add_trait = jogan
+				}
+			}
+		}
+	}
+}
+
+on_birthday = {
+    on_actions = {
+        Elemental_Release_One
+        Elemental_Release_Two
+        Elemental_Release_Three
+        Elemental_Release_Four
+        Elemental_Release_Five
+        Elemental_Release_Six
+        Elemental_Release_Seven
+        Elemental_Release_Eight
+        Elemental_Release_Nine
+    }
+}
+
+Elemental_Release_One {
+    trigger = {
+        AND = {
+            age = 16
+            NOT = { has_trait = icerelease }
+            has_trait = waterrelease
+            has_trait = windrelease
+        }
+    }
+
+    events = {
+        ElementalRelease.2
+    }
+}
+
+Elemental_Release_Two {
+    trigger = {
+        AND = {
+            age = 16
+            NOT = { has_trait = woodrelease }
+            has_trait = earthrelease
+            has_trait = waterrelease
+        }
+    }
+
+    events = {
+        ElementalRelease.3
+    }
+}
+
+Elemental_Release_Three {
+    trigger = {
+        AND = {
+            age = 16
+            NOT = { has_trait = lavarelease }
+            has_trait = earthrelease
+            has_trait = firerelease
+        }
+    }
+
+    events = {
+        ElementalRelease.4
+    }
+}
+
+Elemental_Release_Four {
+    trigger = {
+        AND = {
+            age = 16
+            NOT = { has_trait = stormrelease }
+            has_trait = waterrelease
+            has_trait = lightningrelease
+        }
+    }
+
+    events = {
+        ElementalRelease.5
+    }
+}
+
+Elemental_Release_Five {
+    trigger = {
+        AND = {
+            age = 16
+            NOT = { has_trait = boilrelease }
+            has_trait = firerelease
+            has_trait = waterrelease
+        }
+    }
+
+    events = {
+        ElementalRelease.6
+    }
+}
+
+Elemental_Release_Six {
+    trigger = {
+        AND = {
+            age = 16
+            NOT = { has_trait = dustrelease }
+            has_trait = earthrelease
+            has_trait = windrelease
+            has_trait = firerelease
+        }
+    }
+
+    events = {
+        ElementalRelease.7
+    }
+}
+
+Elemental_Release_Seven {
+    trigger = {
+        AND = {
+            age = 16
+            NOT = { has_trait = explosionrelease }
+            has_trait = earthrelease
+            has_trait = lightningrelease
+        }
+    }
+
+    events = {
+        ElementalRelease.8
+    }
+}
+
+Elemental_Release_Eight {
+    trigger = {
+        AND = {
+            age = 16
+            NOT = { has_trait = scorchrelease }
+            has_trait = firerelease
+            has_trait = windrelease
+        }
+    }
+
+    events = {
+        ElementalRelease.9
+    }
+}
+
+Elemental_Release_Nine {
+    trigger = {
+        AND = {
+            age = 16
+            NOT = { has_trait = magnetrelease }
+            has_trait = earthrelease
+            has_trait = windrelease
+        }
+    }
+
+    events = {
+        ElementalRelease.10
+    }
+}
