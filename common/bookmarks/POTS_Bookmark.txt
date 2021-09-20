@@ -1,0 +1,21 @@
+﻿bm_871_chakra = {
+	start_date = 871.1.1
+	is_playable = yes
+
+	# Kagyua Otsutsuki (York) ID: 999001
+	character = {
+		name = "bookmark_chakra_kagyua_otsutsuki"
+		dynasty = 700081
+		dynasty_splendor_level = 1
+		type = female
+		birth = 850.1.1
+		title = c_north_riding
+		government = feudal_government
+		culture = uchiha
+		religion = sixpaths
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_GENIN"
+		history_id = 999001
+		position = { 700 620 }
+		animation = disapproval
+    }
+}

@@ -1,0 +1,49 @@
+﻿#LifeStyle Focuses
+
+ninjutsu_focus = {
+	lifestyle = jutsu_lifestyle
+	
+	modifier = {
+		learning = 2
+		prowess = 10
+		martial = 4
+	}
+
+	desc = {
+		desc = ninjutsu_focus_desc
+        desc = line_break
+	}
+	focus_id = 15
+}
+
+genjutsu_focus = {
+	lifestyle = jutsu_lifestyle
+	
+	modifier = {
+		learning = 2
+		intrigue = 4
+		abduct_scheme_power_mult = 0.25
+		sway_scheme_power_mult = 0.25
+	}
+
+	desc = {
+		desc = genjutsu_focus_desc
+        desc = line_break
+	}
+	focus_id = 16
+}
+
+taijutsu_focus = {
+	lifestyle = jutsu_lifestyle
+	
+	modifier = {
+		prowess = 30
+		martial = 6
+	}
+
+	desc = {
+		desc = taijutsu_focus_desc
+        desc = line_break
+	}
+	focus_id = 17
+}

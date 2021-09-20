@@ -1,0 +1,66 @@
+﻿#New Religions
+
+sage_religion = {
+    family = "rf_sage"
+    pagan_roots = no
+    doctrine = pagan_hostility_doctrine
+    doctrine_background_icon = sixpaths.dds
+
+    #Main Group
+    doctrine = doctrine_no_head
+    doctrine = doctrine_gender_equal
+    doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_temporal
+
+    #Marriage
+    doctrine = doctrine_consanguinity_unrestricted
+    doctrine = doctrine_bastardry_all
+    doctrine = doctrine_monogamy
+    doctrine = doctrine_divorce_allowed
+
+    #Crimes
+	doctrine = doctrine_homosexuality_crime
+	doctrine = doctrine_adultery_men_crime
+	doctrine = doctrine_adultery_women_crime
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_crime
+
+    #Clerical Functions
+	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+    traits = {
+		virtues = { brave wrathful vengeful }
+		sins = { craven deceitful forgiving }
+	}
+
+    reserved_male_names = {
+		Sasuke Naruto Minato Asura Hamura Hagoromo Hashirama Butsuma Itama Kawarama Tobirama Nawaki Asuma Biwako Hiruzen Konohamaru Shino Kakashi Sakumo Shikadai Shikaku Kasuga Ensui Shikamaru Baru Hazuki Itachi Izuna Madara Mikoto Obito Yashiro Inoichi
+	}
+	reserved_female_names = {
+		Sakura Himawari Izumi Hinata Hanabi Kurenai Mirai Tsunade Mito Kushina Ashina Karin Ino Akita Tsume Hana Kagyua
+	}
+
+    holy_order_names = {
+		{ name = "holy_order_kinshiki" }
+		{ name = "holy_order_faithful_of_isshiki" }
+		{ name = "holy_order_momoshiki_valkyries" }
+		{ name = "holy_order_chosen_of_hamura" }
+	}
+
+    holy_order_maa = { TailedBeasts }
+
+     faiths = {
+         sixpaths = {
+            color = { 0.4 0.4 0.4 }
+            icon = six_paths
+
+            #Tenets            
+            doctrine = tenet_adaptive
+            doctrine = tenet_divine_marriage
+            doctrine = tenet_reincarnation
+        }
+    }

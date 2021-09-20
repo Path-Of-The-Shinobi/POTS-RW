@@ -1,7 +1,0 @@
-﻿#POTS Titles
-
-k_test1 = {
-    1200.1.1 = {
-        holder = 999001
-    }
-}

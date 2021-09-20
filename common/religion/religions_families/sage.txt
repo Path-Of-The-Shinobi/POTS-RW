@@ -1,0 +1,6 @@
+﻿Elemental_Families = {
+	piety_icon_group = "pagan"
+	doctrine_background_icon = sixpaths.dds
+	is_pagan = no
+	name = rf_sage
+}
