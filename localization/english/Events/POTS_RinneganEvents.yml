@@ -1,0 +1,11 @@
+﻿#Rinnegan Event Localization
+l_english:
+ #Rinnegan Event 1
+ RinneganEvents.001.t:0 "Obtaining The Rinnegan Part 1"
+ RinneganEvents.001.d:0 "WIP Flavour Text"
+ RinneganEvents.001.a:0 "Continue The Quest"
+ RinneganEvents.001.b:0 "I'm fine with my current set of eyes"
+ #Rinnegan Event 2
+ RinneganEvents.001.t:0 "Obtaining The Rinnegan Part 2"
+ RinneganEvents.001.d:0 "WIP Flavour Text"
+ RinneganEvents.001.a:0 "Obtain The Rinnegan"

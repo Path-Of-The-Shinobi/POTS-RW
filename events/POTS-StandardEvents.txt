@@ -1,4 +1,4 @@
-namespace = sharingan_level
+﻿namespace = sharingan_level
 
 sharingan_level.1 = {
 	title = sharingan_level.1.t

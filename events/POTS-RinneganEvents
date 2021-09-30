@@ -1,0 +1,63 @@
+﻿namespace = RinneganEvents
+
+#Obtain Rinnegan Questline
+RinneganEvents.001 = {
+    type = character_event
+    title = RinneganEvents.001.t
+    desc = RinneganEvents.001.d
+    theme = court
+
+    right_portrait = {
+        character = scope:actor
+        animation = worry
+    }
+
+    option = {
+        name = RinenganEvents.001.a
+        trigger = {
+                has_trait = eternalsharingan
+                NOT = { has_trait = rinnegan }
+        }
+        hidden_effect = {
+            trigger_event = {
+                id = RinneganEvents.002
+                days = 2
+            }
+        }
+    }
+
+    option = {
+        name = RinneganEvents.001.b
+        trigger = {
+            has_trait = eternalsharingan
+            NOT = { has_trait = rinnegan}
+        }
+        hidden_effect = {
+            add_gold = 100
+        }
+    }
+}
+
+RinenganEvents.002 = {
+    type = character_event
+    title = RinenganEvents.002.t
+    desc = RinenganEvents.002.d
+    theme = court
+    
+    right_portrait = {
+        character = scope:actor
+        animation = worry
+    }
+    option = {
+        name = RinneganEvents.002.a
+        trigger = {
+            has_trait = eternalsharingan
+            NOT = { has_trait = rinnegan }
+        }
+        hidden_effect = {
+            remove_trait = eternalsharingan
+            add_trait = rinnegan
+            add_gold = 500
+        }
+    }
+}

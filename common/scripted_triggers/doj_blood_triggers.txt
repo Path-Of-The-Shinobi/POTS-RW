@@ -1,0 +1,11 @@
+﻿is_uchiha = {
+	has_trait = uchihagene
+}
+
+is_hyuga = {
+	has_trait = hyugagene
+}
+
+is_forbidden = {
+	has_trait = forbiddengene
+}
