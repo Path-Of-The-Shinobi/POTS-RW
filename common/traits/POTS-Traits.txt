@@ -558,6 +558,7 @@ jogan = {
 	}
 }
 
+#Tailed Beast
 one_tail = {
 	index = 678
 	physical = yes
@@ -813,6 +814,7 @@ hyugagene = {
 	}
 }
 
+#Elemental Release
 firerelease = {
 	index = 689
 	martial = 2
@@ -1300,6 +1302,7 @@ medical_nin = {
 	}
 }
 
+#Fuinjutsu
 seal_novice = {
 	index = 713
 	learning = 5

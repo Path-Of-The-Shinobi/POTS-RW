@@ -16,4 +16,53 @@
 	850.1.1 = {
 	birth = yes
 	}
+	872.1.1 = {
+		add_spouse = 999002
+	}
+}
+
+999002 = {
+    name = ishiki_otsutsuki
+	dynasty = 700081
+	martial = 14
+	diplomacy = 23
+	intrigue = 10
+	stewardship = 21
+	trait = dilligent
+	trait = education_intrigue_4
+	religion = "sixpaths"
+	culture = "uchiha"
+	850.1.1 = {
+	birth = yes
+	}
+	872.1.1 = {
+		add_spouse = 999001
+	}
+}
+
+999003 = {
+	name = hagoromo_otsutsiki
+	dynasty = 700081
+	trait = rinnegan
+	religion = "sixpaths"
+	culture = "uchiha"
+	mother = 999001
+	father = 999002
+	873.5.29 = {
+		birth = yes
+	}
+}
+
+999004 = {
+	name = hamura_otsutsuki
+	dynasty = 700081
+	trait = byakugan
+	trait = education_learning_4
+	religion = "six_paths"
+	culture = "uchiha"
+	mother = 999001
+	father = 999002
+	873.5.25 = {
+		birth = yes
+	}
 }
