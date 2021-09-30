@@ -28,7 +28,7 @@
 	diplomacy = 23
 	intrigue = 10
 	stewardship = 21
-	trait = dilligent
+	trait = diligent
 	trait = education_intrigue_4
 	religion = "sixpaths"
 	culture = "uchiha"
@@ -41,7 +41,7 @@
 }
 
 999003 = {
-	name = hagoromo_otsutsiki
+	name = hagoromo_otsutsuki
 	dynasty = 700081
 	trait = rinnegan
 	religion = "sixpaths"
@@ -58,7 +58,7 @@
 	dynasty = 700081
 	trait = byakugan
 	trait = education_learning_4
-	religion = "six_paths"
+	religion = "sixpaths"
 	culture = "uchiha"
 	mother = 999001
 	father = 999002

@@ -1,4 +1,4 @@
-#POTS Character Names
+﻿#POTS Character Names
 l_english:
  #Uchiha Names
  Fugaku:0 "Fugaku"
@@ -34,3 +34,16 @@ l_english:
  Hanabi:0 "Hanabi"
  Izumi:0 "Izumi"
  Kawaki:0 "Kawaki"
+ ishiki_otsutsuki:0 "Ishiki Ōtsutsuki"
+ dynn_hygua:0 "Hyuga"
+ dynn_uchiha:0 "Uchiha"
+ dynn_uzumaki:0 "Uzumaki"
+ dynn_senju:0 "Senju"
+ dynn_otsutsuki:0 "Ōtsutsuki"
+ kagyua_otsutsuki:0 "Kagyua"
+ indra_otsutsuki:0 "Indra"
+ asura_otsutsuki:0 "Asura"
+ hagoromo_otsutsuki:0 "Hagoromo"
+ hamura_otsutsuki:0 "Hamura"
+ BOOKMARK_CHARACTER_DIFFICULTY_GENIN:0 "Genin"
+ bookmark_chakra_kagyua_otsutsuki_desc:0 "Landing in a world not unlike her own the newly minted Duchess of York Kagyua Otsutsuki shall seek out and try to spread the will of chakra and with it obtain a foothold to prepare for her familys eventual claim over the world"

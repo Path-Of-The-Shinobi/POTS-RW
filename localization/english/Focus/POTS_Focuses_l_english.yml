@@ -1,5 +1,4 @@
 ﻿l_english:
-
  ninjutsu_name:1 "Ninjutsu"
  ninjutsu_focus:1 "Ninjutsu"
  ninjutsu_focus_desc:0 "Ninjutsu (Ninja Techniques) are one of the three main jutsu categories. Ninjutsu is the most nebulous of the three , and may not be simply described as anything that is not taijutsu or genjutsu"
@@ -31,3 +30,5 @@
  jutsu_17.t:0 "B-rank Taijutsu"
  jutsu_18.t:0 "A-rank Taijutsu"
  jutsu_19.t:0 "S-rank Taijutsu"
+ jutsu_lifestyle_name:0 "Jutsu"
+ jutsu_lifestyle_desc:0 "This Lifestyle is dedicated to practising the way of the shinobi"

@@ -1,0 +1,40 @@
+﻿#POTS Decisions
+
+decision_elemental_release = {
+	ai_check_interval = 50
+	picture = "gfx/interface/illustrations/decisions/decision_rift_scape.dds"
+	desc = decision_elemental_release_desc
+	selection_tooltip = decision_elemental_release_tooltip
+	is_shown = {
+		age >= 12
+		NOT = { has_trait = windrelease }
+		NOT = { has_trait = firerelease }
+		NOT = { has_trait = waterrelease }
+		NOT = { has_trait = lightningrelease }
+		NOT = { has_trait = earthrelease }
+	}
+	
+	effect = { 
+        trigger_event = ElementalRelease.1 
+    }
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+decision_convert_faith = {
+	ai_check_interval = 50
+	picture = "gfx/interface/illustrations/decisions/decision_rift_scape.dds"
+	desc = decision_convert_faith_desc
+	selection_tooltip = decision_convert_faith_tooltip
+	is_shown = {
+		NOT = { has_faith = faith:sixpaths }
+	}
+	effect = {
+		set_character_faith = faith:sixpaths
+	}
+}

@@ -112,7 +112,7 @@ MangekyoEvents.004 = {
 	}
 	
 	option = {
-		name = MangekyoEvents.004.a
+		name = MangekyoEvents.004.o
 		trigger = {
 			has_trait = threetomoe
             NOT = { has_trait = mangekyosharingan_1 }
