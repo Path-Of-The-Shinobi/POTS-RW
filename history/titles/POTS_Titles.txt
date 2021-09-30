@@ -3,6 +3,6 @@
 c_north_riding = {
     871.1.1 = { holder = 999001 }
 }
-d_north_riding = {
+d_york = {
     871.1.1 = { holder = 999001 }
 }

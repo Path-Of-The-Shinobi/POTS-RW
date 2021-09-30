@@ -9,7 +9,7 @@
 		dynasty_splendor_level = 1
 		type = female
 		birth = 850.1.1
-		title = d_north_riding
+		title = d_york
 		government = feudal_government
 		culture = uchiha
 		religion = sixpaths
