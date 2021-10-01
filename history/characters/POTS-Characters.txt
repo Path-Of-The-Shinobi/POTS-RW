@@ -44,6 +44,7 @@
 	name = hagoromo_otsutsuki
 	dynasty = 700081
 	trait = rinnegan
+	trait = twin
 	religion = "sixpaths"
 	culture = "uchiha"
 	mother = 999001
@@ -57,7 +58,7 @@
 	name = hamura_otsutsuki
 	dynasty = 700081
 	trait = byakugan
-	trait = education_learning_4
+	trait = twin
 	religion = "sixpaths"
 	culture = "uchiha"
 	mother = 999001
