@@ -19,6 +19,7 @@
 	
 	general_opinion = -5
 	opposite_opinion = -100
+	genetic = yes
 	
 	shown_in_ruler_designer = yes
 
@@ -373,6 +374,7 @@ byakugan = {
 	monthly_prestige = 2
 	hostile_scheme_resistance_add = 0.9
 	enemy_hostile_scheme_success_chance_add = -90
+	genetic = yes
 	personal_scheme_power_mult = 4.0
 	
 	shown_in_ruler_designer = yes
@@ -441,6 +443,7 @@ forbiddengene = {
 	
 	inbreeding_chance = -0.5
 	positive_random_genetic_chance = 0.1
+	genetic = yes
 	
 	opposite_opinion = -50
 	
@@ -474,6 +477,7 @@ forbiddeneyes = {
 	monthly_prestige = 2
 	hostile_scheme_resistance_add = 1
 	enemy_hostile_scheme_success_chance_add = -100
+	genetic = yes
 	
 	shown_in_ruler_designer = yes
 	
@@ -568,6 +572,7 @@ one_tail = {
 	ruler_designer_cost = 10
 	monthly_dynasty_prestige = 1
 	monthly_prestige = 10
+	random_creation = 1
 	desc = {
 		first_valid = {
 			triggered_desc = {
@@ -589,6 +594,7 @@ two_tail = {
 	health = 11
 	prowess = 30
 	ruler_designer_cost = 20
+	random_creation = 1
 	monthly_prestige = 10
 	desc = {
 		first_valid = {
@@ -612,6 +618,7 @@ three_tail = {
 	prowess = 27
 	ruler_designer_cost = 30
 	monthly_prestige = 10
+	random_creation = 1
 	desc = {
 		first_valid = {
 			triggered_desc = {
@@ -634,6 +641,7 @@ four_tail = {
 	prowess = 29
 	ruler_designer_cost = 40
 	monthly_prestige = 10
+	random_creation = 1
 	desc = {
 		first_valid = {
 			triggered_desc = {
@@ -655,6 +663,7 @@ five_tail = {
 	health = 14
 	prowess = 30
 	ruler_designer_cost = 50
+	random_creation = 1
 	monthly_prestige = 10
 	desc = {
 		first_valid = {
@@ -677,6 +686,7 @@ six_tail = {
 	monthly_dynasty_prestige = 1
 	prowess = 31
 	monthly_prestige = 10
+	random_creation = 1
 	ruler_designer_cost = 60
 	desc = {
 		first_valid = {
@@ -700,6 +710,7 @@ seven_tail = {
 	prowess = 32
 	ruler_designer_cost = 70
 	monthly_prestige = 10
+	random_creation = 1
 	desc = {
 		first_valid = {
 			triggered_desc = {
@@ -722,6 +733,7 @@ eight_tail = {
 	prowess = 33
 	ruler_designer_cost = 80
 	monthly_prestige = 10
+	random_creation = 1
 	desc = {
 		first_valid = {
 			triggered_desc = {
@@ -744,6 +756,7 @@ nine_tail = {
 	monthly_dynasty_prestige = 1
 	ruler_designer_cost = 90
 	monthly_prestige = 10
+	random_creation = 1
 	desc = {
 		first_valid = {
 			triggered_desc = {
@@ -796,6 +809,7 @@ hyugagene = {
 	
 	inbreeding_chance = -1
 	positive_random_genetic_chance = 0.3
+	genetic = yes
 	
 	opposite_opinion = -100
 	
