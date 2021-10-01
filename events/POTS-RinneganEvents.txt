@@ -13,7 +13,7 @@ RinneganEvents.001 = {
     }
 
     option = {
-        name = RinenganEvents.001.a
+        name = RinnenganEvents.001.a
         trigger = {
                 has_trait = eternalsharingan
                 NOT = { has_trait = rinnegan }
@@ -38,10 +38,10 @@ RinneganEvents.001 = {
     }
 }
 
-RinenganEvents.002 = {
+RinneganEvents.002 = {
     type = character_event
-    title = RinenganEvents.002.t
-    desc = RinenganEvents.002.d
+    title = RinneganEvents.002.t
+    desc = RinneganEvents.002.d
     theme = martial
     
     right_portrait = {

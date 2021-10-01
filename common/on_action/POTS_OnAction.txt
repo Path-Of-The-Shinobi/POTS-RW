@@ -221,6 +221,7 @@ on_hyuga_birth = {
 	}
 }
 
+#Elemental Birthdays
 on_birthday = {
     on_actions = {
         Elemental_Release_One
@@ -369,4 +370,9 @@ Elemental_Release_Nine {
     events = {
         ElementalRelease.10
     }
+}
+
+on_game_start_after_lobby = {
+	on_actions = {
+	}
 }
