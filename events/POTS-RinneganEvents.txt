@@ -5,7 +5,7 @@ RinneganEvents.001 = {
     type = character_event
     title = RinneganEvents.001.t
     desc = RinneganEvents.001.d
-    theme = court
+    theme = martial
 
     right_portrait = {
         character = scope:actor
@@ -42,7 +42,7 @@ RinenganEvents.002 = {
     type = character_event
     title = RinenganEvents.002.t
     desc = RinenganEvents.002.d
-    theme = court
+    theme = martial
     
     right_portrait = {
         character = scope:actor
