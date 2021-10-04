@@ -186,3 +186,74 @@ obtain_eternal_light_interaction = {
 		}
 	}
 }
+
+#Rinnegan Specific interaction
+
+chibaku_tensei_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    desc = chibaku_tensei_interaction_desc
+
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
+        }
+    }
+
+    on_send = {
+        scope:actor = {
+            add_character_modifier = {
+                modifier = chibakutensei_modifier
+                months = 1
+            }
+        }
+    }
+}
+
+tengai_shinsei_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    tengai_shinsei_interaction_desc
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
+        }
+    }
+    on_send = {
+        scope:actor = {
+            add_character_modifier = {
+                modifier = tengaishinsei_modifier
+                months = 4
+            }
+        }
+    }
+}
+
+ningendo_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    ningendo_interaction_desc
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
+            NOT = { has_character_modifier = ningendo_modifier }
+            age >= 40
+        }
+    }
+    on_send = {
+        scope:actor = {
+            add_character_modifier = {
+                modifier = ningendo_modifier
+                months = 6
+            }
+        }
+        scope:recipient = {
+            hidden_effect = {
+                death = {
+                    killer = scope:actor
+                    death_reason = absorbed_for_health
+                }
+            }
+        }
+    }
+}

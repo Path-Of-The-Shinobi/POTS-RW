@@ -10,3 +10,8 @@ killed_for_power = {
 	public_knowledge = yes
 	icon = "death_murder.dds"
 }
+
+absorbed_for_health = {
+	publick_knowledge = yes
+	icon = "death_murder.dds"
+}

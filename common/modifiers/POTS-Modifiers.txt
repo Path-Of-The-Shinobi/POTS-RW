@@ -28,3 +28,18 @@ train_recently = {
     icon = health_negative
     health = -0.15
 }
+
+chibakutensei_modifier = {
+    icon  = magic_positive
+    seige_phase_time = -0.50
+}
+
+tengaishinsei_modifier = {
+    icon = magic_positive
+    seige_phase_time = -1.25
+}
+
+ningendo_modifier = {
+    icon = health_positive
+    health = 6
+}

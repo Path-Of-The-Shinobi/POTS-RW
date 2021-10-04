@@ -2,7 +2,10 @@
 
 l_english:
 
-amaterasu_modifier:0 "This Character has been hit with the effects of Amaterasu"
-used_amaterasu_modifier:0 "This Character is suffering from drawbacks of utilizing a Mangekyo Sharingan Ability"
-used_tsukuyomi_modifier:0 "This Character has been hit with the effects of Tsukuyomi and have trouble perceiving time and space"
-under_tsukuyomi_modifier:0 "This Character is suffering from drawbacks of utilizing a Mangekyo Sharingan Ability"
+ amaterasu_modifier:0 "This Character has been hit with the effects of Amaterasu"
+ used_amaterasu_modifier:0 "This Character is suffering from drawbacks of utilizing a Mangekyo Sharingan Ability"
+ used_tsukuyomi_modifier:0 "This Character has been hit with the effects of Tsukuyomi and have trouble perceiving time and space"
+ under_tsukuyomi_modifier:0 "This Character is suffering from drawbacks of utilizing a Mangekyo Sharingan Ability"
+ chibakutensei_modifier:0 "Chibaku Tensei"
+ tengaishinsei_modifier:0 "Tengai Shinsei"
+ ningendo_modifier:0 "Ningendo"
