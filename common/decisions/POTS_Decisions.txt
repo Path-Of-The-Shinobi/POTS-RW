@@ -39,17 +39,25 @@ decision_convert_faith = {
 	}
 }
 
-pots_house_decision = {
+decision_pots_house = {
 	ai_check_interval = 50
 	picture = "gfx/interface/illustrations/decisions/decision_rift_scape.dds"
-	desc = pots_house_decision
-	selection_tooltip = pots_house_decision_tooltip
+	desc = decision_pots_house_desc
+	selection_tooltip = decision_pots_house_tooltip
+	
 	is_shown = {
-		scope:actor = {
-			age >= 16
+		age >= 16
+		is_senju = no
+		is_hyuga = no
+		is_uzumaki = no
+		is_uchiha = no
+		is_ai = no
+	}
+
+	effect = { 
+		trigger_event = {
+			id = pots_house_decision.001 
+			days = 5
 		}
-	}
-	effect = {
-		trigger_event = house_decision.001
-	}
+    }
 }

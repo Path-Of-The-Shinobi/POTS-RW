@@ -1,0 +1,54 @@
+﻿namespace = pots_house_decision
+
+pots_house_decision.001 = {
+    title = pots_house_decision.001.t
+    desc = pots_house_decision.001.d
+    theme = martial
+
+    right_portrait = {
+        character = scope:actor
+        animation = rage
+    }
+
+    option = {
+        name = pots_house_decision.001.a
+        trigger = {
+            age >= 16
+        }
+        hidden_effect = {
+            set_house = house:house_Uchiha
+            add_trait = uchihagene
+        }
+    }
+    option = {
+        name = pots_house_decision.001.b
+        trigger = {
+            age >= 16
+        }
+        hidden_effect = {
+            set_house = house:house_Hygua
+            add_trait = byakugan
+            add_trait = hyugagene
+        }
+    }
+    option = {
+        name = pots_house_decision.001.c
+        trigger = {
+            age >= 16
+        }
+        hidden_effect = {
+            set_house = house:house_Senju
+            add_trait = senjugene
+        }
+    }
+    option = {
+        name = pots_house_decision.001.d
+        trigger = {
+            age >= 16
+        }
+        hidden_effect = {
+            set_house = house:house_Uzumaki
+            add_trait = uzumakigene
+        }
+    }
+}

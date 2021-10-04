@@ -4,10 +4,19 @@
 
 is_hyuga = {
 	has_trait = hyugagene
+   has_trait = byakugan
 }
 
 is_forbidden = {
 	has_trait = forbiddengene
+}
+
+is_uzumaki = {
+   has_trait = uzumakigene
+}
+
+is_senju = {
+   has_trait = senjugene
 }
 
 has_mangekyosharingan = {

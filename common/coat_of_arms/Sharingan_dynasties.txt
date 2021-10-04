@@ -1,0 +1,46 @@
+﻿#Sharingan Coat Of Arms
+
+700080 = { # Hygua
+	pattern = "pattern_solid.dds"	
+	color1 = "yellow"
+	color2 = "red"
+	textured_emblem = {
+		texture = "ce_hyuga_clan.dds"	
+	}	
+}
+
+700081 = { # Ōtsutsuki
+	pattern = "pattern_solid.dds"	
+	color1 = "blue"
+	color2 = "white"
+	textured_emblem = {
+		texture = "ce_otsutsuki_clan.dds"
+	}	
+}
+
+700082 = { # Uchiha
+	pattern = "pattern_solid.dds"	
+	color1 = "blue"
+	color2 = "white"
+	texture_emblem = {
+		texture = "ce_uchiha_clan.dds"		
+	}	
+}
+
+700083 = { # Uzumaki
+	pattern = "pattern_solid.dds"	
+	color1 = "blue"
+	color2 = "white"
+	textured_emblem = {
+		texture = "ce_uzumaki_clan.dds"	
+	}	
+}
+
+700084 = { # Senju
+	pattern = "pattern_solid.dds"	
+	color1 = "blue"
+	color2 = "white"
+	textured_emblem = {
+		texture = "ce_senju_clan.dds"	
+	}	
+}
