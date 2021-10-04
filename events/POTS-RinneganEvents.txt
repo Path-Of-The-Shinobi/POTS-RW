@@ -13,7 +13,7 @@ RinneganEvents.001 = {
     }
 
     option = {
-        name = RinnenganEvents.001.a
+        name = RinneganEvents.001.a
         trigger = {
                 has_trait = eternalsharingan
                 NOT = { has_trait = rinnegan }

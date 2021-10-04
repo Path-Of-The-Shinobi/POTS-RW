@@ -163,3 +163,26 @@ train_sharingan_level_three_interaction = {
 		}
 	}
 }
+
+obtain_eternal_light_interaction = {
+	category = interaction_category_hostile
+	common_interaction = no
+	desc = obtain_eternal_light_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+            is_close_family_of = scope:recipient
+            has_mangekyosharingan = yes
+		}
+        scope:recipient = {
+            is_close_family_of = scope:actor
+            has_mangekyosharingan = yes
+        }
+	}
+
+	on_send = {
+		scope:actor = {
+			trigger_event = sharingan_level.4
+		}
+	}
+}

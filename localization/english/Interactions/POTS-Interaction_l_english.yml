@@ -1,6 +1,7 @@
 ﻿l_english:
 
  perform_amaterasu_interaction:0 "Perform The Amaterasu"
+ perform_kotoamtsukami_interaction:09 "Use Kotoamatsukami"
  interaction_category_dojutsu:0 "POTS Dojutsu"
  Dojutsu_Interaction_Desc:0 "Dojutsu Interactions"
  killed_for_power:0 "was killed for power"

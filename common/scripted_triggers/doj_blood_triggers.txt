@@ -9,3 +9,12 @@ is_hyuga = {
 is_forbidden = {
 	has_trait = forbiddengene
 }
+
+has_mangekyosharingan = {
+   OR = {
+      has_trait = mangekyosharingan_1
+      has_trait = mangekyosharingan_2
+      has_trait = mangekyosharingan_3
+      has_trait = mangekyosharingan_4
+   }
+}

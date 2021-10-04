@@ -38,3 +38,18 @@ decision_convert_faith = {
 		set_character_faith = faith:sixpaths
 	}
 }
+
+pots_house_decision = {
+	ai_check_interval = 50
+	picture = "gfx/interface/illustrations/decisions/decision_rift_scape.dds"
+	desc = pots_house_decision
+	selection_tooltip = pots_house_decision_tooltip
+	is_shown = {
+		scope:actor = {
+			age >= 16
+		}
+	}
+	effect = {
+		trigger_event = house_decision.001
+	}
+}
