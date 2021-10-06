@@ -1,4 +1,4 @@
-#POTS-Modifier
+﻿#POTS-Modifier
 
 #Mangekyo Dojutsu Modifiers
 
@@ -32,13 +32,11 @@ train_recently = {
 chibakutensei_modifier = {
     icon  = magic_positive
     siege_phase_time = -0.50
-    seige_phase_time = -0.50
 }
 
 tengaishinsei_modifier = {
     icon = magic_positive
     siege_phase_time = -1.25
-    seige_phase_time = -1.25
 }
 
 ningendo_modifier = {
@@ -52,6 +50,6 @@ failed_seal_modifier = {
 }
 
 summoned_gedo_mazo_modifier = {
-    intrigue_negative
+    icon = intrigue_negative
     intrigue = -5
 }

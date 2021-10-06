@@ -92,6 +92,12 @@ RinneganEvents.003 = {
                     death_reason = tailedbeast_absorbed
                 }
             }
+            scope:actor = {
+                add_character_modifier = {
+                    modifier = summoned_gedo_mazo_modifier
+                    months = 2
+                }
+            }
         }
     }
     option = {
@@ -108,6 +114,12 @@ RinneganEvents.003 = {
                 death = {
                     killer = scope:actor
                     death_reason = tailedbeast_absorbed
+                }
+            }
+            scope:actor = {
+                add_character_modifier = {
+                    modifier = summoned_gedo_mazo_modifier
+                    months = 2
                 }
             }
         }

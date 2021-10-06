@@ -213,7 +213,6 @@ tengai_shinsei_interaction = {
         scope:actor = {
             has_trait = rinnegan
             NOT = { has_character_modifier = tengaishinsei_modifier }
-    tengai_shinsei_interaction_desc
     is_shown = {
         scope:actor = {
             has_trait = rinnegan
@@ -233,7 +232,6 @@ ningendo_interaction = {
     category = interaction_category_hostile
     common_interaction = no
     desc = ningendo_interaction_desc
-    ningendo_interaction_desc
     is_shown = {
         scope:actor = {
             has_trait = rinnegan
@@ -278,10 +276,6 @@ summon_gedo_mazo_interaction = {
             trigger_event = {
                 id = RinneganEvents.003
                 days = 5
-            }
-            add_character_modifier = {
-                modifier = summoned_gedo_mazo_modifier
-                months = 6
             }
         }
     }
