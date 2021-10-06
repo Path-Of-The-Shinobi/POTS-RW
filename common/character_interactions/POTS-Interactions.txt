@@ -236,7 +236,6 @@ ningendo_interaction = {
         scope:actor = {
             has_trait = rinnegan
             NOT = { has_character_modifier = ningendo_modifier }
-            age >= 40
         }
     }
     on_send = {
@@ -286,8 +285,8 @@ awaken_rinnegan_interaction = {
     common_interaction = no
     desc = awaken_rinnegan_interaction_desc
     is_shown = {
-        scope:actor  = {
-            has_trait = eternalsharingan
+        scope:actor = {
+            has_eternal = yes
             NOT = { has_trait = rinnegan }
         }
     }

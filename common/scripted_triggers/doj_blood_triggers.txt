@@ -42,3 +42,9 @@ is_jinchuriki = {
       has_trait = ten_tail
    }
 }
+
+has_eternal = {
+   OR = {
+      has_trait = eternalsharingan
+   }
+}
