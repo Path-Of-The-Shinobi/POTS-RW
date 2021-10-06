@@ -218,6 +218,10 @@ tengai_shinsei_interaction = {
         scope:actor = {
             has_trait = rinnegan
             NOT = { has_character_modifier = tengaishinsei_modifier }
+    tengai_shinsei_interaction_desc
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
         }
     }
     on_send = {
@@ -234,6 +238,7 @@ ningendo_interaction = {
     category = interaction_category_hostile
     common_interaction = no
     desc = ningendo_interaction_desc
+    ningendo_interaction_desc
     is_shown = {
         scope:actor = {
             has_trait = rinnegan
