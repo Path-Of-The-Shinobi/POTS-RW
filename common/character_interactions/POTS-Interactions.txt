@@ -5,8 +5,6 @@
 perform_amaterasu_interaction = {
     category = interaction_category_hostile
     common_interaction = no
-    ai_maybe = no
-
     is_shown = {
         scope:actor = {
             has_trait = mangekyosharingan_4
@@ -34,8 +32,6 @@ perform_amaterasu_interaction = {
 perform_kotoamatsukami_interaction = {
     category = interaction_category_hostile
     common_interaction = no
-    ai_maybe = no
-
     is_shown = {
         scope:actor = {
             has_trait = mangekyosharingan_2
@@ -57,7 +53,6 @@ perform_kotoamatsukami_interaction = {
 perform_tsukuyomi_interaction = {
     category = interaction_category_hostile
     common_interaction = no
-    ai_maybe = no
     is_shown = {
         scope:actor = {
             has_trait = mangekyosharingan_4
