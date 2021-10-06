@@ -233,6 +233,14 @@ on_birthday = {
         Elemental_Release_Seven
         Elemental_Release_Eight
         Elemental_Release_Nine
+		sharingan_birthday_one
+        sharingan_birthday_two
+        sharingan_birthday_three
+        sharingan_birthday_four
+        sharingan_birthday_five
+        sharingan_birthday_six
+        sharingan_birthday_seven
+        sharingan_birthday_eight
     }
 }
 
@@ -369,6 +377,49 @@ Elemental_Release_Nine {
 
     events = {
         ElementalRelease.10
+    }
+}
+
+
+sharingan_birthday_one = {
+    trigger = {
+        AND = {
+            age = 18
+            has_trait = uchihagene
+            NOT = { has_trait = rinnesharingan }
+        }
+    }
+
+    events = {
+        sharingan_level.1
+    }
+}
+
+sharingan_birthday_two = {
+    trigger = {
+        AND = {
+            age = 20
+            has_trait = onetomoe
+            NOT = { has_trait = rinnesharingan }
+        }
+    }
+
+    events = {
+        sharingan_level.2
+    }
+}
+
+sharingan_birthday_three = {
+    trigger = {
+        AND = {
+            age = 22
+            has_trait = twotomoe
+            NOT = { has_trait = rinnesharingan }
+        }
+    }
+
+    events = {
+        sharingan_level.3
     }
 }
 

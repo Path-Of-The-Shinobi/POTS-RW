@@ -80,7 +80,6 @@ perform_tsukuyomi_interaction = {
 obtain_mangekyo_sharingan_interaction = {
     category = interaction_category_hostile
     common_interaction = no
-    ai_maybe = no
     is_shown = {
         scope:actor = {
             has_trait = threetomoe
@@ -185,4 +184,125 @@ obtain_eternal_light_interaction = {
 			trigger_event = sharingan_level.4
 		}
 	}
+}
+
+#Rinnegan Specific interaction
+
+chibaku_tensei_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    desc = chibaku_tensei_interaction_desc
+
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
+            NOT = { has_character_modifier = chibakutensei_modifier }
+        }
+    }
+
+    on_send = {
+        scope:actor = {
+            add_character_modifier = {
+                modifier = chibakutensei_modifier
+                months = 1
+            }
+        }
+    }
+}
+
+tengai_shinsei_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    desc = tengai_shinsei_interaction_desc
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
+            NOT = { has_character_modifier = tengaishinsei_modifier }
+        }
+    }
+    on_send = {
+        scope:actor = {
+            add_character_modifier = {
+                modifier = tengaishinsei_modifier
+                months = 4
+            }
+        }
+    }
+}
+
+ningendo_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    desc = ningendo_interaction_desc
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
+            NOT = { has_character_modifier = ningendo_modifier }
+            age >= 40
+        }
+    }
+    on_send = {
+        scope:actor = {
+            add_character_modifier = {
+                modifier = ningendo_modifier
+                months = 6
+            }
+        }
+        scope:recipient = {
+            hidden_effect = {
+                death = {
+                    killer = scope:actor
+                    death_reason = absorbed_for_health
+                }
+            }
+        }
+    }
+}
+
+summon_gedo_mazo_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    desc = summon_gedo_mazo_interaction_desc
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
+            NOT = { has_character_modifier = summoned_gedo_mazo_modifier }
+        }
+        scope:recipient = {
+            is_jinchuriki = yes
+            is_alive = yes
+        }
+    }
+    on_send = {
+        scope:actor = {
+            trigger_event = {
+                id = RinneganEvents.003
+                days = 5
+            }
+            add_character_modifier = {
+                modifier = summoned_gedo_mazo_modifier
+                months = 6
+            }
+        }
+    }
+}
+
+awaken_rinnegan_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    desc = awaken_rinnegan_interaction_desc
+    is_shown = {
+        scope:actor  = {
+            has_trait = eternalsharingan
+            NOT = { has_trait = rinnegan }
+        }
+    }
+    on_send = {
+        scope:actor = {
+            trigger_event = {
+                id = RinneganEvents.001
+                days = 5
+            }
+        }
+    }
 }

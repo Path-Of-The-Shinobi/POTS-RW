@@ -27,3 +27,18 @@ has_mangekyosharingan = {
       has_trait = mangekyosharingan_4
    }
 }
+
+is_jinchuriki = {
+   OR = {
+      has_trait = one_tail
+      has_trait = two_tail
+      has_trait = three_tail
+      has_trait = four_tail
+      has_trait = five_tail
+      has_trait = six_tail
+      has_trait = seven_tail
+      has_trait = eight_tail
+      has_trait = nine_tail
+      has_trait = ten_tail
+   }
+}

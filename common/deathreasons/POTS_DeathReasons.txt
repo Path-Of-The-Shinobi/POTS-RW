@@ -10,3 +10,13 @@ killed_for_power = {
 	public_knowledge = yes
 	icon = "death_murder.dds"
 }
+
+absorbed_for_health = {
+	public_knowledge = yes
+	icon = "death_murder.dds"
+}
+
+tailedbeast_absorbed = {
+	public_knowledge = yes
+	icon = "death_murder.dds"
+}

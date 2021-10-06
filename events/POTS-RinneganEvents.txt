@@ -61,3 +61,55 @@ RinneganEvents.002 = {
         }
     }
 }
+
+RinneganEvents.003 = {
+    type = character_event
+    title = RinneganEvents.003.t
+    desc = RinneganEvents.003.d
+    theme = martial
+    
+    right_portrait = {
+        character = scope:actor
+        animation = worry
+    }
+    left_portrait = {
+        scope:recipient
+        animation = worry
+    }
+
+    option = {
+        name = RinneganEvents.003.a
+        trigger = {
+            has_trait = rinnegan
+            NOT = { has_trait = one_tail }
+        }
+        add_trait = one_tail
+        hidden_effect = {
+            scope:recipient = {
+                remove_trait = one_tail
+                death = {
+                    killer = scope:actor
+                    death_reason = tailedbeast_absorbed
+                }
+            }
+        }
+    }
+    option = {
+        name = RinneganEvents.003.b
+        trigger = {
+            has_trait = rinnegan
+            has_trait = one_tail
+            NOT = { has_trait = two_tail }
+        }
+        add_trait = two_tail
+        hidden_effect = {
+            scope:recipient = {
+                remove_trait = two_tail
+                death = {
+                    killer = scope:actor
+                    death_reason = tailedbeast_absorbed
+                }
+            }
+        }
+    }
+}
