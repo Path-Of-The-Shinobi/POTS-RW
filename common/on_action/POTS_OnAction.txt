@@ -371,3 +371,8 @@ Elemental_Release_Nine {
         ElementalRelease.10
     }
 }
+
+on_game_start_after_lobby = {
+	on_actions = {
+	}
+}

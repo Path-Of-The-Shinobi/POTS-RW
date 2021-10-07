@@ -1,17 +1,12 @@
 ﻿l_english:
 
  perform_amaterasu_interaction:0 "Perform The Amaterasu"
- perform_kotoamtsukami_interaction:09 "Use Kotoamatsukami"
  interaction_category_dojutsu:0 "POTS Dojutsu"
  Dojutsu_Interaction_Desc:0 "Dojutsu Interactions"
  killed_for_power:0 "was killed for power"
- tailedbeast_absorbed:0 "had their tailed beast stolen"
- tailedbeast_absorbed_killer:0 "[TARGET_CHARACTER.GetUIName] had their tailed beast extracted"
- absorbed_for_health:0 "was absorbed for health"
  stolen_sharingan_reason:0 "[TARGET_CHARACTER.GetUIName] was killed by having their sharingan stolen"
  death_reaper_death_seal:0 "[TARGET_CHARACTER.GetUIName] was killed ny using the reaper death seal"
  killed_for_power_killer:0 "was killed for power by [TARGET_CHARACTER.GetUIName]"
- absorbed_for_health_killer:0 "was absorbed for bonus health by [TARGET_CHARACTER.GetUIName]"
  obtain_mangekyo_sharingan_interaction:0 "Obtain Mangekyo Sharingan"
  train_sharingan_level_one_interaction:0 "Train Sharingan"
  train_sharingan_level_one_interaction_desc:0 "Train to try and level up your sharingan"
@@ -31,18 +26,3 @@
  sharingan_level.3.t:0 "Awaken The Three Tomoe Sharingan"
  sharingan_level.3.d:0 "Now that you have unlocked your families ancient bloodline you decide to train yourself in the bloodline to try and obtain the legendery Sharingan of your ancestors"
  sharingan_level.3.a:0 "Try to level your Sharingan"
-
- #Rinnegan Interactions
- chibaku_tensei_interaction:0 "Chibaku tensei"
- chibaku_tensei_interaction_desc:0 "WIP Text"
- tengai_shinsei_interaction:0 "Tengai Shinsei"
- tengai_shinsei_interaction_desc:0 "WIP text"
- ningendo_interaction:0 "Ningendo"
- ningendo_interaction_desc:0 "WIP Text"
- summon_gedo_mazo_interaction:0 "Kuchiyose no Jutsu:Gedo Mazo"
- summon_gedo_mazo_interaction_desc:0 "WIP Text"
- awaken_rinnegan_interaction:0 "Obtain the Rinnegan"
- awaken_rinnegan_interaction:0 "WIP Text"
-
- #WIP Interactions
- ningendo_interaction_desc:0 "WIP Text"

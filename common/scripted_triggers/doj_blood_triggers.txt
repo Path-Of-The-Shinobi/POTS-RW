@@ -4,47 +4,8 @@
 
 is_hyuga = {
 	has_trait = hyugagene
-   has_trait = byakugan
 }
 
 is_forbidden = {
 	has_trait = forbiddengene
-}
-
-is_uzumaki = {
-   has_trait = uzumakigene
-}
-
-is_senju = {
-   has_trait = senjugene
-}
-
-has_mangekyosharingan = {
-   OR = {
-      has_trait = mangekyosharingan_1
-      has_trait = mangekyosharingan_2
-      has_trait = mangekyosharingan_3
-      has_trait = mangekyosharingan_4
-   }
-}
-
-is_jinchuriki = {
-   OR = {
-      has_trait = one_tail
-      has_trait = two_tail
-      has_trait = three_tail
-      has_trait = four_tail
-      has_trait = five_tail
-      has_trait = six_tail
-      has_trait = seven_tail
-      has_trait = eight_tail
-      has_trait = nine_tail
-      has_trait = ten_tail
-   }
-}
-
-has_eternal = {
-   OR = {
-      has_trait = eternalsharingan
-   }
 }
