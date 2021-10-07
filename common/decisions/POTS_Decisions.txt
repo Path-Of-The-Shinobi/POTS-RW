@@ -38,3 +38,26 @@ decision_convert_faith = {
 		set_character_faith = faith:sixpaths
 	}
 }
+
+decision_pots_house = {
+	ai_check_interval = 50
+	picture = "gfx/interface/illustrations/decisions/decision_rift_scape.dds"
+	desc = decision_pots_house_desc
+	selection_tooltip = decision_pots_house_tooltip
+	
+	is_shown = {
+		age >= 16
+		is_senju = no
+		is_hyuga = no
+		is_uzumaki = no
+		is_uchiha = no
+		is_ai = no
+	}
+
+	effect = { 
+		trigger_event = {
+			id = pots_house_decision.001 
+			days = 5
+		}
+    }
+}

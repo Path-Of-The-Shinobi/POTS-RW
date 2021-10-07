@@ -82,3 +82,47 @@ sharingan_level.3 = {
 		}
 	}
 }
+
+sharingan_level.4 = {
+	title = sharingan_level.4.t
+	desc = sharingan_level.4.d
+	theme = martial
+	left_portrait = {
+		character = scope:actor
+		animation = worry
+	}
+	right_portrait = {
+		character = scope:recipient
+		animation = worry
+	}
+
+	option = {
+		name = sharingan_level.4.a
+		trigger = {
+			scope:actor = {
+				is_close_family_of = scope:recipient
+				has_mangekyosharingan = yes
+			}
+			scope:recipient = {
+				is_close_family_of = scope:actor
+				has_mangekyosharingan = yes
+			}
+		}
+		hidden_effect = {
+			scope:actor = {
+				add_trait = eternalsharingan
+				remove_trait = mangekyosharingan_1
+				remove_trait = mangekyosharingan_2
+				remove_trait = mangekyosharingan_3
+				remove_trait = mangekyosharingan_4
+			}
+			scope:recipient = {
+				add_trait = eternalsharingan
+				remove_trait = mangekyosharingan_1
+				remove_trait = mangekyosharingan_2
+				remove_trait = mangekyosharingan_3
+				remove_trait = mangekyosharingan_4
+			}
+		}
+	}
+}

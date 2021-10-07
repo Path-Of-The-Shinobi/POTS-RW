@@ -20,11 +20,36 @@ used_tsukuyomi_modifier = {
 under_tsukuyomi_modifier = {
     icon = health_negative
     health = -1
-    intrigue -2
-    martial -2
+    intrigue = -2
+    martial = -2
 }
 
 train_recently = {
     icon = health_negative
     health = -0.15
+}
+
+chibakutensei_modifier = {
+    icon  = magic_positive
+    siege_phase_time = -0.50
+}
+
+tengaishinsei_modifier = {
+    icon = magic_positive
+    siege_phase_time = -1.25
+}
+
+ningendo_modifier = {
+    icon = health_positive
+    health = 6
+}
+
+failed_seal_modifier = {
+    icon = martial_negative
+    martial = -4
+}
+
+summoned_gedo_mazo_modifier = {
+    icon = intrigue_negative
+    intrigue = -5
 }
