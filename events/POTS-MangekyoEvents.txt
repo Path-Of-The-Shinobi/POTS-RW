@@ -103,7 +103,7 @@ MangekyoEvents.004 = {
 	desc = MangekyoEvents.004.d
 	theme = martial
 	left_portrait = {
-		character = root
+		character = scope:actor
 		animation = rage
 	}
 	right_portrait = {
@@ -114,11 +114,9 @@ MangekyoEvents.004 = {
 	option = {
 		name = MangekyoEvents.004.o
 		trigger = {
-			has_trait = threetomoe
-            NOT = { has_trait = mangekyosharingan_1 }
-			NOT = { has_trait = mangekyosharingan_2 }
-			NOT = { has_trait = mangekyosharingan_3 }
-			NOT = { has_trait = mangekyosharingan_4 }
+			scope:actor = {
+				has_mangekyosharingan = no
+			}
 		}
 		random_list = {
 			20 = {

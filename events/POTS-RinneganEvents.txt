@@ -13,7 +13,7 @@ RinneganEvents.001 = {
     }
 
     option = {
-        name = RinenganEvents.001.a
+        name = RinneganEvents.001.a
         trigger = {
                 has_trait = eternalsharingan
                 NOT = { has_trait = rinnegan }
@@ -38,10 +38,10 @@ RinneganEvents.001 = {
     }
 }
 
-RinnenganEvents.002 = {
+RinneganEvents.002 = {
     type = character_event
-    title = RinnenganEvents.002.t
-    desc = RinnenganEvents.002.d
+    title = RinneganEvents.002.t
+    desc = RinneganEvents.002.d
     theme = martial
     
     right_portrait = {
@@ -58,6 +58,70 @@ RinnenganEvents.002 = {
             remove_trait = eternalsharingan
             add_trait = rinnegan
             add_gold = 500
+        }
+    }
+}
+
+RinneganEvents.003 = {
+    type = character_event
+    title = RinneganEvents.003.t
+    desc = RinneganEvents.003.d
+    theme = martial
+    
+    right_portrait = {
+        character = scope:actor
+        animation = worry
+    }
+    left_portrait = {
+        character = scope:recipient
+        animation = worry
+    }
+
+    option = {
+        name = RinneganEvents.003.a
+        trigger = {
+            has_trait = rinnegan
+            NOT = { has_trait = one_tail }
+        }
+        add_trait = one_tail
+        hidden_effect = {
+            scope:recipient = {
+                remove_trait = one_tail
+                death = {
+                    killer = scope:actor
+                    death_reason = tailedbeast_absorbed
+                }
+            }
+            scope:actor = {
+                add_character_modifier = {
+                    modifier = summoned_gedo_mazo_modifier
+                    months = 2
+                }
+            }
+        }
+    }
+    option = {
+        name = RinneganEvents.003.b
+        trigger = {
+            has_trait = rinnegan
+            has_trait = one_tail
+            NOT = { has_trait = two_tail }
+        }
+        add_trait = two_tail
+        hidden_effect = {
+            scope:recipient = {
+                remove_trait = two_tail
+                death = {
+                    killer = scope:actor
+                    death_reason = tailedbeast_absorbed
+                }
+            }
+            scope:actor = {
+                add_character_modifier = {
+                    modifier = summoned_gedo_mazo_modifier
+                    months = 2
+                }
+            }
         }
     }
 }

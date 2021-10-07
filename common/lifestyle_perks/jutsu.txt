@@ -271,7 +271,7 @@ jutsu_14_perk = {
 
     character_modifier = {
         martial = 1
-        prowess = 6
+        prowess = 2
     }
 }
 
@@ -285,7 +285,7 @@ jutsu_15_perk = {
 
     character_modifier = {
         martial = 2
-        prowess = 10
+        prowess = 4
     }
 }
 
@@ -299,7 +299,7 @@ jutsu_16_perk = {
 
     character_modifier = {
         martial = 3
-        prowess = 15
+        prowess = 6
     }
 }
 
@@ -313,7 +313,7 @@ jutsu_17_perk = {
 
     character_modifier = {
         martial = 4
-        prowess = 20
+        prowess = 8
     }
 }
 
@@ -327,7 +327,7 @@ jutsu_18_perk = {
 
     character_modifier = {
         martial = 5
-        prowess = 25
+        prowess = 20
     }
 }
 
@@ -341,6 +341,6 @@ jutsu_19_perk = {
 
     character_modifier = {
         martial = 8
-        prowess = 30
+        prowess = 22
     }
 }
