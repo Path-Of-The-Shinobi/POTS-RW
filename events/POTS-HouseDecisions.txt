@@ -42,7 +42,7 @@ pots_house_decision.001 = {
         }
     }
     option = {
-        name = pots_house_decision.001.d
+        name = pots_house_decision.001.e
         trigger = {
             age >= 16
         }

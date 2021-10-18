@@ -12,10 +12,15 @@ decision_elemental_release = {
 		NOT = { has_trait = waterrelease }
 		NOT = { has_trait = lightningrelease }
 		NOT = { has_trait = earthrelease }
+		NOT = { has_character_flag = elemental_flag }
 	}
 	
 	effect = { 
         trigger_event = ElementalRelease.1 
+		add_character_flag = {
+			flag = elemental_flag
+			years = 600
+		}
     }
 	ai_potential = {
 		always = yes
@@ -52,12 +57,17 @@ decision_pots_house = {
 		is_uzumaki = no
 		is_uchiha = no
 		is_ai = no
+		NOT = { has_character_flag = house_flag }
 	}
 
 	effect = { 
 		trigger_event = {
 			id = pots_house_decision.001 
 			days = 5
+		}
+		add_character_flag = {
+			flag = house_flag
+			years = 600
 		}
     }
 }

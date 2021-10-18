@@ -20,6 +20,14 @@
  train_sharingan_level_two_interaction_desc:0 "Train to try and level up your sharingan"
  train_sharingan_level_three_interaction:0 "Train Sharingan level Three"
  train_sharingan_level_three_interaction_desc:0 "Train to try and level up your sharingan"
+ interaction_category_rinnegan:0 "Rinnegan Interactions"
+ interaction_category_rinnegan_desc:0 "Rinnegan Related Interactions"
+
+ interaction_category_mangekyo:0 "Mangekyo Interactions"
+ interaction_category_mangekyo_desc:0 "Mangekyo Sharingan Related Interactions"
+
+ interaction_category_sharingan:0 "Sharingan Interactions"
+ interaction_category_sharingan_desc:0 "Sharingan Related Interactions"
 
  #Sharingan Level Interaction Events
 

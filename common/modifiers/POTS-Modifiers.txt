@@ -53,3 +53,8 @@ summoned_gedo_mazo_modifier = {
     icon = intrigue_negative
     intrigue = -5
 }
+
+stolensharingan_modifier = {
+    icon = health_negative
+    health = -2
+}

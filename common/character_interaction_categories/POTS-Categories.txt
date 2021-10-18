@@ -1,4 +1,12 @@
-﻿interaction_category_dojutsu = {
-	index = 20964
-	desc = Dojutsu_Interaction_Desc
+﻿interaction_category_rinnegan = {
+	index = 209
+	desc = "interaction_category_rinnegan_desc"
+}
+interaction_category_mangekyo = {
+	index = 210
+	desc = "interaction_category_mangekyo_desc"
+}
+interaction_category_sharingan = {
+	index = 211
+	desc = "interaction_category_sharingan_desc"
 }

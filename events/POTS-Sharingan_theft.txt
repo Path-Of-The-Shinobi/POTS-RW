@@ -1,0 +1,114 @@
+﻿namespace = sharingan_theft
+
+sharingan_theft.001 = {
+    type = character_event
+    title = shairngan_theft.001.t
+    desc = shairngan_theft.001.d
+    theme = martial
+
+    right_portrait = {
+        character = scope:actor
+        animation = worry
+    }
+    left_portrait = {
+        character = scope:recipient
+        animation = worry
+    }
+
+    option = {
+        name = sharingan_theft.001.a
+        trigger = {
+            scope:actor = {
+                has_mangekyosharingan = no
+            }
+            scope:recipient = {
+                has_trait = mangekyosharingan_1
+            }
+        }
+        effect = {
+            scope:actor = {
+                add_trait = mangkeyosharingan_1
+            }
+            scope:recipient = {
+                remove_trait = mangekyosharingan_1
+                add_trait = blind
+                add_character_modifier = {
+                    modifier = stolensharingan_modifier
+                    months = 6
+                }
+            }
+        }
+    }
+    option = {
+        name = sharingan_theft.001.b
+        trigger = {
+            scope:actor = {
+                has_mangekyosharingan = no
+            }
+            scope:recipient = {
+                has_trait = mangekyosharingan_2
+            }
+        }
+        hidden_effect = {
+            scope:actor = {
+                add_trait = mangekyosharingan_2
+            }
+            scope:recipient = {
+                remove_trait = mangekyosharingan_2
+                add_trait = blind
+                add_character_modifier = {
+                    modifier = stolensharingan_modifier
+                    months = 6
+                }
+            }
+        }
+    }
+    option = {
+        name = sharingan_theft.001.c
+        trigger = {
+            scope:actor = {
+                has_mangekyosharingan = no
+            }
+            scope:recipient = {
+                has_trait = mangekyosharingan_3
+            }
+        }
+        effect = {
+            scope:actor = {
+                add_trait = mangkeyosharingan_3
+            }
+            scope:recipient = {
+                remove_trait = mangekyosharingan_3
+                add_trait = blind
+                add_character_modifier = {
+                    modifier = stolensharingan_modifier
+                    months = 6
+                }
+            }
+        }
+    }
+    option = {
+    name = sharingan_theft.001.d
+    trigger = {
+        scope:actor = {
+            has_mangekyosharingan = no
+        }
+        scope:recipient = {
+            has_trait = mangekyosharingan_4
+        }
+    }
+        effect = {
+            scope:actor = {
+                add_trait = mangkeyosharingan_4
+            }
+            scope:recipient = {
+                remove_trait = mangekyosharingan_4
+                add_trait = blind
+                add_character_modifier = {
+                    modifier = stolensharingan_modifier
+                    months = 6
+                }
+            }
+        }
+    }
+}

@@ -22,7 +22,7 @@
 	pattern = "pattern_solid.dds"	
 	color1 = "blue"
 	color2 = "white"
-	texture_emblem = {
+	textured_emblem = {
 		texture = "ce_uchiha_clan.dds"		
 	}	
 }

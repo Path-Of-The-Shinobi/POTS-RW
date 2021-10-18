@@ -80,11 +80,17 @@ obtain_mangekyo_sharingan_interaction = {
     is_shown = {
         scope:actor = {
             is_close_family_of = scope:recipient
+            has_trait = threetomoe
+            is_adult = yes
             has_mangekyosharingan = no
+            has_trait = uchihagene
             NOT = { has_character_flag = mangekyo1 }
+
         }
         scope:recipient = {
             is_close_family_of = scope:actor
+            has_trait = uchihagene
+            is_adult = yes
         }
         NOT = { scope:actor = scope:recipient }
     }
@@ -102,10 +108,11 @@ obtain_mangekyo_sharingan_interaction = {
         ai_recipients = dynasty
         ai_recipients = children
     }
-    ai_frequency = 4
+    ai_frequency = 12
     ai_will_do = {
         base = 100
     }
+    auto_accept = yes
 }
 
 train_sharingan_level_one_interaction = {
@@ -120,6 +127,20 @@ train_sharingan_level_one_interaction = {
 			NOT = { has_trait = onetomoe }
             NOT = { has_trait = twotomoe }
             NOT = { has_trait = threetomoe }
+            NOT = { has_trait = rinnegan }
+            NOT = { has_trait = rinnesharingan }
+            has_mangekyosharingan = no
+            has_eternal = no
+		}
+	}
+    is_valid = {
+		scope:actor = {
+			has_trait = uchihagene
+			NOT = { has_trait = onetomoe }
+            NOT = { has_trait = twotomoe }
+            NOT = { has_trait = threetomoe }
+            NOT = { has_trait = rinnegan }
+            NOT = { has_trait = rinnesharingan }
             has_mangekyosharingan = no
 		}
 	}
@@ -146,10 +167,25 @@ train_sharingan_level_two_interaction = {
 	is_shown = {
 		scope:actor = {
 			has_trait = onetomoe
+            has_trait = uchihagene
             NOT = { has_character_modifier = train_recently }
 			NOT = { has_trait = twotomoe }
             NOT = { has_trait = threetomoe }
+            NOT = { has_trait = rinnegan }
+            NOT = { has_trait = rinnesharingan }
             has_mangekyosharingan = no
+		}
+	}
+    is_valid = {
+		scope:actor = {
+			has_trait = onetomoe
+            has_trait = uchihagene
+			NOT = { has_trait = twotomoe }
+            NOT = { has_trait = threetomoe }
+            NOT = { has_trait = rinnegan }
+            NOT = { has_trait = rinnesharingan }
+            has_mangekyosharingan = no
+            has_eternal = no
 		}
 	}
     ai_targets = {
@@ -175,9 +211,24 @@ train_sharingan_level_three_interaction = {
 	is_shown = {
 		scope:actor = {
 			has_trait = twotomoe
+            has_trait = uchihagene
 			NOT = { has_character_modifier = train_recently }
 			NOT = { has_trait = threetomoe }
             NOT = { has_trait = onetomoe }
+            NOT = { has_trait = rinnegan }
+            NOT = { has_trait = rinnesharingan }
+            has_mangekyosharingan = no
+            has_eternal = no
+		}
+	}
+    is_valid = {
+		scope:actor = {
+			has_trait = twotomoe
+            has_trait = uchihagene
+			NOT = { has_trait = threetomoe }
+            NOT = { has_trait = onetomoe }
+            NOT = { has_trait = rinnegan }
+            NOT = { has_trait = rinnesharingan }
             has_mangekyosharingan = no
 		}
 	}
@@ -205,11 +256,15 @@ obtain_eternal_light_interaction = {
 		scope:actor = {
             is_close_family_of = scope:recipient
             has_mangekyosharingan = yes
+            has_trait = uchihagene
+            is_adult = yes
 		}
         scope:recipient = {
             is_close_family_of = scope:actor
             has_mangekyosharingan = yes
+            has_trait = uchihagene
         }
+        NOT = { scope:actor = scope:recipient }
 	}
 
 	on_accept = {
@@ -221,10 +276,11 @@ obtain_eternal_light_interaction = {
         ai_recipients = family
         ai_recipients = dynasty
     }
-    ai_frequency = 4
+    ai_frequency = 12
     ai_will_do = {
         base = 100
     }
+    auto_accept = yes
 }
 
 #Rinnegan Specific interaction
@@ -233,14 +289,20 @@ chibaku_tensei_interaction = {
     category = interaction_category_hostile
     common_interaction = no
     desc = chibaku_tensei_interaction_desc
-
+    ai_maybe = yes
     is_shown = {
         scope:actor = {
             has_trait = rinnegan
             NOT = { has_character_modifier = chibakutensei_modifier }
         }
     }
-
+    ai_targets = {
+        ai_recipients = self
+    }
+    ai_frequency = 5
+    ai_will_do = {
+        base = 100
+    }
     on_accept = {
         scope:actor = {
             add_character_modifier = {
@@ -255,11 +317,19 @@ tengai_shinsei_interaction = {
     category = interaction_category_hostile
     common_interaction = no
     desc = tengai_shinsei_interaction_desc
+    ai_maybe = yes
     is_shown = {
         scope:actor = {
             has_trait = rinnegan
             NOT = { has_character_modifier = tengaishinsei_modifier }
         }
+    }
+    ai_targets = {
+        ai_recipients = self
+    }
+    ai_frequency = 4
+    ai_will_do = {
+        base = 100
     }
     on_accept = {
         scope:actor = {
@@ -280,6 +350,7 @@ ningendo_interaction = {
             has_trait = rinnegan
             NOT = { has_character_modifier = ningendo_modifier }
         }
+        NOT = { scope:actor = scope:recipient }
     }
     on_accept = {
         scope:actor = {
@@ -303,6 +374,7 @@ summon_gedo_mazo_interaction = {
     category = interaction_category_hostile
     common_interaction = no
     desc = summon_gedo_mazo_interaction_desc
+    ai_maybe = yes
     is_shown = {
         scope:actor = {
             has_trait = rinnegan
@@ -327,11 +399,21 @@ awaken_rinnegan_interaction = {
     category = interaction_category_hostile
     common_interaction = no
     desc = awaken_rinnegan_interaction_desc
+    ai_maybe = yes
     is_shown = {
         scope:actor = {
             has_eternal = yes
             NOT = { has_trait = rinnegan }
+            has_trait = uchihagene
+            is_adult = yes
         }
+    }
+    ai_targets = {
+        ai_recipients = self
+    }
+    ai_frequency = 24
+    ai_will_do = {
+        base = 20
     }
     on_accept = {
         scope:actor = {
@@ -341,4 +423,39 @@ awaken_rinnegan_interaction = {
             }
         }
     }
+}
+
+steal_sharingan_interaction = {
+    category = interaction_category_hostile
+    common_interaction = yes
+    desc = steal_sharingan_interaction_Desc
+    ai_maybe = yes
+    is_shown = {
+        scope:actor = {
+            learning >= 11
+            has_mangekyosharingan = no
+            has_trait = education_learning_4
+        }
+        scope:recipient = {
+            has_mangekyosharingan = yes
+        }
+        NOT = { scope:actor = scope:recipient }
+    }
+    ai_targets = {
+        ai_recipients = war_enemies
+        ai_recipients = prisoners
+    }
+    ai_frequency = 24
+    ai_will_do = {
+        base = 20
+    }
+    on_accept = {
+        scope:actor = {
+            trigger_event = {
+                id = sharingan_theft.001
+                days = 5
+            }
+        }
+    }
+    auto_accept = yes
 }

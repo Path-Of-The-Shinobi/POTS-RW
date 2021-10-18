@@ -14,7 +14,7 @@ l_english:
   pots_house_decision.001.a:0 "Join House Uchiha"
   pots_house_decision.001.b:0 "Join House Hyuga"
   pots_house_decision.001.c:0 "Join House Senju"
-  pots_house_decision.001.d:0 "Join House Uzumaki"
+  pots_house_decision.001.e:0 "Join House Uzumaki"
   decision_pots_house:0 "POTS House Assigner"
   decision_pots_house_desc:0 "WIP Flavour Text"
   decision_pots_house_tooltip:0 "POTS House Customiser"
