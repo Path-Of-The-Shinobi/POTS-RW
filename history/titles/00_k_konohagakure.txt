@@ -1,0 +1,460 @@
+k_konohagakure = {
+	800.1.1={
+		liege=e_shinobi_world
+	}
+}
+d_konoha_duchy_1 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_1 = {
+	800.1.1={
+		liege=d_konoha_duchy_1
+	}
+}
+c_konoha_county_2 = {
+	800.1.1={
+		liege=d_konoha_duchy_1
+	}
+}
+c_konoha_county_3 = {
+	800.1.1={
+		liege=d_konoha_duchy_1
+	}
+}
+c_konoha_county_4 = {
+	800.1.1={
+		liege=d_konoha_duchy_1
+	}
+}
+d_konoha_duchy_2 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_5 = {
+	800.1.1={
+		liege=d_konoha_duchy_2
+	}
+}
+c_konoha_county_6 = {
+	800.1.1={
+		liege=d_konoha_duchy_2
+	}
+}
+c_konoha_county_7 = {
+	800.1.1={
+		liege=d_konoha_duchy_2
+	}
+}
+c_konoha_county_8 = {
+	800.1.1={
+		liege=d_konoha_duchy_2
+	}
+}
+d_konoha_duchy_3 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_9 = {
+	800.1.1={
+		liege=d_konoha_duchy_3
+	}
+}
+c_konoha_county_11 = {
+	800.1.1={
+		liege=d_konoha_duchy_3
+	}
+}
+c_konoha_county_10 = {
+	800.1.1={
+		liege=d_konoha_duchy_3
+	}
+}
+c_konoha_county_12 = {
+	800.1.1={
+		liege=d_konoha_duchy_3
+	}
+}
+d_konoha_duchy_5 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_17 = {
+	800.1.1={
+		liege=d_konoha_duchy_5
+	}
+}
+c_konoha_county_18 = {
+	800.1.1={
+		liege=d_konoha_duchy_5
+	}
+}
+c_konoha_county_19 = {
+	800.1.1={
+		liege=d_konoha_duchy_5
+	}
+}
+c_konoha_county_20 = {
+	800.1.1={
+		liege=d_konoha_duchy_5
+	}
+}
+d_konoha_duchy_4 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_14 = {
+	800.1.1={
+		liege=d_konoha_duchy_4
+	}
+}
+c_konoha_county_13 = {
+	800.1.1={
+		liege=d_konoha_duchy_4
+	}
+}
+c_konoha_county_15 = {
+	800.1.1={
+		liege=d_konoha_duchy_4
+	}
+}
+c_konoha_county_16 = {
+	800.1.1={
+		liege=d_konoha_duchy_4
+	}
+}
+d_konoha_duchy_6 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_21 = {
+	800.1.1={
+		liege=d_konoha_duchy_6
+	}
+}
+c_konoha_county_22 = {
+	800.1.1={
+		liege=d_konoha_duchy_6
+	}
+}
+c_konoha_county_24 = {
+	800.1.1={
+		liege=d_konoha_duchy_6
+	}
+}
+c_konoha_county_23 = {
+	800.1.1={
+		liege=d_konoha_duchy_6
+	}
+}
+d_konoha_duchy_7 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_25 = {
+	800.1.1={
+		liege=d_konoha_duchy_7
+	}
+}
+c_konoha_county_26 = {
+	800.1.1={
+		liege=d_konoha_duchy_7
+	}
+}
+c_konoha_county_27 = {
+	800.1.1={
+		liege=d_konoha_duchy_7
+	}
+}
+c_konoha_county_28 = {
+	800.1.1={
+		liege=d_konoha_duchy_7
+	}
+}
+d_konoha_duchy_8 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_29 = {
+	800.1.1={
+		liege=d_konoha_duchy_8
+	}
+}
+c_konoha_county_30 = {
+	800.1.1={
+		liege=d_konoha_duchy_8
+	}
+}
+c_konoha_county_31 = {
+	800.1.1={
+		liege=d_konoha_duchy_8
+	}
+}
+c_konoha_county_32 = {
+	800.1.1={
+		liege=d_konoha_duchy_8
+	}
+}
+c_konoha_county_33 = {
+	800.1.1={
+		liege=d_konoha_duchy_8
+	}
+}
+d_konoha_duchy_9 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_34 = {
+	800.1.1={
+		liege=d_konoha_duchy_9
+	}
+}
+c_konoha_county_36 = {
+	800.1.1={
+		liege=d_konoha_duchy_9
+	}
+}
+c_konoha_county_35 = {
+	800.1.1={
+		liege=d_konoha_duchy_9
+	}
+}
+c_konoha_county_37 = {
+	800.1.1={
+		liege=d_konoha_duchy_9
+	}
+}
+d_konoha_duchy_10 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_38 = {
+	800.1.1={
+		liege=d_konoha_duchy_10
+	}
+}
+c_konoha_county_39 = {
+	800.1.1={
+		liege=d_konoha_duchy_10
+	}
+}
+c_konoha_county_40 = {
+	800.1.1={
+		liege=d_konoha_duchy_10
+	}
+}
+c_konoha_county_41 = {
+	800.1.1={
+		liege=d_konoha_duchy_10
+	}
+}
+d_konoha_duchy_12 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_47 = {
+	800.1.1={
+		liege=d_konoha_duchy_12
+	}
+}
+c_konoha_county_48 = {
+	800.1.1={
+		liege=d_konoha_duchy_12
+	}
+}
+c_konoha_county_49 = {
+	800.1.1={
+		liege=d_konoha_duchy_12
+	}
+}
+c_konoha_county_50 = {
+	800.1.1={
+		liege=d_konoha_duchy_12
+	}
+}
+d_konoha_duchy_13 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_51 = {
+	800.1.1={
+		liege=d_konoha_duchy_13
+	}
+}
+c_konoha_county_52 = {
+	800.1.1={
+		liege=d_konoha_duchy_13
+	}
+}
+c_konoha_county_53 = {
+	800.1.1={
+		liege=d_konoha_duchy_13
+	}
+}
+c_konoha_county_54 = {
+	800.1.1={
+		liege=d_konoha_duchy_13
+	}
+}
+d_konoha_duchy_11 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_42 = {
+	800.1.1={
+		liege=d_konoha_duchy_11
+	}
+}
+c_konoha_county_43 = {
+	800.1.1={
+		liege=d_konoha_duchy_11
+	}
+}
+c_konoha_county_46 = {
+	800.1.1={
+		liege=d_konoha_duchy_11
+	}
+}
+c_konoha_county_44 = {
+	800.1.1={
+		liege=d_konoha_duchy_11
+	}
+}
+c_konoha_county_45 = {
+	800.1.1={
+		liege=d_konoha_duchy_11
+	}
+}
+d_konoha_duchy_14 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_55 = {
+	800.1.1={
+		liege=d_konoha_duchy_14
+	}
+}
+c_konoha_county_56 = {
+	800.1.1={
+		liege=d_konoha_duchy_14
+	}
+}
+c_konoha_county_58 = {
+	800.1.1={
+		liege=d_konoha_duchy_14
+	}
+}
+c_konoha_county_57 = {
+	800.1.1={
+		liege=d_konoha_duchy_14
+	}
+}
+c_konoha_county_59 = {
+	800.1.1={
+		liege=d_konoha_duchy_14
+	}
+}
+d_konoha_duchy_15 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_60 = {
+	800.1.1={
+		liege=d_konoha_duchy_15
+	}
+}
+c_konoha_county_61 = {
+	800.1.1={
+		liege=d_konoha_duchy_15
+	}
+}
+c_konoha_county_62 = {
+	800.1.1={
+		liege=d_konoha_duchy_15
+	}
+}
+c_konoha_county_63 = {
+	800.1.1={
+		liege=d_konoha_duchy_15
+	}
+}
+d_konoha_duchy_17 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_69 = {
+	800.1.1={
+		liege=d_konoha_duchy_17
+	}
+}
+c_konoha_county_70 = {
+	800.1.1={
+		liege=d_konoha_duchy_17
+	}
+}
+c_konoha_county_73 = {
+	800.1.1={
+		liege=d_konoha_duchy_17
+	}
+}
+c_konoha_county_71 = {
+	800.1.1={
+		liege=d_konoha_duchy_17
+	}
+}
+c_konoha_county_72 = {
+	800.1.1={
+		liege=d_konoha_duchy_17
+	}
+}
+c_konoha_county_74 = {
+	800.1.1={
+		liege=d_konoha_duchy_17
+	}
+}
+d_konoha_duchy_16 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_konoha_county_64 = {
+	800.1.1={
+		liege=d_konoha_duchy_16
+	}
+}
+c_konoha_county_68 = {
+	800.1.1={
+		liege=d_konoha_duchy_16
+	}
+}
+c_konoha_county_66 = {
+	800.1.1={
+		liege=d_konoha_duchy_16
+	}
+}
+c_konoha_county_65 = {
+	800.1.1={
+		liege=d_konoha_duchy_16
+	}
+}
+c_konoha_county_67 = {
+	800.1.1={
+		liege=d_konoha_duchy_16
+	}
+}

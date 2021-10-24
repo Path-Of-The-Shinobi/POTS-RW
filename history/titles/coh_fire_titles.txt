@@ -1,0 +1,111 @@
+﻿k_konohagakure = {
+	950.1.1 = {
+		holder = 2 # Hashirama
+		government = tribal_government
+		succession_laws = {
+			saxon_elective_succession_law
+		}
+	}
+	966.1.1 = {
+		holder = 3 # Tobirama
+	}
+	966.6.6 = {
+		holder = 26 # Hiruzen
+	}
+	999.9.14 = {
+		holder = 79 # Minato
+	}
+	1000.10.10 = {
+		holder = 26 # Hiruzen
+	}
+	1013.1.1 = {
+		holder = 6 # Tsunade
+	}
+	1018.1.1 = {
+		holder = 168 # Kakashi
+	}
+	1025.1.1 = {
+		holder = 64 # Naruto
+	}
+}
+
+d_konoha_duchy_11 = {
+	950.1.1 = {
+		holder = 2 # Hashirama
+	}
+	966.1.1 = {
+		holder = 3 # Tobirama
+	}
+	966.6.6 = {
+		holder = 26 # Hiruzen
+	}
+	999.9.14 = {
+		holder = 79 # Minato
+	}
+	1000.10.10 = {
+		holder = 26 # Hiruzen
+	}
+	1013.1.1 = {
+		holder = 6 # Tsunade
+	}
+	1018.1.1 = {
+		holder = 168 # Kakashi
+	}
+	1025.1.1 = {
+		holder = 64 # Naruto
+	}
+}
+
+d_konoha_duchy_14 = {
+	950.1.1 = {
+		holder = 2 # Hashirama
+	}
+	966.1.1 = {
+		holder = 3 # Tobirama
+	}
+	966.6.6 = {
+		holder = 26 # Hiruzen
+	}
+	999.9.14 = {
+		holder = 79 # Minato
+	}
+	1000.10.10 = {
+		holder = 26 # Hiruzen
+	}
+	1013.1.1 = {
+		holder = 6 # Tsunade
+	}
+	1018.1.1 = {
+		holder = 168 # Kakashi
+	}
+	1025.1.1 = {
+		holder = 64 # Naruto
+	}
+}
+
+d_konoha_duchy_17 = {
+	950.1.1 = {
+		holder = 2 # Hashirama
+	}
+	966.1.1 = {
+		holder = 3 # Tobirama
+	}
+	966.6.6 = {
+		holder = 26 # Hiruzen
+	}
+	999.9.14 = {
+		holder = 79 # Minato
+	}
+	1000.10.10 = {
+		holder = 26 # Hiruzen
+	}
+	1013.1.1 = {
+		holder = 6 # Tsunade
+	}
+	1018.1.1 = {
+		holder = 168 # Kakashi
+	}
+	1025.1.1 = {
+		holder = 64 # Naruto
+	}
+}

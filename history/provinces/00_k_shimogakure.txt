@@ -1,0 +1,10 @@
+##d_shimo_duchy_1 ###################################
+###c_shimo_county_1
+614 = {	# Shimo Barony 1
+	culture = frost_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+
+

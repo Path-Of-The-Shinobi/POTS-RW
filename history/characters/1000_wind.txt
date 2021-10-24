@@ -1,0 +1,1155 @@
+﻿
+###########################################
+########## 		 KAZEKAGES		 ##########
+###########################################
+
+1000 = { # 1st Kazekage
+	name = "Reto"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	disallow_random_traits = yes
+	prowess = 6
+	908.6.27 = { # June 27
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	956.1.1 = {
+		add_trait = ninjarank_kage
+	}
+	966.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+1001 = { # 2nd Kazekage
+	name = "Shamon"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	disallow_random_traits = yes
+	prowess = 7
+	931.3.12 = { # March 12
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	956.1.1 = {
+		employer = 1000 # Reto
+	}
+	966.1.1 = {
+		add_trait = ninjarank_kage
+	}
+	989.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+1002 = { # 3rd Kazekage
+	name = "ThirdKazekage"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	disallow_random_traits = yes
+	prowess = 10
+	952.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	956.1.1 = {
+		employer = 1000 # Reto
+	}
+	989.1.1 = {
+		add_trait = ninjarank_kage
+	}
+	999.6.9 = {
+		death = {
+			death_reason = death_battle
+			killer = 1017 # Sasori
+		}
+	}
+}
+
+1003 = { # 4th Kazekage
+	name = "Rasa"
+	dynasty = 700082505 #Kazekage Clan
+	religion = "sixpaths"
+	culture = "wind_generic"
+	disallow_random_traits = yes
+	prowess = 5
+	973.3.29 = { # March 29
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1001 # Shamon
+	}
+	999.6.9 = {
+		add_trait = ninjarank_kage
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 2509 # Orochimaru
+		}
+	}
+}
+
+1004 = { # 5th Kazekage
+	name = "Gaara"
+	dynasty = 700082505 #Kazekage Clan
+	religion = "sixpaths"
+	culture = "wind_generic"
+	disallow_random_traits = yes
+	father = 1003 # Rasa
+	mother = 1006 # Karura
+	prowess = 9
+	1000.1.19 = { # January 19
+		birth = yes
+		add_trait = one_tail # Third Jinchuriki of One-Tail
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1003 # Rasa
+	}
+	1010.1.1 = {
+		give_nickname = nick_of_the_desert # of the Desert
+	}
+	1012.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1014.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1014.8.23 = {
+		remove_trait = ninjarank_chunin
+		trait = ninjarank_kage
+	}
+	1016.1.25 = {
+		remove_trait = one_tail # Akatsuki extracted Gaara's One-Tail
+	}
+}
+
+###########################################
+########## 	   KAZEKAGE CLAN	 ##########
+###########################################
+
+1005 = {
+	name = "Yashamaru" # Gaara's Uncle
+	#dynasty = Kazekage Clan
+	religion = "sixpaths"
+	culture = "wind_generic"
+	disallow_random_traits = yes
+	father = 1007 # KaruraDad
+	mother = 1008 # KaruraMom
+	979.5.23 = { # May 23
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1001 # Shamon
+	}
+	990.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	995.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+		add_trait = medical_nin
+	}
+	997.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_anbu # Became an Anbu at some point
+	}
+	1007.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 1004 # Gaara, unintentionally
+		}
+	}
+}
+
+1006 = {
+	name = "Karura" # Mother of Gaara, Temari, and Kankuro
+	female = yes
+	dynasty = 700082505 #Kazekage Clan
+	religion = "sixpaths"
+	culture = "wind_generic"
+	disallow_random_traits = yes
+	father = 1007 # KaruraDad
+	mother = 1008 # KaruraMom
+	
+	977.11.11 = { # November 11
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1001 # Shamon
+	}
+	1000.1.19 = {
+		death = {
+			death_reason = death_childbirth # Died giving birth to Gaara
+		}
+	}
+}
+
+1007 = {
+	name = "KaruraDad" # To link Karura and Yashamaru as siblings
+	religion = "sixpaths"
+	culture = "wind_generic"
+	957.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1000 # Reto
+	}
+}
+
+1008 = {
+	name = "KaruraMom" # To link Karura and Yashamaru as siblings
+	female = yes
+	religion = "sixpaths"
+	culture = "wind_generic"
+	957.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1000 # Reto
+	}
+}
+
+1009 = {
+	name = "Temari"
+	female = yes
+	dynasty = 700082505 #Kazekage Clan
+	religion = "sixpaths"
+	culture = "wind_generic"
+	father = 1003 # Rasa
+	mother = 1006 # Karura
+	disallow_random_traits = yes
+	997.8.23 = { # August 23
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1002 # Third Kazekage
+	}
+	1009.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1014.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1020.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin # it's never specified when she became Jonin
+	}
+}
+
+1010 = {
+	name = "Kankuro"
+	dynasty = 700082505 #Kazekage Clan
+	religion = "sixpaths"
+	culture = "wind_generic"
+	father = 1003 # Rasa
+	mother = 1006 # Karura
+	disallow_random_traits = yes
+	998.5.15 = { # May 15
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1002 # Third Kazekage
+	}
+	1010.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1014.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1020.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin # it's never specified when he became Jonin
+	}
+}
+
+1011 = {
+	name = "Shinki"
+	dynasty = 700082505 #Kazekage Clan
+	religion = "sixpaths"
+	culture = "wind_generic"
+	father = 1004 # Gaara, foster father
+	disallow_random_traits = yes
+	1020.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1004 # Gaara
+	}
+	1032.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+###########################################
+########## 	       OTHERS        ##########
+###########################################
+
+1012 = {
+	name = "Bunpuku" # First Jinchuriki of One-Tail
+	religion = "sixpaths"
+	culture = "wind_generic"
+	disallow_random_traits = yes
+	920.2.9 = { # February 9
+		birth = yes
+		add_trait = one_tail
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	956.1.1 = {
+		employer = 1000 # Reto
+	}
+	985.1.1 = {
+		remove_trait = one_tail
+		death = {
+			death_reason = death_tailed_beast_extraction
+		}
+	}
+}
+
+
+
+### Honored Siblings
+
+1013 = {
+	name = "Chiyo"
+	female = yes
+	religion = "sixpaths"
+	culture = "wind_generic"
+	disallow_random_traits = yes
+	father = 1018 # ChiyoDad
+	mother = 1019 # ChiyoMom
+	943.10.15 = { # October 15
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	956.1.1 = {
+		add_trait = ninjarank_genin
+		add_trait = medical_nin
+		employer = 1000 # Reto
+	}
+	957.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	963.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+	1016.1.1 = {
+		death = {
+			death_reason = death_sacrifice
+		}
+	}
+}
+
+1014 = {
+	name = "Ebizo"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	disallow_random_traits = yes
+	father = 1018 # ChiyoDad
+	mother = 1019 # ChiyoMom
+	944.1.6 = { # January 6
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	954.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	956.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+		employer = 1000 # Reto
+	}
+	964.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+1018 = {
+	name = "ChiyoDad" # To link Chiyo and Ebizo as siblings
+	religion = "sixpaths"
+	culture = "wind_generic"
+	923.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	956.1.1 = {
+		employer = 1000 # Reto
+	}
+	966.1.1 = { # First Shinobi War
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+1019 = {
+	name = "ChiyoMom" # To link Chiyo and Ebizo as siblings
+	female = yes
+	religion = "sixpaths"
+	culture = "wind_generic"
+	923.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	956.1.1 = {
+		employer = 1000 # Reto
+	}
+	966.1.1 = { # First Shinobi War
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+
+
+### Sasori's Family
+
+1015 = {
+	name = "SasoriDad"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	mother = 1013 # Chiyo
+	960.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1000 # Reto
+	}
+	986.1.1 = { # Second War
+		death = {
+			death_reason = death_battle
+			killer = 167 # Sakumo Hatake
+		}
+	}
+}
+
+1016 = {
+	name = "SasoriMom"
+	female = yes
+	religion = "sixpaths"
+	culture = "wind_generic"
+	960.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1000 # Reto
+	}
+	986.1.1 = { # Second War
+		death = {
+			death_reason = death_battle
+			killer = 167 # Sakumo Hatake
+		}
+	}
+}
+
+1017 = {
+	name = "Sasori"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	disallow_random_traits = yes
+	father = 1015 # SasoriDad
+	mother = 1016 # SasoriMom
+	980.11.8 = { # November 8
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1001 # Shamon
+	}
+	987.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	988.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	996.1.1 = {
+		add_trait = s_rank
+		give_nickname = nick_of_the_red_sand # of the Red Sand
+		effect = {
+			add_character_flag = forever_25 # turns himself into a puppet
+		}
+		add_trait = immortal # became immortal by turning himself into a puppet
+	}
+	1016.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 1013 # Chiyo
+		}
+	}
+}
+
+
+
+### Sunagakure Seniors
+
+1020 = {
+	name = "Joseki"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	965.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1000 # Reto
+	}
+	985.1.1 = {
+		add_trait = ninjarank_jonin # became a Jonin at some point
+	}
+}
+
+1021 = {
+	name = "Sajo"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	966.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1001 # Shamon
+	}
+	986.1.1 = {
+		add_trait = ninjarank_jonin # became a Jonin at some point
+	}
+}
+
+1022 = {
+	name = "Goza"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	972.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1001 # Shamon
+	}
+	992.1.1 = {
+		add_trait = ninjarank_jonin # became a Jonin at some point
+	}
+}
+
+1023 = {
+	name = "Ryusa"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	975.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1001 # Shamon
+	}
+	995.1.1 = {
+		add_trait = ninjarank_jonin # became a Jonin at some point
+	}
+}
+
+
+
+### Genins
+
+1024 = {
+	name = "Komaza"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	997.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1002 # Third Kazekage
+	}
+	1009.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+1025 = {
+	name = "Nejiri"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	997.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1002 # Third Kazekage
+	}
+	1009.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+1026 = {
+	name = "Yakku"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	998.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1002 # Third Kazekage
+	}
+	1010.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+1027 = {
+	name = "Matsuri" # Partnered with Sari
+	female = yes
+	religion = "sixpaths"
+	culture = "wind_generic"
+	999.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1002 # Third Kazekage
+	}
+	1016.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+1028 = {
+	name = "Sari" # Partnered with Matsuri
+	female = yes
+	religion = "sixpaths"
+	culture = "wind_generic"
+	1001.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1003 # Rasa
+	}
+	1016.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+1029 = {
+	name = "Ittetsu"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	1000.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1003 # Rasa
+	}
+	1012.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+1030 = {
+	name = "Araya"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	1020.3.13 = { # March 13
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1004 # Gaara
+	}
+	1032.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+1031 = {
+	name = "Yodo"
+	female = yes
+	religion = "sixpaths"
+	culture = "wind_generic"
+	1020.12.1 = { # December 1
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1004 # Gaara
+	}
+	1032.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+
+
+### Academy Students
+
+1032 = {
+	name = "Abiru"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	1000.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1003 # Rasa
+	}
+}
+
+1033 = {
+	name = "Tsuchino"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	1000.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1003 # Rasa
+	}
+}
+
+1034 = {
+	name = "Kashike"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	1000.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1003 # Rasa
+	}
+}
+
+1035 = {
+	name = "Tomari"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	1000.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1003 # Rasa
+	}
+}
+
+
+
+### Chunins
+
+1036 = {
+	name = "Suname"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	980.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1001 # Shamon
+	}
+	995.1.1 = {
+		add_trait = ninjarank_chunin # Became a Chunin at some point
+	}
+	1016.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 1519 # Deidara
+		}
+	}
+}
+
+1037 = {
+	name = "Sajin"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	990.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1002 # Third Kazekage
+	}
+	1012.6.6 = {
+		add_trait = ninjarank_chunin # "Sajin had only just become a Chūnin before being sent to attack Konohagakure and thus, had little mission experience"
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 32 # Shikaku
+		}
+	}
+}
+
+1038 = {
+	name = "Tsubusa"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	991.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1002 # Third Kazekage
+	}
+	1006.1.1 = {
+		add_trait = ninjarank_chunin # Became a Chunin at some point
+	}
+	1016.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 1042 # Yura
+		}
+	}
+}
+
+
+
+### Jonins
+
+1039 = {
+	name = "Isago" # Right-hand man to Baki
+	religion = "sixpaths"
+	culture = "wind_generic"
+	978.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1001 # Shamon
+	}
+	990.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	992.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	996.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+1040 = {
+	name = "Baki"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	disallow_random_traits = yes
+	982.7.4 = { # July 4
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1001 # Shamon
+	}
+	990.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	994.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1000.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+1041 = {
+	name = "Satetsu"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	985.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1001 # Shamon
+	}
+	997.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1000.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1005.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+1042 = {
+	name = "Yura" # Sasori's sleeper agent
+	religion = "sixpaths"
+	culture = "wind_generic"
+	disallow_random_traits = yes
+	987.10.31 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1001 # Shamon
+	}
+	999.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1002.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1007.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+	1016.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 64 # Naruto, only person he ever killed
+		}
+	}
+}
+
+1043 = {
+	name = "Otokaze"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	987.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1001 # Shamon
+	}
+	999.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1002.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1007.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+1044 = {
+	name = "Mukade"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	988.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1001 # Shamon
+	}
+	1000.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1003.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1008.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+	1016.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 100 # Might Guy
+		}
+	}
+}
+
+1045 = {
+	name = "Maki" # Pakura's Student
+	female = yes
+	religion = "sixpaths"
+	culture = "wind_generic"
+	988.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1001 # Shamon
+	}
+	1000.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1003.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1008.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+1046 = {
+	name = "Reki"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	989.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1002 # Third Kazekage
+	}
+	1001.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1004.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1009.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+
+
+### Unknown Rank
+
+1047 = {
+	name = "Sekka" # A talented medical-nin of Sunagakure
+	religion = "sixpaths"
+	culture = "wind_generic"
+	980.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1001 # Shamon
+	}
+	992.1.1 = {
+		add_trait = ninjarank_genin
+		add_trait = medical_nin
+	}
+}
+
+1048 = {
+	name = "Ryokan" # A medical-nin of Sunagakure and Sekka's pupil
+	religion = "sixpaths"
+	culture = "wind_generic"
+	991.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1002 # Third Kazekage
+	}
+	1003.1.1 = {
+		add_trait = ninjarank_genin
+		add_trait = medical_nin
+	}
+}
+
+1049 = {
+	name = "Nonota"
+	religion = "sixpaths"
+	culture = "wind_generic"
+	997.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1002 # Third Kazekage
+	}
+	1009.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1012.1.1 = { # Rank unknown but probably at least Chunin since he wore a flak jacket
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+
+
+### Citizens
+
+1050 = {
+	name = "Otora" # Drunk villager killed by Gaara
+	religion = "sixpaths"
+	culture = "wind_generic"
+	
+	958.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1000 # Reto
+	}
+	1007.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 1004 # Gaara
+		}
+	}
+}
+
+1051 = {
+	name = "Nae"
+	female = yes
+	religion = "sixpaths"
+	culture = "wind_generic"
+	
+	997.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1002 # Third Kazekage
+	}
+}

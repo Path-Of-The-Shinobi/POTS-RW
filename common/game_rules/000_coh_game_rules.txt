@@ -1,0 +1,7 @@
+# Credit to Guardians of Azeroth mod
+coh_lore_characters_generate_families = {
+	default = coh_lore_characters_generate_families_off
+
+	coh_lore_characters_generate_families_on = {  }
+	coh_lore_characters_generate_families_off = {  }
+}

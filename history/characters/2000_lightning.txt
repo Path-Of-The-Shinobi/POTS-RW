@@ -1,0 +1,817 @@
+﻿
+###########################################
+########## 		   RAIKAGES	   	 ##########
+###########################################
+
+2000 = { # 1st Raikage
+	name = "A"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	prowess = 8
+	926.12.1 = { # December 1
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	956.1.1 = {
+		add_trait = ninjarank_kage
+	}
+	966.1.1 = {
+		death = yes
+	}
+}
+
+2001 = { # 2nd Raikage
+	name = "A"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	prowess = 7
+	931.3.1 = { # March 1
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	956.1.1 = {
+		employer = 2000 # A the First
+	}
+	966.1.1 = {
+		add_trait = ninjarank_kage
+	}
+	966.6.6 = {
+		death = {
+			death_reason = death_battle # most likely killed by the Gold and Silver brothers along with Tobirama
+		}
+	}
+}
+
+2002 = { # 3rd Raikage
+	name = "A"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	prowess = 10
+	946.8.1 = { # August 1
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	956.1.1 = {
+		employer = 2000 # A the First
+	}
+	966.1.1 = {
+		add_trait = ninjarank_kage
+	}
+	996.6.6 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+2003 = { # 4th Raikage
+	name = "A"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	father = 2002 # 3rd Raikage
+	prowess = 9
+	970.6.1 = { # June 1
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	996.6.6 = {
+		add_trait = ninjarank_kage
+	}
+}
+
+2004 = { # 5th Raikage
+	name = "Darui"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 7
+	991.1.6 = { # January 6
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	1011.1.1 = {
+		add_trait = ninjarank_jonin # became Jonin at some point
+	}
+	1021.1.1 = {
+		remove_trait = ninjarank_jonin
+		add_trait = ninjarank_kage
+	}
+}
+
+###########################################
+########## 		 KUMO JONINS  	 ##########
+###########################################
+
+2005 = {
+	name = "Rashii"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	prowess = 1
+	936.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	956.1.1 = {
+		add_trait = ninjarank_genin # founding of the shinobi system
+		employer = 2000 # A the First
+	}
+	957.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	958.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin # became Jonin at some point
+	}
+}
+
+2006 = {
+	name = "Furui" # Motoi's Father
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	prowess = 2
+	952.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	956.1.1 = {
+		employer = 2000 # A the First
+	}
+	964.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	967.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	970.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+	986.5.15 = {
+		death = {
+			death_reason = death_accident # killed during Gyuki's rampage
+		}
+	}
+}
+
+2007 = {
+	name = "Dodai"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 5
+	962.10.23 = { # October 23
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2000 # A the First
+	}
+	974.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	977.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	980.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+2008 = {
+	name = "Yugito" # Jinchuriki of the Two-Tails / Matatabi
+	dynasty = 700082506 # Nii
+	female = yes
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 8
+	987.7.24 = { # July 24
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	989.7.24 = {
+		add_trait = two_tail # "Yugito was made the Two-Tails' jinchūriki at the age of two and"
+	}
+	999.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1002.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1005.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+	1016.10.24 = {
+		death = {
+			death_reason = death_tailed_beast_extraction
+		}
+	}
+}
+
+2009 = {
+	name = "Samui" # Atsui's Sister
+	female = yes
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	father = 2022 # SamuiDad
+	mother = 2023 # SamuiMom
+	prowess = 5
+	988.1.7 = { # January 7
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	1000.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1003.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1006.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+2010 = {
+	name = "Mabui"
+	female = yes
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 3
+	988.2.1 = { # February 1
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	1000.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1003.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1006.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+	1017.10.9 = {
+		death = { # Fourth Shinobi War
+			death_reason = death_battle
+		}
+	}
+}
+
+2011 = {
+	name = "Tango"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	prowess = 1
+	990.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	1002.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1005.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1008.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+2012 = {
+	name = "C"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 6
+	991.4.3 = { # April 3
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	1003.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1006.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1009.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+2013 = {
+	name = "J"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 1
+	992.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	1004.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1007.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1010.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+###########################################
+########## 		 KUMO GENINS  	 ##########
+###########################################
+
+2014 = {
+	name = "Tarui"
+	female = yes
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 4
+	1020.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2003 # A the Fourth
+	}
+	1032.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+2015 = {
+	name = "Toroi"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 4
+	1020.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2003 # A the Fourth
+	}
+	1032.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+2016 = {
+	name = "Yurui"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 4
+	1020.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2003 # A the Fourth
+	}
+	1032.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+###########################################
+########## 		 KUMO CHUNINS  	 ##########
+###########################################
+
+2017 = {
+	name = "Motoi" # Killer B's Childhood Friend
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	father = 2006 # Furui
+	prowess = 2
+	982.10.16 = { # October 16
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	994.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	997.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+2018 = {
+	name = "Tajiki"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	prowess = 1
+	983.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	995.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	998.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1017.10.8 = {
+		death = {
+			death_reason = death_battle
+			#killer = Gari
+		}
+	}
+}
+
+2019 = {
+	name = "Hikaru"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 1
+	991.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	1003.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1006.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+2020 = {
+	name = "K"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	prowess = 1
+	995.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	1007.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1010.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+2021 = {
+	name = "Atsui" # Samui's Brother
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	father = 2022 # SamuiDad
+	mother = 2023 # SamuiMom
+	prowess = 4
+	998.8.2 = { # August 2
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	1010.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1013.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+2022 = {
+	name = "SamuiDad"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	968.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	987.1.1 = {
+		add_spouse = 2023 # SamuiMom
+	}
+}
+
+2023 = {
+	name = "SamuiMom"
+	female = yes
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	968.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+}
+
+2024 = {
+	name = "Omoi"
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 5
+	1000.12.26 = { # December 26
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2003 # A the Fourth
+	}
+	1012.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1015.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1020.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+2025 = {
+	name = "Karui"
+	female = yes
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 6
+	1000.2.14 = { # February 14
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2003 # A the Fourth
+	}
+	1012.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1015.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+2026 = {
+	name = "Kiyoi"
+	dynasty = 700082507 # Yotsuki
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	prowess = 1
+	987.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	999.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1002.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+###########################################
+##########         OTHERS     	 ##########
+###########################################
+
+### Gold and Silver Brothers
+
+2027 = {
+	name = "Ginkaku" # Kinkaku's Brother
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 9
+	921.4.9 = { # April 9
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	956.1.1 = {
+		employer = 2000 # A the First
+		add_trait = ninjarank_genin # wore a headband so at least genin
+	}
+	966.3.7 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+2028 = {
+	name = "Kinkaku" # Ginkaku's Brother
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 9
+	922.3.7 = { # March 7
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	956.1.1 = {
+		employer = 2000 # A the First
+		add_trait = ninjarank_genin # wore a headband so at least genin
+	}
+	966.3.7 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+2029 = {
+	name = "KumoHeadNinja" # Kumogakure Head Ninja
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 2
+	961.4.2 = { # April 2
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2000 # A the First
+	}
+	973.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	976.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	979.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+	1003.12.27 = {
+		death = {
+			death_reason = death_battle
+			killer = 70 # Hiashi Hyuga
+		}
+	}
+}
+
+2030 = {
+	name = "Blue B" # Jinchuriki of the Eight-Tails / Gyuki
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 8
+	964.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2000 # A the First
+	}
+	970.1.1 = {
+		add_trait = eight_tail
+	}
+	976.1.1 = {
+		add_trait = ninjarank_genin # at least a genin because he was called a shinobi
+	}
+	986.5.15 = {
+		death = {
+			death_reason = death_tailed_beast_extraction
+		}
+	}
+}
+
+2031 = {
+	name = "Killer B" # Jinchuriki of the Eight-Tails / Gyuki
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 9
+	981.5.15 = { # May 15
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	986.5.15 = {
+		add_trait = eight_tail
+	}
+	993.1.1 = {
+		add_trait = ninjarank_genin # at least a genin because he was called a shinobi
+	}
+}
+
+2032 = {
+	name = "Moroi" # Member of the Kumo Barrier Team
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	disallow_random_traits = yes
+	prowess = 1
+	969.1.1 = { # May 15
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+	981.1.1 = {
+		add_trait = ninjarank_genin # at least a genin because he wore a headband
+	}
+}
+
+2033 = {
+	name = "Tenga" # Member of the Intelligence Division
+	religion = "sixpaths"
+	culture = "lightning_generic"
+	prowess = 1
+	992.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2002 # A the Third
+	}
+}

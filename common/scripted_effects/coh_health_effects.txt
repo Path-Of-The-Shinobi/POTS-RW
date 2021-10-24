@@ -1,0 +1,31 @@
+# Credit to Guardians of Azeroth mod
+make_important_lore_character_effect = {
+	add_character_modifier = { modifier = important_lore_character years = 5 }
+}
+
+# DEPRECATED - NO LONGER IN USE
+level_up_ninja = {
+    change_trait_rank = {
+		trait = ninja_ranks
+		rank = 1
+		max = 3
+	}
+}
+
+level_up_sharingan = {
+    change_trait_rank = {
+		trait = sharingan_ranks
+		rank = 1
+		max = 3
+	}
+}
+
+# Remove NINJA RANK if KAGE
+#custom_add_trait = {
+#	TRAIT = { ninjarank_kage }
+#	if = {
+#	  limit = {flag:$TRAIT$ = flag:ninjarank_kage}
+#	  remove_trait = ninja_ranks
+#	  }
+#	 add_trait = $TRAIT$
+#  }

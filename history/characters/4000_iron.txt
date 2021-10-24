@@ -1,0 +1,70 @@
+﻿4000 = {
+	name = "Mifune" # General of Land of Iron
+	religion = "sixpaths"
+	culture = "iron_generic"
+	disallow_random_traits = yes
+	trait = samurai
+	952.4.1 = { # April 1
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+
+4001 = {
+	name = "Okisuke" # Mifune's right-hand-man
+	religion = "sixpaths"
+	culture = "iron_generic"
+	disallow_random_traits = yes
+	trait = samurai
+	971.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+
+4002 = {
+	name = "Urakaku" # Mifune's right-hand-man
+	religion = "sixpaths"
+	culture = "iron_generic"
+	disallow_random_traits = yes
+	trait = samurai
+	976.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+
+4003 = {
+	name = "Yoshiteru"
+	religion = "sixpaths"
+	culture = "iron_generic"
+	disallow_random_traits = yes
+	trait = samurai
+	980.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+
+4004 = {
+	name = "Chiyomatsu"
+	religion = "sixpaths"
+	culture = "iron_generic"
+	disallow_random_traits = yes
+	trait = samurai
+	982.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+

@@ -1,0 +1,228 @@
+﻿
+###########################################
+##########	  OTSUTSUKI CLAN 	 ##########
+###########################################
+
+9000 = {
+	name = "Kaguya" # Rabbit Goddess
+	female = yes
+	dynasty = 700081 #Otsutsuki
+	religion = "sixpaths"
+	culture = "otsutsuki"
+	1.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+			add_character_flag = forever_25
+		}
+	}
+	17.1.1 = {
+		give_nickname = nick_rabbit_goddess # the Rabbit Goddess
+	}
+	43.1.1 = {
+		death = {
+			death_reason = death_sealing
+		}
+	}
+}
+
+9001 = {
+	name = "Isshiki" # Jigen
+	dynasty = 700081 #Otsutsuki
+	religion = "sixpaths"
+	culture = "otsutsuki"
+	1.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+			add_character_flag = forever_25
+		}
+	}
+	25.1.1 = {
+		death = {
+			death_reason = death_disappearance
+		}
+	}
+}
+
+9002 = {
+	name = "Hagoromo" # Sage of the Six Paths
+	dynasty = 700081 #Otsutsuki
+	religion = "sixpaths"
+	culture = "otsutsuki"
+	mother = 9000
+	17.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	43.1.1 = {
+		give_nickname = nick_sage_of_six_paths # the Sage of Six Paths
+		add_trait = ten_tail # First Jinchuriki of the Ten-Tails
+	}
+	53.1.1 = {
+		remove_trait = ten_tail # Hagoromo split the Ten-Tails into the Nine Tailed Beasts at some point
+	}
+	120.1.1 = {
+		death = {
+			death_reason = death_old_age
+		}
+	}
+}
+
+9003 = {
+	name = "Hamura" # Hyuga Ancestor
+	dynasty = 700081 #Otsutsuki
+	religion = "sixpaths"
+	culture = "otsutsuki"
+	mother = 9000
+	18.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	43.1.1 = {
+		death = {
+			death_reason = death_ascended
+		}
+	}
+}
+
+9004 = {
+	name = "Asura" # Senju and Uzumaki Ancestor
+	dynasty = 700081 #Otsutsuki
+	religion = "sixpaths"
+	culture = "otsutsuki"
+	father = 9002
+	60.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	85.1.1 = {
+		add_spouse = 9007 # Kanna
+	}
+	125.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 9005 # Indra
+		}
+	}
+}
+
+9005 = {
+	name = "Indra" # Uchiha Ancestor
+	dynasty = 700081 #Otsutsuki
+	religion = "sixpaths"
+	culture = "otsutsuki"
+	father = 9002
+	58.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	125.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 9004 # Asura
+		}
+		dynasty = 700082 # Uchiha
+	}
+}
+
+9006 = {
+	name = "Zetsu"
+	religion = "sixpaths"
+	culture = "otsutsuki"
+	mother = 9000
+	43.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+
+###########################################
+##########	     ANIME CANON 	 ##########
+###########################################
+
+9007 = {
+	name = "Kanna" # Asura's Wife
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic" # PH
+	78.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	156.1.1 = {
+		death = {
+			death_reason = death_old_age
+		}
+	}
+}
+
+9008 = {
+	name = "AsuraSon1"
+	dynasty = 700081 #Otsutsuki
+	religion = "sixpaths"
+	culture = "otsutsuki" # PH
+	father = 9004 # Asura
+	mother = 9007 # Kanna
+	86.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	125.1.1 = {
+		death = yes
+		dynasty = 700084 # Senju Clan
+	}
+}
+
+9009 = {
+	name = "AsuraSon2"
+	dynasty = 700081 #Otsutsuki
+	religion = "sixpaths"
+	culture = "otsutsuki" # PH
+	father = 9004 # Asura
+	mother = 9007 # Kanna
+	88.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	125.1.1 = {
+		death = yes
+		dynasty = 9 # Uzumaki Clan
+	}
+}
+
+9010 = {
+	name = "AsuraDaughter"
+	dynasty = 700081 #Otsutsuki
+	female = yes
+	religion = "sixpaths"
+	culture = "otsutsuki" # PH
+	father = 9004 # Asura
+	mother = 9007 # Kanna
+	87.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	125.1.1 = {
+		death = yes
+		dynasty = 9001 # Kaguya Clan
+	}
+}

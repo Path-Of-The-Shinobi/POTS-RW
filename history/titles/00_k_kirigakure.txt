@@ -1,0 +1,180 @@
+k_kirigakure = {
+	800.1.1={
+		liege=e_shinobi_world
+	}
+}
+d_kiri_duchy_1 = {
+	800.1.1={
+		liege=k_kirigakure
+	}
+}
+c_kiri_county_1 = {
+	800.1.1={
+		liege=d_kiri_duchy_1
+	}
+}
+c_kiri_county_2 = {
+	800.1.1={
+		liege=d_kiri_duchy_1
+	}
+}
+c_kiri_county_3 = {
+	800.1.1={
+		liege=d_kiri_duchy_1
+	}
+}
+c_kiri_county_4 = {
+	800.1.1={
+		liege=d_kiri_duchy_1
+	}
+}
+d_kiri_duchy_2 = {
+	800.1.1={
+		liege=k_kirigakure
+	}
+}
+c_kiri_county_5 = {
+	800.1.1={
+		liege=d_kiri_duchy_2
+	}
+}
+c_kiri_county_6 = {
+	800.1.1={
+		liege=d_kiri_duchy_2
+	}
+}
+c_kiri_county_7 = {
+	800.1.1={
+		liege=d_kiri_duchy_2
+	}
+}
+c_kiri_county_8 = {
+	800.1.1={
+		liege=d_kiri_duchy_2
+	}
+}
+d_kiri_duchy_3 = {
+	800.1.1={
+		liege=k_kirigakure
+	}
+}
+c_kiri_county_9 = {
+	800.1.1={
+		liege=d_kiri_duchy_3
+	}
+}
+c_kiri_county_11 = {
+	800.1.1={
+		liege=d_kiri_duchy_3
+	}
+}
+c_kiri_county_12 = {
+	800.1.1={
+		liege=d_kiri_duchy_3
+	}
+}
+c_kiri_county_13 = {
+	800.1.1={
+		liege=d_kiri_duchy_3
+	}
+}
+c_kiri_county_10 = {
+	800.1.1={
+		liege=d_kiri_duchy_3
+	}
+}
+d_kiri_duchy_4 = {
+	800.1.1={
+		liege=k_kirigakure
+	}
+}
+c_kiri_county_14 = {
+	800.1.1={
+		liege=d_kiri_duchy_4
+	}
+}
+c_kiri_county_16 = {
+	800.1.1={
+		liege=d_kiri_duchy_4
+	}
+}
+c_kiri_county_15 = {
+	800.1.1={
+		liege=d_kiri_duchy_4
+	}
+}
+c_kiri_county_17 = {
+	800.1.1={
+		liege=d_kiri_duchy_4
+	}
+}
+d_kiri_duchy_5 = {
+	800.1.1={
+		liege=k_kirigakure
+	}
+}
+c_kiri_county_18 = {
+	800.1.1={
+		liege=d_kiri_duchy_5
+	}
+}
+c_kiri_county_19 = {
+	800.1.1={
+		liege=d_kiri_duchy_5
+	}
+}
+c_kiri_county_20 = {
+	800.1.1={
+		liege=d_kiri_duchy_5
+	}
+}
+c_kiri_county_21 = {
+	800.1.1={
+		liege=d_kiri_duchy_5
+	}
+}
+d_kiri_duchy_6 = {
+	800.1.1={
+		liege=k_kirigakure
+	}
+}
+c_kiri_county_22 = {
+	800.1.1={
+		liege=d_kiri_duchy_6
+	}
+}
+c_kiri_county_24 = {
+	800.1.1={
+		liege=d_kiri_duchy_6
+	}
+}
+c_kiri_county_23 = {
+	800.1.1={
+		liege=d_kiri_duchy_6
+	}
+}
+c_kiri_county_25 = {
+	800.1.1={
+		liege=d_kiri_duchy_6
+	}
+}
+d_kiri_duchy_7 = {
+	800.1.1={
+		liege=k_kirigakure
+	}
+}
+c_kiri_county_26 = {
+	800.1.1={
+		liege=d_kiri_duchy_7
+	}
+}
+c_kiri_county_27 = {
+	800.1.1={
+		liege=d_kiri_duchy_7
+	}
+}
+c_kiri_county_28 = {
+	800.1.1={
+		liege=d_kiri_duchy_7
+	}
+}

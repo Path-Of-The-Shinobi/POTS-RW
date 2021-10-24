@@ -1,0 +1,9 @@
+﻿object={
+	name="cliff coastline 01"
+	clamp_to_water_level=no
+	render_under_water=yes
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="cliff_coastline_01_mesh"
+	count=0
+}

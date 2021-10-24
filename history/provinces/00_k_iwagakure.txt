@@ -1,0 +1,1544 @@
+##d_iwa_duchy_1 ###################################
+###c_iwa_county_1
+1 = {	# Iwa Barony 1
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+2 = {	# Iwa Barony 2
+	holding = none
+}
+
+3 = {	# Iwa Barony 3
+	holding = none
+}
+
+5 = {	# Iwa Barony 5
+	holding = none
+}
+
+
+###c_iwa_county_2
+4 = {	# Iwa Barony 4
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+6 = {	# Iwa Barony 6
+	holding = none
+}
+
+7 = {	# Iwa Barony 7
+	holding = none
+}
+
+
+###c_iwa_county_3
+8 = {	# Iwa Barony 8
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+13 = {	# Iwa Barony 13
+	holding = none
+}
+
+14 = {	# Iwa Barony 14
+	holding = none
+}
+
+
+###c_iwa_county_4
+9 = {	# Iwa Barony 9
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+10 = {	# Iwa Barony 10
+	holding = none
+}
+
+15 = {	# Iwa Barony 15
+	holding = none
+}
+
+16 = {	# Iwa Barony 16
+	holding = none
+}
+
+
+###c_iwa_county_5
+11 = {	# Iwa Barony 11
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+12 = {	# Iwa Barony 12
+	holding = none
+}
+
+17 = {	# Iwa Barony 17
+	holding = none
+}
+
+18 = {	# Iwa Barony 18
+	holding = none
+}
+
+
+
+##d_iwa_duchy_2 ###################################
+###c_iwa_county_6
+19 = {	# Iwa Barony 19
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+79 = {	# Iwa Barony 79
+	holding = none
+}
+
+87 = {	# Iwa Barony 87
+	holding = none
+}
+
+88 = {	# Iwa Barony 88
+	holding = none
+}
+
+
+###c_iwa_county_7
+20 = {	# Iwa Barony 20
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+21 = {	# Iwa Barony 21
+	holding = none
+}
+
+22 = {	# Iwa Barony 22
+	holding = none
+}
+
+58 = {	# Iwa Barony 58
+	holding = none
+}
+
+
+###c_iwa_county_8
+23 = {	# Iwa Barony 23
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+24 = {	# Iwa Barony 24
+	holding = none
+}
+
+56 = {	# Iwa Barony 56
+	holding = none
+}
+
+
+###c_iwa_county_9
+57 = {	# Iwa Barony 57
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+59 = {	# Iwa Barony 59
+	holding = none
+}
+
+60 = {	# Iwa Barony 60
+	holding = none
+}
+
+
+###c_iwa_county_10
+77 = {	# Iwa Barony 77
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+78 = {	# Iwa Barony 78
+	holding = none
+}
+
+89 = {	# Iwa Barony 89
+	holding = none
+}
+
+
+
+##d_iwa_duchy_4 ###################################
+###c_iwa_county_15
+25 = {	# Iwa Barony 25
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+26 = {	# Iwa Barony 26
+	holding = none
+}
+
+34 = {	# Iwa Barony 34
+	holding = none
+}
+
+35 = {	# Iwa Barony 35
+	holding = none
+}
+
+
+###c_iwa_county_16
+27 = {	# Iwa Barony 27
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+28 = {	# Iwa Barony 28
+	holding = none
+}
+
+32 = {	# Iwa Barony 32
+	holding = none
+}
+
+
+###c_iwa_county_17
+29 = {	# Iwa Barony 29
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+30 = {	# Iwa Barony 30
+	holding = none
+}
+
+31 = {	# Iwa Barony 31
+	holding = none
+}
+
+40 = {	# Iwa Barony 40
+	holding = none
+}
+
+
+###c_iwa_county_18
+33 = {	# Iwa Barony 33
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+36 = {	# Iwa Barony 36
+	holding = none
+}
+
+37 = {	# Iwa Barony 37
+	holding = none
+}
+
+38 = {	# Iwa Barony 38
+	holding = none
+}
+
+
+
+##d_iwa_duchy_5 ###################################
+###c_iwa_county_19
+39 = {	# Iwa Barony 39
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+47 = {	# Iwa Barony 47
+	holding = none
+}
+
+48 = {	# Iwa Barony 48
+	holding = none
+}
+
+
+###c_iwa_county_20
+41 = {	# Iwa Barony 41
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+42 = {	# Iwa Barony 42
+	holding = none
+}
+
+43 = {	# Iwa Barony 43
+	holding = none
+}
+
+
+###c_iwa_county_21
+44 = {	# Iwa Barony 44
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+45 = {	# Iwa Barony 45
+	holding = none
+}
+
+46 = {	# Iwa Barony 46
+	holding = none
+}
+
+
+###c_iwa_county_22
+49 = {	# Iwa Barony 49
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+51 = {	# Iwa Barony 51
+	holding = none
+}
+
+52 = {	# Iwa Barony 52
+	holding = none
+}
+
+65 = {	# Iwa Barony 65
+	holding = none
+}
+
+
+###c_iwa_county_23
+50 = {	# Iwa Barony 50
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+66 = {	# Iwa Barony 66
+	holding = none
+}
+
+67 = {	# Iwa Barony 67
+	holding = none
+}
+
+
+
+##d_iwa_duchy_6 ###################################
+###c_iwa_county_24
+53 = {	# Iwa Barony 53
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+63 = {	# Iwa Barony 63
+	holding = none
+}
+
+64 = {	# Iwa Barony 64
+	holding = none
+}
+
+
+###c_iwa_county_25
+54 = {	# Iwa Barony 54
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+55 = {	# Iwa Barony 55
+	holding = none
+}
+
+61 = {	# Iwa Barony 61
+	holding = none
+}
+
+62 = {	# Iwa Barony 62
+	holding = none
+}
+
+
+###c_iwa_county_26
+73 = {	# Iwa Barony 73
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+74 = {	# Iwa Barony 74
+	holding = none
+}
+
+93 = {	# Iwa Barony 93
+	holding = none
+}
+
+
+###c_iwa_county_27
+75 = {	# Iwa Barony 75
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+76 = {	# Iwa Barony 76
+	holding = none
+}
+
+90 = {	# Iwa Barony 90
+	holding = none
+}
+
+91 = {	# Iwa Barony 91
+	holding = none
+}
+
+
+
+##d_iwa_duchy_7 ###################################
+###c_iwa_county_28
+68 = {	# Iwa Barony 68
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+69 = {	# Iwa Barony 69
+	holding = none
+}
+
+99 = {	# Iwa Barony 99
+	holding = none
+}
+
+
+###c_iwa_county_29
+70 = {	# Iwa Barony 70
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+97 = {	# Iwa Barony 97
+	holding = none
+}
+
+115 = {	# Iwa Barony 115
+	holding = none
+}
+
+
+###c_iwa_county_30
+71 = {	# Iwa Barony 71
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+72 = {	# Iwa Barony 72
+	holding = none
+}
+
+95 = {	# Iwa Barony 95
+	holding = none
+}
+
+96 = {	# Iwa Barony 96
+	holding = none
+}
+
+
+###c_iwa_county_31
+116 = {	# Iwa Barony 116
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+117 = {	# Iwa Barony 117
+	holding = none
+}
+
+190 = {	# Iwa Barony 190
+	holding = none
+}
+
+
+
+##d_iwa_duchy_3 ###################################
+###c_iwa_county_12
+80 = {	# Iwa Barony 80
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+85 = {	# Iwa Barony 85
+	holding = none
+}
+
+86 = {	# Iwa Barony 86
+	holding = none
+}
+
+
+###c_iwa_county_11
+81 = {	# Iwa Barony 81
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+82 = {	# Iwa Barony 82
+	holding = none
+}
+
+84 = {	# Iwa Barony 84
+	holding = none
+}
+
+
+###c_iwa_county_13
+83 = {	# Iwa Barony 83
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+129 = {	# Iwa Barony 129
+	holding = none
+}
+
+130 = {	# Iwa Barony 130
+	holding = none
+}
+
+
+###c_iwa_county_14
+127 = {	# Iwa Barony 127
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+128 = {	# Iwa Barony 128
+	holding = none
+}
+
+132 = {	# Iwa Barony 132
+	holding = none
+}
+
+
+
+##d_iwa_duchy_10 ###################################
+###c_iwa_county_42
+92 = {	# Iwa Barony 92
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+120 = {	# Iwa Barony 120
+	holding = none
+}
+
+121 = {	# Iwa Barony 121
+	holding = none
+}
+
+
+###c_iwa_county_41
+94 = {	# Iwa Barony 94
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+118 = {	# Iwa Barony 118
+	holding = none
+}
+
+119 = {	# Iwa Barony 119
+	holding = none
+}
+
+188 = {	# Iwa Barony 188
+	holding = none
+}
+
+
+###c_iwa_county_43
+122 = {	# Iwa Barony 122
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+123 = {	# Iwa Barony 123
+	holding = none
+}
+
+124 = {	# Iwa Barony 124
+	holding = none
+}
+
+125 = {	# Iwa Barony 125
+	holding = none
+}
+
+
+###c_iwa_county_44
+126 = {	# Iwa Barony 126
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+133 = {	# Iwa Barony 133
+	holding = none
+}
+
+185 = {	# Iwa Barony 185
+	holding = none
+}
+
+
+###c_iwa_county_45
+184 = {	# Iwa Barony 184
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+186 = {	# Iwa Barony 186
+	holding = none
+}
+
+187 = {	# Iwa Barony 187
+	holding = none
+}
+
+
+
+##d_iwa_duchy_9 ###################################
+###c_iwa_county_37
+98 = {	# Iwa Barony 98
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+113 = {	# Iwa Barony 113
+	holding = none
+}
+
+114 = {	# Iwa Barony 114
+	holding = none
+}
+
+193 = {	# Iwa Barony 193
+	holding = none
+}
+
+
+###c_iwa_county_36
+100 = {	# Iwa Barony 100
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+112 = {	# Iwa Barony 112
+	holding = none
+}
+
+195 = {	# Iwa Barony 195
+	holding = none
+}
+
+
+###c_iwa_county_38
+191 = {	# Iwa Barony 191
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+192 = {	# Iwa Barony 192
+	holding = none
+}
+
+208 = {	# Iwa Barony 208
+	holding = none
+}
+
+
+###c_iwa_county_40
+194 = {	# Iwa Barony 194
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+204 = {	# Iwa Barony 204
+	holding = none
+}
+
+205 = {	# Iwa Barony 205
+	holding = none
+}
+
+206 = {	# Iwa Barony 206
+	holding = none
+}
+
+226 = {	# Iwa Barony 226
+	holding = none
+}
+
+
+###c_iwa_county_39
+207 = {	# Iwa Barony 207
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+223 = {	# Iwa Barony 223
+	holding = none
+}
+
+224 = {	# Iwa Barony 224
+	holding = none
+}
+
+
+
+##d_iwa_duchy_8 ###################################
+###c_iwa_county_34
+101 = {	# Iwa Barony 101
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+102 = {	# Iwa Barony 102
+	holding = none
+}
+
+103 = {	# Iwa Barony 103
+	holding = none
+}
+
+111 = {	# Iwa Barony 111
+	holding = none
+}
+
+
+###c_iwa_county_32
+104 = {	# Iwa Barony 104
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+105 = {	# Iwa Barony 105
+	holding = none
+}
+
+106 = {	# Iwa Barony 106
+	holding = none
+}
+
+107 = {	# Iwa Barony 107
+	holding = none
+}
+
+
+###c_iwa_county_33
+108 = {	# Iwa Barony 108
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+109 = {	# Iwa Barony 109
+	holding = none
+}
+
+198 = {	# Iwa Barony 198
+	holding = none
+}
+
+199 = {	# Iwa Barony 199
+	holding = none
+}
+
+
+###c_iwa_county_35
+110 = {	# Iwa Barony 110
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+196 = {	# Iwa Barony 196
+	holding = none
+}
+
+197 = {	# Iwa Barony 197
+	holding = none
+}
+
+
+
+##d_iwa_duchy_11 ###################################
+###c_iwa_county_46
+131 = {	# Iwa Barony 131
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+136 = {	# Iwa Barony 136
+	holding = none
+}
+
+137 = {	# Iwa Barony 137
+	holding = none
+}
+
+155 = {	# Iwa Barony 155
+	holding = none
+}
+
+
+###c_iwa_county_47
+134 = {	# Iwa Barony 134
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+135 = {	# Iwa Barony 135
+	holding = none
+}
+
+182 = {	# Iwa Barony 182
+	holding = none
+}
+
+
+###c_iwa_county_48
+138 = {	# Iwa Barony 138
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+139 = {	# Iwa Barony 139
+	holding = none
+}
+
+140 = {	# Iwa Barony 140
+	holding = none
+}
+
+
+###c_iwa_county_49
+156 = {	# Iwa Barony 156
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+157 = {	# Iwa Barony 157
+	holding = none
+}
+
+158 = {	# Iwa Barony 158
+	holding = none
+}
+
+
+
+##d_iwa_duchy_12 ###################################
+###c_iwa_county_50
+141 = {	# Iwa Barony 141
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+152 = {	# Iwa Barony 152
+	holding = none
+}
+
+153 = {	# Iwa Barony 153
+	holding = none
+}
+
+154 = {	# Iwa Barony 154
+	holding = none
+}
+
+
+###c_iwa_county_51
+142 = {	# Iwa Barony 142
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+143 = {	# Iwa Barony 143
+	holding = none
+}
+
+144 = {	# Iwa Barony 144
+	holding = none
+}
+
+145 = {	# Iwa Barony 145
+	holding = none
+}
+
+
+###c_iwa_county_52
+146 = {	# Iwa Barony 146
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+147 = {	# Iwa Barony 147
+	holding = none
+}
+
+148 = {	# Iwa Barony 148
+	holding = none
+}
+
+149 = {	# Iwa Barony 149
+	holding = none
+}
+
+
+###c_iwa_county_53
+150 = {	# Iwa Barony 150
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+163 = {	# Iwa Barony 163
+	holding = none
+}
+
+164 = {	# Iwa Barony 164
+	holding = none
+}
+
+
+
+##d_iwa_duchy_13 ###################################
+###c_iwa_county_59
+151 = {	# Iwa Barony 151
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+161 = {	# Iwa Barony 161
+	holding = none
+}
+
+162 = {	# Iwa Barony 162
+	holding = none
+}
+
+
+###c_iwa_county_60
+159 = {	# Iwa Barony 159
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+160 = {	# Iwa Barony 160
+	holding = none
+}
+
+179 = {	# Iwa Barony 179
+	holding = none
+}
+
+
+###c_iwa_county_58
+165 = {	# Iwa Barony 165
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+166 = {	# Iwa Barony 166
+	holding = none
+}
+
+167 = {	# Iwa Barony 167
+	holding = none
+}
+
+
+###c_iwa_county_61
+168 = {	# Iwa Barony 168
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+177 = {	# Iwa Barony 177
+	holding = none
+}
+
+178 = {	# Iwa Barony 178
+	holding = none
+}
+
+
+###c_iwa_county_62
+169 = {	# Iwa Barony 169
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+170 = {	# Iwa Barony 170
+	holding = none
+}
+
+176 = {	# Iwa Barony 176
+	holding = none
+}
+
+
+
+##d_iwa_duchy_18 ###################################
+###c_iwa_county_76
+171 = {	# Iwa Barony 171
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+174 = {	# Iwa Barony 174
+	holding = none
+}
+
+175 = {	# Iwa Barony 175
+	holding = none
+}
+
+
+###c_iwa_county_77
+172 = {	# Iwa Barony 172
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+173 = {	# Iwa Barony 173
+	holding = none
+}
+
+270 = {	# Iwa Barony 270
+	holding = none
+}
+
+271 = {	# Iwa Barony 271
+	holding = none
+}
+
+
+###c_iwa_county_75
+269 = {	# Iwa Barony 269
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+284 = {	# Iwa Barony 284
+	holding = none
+}
+
+285 = {	# Iwa Barony 285
+	holding = none
+}
+
+
+###c_iwa_county_78
+272 = {	# Iwa Barony 272
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+273 = {	# Iwa Barony 273
+	holding = none
+}
+
+276 = {	# Iwa Barony 276
+	holding = none
+}
+
+
+
+##d_iwa_duchy_15 ###################################
+###c_iwa_county_63
+180 = {	# Iwa Barony 180
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+181 = {	# Iwa Barony 181
+	holding = none
+}
+
+216 = {	# Iwa Barony 216
+	holding = none
+}
+
+217 = {	# Iwa Barony 217
+	holding = none
+}
+
+
+###c_iwa_county_64
+215 = {	# Iwa Barony 215
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+218 = {	# Iwa Barony 218
+	holding = none
+}
+
+219 = {	# Iwa Barony 219
+	holding = none
+}
+
+
+###c_iwa_county_66
+246 = {	# Iwa Barony 246
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+247 = {	# Iwa Barony 247
+	holding = none
+}
+
+248 = {	# Iwa Barony 248
+	holding = none
+}
+
+
+###c_iwa_county_65
+249 = {	# Iwa Barony 249
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+250 = {	# Iwa Barony 250
+	holding = none
+}
+
+251 = {	# Iwa Barony 251
+	holding = none
+}
+
+
+
+##d_iwa_duchy_14 ###################################
+###c_iwa_county_54
+183 = {	# Iwa Barony 183
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+212 = {	# Iwa Barony 212
+	holding = none
+}
+
+214 = {	# Iwa Barony 214
+	holding = none
+}
+
+
+###c_iwa_county_55
+189 = {	# Iwa Barony 189
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+211 = {	# Iwa Barony 211
+	holding = none
+}
+
+
+###c_iwa_county_56
+209 = {	# Iwa Barony 209
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+221 = {	# Iwa Barony 221
+	holding = none
+}
+
+222 = {	# Iwa Barony 222
+	holding = none
+}
+
+
+###c_iwa_county_57
+210 = {	# Iwa Barony 210
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+213 = {	# Iwa Barony 213
+	holding = none
+}
+
+220 = {	# Iwa Barony 220
+	holding = none
+}
+
+
+
+##d_iwa_duchy_16 ###################################
+###c_iwa_county_67
+200 = {	# Iwa Barony 200
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+201 = {	# Iwa Barony 201
+	holding = none
+}
+
+229 = {	# Iwa Barony 229
+	holding = none
+}
+
+
+###c_iwa_county_69
+202 = {	# Iwa Barony 202
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+203 = {	# Iwa Barony 203
+	holding = none
+}
+
+228 = {	# Iwa Barony 228
+	holding = none
+}
+
+
+###c_iwa_county_68
+230 = {	# Iwa Barony 230
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+231 = {	# Iwa Barony 231
+	holding = none
+}
+
+232 = {	# Iwa Barony 232
+	holding = none
+}
+
+
+###c_iwa_county_70
+233 = {	# Iwa Barony 233
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+238 = {	# Iwa Barony 238
+	holding = none
+}
+
+239 = {	# Iwa Barony 239
+	holding = none
+}
+
+
+
+##d_iwa_duchy_20 ###################################
+###c_iwa_county_86
+225 = {	# Iwa Barony 225
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+242 = {	# Iwa Barony 242
+	holding = none
+}
+
+260 = {	# Iwa Barony 260
+	holding = none
+}
+
+
+###c_iwa_county_87
+227 = {	# Iwa Barony 227
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+240 = {	# Iwa Barony 240
+	holding = none
+}
+
+241 = {	# Iwa Barony 241
+	holding = none
+}
+
+
+###c_iwa_county_85
+261 = {	# Iwa Barony 261
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+262 = {	# Iwa Barony 262
+	holding = none
+}
+
+278 = {	# Iwa Barony 278
+	holding = none
+}
+
+
+###c_iwa_county_83
+275 = {	# Iwa Barony 275
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+277 = {	# Iwa Barony 277
+	holding = none
+}
+
+289 = {	# Iwa Barony 289
+	holding = none
+}
+
+
+###c_iwa_county_84
+279 = {	# Iwa Barony 279
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+287 = {	# Iwa Barony 287
+	holding = none
+}
+
+288 = {	# Iwa Barony 288
+	holding = none
+}
+
+
+
+##d_iwa_duchy_17 ###################################
+###c_iwa_county_71
+234 = {	# Iwa Barony 234
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+235 = {	# Iwa Barony 235
+	holding = none
+}
+
+236 = {	# Iwa Barony 236
+	holding = none
+}
+
+237 = {	# Iwa Barony 237
+	holding = none
+}
+
+
+###c_iwa_county_74
+263 = {	# Iwa Barony 263
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+280 = {	# Iwa Barony 280
+	holding = none
+}
+
+281 = {	# Iwa Barony 281
+	holding = none
+}
+
+286 = {	# Iwa Barony 286
+	holding = none
+}
+
+
+###c_iwa_county_72
+264 = {	# Iwa Barony 264
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+265 = {	# Iwa Barony 265
+	holding = none
+}
+
+266 = {	# Iwa Barony 266
+	holding = none
+}
+
+282 = {	# Iwa Barony 282
+	holding = none
+}
+
+
+###c_iwa_county_73
+267 = {	# Iwa Barony 267
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+268 = {	# Iwa Barony 268
+	holding = none
+}
+
+283 = {	# Iwa Barony 283
+	holding = none
+}
+
+
+
+##d_iwa_duchy_19 ###################################
+###c_iwa_county_82
+243 = {	# Iwa Barony 243
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+258 = {	# Iwa Barony 258
+	holding = none
+}
+
+259 = {	# Iwa Barony 259
+	holding = none
+}
+
+
+###c_iwa_county_81
+244 = {	# Iwa Barony 244
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+245 = {	# Iwa Barony 245
+	holding = none
+}
+
+256 = {	# Iwa Barony 256
+	holding = none
+}
+
+
+###c_iwa_county_79
+252 = {	# Iwa Barony 252
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+253 = {	# Iwa Barony 253
+	holding = none
+}
+
+254 = {	# Iwa Barony 254
+	holding = none
+}
+
+
+###c_iwa_county_80
+255 = {	# Iwa Barony 255
+	culture = earth_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+257 = {	# Iwa Barony 257
+	holding = none
+}
+
+274 = {	# Iwa Barony 274
+	holding = none
+}
+
+
+

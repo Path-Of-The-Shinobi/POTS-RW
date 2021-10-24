@@ -1,0 +1,10 @@
+##d_taki_duchy_1 ###################################
+###c_taki_county_1
+617 = {	# Taki Barony 1
+	culture = waterfalls_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+
+

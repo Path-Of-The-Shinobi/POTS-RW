@@ -1,0 +1,53 @@
+﻿l_english:
+ ###First Great Shinobi War
+ first_shinobi_war:0 "First Great Shinobi War"
+ first_shinobi_war_desc:0 "PH"
+
+ #Hashirama Senju
+ hashirama_senju:0 "Hashirama Senju"
+ hashirama_senju_desc:0 "PH"
+
+ 
+ ###Second Great Shinobi War
+ second_shinobi_war:0 "Second Great Shinobi War"
+ second_shinobi_war_desc:0 "PH"
+
+ #Hiruzen Sarutobi
+ hiruzen_sarutobi:0 "Hiruzen Sarutobi"
+ hiruzen_sarutobi_desc:0 "PH"
+
+ 
+ ###Third Great Shinobi War
+ third_shinobi_war:0 "Third Great Shinobi War"
+ third_shinobi_war_desc:0 "PH"
+
+ #Hiruzen Sarutobi
+ hiruzen_sarutobi:0 "Hiruzen Sarutobi"
+ hiruzen_sarutobi_desc:0 "PH"
+
+ 
+ ###Naruto: Part 1
+ og_naruto_start:0 "Naruto: Part 1"
+ og_naruto_start_desc:0 "PH"
+
+ #Hiruzen Sarutobi
+ hiruzen_sarutobi:0 "Hiruzen Sarutobi"
+ hiruzen_sarutobi_desc:0 "PH"
+
+ 
+ ###Fourth Shinobi World War
+ fourth_shinobi_war:0 "Fourth Shinobi World War"
+ fourth_shinobi_war_desc:0 "PH"
+
+ #Tsunade
+ tsunade_senju:0 "Tsunade Senju"
+ tsunade_senju_desc:0 "PH"
+
+
+ ###Boruto Movie
+ boruto_movie:0 "Boruto Movie"
+ boruto_movie_desc:0 "PH"
+
+ #Naruto Uzumaki
+ naruto_uzumaki:0 "Naruto Uzumaki"
+ tsunade_senju_desc:0 "PH"

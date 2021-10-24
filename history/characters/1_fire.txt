@@ -1,0 +1,3780 @@
+﻿
+###########################################
+########## 		 SENJU CLAN		 ##########
+###########################################
+
+1 = {
+	name = "Butsuma"
+	dynasty = 700084 #Senju
+	religion = "sixpaths"
+	culture = "senju"
+	trait = senjugene
+	894.1.16 = { # January 16
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	944.1.1 = {
+		death = yes
+	}
+}
+
+2 = {
+	name = "Hashirama"
+	dna = hashirama_dna
+	dynasty = 700084 #Senju
+	religion = "sixpaths"
+	culture = "senju"
+	disallow_random_traits = yes
+	father = 1 # Butsuma Senju
+	prowess = 10
+	924.10.23 = { # October 23
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+			add_character_flag = is_hashirama
+		}
+	}
+	937.1.1 = {
+		add_trait = compassionate
+		add_trait = patient
+		add_trait = gregarious
+		add_trait = stubborn
+		add_trait = trait = senjugene
+	}
+	943.1.1 = {
+		add_spouse = 61 # Mito Uzumaki
+	}
+	950.1.1 = {
+		add_trait = ninjarank_kage # 1st Hokage
+		give_nickname = nick_god_of_shinobi # the God of Shinobi
+	}
+	966.1.1 = {
+		death = yes
+	}
+}
+
+3 = {
+	name = "Tobirama"
+	dynasty = 700084 #Senju
+	religion = "sixpaths"
+	culture = "senju"
+	trait = senjugene
+	disallow_random_traits = yes
+	father = 1 # Butsuma Senju
+	prowess = 7
+	926.2.19 = { # February 19
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	966.1.1 = {
+		add_trait = ninjarank_kage # 2nd Hokage
+	}
+	966.6.6 = {
+		death = {
+			death_reason = death_battle
+			killer = 2028 # Kinkaku
+		}
+	}
+}
+
+4 = {
+	name = "Itama"
+	dynasty = 700084 #Senju
+	religion = "sixpaths"
+	culture = "senju"
+	trait = senjugene
+	father = 1 # Butsuma Senju
+	928.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	936.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+5 = {
+	name = "Kawarama"
+	dynasty = 700084 #Senju
+	religion = "sixpaths"
+	culture = "senju"
+	trait = senjugene
+	father = 1 # Butsuma Senju
+	929.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	936.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+6 = {
+	name = "Tsunade" # Three Sannin
+	dna = tsunade_dna
+	dynasty = 700084 #Senju
+	female = yes
+	religion = "sixpaths"
+	culture = "senju"
+	trait = senjugene
+	disallow_random_traits = yes
+	father = 161 # TsunadeDad
+	mother = 162 # TsunadeMom
+	prowess = 5
+	962.8.2 = { # August 2
+		birth = yes
+		effect = {
+			add_character_flag = forever_25
+			add_character_flag = no_drunkard_visual
+			make_important_lore_character_effect = yes
+		}
+		employer = 2 # Hashirama
+	}
+	966.6.6 = {
+		employer = 26 # Hiruzen
+	}
+	975.1.1 = {
+		trait = greedy # she gambles a lot
+		trait = wrathful # and loses her temper
+		trait = lazy # she's caught sleeping on the job several times in the series
+	}
+	968.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	984.1.1 = { # estimated to have become jonin at age 22
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_jonin
+	}
+	986.1.1 = {
+		add_trait = chaste # Tsunade never dated anyone after Dan Kato died
+		add_trait = drunkard # probably because Dan Kato died
+		give_nickname = nick_slug_princess # the Slug Princess
+
+	}
+	1013.1.1 = {
+		remove_trait = ninjarank_jonin
+		add_trait = ninjarank_kage
+	}
+}
+
+46 = {
+	name = "Nawaki"
+	dynasty = 700084 #Senju
+	religion = "sixpaths"
+	culture = "senju"
+	trait = senjugene
+	father = 161 # TsunadeDad
+	mother = 162 # TsunadeMom
+	974.8.9 = { # August 9
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	986.1.1 = {
+		add_trait = ninjarank_genin
+		death = {
+			death_reason = death_accident
+		}
+	}
+}
+
+154 = {
+	name = "Toka"
+	female = yes
+	dynasty = 700084 #Senju
+	religion = "sixpaths"
+	culture = "senju"
+	trait = senjugene
+	923.1.1 = { # UNKNOWN DATE
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+
+161 = {
+	name = "TsunadeDad"
+	dynasty = 700084 #Senju
+	religion = "sixpaths"
+	culture = "senju"
+	trait = senjugene
+	father = 2 # Hashirama
+	mother = 61 # Mito
+	944.1.1 = { # estimated date
+		birth = yes
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	961.1.1 = {
+		add_spouse = 162 # TsunadeMom
+	}
+	986.1.1 = { # probably died in the Second War since we don't hear of them later
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+162 = {
+	name = "TsunadeMom"
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	944.1.1 = { # estimated date
+		birth = yes
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	986.1.1 = { # probably died in the Second War since we don't hear of them later
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+###########################################
+########## 	    UCHIHA CLAN		 ##########
+###########################################
+
+7 = {
+	name = "Tajima"
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	894.3.28 = { # March 28
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	944.1.1 = {
+		death = yes
+	}
+}
+
+8 = {
+	name = "Madara"
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	disallow_random_traits = yes
+	father = 7 # Tajima Uchiha
+	924.12.24 = { # December 24
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	937.1.1 = {
+		trait = arrogant
+		trait = paranoid
+		trait = diligent
+		trait = zealous
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	999.1.1 = {
+		death = {
+			death_reason = death_old_age
+		}
+	}
+}
+
+9 = {
+	name = "Izuna"
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	disallow_random_traits = yes
+	father = 7 # Tajima Uchiha
+	926.2.10 = { # February 10
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		death = {
+			death_reason = death_maimed
+		}
+	}
+}
+
+10 = {
+	name = "Setsuna"
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	940.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	966.1.1 = {
+		death = yes
+	}
+}
+
+11 = {
+	name = "Kagami"
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	941.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	959.1.1 = {
+		add_trait = ninjarank_jonin
+	}
+	966.1.1 = {
+		death = yes
+	}
+}
+
+12 = {
+	name = "Yashiro"
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	963.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 2 # Hashirama
+	}
+	1008.1.1 = { #Uchiha Massacre
+		death = {
+			death_reason = death_uchiha_incident
+			killer = 21 # Itachi
+		}
+	}
+}
+
+13 = {
+	name = "Fugaku" #Father of Sasuke and Itachi
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	967.8.16 = { # August 16
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	983.1.1 = {
+		add_trait = ninjarank_jonin
+	}
+	994.1.1 = {
+		add_spouse = 14 # Mikoto
+	}
+	1008.1.1 = { #Uchiha Massacre
+		death = {
+			death_reason = death_uchiha_incident
+			killer = 21 # Itachi
+		}
+	}
+}
+
+14 = {
+	name = "Mikoto" #Mother of Sasuke and Itachi
+	female = yes
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	973.6.1 = { # June 1
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	991.1.1 = {
+		add_trait = ninjarank_jonin
+	}
+	1008.1.1 = { #Uchiha Massacre
+		death = {
+			death_reason = death_uchiha_incident
+			killer = 21 # Itachi
+		}
+	}
+}
+
+15 = {
+	name = "Yakumi"
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	980.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1008.1.1 = { #Uchiha Massacre
+		death = {
+			death_reason = death_uchiha_incident
+			killer = 21 # Itachi
+		}
+	}
+}
+
+16 = {
+	name = "Inabi"
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	983.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1008.1.1 = { #Uchiha Massacre
+		death = {
+			death_reason = death_uchiha_incident
+			killer = 21 # Itachi
+		}
+	}
+}
+
+17 = {
+	name = "Obito"
+	dna = obito_dna
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	disallow_random_traits = yes
+	986.2.10 = { # February 10
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	995.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	997.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	998.1.1 = {
+		trait = ambitious
+		trait = honest
+		trait = diligent
+		add_trait = onetomoe
+	}
+	999.6.9 = {
+		remove_trait = onetomoe
+		add_trait = twotomoe
+	}
+	1017.3.18 = {
+		add_trait = rinnegan
+	}
+	1017.10.10 = {
+		death = {
+			death_reason = death_battle # crumbled to pieces :(
+			killer = 9000 # Kaguya Otsutsuki
+		}
+	}
+}
+
+18 = {
+	name = "Shisui"
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	992.10.19 = { # October 19
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	1001.1.1 = {
+		give_nickname = nick_the_teleporter # the Teleporter
+	}
+	1002.1.1 = {
+		add_trait = ninjarank_jonin
+	}
+	1005.1.1 = { # it's unclear when Shisui became Anbu
+		remove_trait = ninjarank_jonin
+		add_trait = ninjarank_anbu
+	}
+	1006.1.1 = { #Suicide
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+
+19 = {
+	name = "Tekka"
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	987.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1008.1.1 = { #Uchiha Massacre
+		death = {
+			death_reason = death_uchiha_incident
+			killer = 21 # Itachi
+		}
+	}
+}
+
+20 = {
+	name = "Izumi"
+	female = yes
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	mother = 158 # Hazuki
+	995.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1008.1.1 = { #Uchiha Massacre
+		death = {
+			death_reason = death_uchiha_incident
+			killer = 21 # Itachi
+		}
+	}
+}
+
+21 = {
+	name = "Itachi"
+	dna = itachi_dna
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	father = 13 # Fugaku
+	mother = 14 # Mikoto
+	disallow_random_traits = yes
+	995.6.9 = { # June 9
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	1002.1.1 = {
+		add_trait = ninjarank_genin
+		trait = brave
+		trait = calm
+		trait = cynical
+		trait = compassionate
+	}
+	1005.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1006.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_anbu
+	}
+	1008.1.1 = {
+		add_trait = s_rank
+	}
+	1016.1.1 = {
+		death = {
+			death_reason = death_ill # he was already dying when Sasuke "killed" him
+		}
+	}
+}
+
+22 = {
+	name = "Sasuke"
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	father = 13 # Fugaku
+	mother = 14 # Mikoto
+	disallow_random_traits = yes
+	trait = firerelease
+	1000.7.23 = { # July 23
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 79 # Minato
+	}
+	1008.1.1 = {
+		trait = depressed_genetic
+	}
+	1012.1.1 = {
+		add_trait = ninjarank_genin
+		add_trait = sharingan_rank_3
+		trait = arrogant
+		trait = stubborn
+		trait = vengeful
+	}
+	1013.1.1 = {
+		employer = 2509 # Orochimaru
+		add_trait = s_rank
+	}
+	1017.10.10 = {
+		employer = 6 # Tsunade
+	}
+	1020.1.1 = {
+		add_spouse = 166 # Sakura
+		give_nickname = nick_supporting_kage # the Supporting Kage
+	}
+}
+
+23 = {
+	name = "Sarada"
+	female = yes
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	disallow_random_traits = yes
+	father = 22 # Sasuke
+	mother = 166 # Sakura
+	1020.3.31 = { # March 31
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 168 # Kakashi
+	}
+	1032.1.1 = {
+		effect = {
+			add_trait = ninjarank_genin
+		}
+	}
+}
+
+156 = {
+	name = "Teyaki" #Citizen, possibly Sasuke's uncle?
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	962.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 2 # Hashirama
+	}
+	1008.1.1 = { # Uchiha Massacre
+		death = {
+			death_reason = death_uchiha_incident
+			killer = 21 # Itachi
+		}
+	}
+}
+
+157 = {
+	name = "Uruchi" #Citizen, possibly Sasuke's aunt?
+	female = yes
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	962.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 2 # Hashirama
+	}
+	1008.1.1 = { # Uchiha Massacre
+		death = {
+			death_reason = death_uchiha_incident
+			killer = 21 # Itachi
+		}
+	}
+}
+
+158 = {
+	name = "Hazuki" #Izumi's Mother
+	female = yes
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	970.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	1008.1.1 = { # Uchiha Massacre
+		death = {
+			death_reason = death_uchiha_incident
+			killer = 21 # Itachi
+		}
+	}
+}
+
+163 = {
+	name = "Tengai" #Made-up name
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	father = 7 # Tajima Uchiha
+	927.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	934.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+164 = {
+	name = "Rekishi" #Made-up name
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	father = 7 # Tajima Uchiha
+	928.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	935.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+165 = {
+	name = "Orochi" #Made-up name
+	dynasty = 700082 #Uchiha
+	religion = "sixpaths"
+	culture = "uchiha"
+	trait = uchihagene
+	father = 7 # Tajima Uchiha
+	929.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	936.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+
+###########################################
+########## 		SARUTOBI CLAN	 ##########
+###########################################
+
+24 = {
+	name = "Sasuke"
+	dynasty = 3 #Sarutobi
+	religion = "sixpaths"
+	culture = "sarutobi"
+	907.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	988.1.1 = {
+		death = {
+			death_reason = death_old_age
+		}
+	}
+}
+
+25 = {
+	name = "Biwako" #Hiruzen's Wife
+	female = yes
+	#dynasty = 3 #Sarutobi
+	religion = "sixpaths"
+	culture = "sarutobi"
+	945.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	965.1.1 = {
+		add_trait = ninjarank_jonin
+	}
+	1000.1.1 = { #Killed by Obito Uchiha
+		death = {
+			death_reason = death_battle
+			killer = 17 # Obito Uchiha
+		}
+	}
+}
+
+26 = {
+	name = "Hiruzen" #Third Hokage
+	dynasty = 3 #Sarutobi
+	religion = "sixpaths"
+	culture = "sarutobi"
+	disallow_random_traits = yes
+	father = 24 # Sasuke Sarutobi
+	prowess = 8
+	944.2.8 = { # February 8
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	959.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	963.1.1 = { # estimated date shortly before Asuma was born, official date not known
+		add_spouse = 25 # Biwako
+	}
+	964.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_jonin
+	}
+	966.6.6 = {
+		remove_trait = ninjarank_jonin
+		add_trait = ninjarank_kage # 3rd Hokage
+		give_nickname = nick_god_of_shinobi # the God of Shinobi
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_reaper_death_seal
+		}
+	}
+}
+
+27 = {
+	name = "Asuma"
+	dynasty = 3 #Sarutobi
+	religion = "sixpaths"
+	culture = "sarutobi"
+	disallow_random_traits = yes
+	father = 26 # Hiruzen
+	mother = 25 # Biwako
+	985.10.18 = { # October 18
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	994.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	997.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1003.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+	1016.1.1 = { #Killed by Hidan
+		death = {
+			death_reason = death_battle
+			killer = 3500 # Hidan
+		}
+	}
+}
+
+28 = {
+	name = "Konohamaru"
+	dynasty = 3 #Sarutobi
+	religion = "sixpaths"
+	culture = "sarutobi"
+	disallow_random_traits = yes
+	father = 159 # KonohamaruDad
+	mother = 160 # KonohamaruMom
+	1004.12.30 = { # December 30
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	1016.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1029.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_jonin
+	}
+}
+
+29 = {
+	name = "Mirai"
+	female = yes
+	dynasty = 3 #Sarutobi
+	religion = "sixpaths"
+	culture = "sarutobi"
+	father = 27 # Asuma
+	mother = 30 # Kurenai
+	1016.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 6 # Tsunade
+	}
+}
+
+159 = {
+	name = "KonohamaruDad" # PH Name, Anbu
+	dynasty = 3 #Sarutobi
+	religion = "sixpaths"
+	culture = "sarutobi" #PH, unclear which was Hiruzen's child
+	father = 26 # Hiruzen
+	mother = 25 # Biwako
+	986.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	1003.1.1 = {
+		add_spouse = 160 # KonohamaruMom
+	}
+}
+
+160 = {
+	name = "KonohamaruMom" # PH Name, Anbu
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	986.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+}
+
+###########################################
+########## 		 YUHI CLAN		 ##########
+###########################################
+
+30 = {
+	name = "Kurenai"
+	female = yes
+	dynasty = 4 #Yuhi
+	religion = "sixpaths"
+	culture = "yuhi"
+	disallow_random_traits = yes
+	father = 31 # Shinku Yuhi
+	985.6.11 = { # June 11
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	994.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	998.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1012.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin # "Kurenai became a jōnin shortly before Team 8 was formed"
+	}
+}
+
+31 = {
+	name = "Shinku"
+	dynasty = 4 #Yuhi
+	religion = "sixpaths"
+	culture = "yuhi"
+	955.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 2 # Hashirama
+	}
+	973.1.1 = {
+		add_trait = ninjarank_jonin
+	}
+}
+
+###########################################
+########## 		 NARA CLAN		 ##########
+###########################################
+
+32 = {
+	name = "Shikaku" #Shikamaru's Father
+	dynasty = 5 #Nara
+	religion = "sixpaths"
+	culture = "nara"
+	disallow_random_traits = yes
+	trait = intellect_good_3
+	975.7.15 = { # July 15
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	984.1.1 = {
+		add_trait = ninjarank_genin # was a genin before/during the Third War
+	}
+	995.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_jonin
+	}
+	999.1.1 = {
+		add_spouse = 34 # Yoshino
+	}
+	1017.10.9 = { #Fourth Shinobi War
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+33 = {
+	name = "Suzaku"
+	dynasty = 5 #Nara
+	religion = "sixpaths"
+	culture = "nara"
+	975.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+34 = {
+	name = "Yoshino" #Shikamaru's Mother
+	female = yes
+	dynasty = 5 #Nara
+	religion = "sixpaths"
+	culture = "nara"
+	977.2.24 = { # February 24
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+35 = {
+	name = "Ensui"
+	dynasty = 5 #Nara
+	religion = "sixpaths"
+	culture = "nara"
+	980.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+36 = {
+	name = "Daen" # Probably Maen's brother?
+	dynasty = 5 #Nara
+	religion = "sixpaths"
+	culture = "nara"
+	987.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+37 = {
+	name = "Maen" # Probably Daen's brother?
+	dynasty = 5 #Nara
+	religion = "sixpaths"
+	culture = "nara"
+	990.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+38 = {
+	name = "Kasuga"
+	dynasty = 5 #Nara
+	religion = "sixpaths"
+	culture = "nara"
+	992.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+39 = {
+	name = "Shikamaru"
+	dynasty = 5 #Nara
+	religion = "sixpaths"
+	culture = "nara"
+	disallow_random_traits = yes
+	trait = intellect_good_3
+	father = 32 # Shikaku
+	mother = 34 # Yoshino
+	1000.9.22 = { # September 22
+		birth = yes
+		employer = 79 # Minato
+	}
+	1012.1.1 = {
+		add_trait = ninjarank_genin
+		trait = lazy
+		trait = calm
+	}
+	1012.6.6 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1020.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin # it's never specified when he became Jonin
+	}
+	1021.1.1 = {
+		add_spouse = 1009 # Temari
+	}
+}
+
+40 = {
+	name = "Shikadai"
+	dynasty = 5 #Nara
+	religion = "sixpaths"
+	culture = "nara"
+	disallow_random_traits = yes
+	father = 39 # Shikamaru
+	mother = 1009 # Temari
+	1020.9.23 = { # September 23
+		birth = yes
+		employer = 168 # Kakashi
+	}
+}
+
+###########################################
+##########		YAMANAKA CLAN	 ##########
+###########################################
+
+41 = {
+	name = "Inoichi" #Ino's Father
+	dynasty = 6 #Yamanaka
+	religion = "sixpaths"
+	culture = "yamanaka"
+	disallow_random_traits = yes
+	975.1.24 = { # January 24
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	984.1.1 = {
+		add_trait = ninjarank_genin # was a genin before/during the Third War
+	}
+	995.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_jonin
+	}
+	1017.10.9 = { #Fourth Shinobi War
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+42 = {
+	name = "Santa"
+	dynasty = 6 #Yamanaka
+	religion = "sixpaths"
+	culture = "yamanaka"
+	990.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+43 = {
+	name = "Fu"
+	dynasty = 6 #Yamanaka
+	religion = "sixpaths"
+	culture = "yamanaka"
+	998.8.20 = { # August 20
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1008.1.1 = {
+		add_trait = ninjarank_anbu # probably became Anbu at the same time as Torune since they were partnered
+	}
+	1017.1.1 = { # Killed by Obito
+		death = {
+			death_reason = death_murder_known
+			killer = 17 # Obito Uchiha
+		}
+	}
+}
+
+44 = {
+	name = "Ino"
+	female = yes
+	dynasty = 6 #Yamanaka
+	religion = "sixpaths"
+	culture = "yamanaka"
+	disallow_random_traits = yes
+	father = 41
+	1000.9.23 = { # September 23
+		birth = yes
+		employer = 79 # Minato
+	}
+	1012.1.1 = {
+		add_trait = ninjarank_genin
+		trait = lustful
+	}
+	1014.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1020.1.1 = {
+		add_spouse = 155 # Sai
+	}
+}
+
+45 = {
+	name = "Inojin"
+	dynasty = 6 #Yamanaka
+	religion = "sixpaths"
+	culture = "yamanaka"
+	disallow_random_traits = yes
+	father = 155 # Sai
+	mother = 44 # Ino
+	1020.12.5 = { # December 5
+		birth = yes
+		employer = 168 # Kakashi
+	}
+	1032.1.1 = {
+		effect = {
+			add_trait = ninjarank_genin
+		}
+	}
+}
+
+###########################################
+##########		AKIMICHI CLAN	 ##########
+###########################################
+
+47 = {
+	name = "Torifu"
+	dynasty = 7 #Akimichi
+	religion = "sixpaths"
+	culture = "akimichi"
+	936.1.1 = { # UNKNOWN DATE
+		birth = yes
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+}
+
+48 = {
+	name = "Doto"
+	dynasty = 7 #Akimichi
+	religion = "sixpaths"
+	culture = "akimichi"
+	967.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+49 = {
+	name = "Choza" #Choji's Father
+	dynasty = 7 #Akimichi
+	religion = "sixpaths"
+	culture = "akimichi"
+	disallow_random_traits = yes
+	975.4.22 = { # April 22
+		birth = yes
+		employer = 26 # Hiruze
+	}
+	984.1.1 = {
+		add_trait = ninjarank_genin # was a genin before/during the Third War
+	}
+	995.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_jonin
+	}
+}
+
+50 = {
+	name = "Shito"
+	dynasty = 7 #Akimichi
+	religion = "sixpaths"
+	culture = "akimichi"
+	985.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+51 = {
+	name = "Maruten"
+	dynasty = 7 #Akimichi
+	religion = "sixpaths"
+	culture = "akimichi"
+	996.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+52 = {
+	name = "Choji"
+	dynasty = 7 #Akimichi
+	religion = "sixpaths"
+	culture = "akimichi"
+	disallow_random_traits = yes
+	father = 49
+	1000.5.1 = { # May 1
+		birth = yes
+		employer = 79 # Minato
+	}
+	1012.1.1 = {
+		add_trait = ninjarank_genin
+		trait = compassionate
+		trait = gluttonous
+	}
+	1014.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1020.1.1 = {
+		add_spouse = 2025 # Karui
+	}
+}
+
+54 = {
+	name = "Makaro"
+	dynasty = 7 #Akimichi
+	religion = "sixpaths"
+	culture = "akimichi"
+	1000.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 79 # Minato
+	}
+}
+
+55 = {
+	name = "Chocho"
+	female = yes
+	dynasty = 7 #Akimichi
+	religion = "sixpaths"
+	culture = "akimichi"
+	disallow_random_traits = yes
+	father = 52 # Choji
+	mother = 2025 # Karui
+	1020.8.8 = { # August 8
+		birth = yes
+		employer = 168 # Kakashi
+	}
+	1032.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+###########################################
+##########		ABURAME CLAN	 ##########
+###########################################
+
+56 = {
+	name = "Shibi" #Shino's Father
+	dynasty = 8 #Aburame
+	religion = "sixpaths"
+	culture = "aburame"
+	974.9.7 = { # September 7
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+57 = {
+	name = "Tatsuma"
+	dynasty = 8 #Aburame
+	religion = "sixpaths"
+	culture = "aburame"
+	981.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	992.1.1 = {
+		add_trait = ninjarank_anbu # most Root members were recruited as young children
+	}
+}
+
+58 = {
+	name = "Muta"
+	dynasty = 8 #Aburame
+	religion = "sixpaths"
+	culture = "aburame"
+	993.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1017.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 1519 # Deidara
+		}
+	}
+}
+
+59 = {
+	name = "Torune"
+	dynasty = 8 #Aburame
+	religion = "sixpaths"
+	culture = "aburame"
+	#father = Shikuro Aburame
+	997.10.24 = { # October 24
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1008.1.1 = {
+		add_trait = ninjarank_anbu # most Root members were recruited as young children
+	}
+	1017.1.1 = { # Killed by Obito
+		death = {
+			death_reason = death_murder_known
+			killer = 17 # Obito Uchiha
+		}
+	}
+}
+
+60 = {
+	name = "Shino"
+	dynasty = 8 #Aburame
+	religion = "sixpaths"
+	culture = "aburame"
+	disallow_random_traits = yes
+	father = 56 # Shibi
+	1000.1.23 = { # January 23
+		birth = yes
+		employer = 79 # Minato
+	}
+	1012.1.1 = {
+		add_trait = ninjarank_genin
+		trait = calm
+	}
+	1014.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+###########################################
+##########		UZUMAKI CLAN	 ##########
+###########################################
+
+61 = {
+	name = "Mito" #Hashirama's Wife
+	female = yes
+	dynasty = 700083 #Uzumaki
+	religion = "sixpaths"
+	culture = "uzumaki"
+	trait = uzumakigene
+	924.5.3 = { # May 3
+		birth = yes
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	957.1.1 = {
+		add_trait = nine_tail # became the first jinchūriki of the Nine-Tails following the events at the Valley of the End
+	}
+	986.1.1 = {
+		remove_trait = nine_tail
+		death = {
+			death_reason = death_tailed_beast_extraction
+		}
+	}
+}
+
+62 = {
+	name = "Kushina" #Naruto's Mom
+	female = yes
+	dynasty = 700083 #Uzumaki
+	religion = "sixpaths"
+	culture = "uzumaki"
+	disallow_random_traits = yes
+	trait = uzumakigene
+	976.7.10 = { # July 10
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	986.1.1 = {
+		give_nickname = nick_red_hot_habanero # the Red-Hot Habanero
+	}
+	988.1.1 = {
+		add_trait = nine_tail # Second Jinchuriki of Nine-Tails
+		add_trait = ninjarank_genin
+	}
+	1000.10.10 = {
+		remove_trait = nine_tail
+		death = {
+			death_reason = death_tailed_beast_extraction
+			killer = 17 # Obito Uchiha
+		}
+	}
+}
+
+64 = {
+	name = "Naruto" #Seventh Hokage
+	dna = naruto_dna
+	dynasty = 700083 #Uzumaki
+	religion = "sixpaths"
+	culture = "uzumaki"
+	disallow_random_traits = yes
+	father = 79 # Minato
+	mother = 62 # Kushina
+	trait = uzumakigene
+	prowess = 10
+	1000.10.10 = { # October 10
+		birth = yes
+		add_trait = nine_tail # Third Jinchuriki of the Nine-Tails
+		effect = {
+			add_character_flag = has_scripted_appearance
+			add_character_flag = is_naruto
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	1012.1.1 = {
+		add_trait = ninjarank_genin
+		trait = ambitious
+		trait = brave
+		trait = stubborn
+	}
+	1020.1.1 = {
+		add_spouse = 77 # Hinata
+	}
+	1025.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_kage # 7th Hokage
+	}
+}
+
+65 = {
+	name = "Boruto"
+	dynasty = 700083 #Uzumaki
+	religion = "sixpaths"
+	culture = "uzumaki"
+	disallow_random_traits = yes
+	father = 64 # Naruto
+	mother = 77 # Hinata
+	trait = uzumakigene
+	1020.3.27 = { # March 27
+		birth = yes
+		employer = 168 # Kakashi
+	}
+	1032.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+66 = {
+	name = "Himawari"
+	female = yes
+	dynasty = 700083 #Uzumaki
+	religion = "sixpaths"
+	culture = "uzumaki"
+	disallow_random_traits = yes
+	father = 64 # Naruto
+	mother = 77 # Hinata
+	trait = Byakugan
+	trait = uzumakigene
+	1022.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 168 # Kakashi
+	}
+}
+
+67 = {
+	name = "Nagato"
+	dynasty = 700083 #Uzumaki
+	religion = "sixpaths"
+	culture = "uzumaki"
+	disallow_random_traits = yes
+	father = 3001 # Ise
+	mother = 68 # Fuso
+	trait = uzumakigene
+	trait = rinnegan
+	981.9.19 = { # September 19
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	999.6.9 = { # Founding of the New Akatsuki
+		add_trait = s_rank
+	}
+	1017.1.1 = {
+		death = {
+			death_reason = death_rinne_rebirth
+		}
+	}
+}
+
+68 = {
+	name = "Fuso" #Nagato's Mother
+	female = yes
+	dynasty = 700083 #Uzumaki
+	religion = "sixpaths"
+	culture = "uzumaki"
+	trait = uzumakigene
+	959.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 2 # Hashirama
+	}
+	987.1.1 = { #Killed by Konoha Shinobi
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+###########################################
+##########		HYUGA CLAN		 ##########
+###########################################
+
+69 = {
+	name = "Hizashi" #Neji's Father
+	dynasty = 700080 #Hyuga
+	religion = "sixpaths"
+	culture = "hyuga"
+	father = 71
+	trait = twin
+	trait = byakugan # Byakugan
+	971.1.8 = { # January 8
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1003.12.27 = {
+		death = {
+			death_reason = death_sacrifice
+		}
+	}
+}
+
+70 = {
+	name = "Hiashi" #Father of Hinata and Hanabi
+	dynasty = 700080 #Hyuga
+	religion = "sixpaths"
+	culture = "hyuga"
+	father = 71
+	trait = twin
+	trait = byakugan # Byakugan
+	971.1.8 = { # January 8
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+71 = {
+	name = "Elder" #Father of Hizashi and Hiashi (PH name)
+	dynasty = 700080 #Hyuga
+	religion = "sixpaths"
+	culture = "hyuga"
+	trait = twin
+	trait = byakugan # Byakugan
+	941.1.1 = {
+		birth = yes
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+}
+
+72 = {
+	name = "Hoheto"
+	dynasty = 700080 #Hyuga
+	religion = "sixpaths"
+	culture = "hyuga"
+	trait = byakugan # Byakugan
+	988.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+73 = {
+	name = "Iroha"
+	dynasty = 700080 #Hyuga
+	religion = "sixpaths"
+	culture = "hyuga"
+	trait = byakugan # Byakugan
+	990.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+74 = {
+	name = "Tokuma"
+	dynasty = 700080 #Hyuga
+	religion = "sixpaths"
+	culture = "hyuga"
+	trait = byakugan # Byakugan
+	992.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+75 = {
+	name = "Ko"
+	dynasty = 700080 #Hyuga
+	religion = "sixpaths"
+	culture = "hyuga"
+	trait = byakugan # Byakugan
+	993.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+76 = {
+	name = "Neji"
+	dynasty = 700080 #Hyuga
+	religion = "sixpaths"
+	culture = "hyuga"
+	disallow_random_traits = yes
+	father = 69 # Hizashi
+	trait = byakugan # Byakugan
+	999.7.3 = { # July 3
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 79 # Minato
+	}
+	1011.1.1 = {
+		add_trait = ninjarank_genin
+		trait = cynical
+		trait = arrogant
+		trait = calm
+	}
+	1014.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1016.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+	1017.10.9 = { #Fourth Shinobi War
+		death = {
+			death_reason = death_sacrifice
+		}
+	}
+}
+
+77 = {
+	name = "Hinata"
+	female = yes
+	dynasty = 700080 #Hyuga
+	religion = "sixpaths"
+	culture = "hyuga"
+	disallow_random_traits = yes
+	father = 70 # Hiashi
+	trait = byakugan # Byakugan
+	1000.12.27 = { # December 27
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1012.1.1 = {
+		add_trait = ninjarank_genin
+		trait = shy
+		trait = honest
+		trait = compassionate
+	}
+	1014.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+78 = {
+	name = "Hanabi"
+	female = yes
+	dynasty = 700080 #Hyuga
+	religion = "sixpaths"
+	culture = "hyuga"
+	disallow_random_traits = yes
+	father = 70 # Hiashi
+	trait = byakugan # Byakugan
+	1006.3.27 = { # March 27
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1016.1.1 = {
+		add_trait = ninjarank_genin # probably became genin earlier than Hinata, age-wise
+	}
+}
+
+###########################################
+##########		NAMIKAZE CLAN	 ##########
+###########################################
+
+79 = {
+	name = "Minato"
+	dynasty = 7000841 #Namikaze
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	prowess = 10
+	976.1.25 = { # January 25
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	986.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	996.1.1 = {
+		give_nickname = nick_yellow_flash # the Yellow Flash
+	}
+	997.1.1 = {
+		add_spouse = 62 # Kushina
+	}
+	999.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_kage # 4th Hokage
+	}
+	1000.10.10 = {
+		death = {
+			death_reason = death_reaper_death_seal
+		}
+	}
+}
+
+###########################################
+##########     HARUNO FAMILY     ##########
+###########################################
+
+166 = {
+	name = "Sakura"
+	dna = sakura_dna
+	female = yes
+	dynasty = 7000843 #Haruno
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	father = 189 # Kizashi
+	mother = 190 # Mebuki
+	1000.3.28 = { # March 28
+		birth = yes
+		employer = 79 # Minato
+	}
+	1012.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1014.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1020.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+189 = {
+	name = "Kizashi"
+	dynasty = 7000843 #Haruno
+	religion = "sixpaths"
+	culture = "fire_generic"
+	975.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	995.1.1 = {
+		add_spouse = 190 # Mebuki
+	}
+}
+
+190 = {
+	name = "Mebuki"
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	975.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+###########################################
+##########      HATAKE CLAN      ##########
+###########################################
+
+167 = {
+	name = "Sakumo"
+	dynasty = 7000844 #Hatake
+	religion = "sixpaths"
+	culture = "fire_generic"
+	965.9.3 = { # September 3
+		birth = yes
+		employer = 2 # Hashirama
+	}
+	976.1.1 = {
+		add_trait = ninjarank_jonin # Sakumo was a child genius like Kakashi, so he probably became Jonin at a young age
+	}
+	986.1.1 = {
+		give_nickname = nick_white_fang # the White Fang
+	}
+	994.1.1 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+
+168 = {
+	name = "Kakashi"
+	dynasty = 7000844 #Hatake
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	father = 167
+	prowess = 9
+	986.9.15 = { # September 15
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	991.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	992.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	994.1.1 = { # after his father died
+		add_trait = arrogant
+		add_trait = callous
+		add_trait = shy
+	}
+	998.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+		give_nickname = nick_of_the_sharingan # of the Sharingan
+		add_trait = sharingan_left
+		# he becomes more mature after Obito's death
+		remove_trait = arrogant
+		remove_trait = callous
+		# new personality
+		add_trait = humble
+		add_trait = calm
+		add_trait = just
+	}
+	999.1.1 = {
+		remove_trait = ninjarank_jonin
+		add_trait = ninjarank_anbu
+	}
+	1000.1.1 = {
+		remove_trait = ninjarank_anbu
+		add_trait = ninjarank_jonin
+	}
+	1018.1.1 = {
+		remove_trait = ninjarank_jonin
+		add_trait = ninjarank_kage # 6th Hokage
+	}
+}
+
+###########################################
+########## 	   YAKUSHI CLAN 	 ##########
+###########################################
+
+169 = {
+	name = "Nono" # Anbu / Orphanage Caretaker
+	female = yes
+	dynasty = 7000846 #Yakushi
+	religion = "sixpaths"
+	culture = "fire_generic"
+	976.3.5 = { # March 5
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	992.1.1 = {
+		add_trait = ninjarank_anbu # unclear when she became an Anbu
+	}
+	1007.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 169 # Kabuto
+		}
+	}
+}
+
+170 = {
+	name = "Kabuto"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	993.2.29 = { # February 29
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	999.1.1 = {
+		dynasty = 7000846 # Yakushi
+	}
+	1003.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1007.1.1 = {
+		add_trait = s_rank
+		employer = 2509 # Orochimaru
+	}
+}
+
+###########################################
+########## 		 LEE FAMILY		 ##########
+###########################################
+
+139 = {
+	name = "Rock"
+	dynasty = 7000842 #Lee
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	999.11.27 = { # November 27
+		birth = yes
+		employer = 79 # Minato
+	}
+	1011.1.1 = {
+		add_trait = ninjarank_genin
+		trait = diligent
+		trait = impatient
+		trait = stubborn
+	}
+	1014.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1020.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+153 = {
+	name = "Metal"
+	dynasty = 7000842 #Lee
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	father = 139 # Rock Lee
+	1020.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 168 # Kakashi
+	}
+	1032.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+###########################################
+########## 		INUZUKA CLAN	 ##########
+###########################################
+
+171 = {
+	name = "Gaku" # Probably Kiba's Dad?
+	dynasty = 7000847 #Inuzuka
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	965.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 2 # Hashirama
+	}
+	985.1.1 = {
+		add_trait = ninjarank_jonin # became a Jonin at some point
+	}
+}
+
+172 = {
+	name = "Tsume" # Kiba's Mom
+	female = yes
+	dynasty = 7000847 #Inuzuka
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	978.8.12 = { # August 12
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+173 = {
+	name = "Hana" # Kiba's Sister
+	female = yes
+	dynasty = 7000847 #Inuzuka
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	mother = 172 # Tsume Inuzuka
+	995.4.13 = { # April 13
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1009.1.1 = {
+		add_trait = ninjarank_chunin
+	}
+}
+
+174 = {
+	name = "Kiba"
+	dynasty = 7000847 #Inuzuka
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	mother = 172 # Tsume Inuzuka
+	1000.7.7 = { # July 7
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1012.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1014.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+175 = {
+	name = "Akita" # Member of Scientific Ninja Weapons Team
+	female = yes
+	dynasty = 7000847 #Inuzuka
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	1013.4.20 = { # April 20
+		birth = yes
+		employer = 6 # Tsunade
+	}
+}
+
+###########################################
+##########	  KAMINARIMON CLAN 	 ##########
+###########################################
+
+176 = {
+	name = "Ereki" # Denki's Father
+	dynasty = 7000848 #Kaminarimon
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	998.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1010.1.1 = {
+		add_trait = ninjarank_genin # was most likely AT LEAST a genin
+	}
+}
+
+177 = {
+	name = "Denki"
+	dynasty = 7000848 #Kaminarimon
+	religion = "sixpaths"
+	culture = "fire_generic"
+	father = 176 # Ereki
+	disallow_random_traits = yes
+	1020.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 168 # Kakashi
+	}
+	1032.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+###########################################
+##########	 	  UMINO CLAN 	 ##########
+###########################################
+
+178 = {
+	name = "Ikkaku"
+	dynasty = 7000849 #Umino
+	religion = "sixpaths"
+	culture = "fire_generic"
+	955.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 2 # Hashirama
+	}
+	975.1.1 = {
+		add_trait = ninjarank_jonin
+		add_spouse = 179 # Kohari
+	}
+	1000.1.1 = {
+		death = {
+			death_reason = death_battle # died in the Nine-Tails attack
+		}
+	}
+}
+
+179 = {
+	name = "Kohari"
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	955.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 2 # Hashirama
+	}
+	975.1.1 = {
+		add_trait = ninjarank_jonin
+	}
+	1000.1.1 = {
+		death = {
+			death_reason = death_battle # died in the Nine-Tails attack
+		}
+	}
+}
+
+180 = {
+	name = "Iruka"
+	dynasty = 7000849 #Umino
+	religion = "sixpaths"
+	culture = "fire_generic"
+	father = 178 # Ikkaku
+	mother = 179 # Kohari
+	disallow_random_traits = yes
+	990.5.26 = { # May 26
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1001.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1006.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+
+###########################################
+########## NINJAS WITHOUT A CLAN ##########
+###########################################
+
+80 = {
+	name = "Ushi" #Anbu
+	religion = "sixpaths"
+	culture = "fire_generic"
+	934.1.1 = { # UNKNOWN DATE
+		birth = yes
+	}
+	950.1.1 = {
+		add_trait = ninjarank_anbu
+		employer = 2 # Hashirama
+	}
+}
+
+81 = {
+	name = "Baku" #Anbu
+	religion = "sixpaths"
+	culture = "fire_generic"
+	935.1.1 = { # UNKNOWN DATE
+		birth = yes
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	951.1.1 = {
+		add_trait = ninjarank_anbu
+	}
+}
+
+82 = {
+	name = "Tora" #Anbu
+	religion = "sixpaths"
+	culture = "fire_generic"
+	936.1.1 = { # UNKNOWN DATE
+		birth = yes
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	952.1.1 = {
+		add_trait = ninjarank_anbu
+	}
+}
+
+83 = {
+	name = "Bansai" #Monk
+	religion = "sixpaths"
+	culture = "fire_generic"
+	952.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 2 # Hashirama
+	}
+}
+
+84 = {
+	name = "Jiraiya" #Three Sannin
+	dna = jiraiya_dna
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	962.11.11 = { # November 11
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			add_character_flag = is_jiraiya
+		}
+		employer = 2 # Hashirama
+	}
+	966.6.6 = {
+		employer = 26 # Hiruzen
+	}
+	975.1.1 = {
+		trait = brave
+		trait = diligent
+		trait = lustful
+	}
+	968.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	980.1.1 = {
+		trait = rakish
+	}
+	984.1.1 = { # estimated to have become jonin at age 22
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_jonin
+	}
+	1012.1.1 = {
+		give_nickname = nick_pervy_sage # the Pervy Sage
+	}
+	1016.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 67 # Nagato/Pain
+		}
+	}
+}
+
+85 = {
+	name = "Mitoku"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	964.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 2 # Hashirama
+	}
+}
+
+86 = {
+	name = "Might Duy" #Might Guy's Father
+	dna = might_duy_dna
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	965.12.10 = { # December 10
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			make_important_lore_character_effect = yes
+		}
+		employer = 2 # Hashirama
+	}
+	977.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	990.1.1 = {
+		give_nickname = nick_eternal_genin # "the Eternal Genin"
+	}
+	1001.1.1 = {
+		death = {
+			death_reason = death_sacrifice
+		}
+	}
+}
+
+87 = {
+	name = "Bekko" 
+	religion = "sixpaths"
+	culture = "fire_generic"
+	972.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+88 = {
+	name = "Taji" # Medical-nin and Anbu
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	977.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	993.1.1 = {
+		add_trait = ninjarank_anbu # Became Anbu at some point
+	}
+	1000.1.1 = { # Killed by Obito
+		death = {
+			death_reason = death_battle
+			killer = 17 # Obito Uchiha
+		}
+	}
+}
+
+89 = {
+	name = "Kakoi"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	979.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+90 = {
+	name = "Suzume" #Taught Sakura and Ino at the Academy
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	979.10.19 = { # October 19
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+91 = {
+	name = "Ro" #Anbu from Shikamaru Hiden
+	religion = "sixpaths"
+	culture = "fire_generic"
+	979.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	991.1.1 = {
+		add_trait = ninjarank_genin # became a Genin at some point
+	}
+	997.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_anbu # and later an Anbu
+	}
+}
+
+92 = {
+	name = "Yajirobee"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	981.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+93 = {
+	name = "Zo" #Anbu
+	religion = "sixpaths"
+	culture = "fire_generic"
+	981.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	997.1.1 = {
+		add_trait = ninjarank_anbu # became Anbu at some point
+	}
+}
+
+94 = {
+	name = "Ebisu" #Konohamaru's Teacher
+	religion = "sixpaths"
+	culture = "fire_generic"
+	984.3.8 = { # March 8
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	994.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1001.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin # becomes Special Jonin later, update when trait implemented
+	}
+}
+
+95 = {
+	name = "Shizune" #Tsunade's Assistant / Dan Kato's Niece
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	mother = 186 # DanSister
+	985.11.18 = { # November 18
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	994.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	998.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1005.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+96 = {
+	name = "Chiriku" #Fire Temple Monk / Twelve Guardian Ninjas
+	religion = "sixpaths"
+	culture = "fire_generic"
+	985.7.1 = { # July 1
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1016.1.1 = { #Killed by Hidan and Kakuzu
+		death = {
+			death_reason = death_battle
+			killer = 3500 # Hidan
+		}
+	}
+}
+
+97 = {
+	name = "Mogusa" #Medical Ninja
+	religion = "sixpaths"
+	culture = "fire_generic"
+	985.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+98 = {
+	name = "Kanpo" #Medical Ninja
+	religion = "sixpaths"
+	culture = "fire_generic"
+	986.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+99 = {
+	name = "Kito" #Medical Ninja
+	religion = "sixpaths"
+	culture = "fire_generic"
+	986.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+100 = {
+	name = "Might Guy"
+	dna = might_guy_dna
+	religion = "sixpaths"
+	culture = "fire_generic"
+	father = 86
+	986.1.1 = { # January 1
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+		employer = 26 # Hiruzen
+	}
+	993.1.1 = {
+		add_trait = ninjarank_genin
+		give_nickname = nick_noble_green_beast # the Noble Green Beast
+	}
+	997.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	999.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin # Guy was never too far behind Kakashi so I think it makes sense
+	}
+	1017.12.31 = {
+		trait = one_legged
+	}
+}
+
+101 = {
+	name = "Mizuki" #Probably died in captivity?
+	religion = "sixpaths"
+	culture = "fire_generic"
+	986.10.21 = { # October 21
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+102 = {
+	name = "Hosho" #Medical Ninja
+	religion = "sixpaths"
+	culture = "fire_generic"
+	987.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+103 = {
+	name = "Kusushi" #Medical Ninja
+	religion = "sixpaths"
+	culture = "fire_generic"
+	989.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+104 = {
+	name = "Mitate" #Medical Ninja
+	religion = "sixpaths"
+	culture = "fire_generic"
+	989.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+105 = {
+	name = "Ranka"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	989.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+106 = {
+	name = "Hayase"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	989.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+107 = {
+	name = "Terai" #Anbu
+	religion = "sixpaths"
+	culture = "fire_generic"
+	989.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	999.1.1 = {
+		add_trait = ninjarank_anbu # most Root members were recruited as young children
+	}
+}
+
+108 = {
+	name = "Komugi"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	990.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+109 = {
+	name = "Okei"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	990.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+110 = {
+	name = "Tenzo" # AKA Yamato
+	religion = "sixpaths"
+	culture = "fire_generic"
+	990.8.10 = { # August 10
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	996.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	996.6.6 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1000.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_anbu
+	}
+	1016.1.1 = {
+		remove_trait = ninjarank_anbu
+		add_trait = ninjarank_jonin
+		change_first_name = Yamato
+	}
+}
+
+111 = {
+	name = "Inaho"
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	991.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+112 = {
+	name = "Kumadori" #Medical Ninja
+	religion = "sixpaths"
+	culture = "fire_generic"
+	991.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+113 = {
+	name = "Migaki" #Medical Ninja
+	religion = "sixpaths"
+	culture = "fire_generic"
+	991.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+114 = {
+	name = "Ugai" #Medical Ninja
+	religion = "sixpaths"
+	culture = "fire_generic"
+	991.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+115 = {
+	name = "Sentoki" #Fire Temple Monk
+	religion = "sixpaths"
+	culture = "fire_generic"
+	991.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+116 = {
+	name = "Gennai"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	991.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+117 = {
+	name = "Yurika"
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	992.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+118 = {
+	name = "Urushi" #One of Kabuto's orphanage buddies
+	religion = "sixpaths"
+	culture = "fire_generic"
+	992.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+119 = {
+	name = "Natori"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	992.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+120 = {
+	name = "Hakui" #Possibly headcanon mother of Metal Lee?
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	993.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+121 = {
+	name = "Inomatsu"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	993.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+122 = {
+	name = "Ichigen" #Fire Monk Temple, probably dead
+	religion = "sixpaths"
+	culture = "fire_generic"
+	994.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1016.1.1 = {
+		death = yes
+	}
+}
+
+123 = {
+	name = "Minoji"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	994.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+124 = {
+	name = "Shibire"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	994.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+125 = {
+	name = "Mozuku"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	994.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+126 = {
+	name = "Kage" #Anbu, maybe not real name?
+	religion = "sixpaths"
+	culture = "fire_generic"
+	994.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1010.1.1 = {
+		add_trait = ninjarank_anbu
+	}
+}
+
+127 = {
+	name = "Gazeru" #Anbu
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	995.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1011.1.1 = {
+		add_trait = ninjarank_anbu
+	}
+}
+
+128 = {
+	name = "Hosei"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	995.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+129 = {
+	name = "Tanzo"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	995.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+130 = {
+	name = "Hyo" #Anbu
+	religion = "sixpaths"
+	culture = "fire_generic"
+	995.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1005.1.1 = {
+		add_trait = ninjarank_anbu # most Root members were recruited as young children
+	}
+}
+
+131 = {
+	name = "Zenza" #Fire Temple Monk
+	religion = "sixpaths"
+	culture = "fire_generic"
+	996.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+132 = {
+	name = "Sukima"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	996.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+133 = {
+	name = "Jimei"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	997.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+134 = {
+	name = "Zaji"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	997.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+135 = {
+	name = "Ami"
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	998.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+136 = {
+	name = "Fuki"
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	998.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+137 = {
+	name = "Kasumi"
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	998.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+138 = {
+	name = "Tenten"
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	999.3.9 = { # March 9
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 79 # Minato
+	}
+	1011.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1014.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1020.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin # according to Ultimate Ninja Storm 4
+	}
+}
+
+140 = {
+	name = "Shiho" # Member of Konoha Cryptanalysis Team
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	1000.6.18 = { # June 18
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+141 = {
+	name = "Kota"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	1000.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+142 = {
+	name = "Tobio"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	1001.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1012.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+143 = {
+	name = "Matsuri"
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	1003.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1015.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+144 = {
+	name = "Daichi"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	1003.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+145 = {
+	name = "Koji"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	1003.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+146 = {
+	name = "Nobori"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	1003.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+147 = {
+	name = "Futaba"
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	1004.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+148 = {
+	name = "Hibari"
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	1004.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+149 = {
+	name = "Hinoko" #Anbu from Shikamaru Hiden
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	1005.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+	1017.1.1 = {
+		add_trait = ninjarank_anbu # "she was scouted by the Anbu and upon graduating from the Academy, was immediately recruited as a member"
+	}
+}
+
+150 = {
+	name = "Mibuna"
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	1010.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+151 = {
+	name = "Sansho"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	1010.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+152 = {
+	name = "Tsukune"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	1010.1.1 = { # UNKNOWN DATE
+		birth = yes
+		employer = 26 # Hiruzen
+	}
+}
+
+155 = {
+	name = "Sai"
+	religion = "sixpaths"
+	culture = "fire_generic"
+	999.11.25 = { # November 25
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 79 # Minato
+	}
+	1008.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1009.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1010.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_anbu
+	}
+}
+
+###########################################
+##########	   "MINOR" CLANS 	 ##########
+###########################################
+
+### Mitokado Clan
+
+181 = {
+	name = "Homura"
+	dynasty = 7000820 #Mitokado
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	944.5.8 = { # May 8
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	959.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	964.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_jonin
+	}
+}
+
+### Shimura Clan
+
+182 = {
+	name = "Danzo"
+	dynasty = 7000821 #Shimura
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	944.1.6 = { # January 6
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	959.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	964.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_jonin
+	}
+	1017.1.6 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+
+183 = {
+	name = "Koharu"
+	female = yes
+	dynasty = 7000822 #Utatane
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	944.9.1 = { # September 1
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	959.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	964.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_jonin
+	}
+}
+
+### Mokume Clan
+
+184 = {
+	name = "Kunugi"
+	dynasty = 7000823 #Mokume
+	religion = "sixpaths"
+	culture = "fire_generic"
+	955.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2 # Hashirama
+	}
+	967.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	970.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	975.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+### Kato Clan
+
+185 = {
+	name = "Dan" # Tsunade's Lover
+	dynasty = 7000824 #Kato
+	religion = "sixpaths"
+	culture = "fire_generic"
+	father = 187 # DanDad
+	mother = 188 # DanMom
+	958.12.4 = { # December 4
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2 # Hashirama
+	}
+	968.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	973.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	978.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+	986.1.1 = {
+		death = {
+			death_reason = death_wounds # bled to death
+		}
+	}
+}
+
+186 = {
+	name = "ShizuneMom" # To link Shizune as Dan's niece
+	female = yes
+	dynasty = 7000824 #Kato
+	religion = "sixpaths"
+	culture = "fire_generic"
+	father = 187 # DanDad
+	mother = 188 # DanMom
+	960.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2 # Hashirama
+	}
+	986.1.1 = {
+		death = {
+			death_reason = death_battle # probably also died in the Second War
+		}
+	}
+}
+
+187 = {
+	name = "DanDad" # To link Shizune's mom and Dan Kato as siblings
+	dynasty = 7000824 #Kato
+	religion = "sixpaths"
+	culture = "fire_generic"
+	933.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	966.1.1 = {
+		death = {
+			death_reason = death_battle # probably died in the First War
+		}
+	}
+}
+
+188 = {
+	name = "DanMom" # To link Shizune's mom and Dan Kato as siblings
+	female = yes
+	religion = "sixpaths"
+	culture = "fire_generic"
+	933.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		employer = 2 # Hashirama
+	}
+	966.1.1 = {
+		death = {
+			death_reason = death_battle # probably died in the First War
+		}
+	}
+}
+
+### Minazuki Clan
+
+191 = {
+	name = "Yuki" # Leader of Team 2
+	dynasty = 7000825 # Minazuki
+	religion = "sixpaths"
+	culture = "fire_generic"
+	963.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 2 # Hashirama
+	}
+	975.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	978.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	983.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+### Mimura Clan
+
+192 = {
+	name = "Hamaki"
+	dynasty = 7000826 # Mimura
+	religion = "sixpaths"
+	culture = "fire_generic"
+	966.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 3 # Tobirama
+	}
+	978.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	981.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	986.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin
+	}
+}
+
+### Akado Clan
+
+193 = {
+	name = "Manabu"
+	dynasty = 7000827 # Akado
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	975.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	987.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}
+
+### Funeno Clan
+
+194 = {
+	name = "Daikoku"
+	dynasty = 7000828 # Funeno
+	religion = "sixpaths"
+	culture = "fire_generic"
+	978.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	990.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	993.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+### Akame Clan
+
+195 = {
+	name = "Iwana"
+	dynasty = 7000829 # Akame
+	religion = "sixpaths"
+	culture = "fire_generic"
+	981.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	993.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	996.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+### Dokuraku Clan
+
+196 = {
+	name = "Mawashi"
+	dynasty = 30 # Dokuraku
+	religion = "sixpaths"
+	culture = "fire_generic"
+	981.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	993.1.1 = {
+		add_trait = ninjarank_genin # at least a genin
+	}
+}
+
+### Namiashi Clan
+
+197 = {
+	name = "Raido" # Special Jonin
+	dynasty = 31 # Namiashi
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	981.8.28 = { # August 28
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	993.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	996.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+### Tokisuki Clan
+
+198 = {
+	name = "Kabure"
+	dynasty = 32 # Tokisuki
+	religion = "sixpaths"
+	culture = "fire_generic"
+	981.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	993.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	996.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+### Yamashiro Clan
+
+199 = {
+	name = "Aoba" # Special Jonin
+	dynasty = 33 # Yamashiro
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	983.9.3 = { # September 3
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	993.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	996.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+### Shiranui Clan
+
+200 = {
+	name = "Genma" # Special Jonin
+	dynasty = 34 # Shiranui
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	984.7.17 = { # July 17
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	994.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	997.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+### Morino Clan
+
+201 = {
+	name = "Ibiki" # Special Jonin / Konoha Torture and Interrogation Force
+	dynasty = 35 # Morino
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	985.3.20 = { # March 20
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	995.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1000.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+}
+
+### Toriichi Clan
+
+202 = {
+	name = "Kumade" # Special Jonin
+	dynasty = 36 # Toriichi
+	religion = "sixpaths"
+	culture = "fire_generic"
+	985.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	997.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1000.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	1011.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 511 # Zabuza
+		}
+	}
+}
+
+### Nohara Clan
+
+203 = {
+	name = "Rin"
+	female = yes
+	dynasty = 37 # Nohara
+	religion = "sixpaths"
+	culture = "fire_generic"
+	disallow_random_traits = yes
+	986.11.15 = { # November 15
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 26 # Hiruzen
+	}
+	995.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	997.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin
+	}
+	999.6.9 = {
+		add_trait = three_tail
+		death = {
+			death_reason = death_battle
+			killer = 168 # Kakashi (it's complicated)
+		}
+	}
+}

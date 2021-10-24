@@ -1,0 +1,530 @@
+﻿
+###########################################
+########## 		 TSUCHIKAGES	 ##########
+###########################################
+
+1500 = { # 1st Tsuchikage
+	name = "Ishikawa" # Onoki's Grandfather
+	dynasty = 1500 # Kamizuru
+	disallow_random_traits = yes
+	religion = "sixpaths"
+	culture = "earth_generic"
+	prowess = 8
+	896.5.6 = { # May 6
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		add_trait = ninjarank_kage
+	}
+	966.1.1 = {
+		death = yes
+	}
+}
+
+1501 = { # 2nd Tsuchikage
+	name = "Mu"
+	religion = "sixpaths"
+	culture = "earth_generic"
+	disallow_random_traits = yes
+	prowess = 10
+	926.6.6 = { # June 6
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		employer = 1500 # Ishikawa
+	}
+	966.1.1 = {
+		add_trait = ninjarank_kage
+	}
+	966.6.6 = {
+		death = {
+			death_reason = death_battle
+			killer = 501 # Gengetsu Hozuki
+		}
+	}
+}
+
+1502 = { # 3rd Tsuchikage
+	name = "Onoki"
+	dna = onoki_dna
+	dynasty = 1500 # Kamizuru
+	disallow_random_traits = yes
+	religion = "sixpaths"
+	culture = "earth_generic"
+	father = 1504 # OnokiDad
+	mother = 1505 # OnokiMom
+	prowess = 10
+	938.10.8 = { # October 8
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		employer = 1500 # Ishikawa
+	}
+	966.6.6 = {
+		add_trait =  = ninjarank_kage
+		give_nickname = nick_fence_sitter # the Fence-Sitter, unclear when he got this nickname
+	}
+	1032.6.6 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+1503 = { # 4th Tsuchikage
+	name = "Kurotsuchi"
+	female = yes
+	dynasty = 1500 # Kamizuru
+	disallow_random_traits = yes
+	religion = "sixpaths"
+	culture = "earth_generic"
+	father = 1506 # Kitsuchi
+	prowess = 8
+	999.9.6 = { # September 6
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1502 # Onoki
+	}
+	1016.1.1 = {
+		trait = ninjarank_jonin # Became a Jonin at some point
+	}
+	1021.1.1 = {
+		remove_trait = ninjarank_jonin
+		trait = ninjarank_kage
+	}
+}
+
+###########################################
+########## 		KAMIZURU CLAN	 ##########
+###########################################
+
+# This dynasty is anime-canon, but it's a good way to tie Kurotsuchi, Onoki, and Ishikawa together so I'm including it in the mod
+
+1504 = {
+	name = "OnokiDad"
+	dynasty = 1500 # Kamizuru
+	religion = "sixpaths"
+	culture = "earth_generic"
+	father = 1500 # Ishikawa
+	917.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		employer = 1500 # Ishikawa
+	}
+	966.1.1 = { # probably died in the First War
+		death = yes
+	}
+}
+
+1505 = {
+	name = "OnokiMom"
+	female = yes
+	religion = "sixpaths"
+	culture = "earth_generic"
+	917.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		employer = 1500 # Ishikawa
+	}
+	966.1.1 = { # probably died in the First War
+		death = yes
+	}
+}
+
+1506 = {
+	name = "Kitsuchi"
+	#dynasty = 1500 # Kamizuru. Maybe?
+	religion = "sixpaths"
+	culture = "earth_generic"
+	disallow_random_traits = yes
+	# According to the fourth databook, he's from the Tsuchikage's bloodline.
+	# While not stated expressly, since Kurotsuchi is the Third Tsuchikage's granddaughter and they both have similar nose shapes, it is most likely that Kitsuchi is his son
+	father = 1502 # Onoki
+	prowess = 5
+	973.3.22 = { # March 22
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	993.1.1 = {
+		add_trait = ninjarank_jonin # became a jonin at some point
+	}
+}
+
+###########################################
+########## 		IWA CHUNINS 	 ##########
+###########################################
+
+1507 = {
+	name = "Gantetsu" # the "Legendary Dark Shinobi"
+	religion = "sixpaths"
+	culture = "earth_generic"
+	disallow_random_traits = yes
+	prowess = 1
+	984.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1502 # Onoki
+	}
+	996.1.1 = {
+		add_trait = ninjarank_genin # became a Genin at some point
+	}
+	1004.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin # became a Chunin at some point
+	}
+	1009.1.1 = {
+		add_trait = s_rank # defected from Iwagakure at some point
+	}
+}
+
+1508 = {
+	name = "Choseki" # Gantetsu's partner
+	religion = "sixpaths"
+	culture = "earth_generic"
+	prowess = 1
+	986.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1502 # Onoki
+	}
+	998.1.1 = {
+		add_trait = ninjarank_genin # became a Genin at some point
+	}
+	1006.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin # became a Chunin at some point
+	}
+	1009.1.1 = {
+		add_trait = s_rank # defected from Iwagakure at some point
+	}
+}
+
+1509 = {
+	name = "Morio"
+	religion = "sixpaths"
+	culture = "earth_generic"
+	prowess = 1
+	991.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1502 # Onoki
+	}
+	1003.1.1 = {
+		add_trait = ninjarank_genin # became a Genin at some point
+	}
+	1006.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin # became a Chunin at some point
+	}
+}
+
+1510 = {
+	name = "Ittan"
+	religion = "sixpaths"
+	culture = "earth_generic"
+	prowess = 1
+	994.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1502 # Onoki
+	}
+	1006.1.1 = {
+		add_trait = ninjarank_genin # became a Genin at some point
+	}
+	1009.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin # became a Chunin at some point
+	}
+}
+
+###########################################
+########## 		 IWA JONINS  	 ##########
+###########################################
+
+1511 = {
+	name = "Kakko"
+	religion = "sixpaths"
+	culture = "earth_generic"
+	prowess = 6
+	972.7.5 = { # July 5
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1502 # Onoki
+	}
+	984.1.1 = {
+		add_trait = ninjarank_genin # became a Genin at some point
+	}
+	987.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin # became a Chunin at some point
+	}
+	990.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin # became a Jonin at some point
+	}
+	999.6.9 = { # June 9
+		death = {
+			death_reason = death_battle
+			killer = 168 # Kakashi Hatake
+		}
+	}
+}
+
+1512 = {
+	name = "Taiseki"
+	religion = "sixpaths"
+	culture = "earth_generic"
+	prowess = 6
+	972.3.10 = { # March 10
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1502 # Onoki
+	}
+	984.1.1 = {
+		add_trait = ninjarank_genin # became a Genin at some point
+	}
+	987.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin # became a Chunin at some point
+	}
+	990.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin # became a Jonin at some point
+	}
+	999.6.9 = { # June 9
+		death = {
+			death_reason = death_battle
+			killer = 17 # Obito Uchiha
+		}
+	}
+}
+
+1513 = {
+	name = "Mahiru"
+	religion = "sixpaths"
+	culture = "earth_generic"
+	prowess = 5
+	975.6.18 = { # June 18
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1502 # Onoki
+	}
+	987.1.1 = {
+		add_trait = ninjarank_genin # became a Genin at some point
+	}
+	990.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin # became a Chunin at some point
+	}
+	993.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin # became a Jonin at some point
+	}
+	999.6.9 = { # June 9
+		death = {
+			death_reason = death_battle
+			killer = 79 # Minato Namikaze
+		}
+	}
+}
+
+1514 = {
+	name = "Akatsuchi" # Tsuchikage's Bodyguard/Assistant
+	religion = "sixpaths"
+	culture = "earth_generic"
+	disallow_random_traits = yes
+	prowess = 4
+	997.1.11 = { # January 11
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1502 # Onoki
+	}
+	1009.1.1 = {
+		add_trait = ninjarank_genin # became a Genin at some point
+	}
+	1012.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin # became a Chunin at some point
+	}
+	1015.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin # became a Jonin at some point
+	}
+}
+
+1515 = {
+	name = "Sumashi" # Special Jonin
+	religion = "sixpaths"
+	culture = "earth_generic"
+	prowess = 1
+	973.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1502 # Onoki
+	}
+	985.1.1 = {
+		add_trait = ninjarank_genin # became a Genin at some point
+	}
+	988.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin # became a Chunin at some point
+	}
+}
+
+1516 = {
+	name = "Shibito"
+	dynasty = 1501 # Azuma
+	religion = "sixpaths"
+	culture = "earth_generic"
+	prowess = 1
+	974.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1502 # Onoki
+	}
+	986.1.1 = {
+		add_trait = ninjarank_genin # became a Genin at some point
+	}
+	989.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_chunin # became a Chunin at some point
+	}
+	992.1.1 = {
+		remove_trait = ninjarank_chunin
+		add_trait = ninjarank_jonin # became a Jonin at some point
+	}
+	999.6.9 = { # June 9
+		death = {
+			death_reason = death_battle
+			killer = 79 # Minato Namikaze
+		}
+	}
+}
+
+###########################################
+########## 		 JINCHURIKIS  	 ##########
+###########################################
+
+1517 = {
+	name = "Roshi" # Jinchuriki of the Four-Tails / Son Goku
+	religion = "sixpaths"
+	culture = "earth_generic"
+	disallow_random_traits = yes
+	prowess = 7
+	972.6.4 = { # June 4
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1502 # Onoki
+	}
+	977.1.1 = {
+		add_trait = four_tail
+	}
+	984.1.1 = {
+		add_trait = ninjarank_genin # he wore a headband so he must have been at least a Genin
+	}
+	1016.10.24 = {
+		remove_trait = four_tail
+		death = {
+			death_reason = death_tailed_beast_extraction
+		}
+	}
+}
+
+1518 = {
+	name = "Han" # Jinchuriki of the Five-Tails / Kokuo
+	religion = "sixpaths"
+	culture = "earth_generic"
+	disallow_random_traits = yes
+	prowess = 7
+	986.5.10 = { # May 10
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		add_trait = five_tail
+		employer = 1502 # Onoki
+	}
+	998.1.1 = {
+		add_trait = ninjarank_genin # he wore a headband so he must have been at least a Genin
+	}
+	1015.1.1 = {
+		remove_trait = five_tail
+		death = {
+			death_reason = death_tailed_beast_extraction
+		}
+	}
+}
+
+###########################################
+##########      ROGUE NINJAS     ##########
+###########################################
+
+1519 = {
+	name = "Deidara" # Akatsuki Member
+	religion = "sixpaths"
+	culture = "earth_generic"
+	disallow_random_traits = yes
+	prowess = 9
+	997.5.5 = { # May 5
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 1502 # Onoki
+	}
+	1009.1.1 = {
+		add_trait = ninjarank_genin # he wore a headband so he must have been at least a Genin
+	}
+	1010.1.1 = {
+		add_trait = s_rank # Deidara joins the Akatsuki
+	}
+	1016.10.24 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}

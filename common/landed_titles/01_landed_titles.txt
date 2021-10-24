@@ -1,0 +1,4603 @@
+﻿###### AUTO GENERATED CONTENT (c) CKTools2 0.1.0A ######
+
+e_shinobi_world = {
+	color = { 180 220 170 }
+	color2 = { 255 255 20 }
+	
+	capital = c_iwa_county_1
+	
+	k_iwagakure = {
+		color = { 140 4 150 }
+		color2 = { 255 255 255 }
+		
+		capital = c_iwa_county_1
+		
+		d_iwa_duchy_1 = {
+			color = { 131 13 145 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_1
+			
+			c_iwa_county_1 = {
+				color = { 118 25 138 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_1 = {
+					province = 1
+					color = { 118 25 138 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_2 = {
+					province = 2
+					color = { 118 25 138 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_3 = {
+					province = 3
+					color = { 118 25 138 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_5 = {
+					province = 5
+					color = { 118 25 138 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_2 = {
+				color = { 111 32 100 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_4 = {
+					province = 4
+					color = { 111 32 100 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_6 = {
+					province = 6
+					color = { 111 32 100 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_7 = {
+					province = 7
+					color = { 111 32 100 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_3 = {
+				color = { 108 60 136 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_8 = {
+					province = 8
+					color = { 108 60 136 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_13 = {
+					province = 13
+					color = { 108 60 136 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_14 = {
+					province = 14
+					color = { 108 60 136 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_4 = {
+				color = { 126 64 108 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_9 = {
+					province = 9
+					color = { 126 64 108 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_10 = {
+					province = 10
+					color = { 126 64 108 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_15 = {
+					province = 15
+					color = { 126 64 108 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_16 = {
+					province = 16
+					color = { 126 64 108 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_5 = {
+				color = { 149 22 101 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_11 = {
+					province = 11
+					color = { 149 22 101 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_12 = {
+					province = 12
+					color = { 149 22 101 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_17 = {
+					province = 17
+					color = { 149 22 101 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_18 = {
+					province = 18
+					color = { 149 22 101 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_10 = {
+			color = { 128 51 130 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_42
+			
+			c_iwa_county_42 = {
+				color = { 113 98 110 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_92 = {
+					province = 92
+					color = { 113 98 110 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_120 = {
+					province = 120
+					color = { 113 98 110 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_121 = {
+					province = 121
+					color = { 113 98 110 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_41 = {
+				color = { 163 56 101 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_94 = {
+					province = 94
+					color = { 163 56 101 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_118 = {
+					province = 118
+					color = { 163 56 101 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_119 = {
+					province = 119
+					color = { 163 56 101 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_188 = {
+					province = 188
+					color = { 163 56 101 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_43 = {
+				color = { 141 110 95 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_122 = {
+					province = 122
+					color = { 141 110 95 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_123 = {
+					province = 123
+					color = { 141 110 95 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_124 = {
+					province = 124
+					color = { 141 110 95 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_125 = {
+					province = 125
+					color = { 141 110 95 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_44 = {
+				color = { 166 74 112 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_126 = {
+					province = 126
+					color = { 166 74 112 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_133 = {
+					province = 133
+					color = { 166 74 112 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_185 = {
+					province = 185
+					color = { 166 74 112 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_45 = {
+				color = { 114 114 162 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_184 = {
+					province = 184
+					color = { 114 114 162 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_186 = {
+					province = 186
+					color = { 114 114 162 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_187 = {
+					province = 187
+					color = { 114 114 162 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_11 = {
+			color = { 149 15 117 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_46
+			
+			c_iwa_county_46 = {
+				color = { 154 30 84 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_131 = {
+					province = 131
+					color = { 154 30 84 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_136 = {
+					province = 136
+					color = { 154 30 84 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_137 = {
+					province = 137
+					color = { 154 30 84 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_155 = {
+					province = 155
+					color = { 154 30 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_47 = {
+				color = { 110 78 70 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_134 = {
+					province = 134
+					color = { 110 78 70 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_135 = {
+					province = 135
+					color = { 110 78 70 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_182 = {
+					province = 182
+					color = { 110 78 70 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_48 = {
+				color = { 118 15 113 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_138 = {
+					province = 138
+					color = { 118 15 113 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_139 = {
+					province = 139
+					color = { 118 15 113 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_140 = {
+					province = 140
+					color = { 118 15 113 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_49 = {
+				color = { 116 45 106 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_156 = {
+					province = 156
+					color = { 116 45 106 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_157 = {
+					province = 157
+					color = { 116 45 106 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_158 = {
+					province = 158
+					color = { 116 45 106 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_12 = {
+			color = { 157 62 120 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_50
+			
+			c_iwa_county_50 = {
+				color = { 177 112 93 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_141 = {
+					province = 141
+					color = { 177 112 93 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_152 = {
+					province = 152
+					color = { 177 112 93 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_153 = {
+					province = 153
+					color = { 177 112 93 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_154 = {
+					province = 154
+					color = { 177 112 93 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_51 = {
+				color = { 128 89 103 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_142 = {
+					province = 142
+					color = { 128 89 103 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_143 = {
+					province = 143
+					color = { 128 89 103 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_144 = {
+					province = 144
+					color = { 128 89 103 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_145 = {
+					province = 145
+					color = { 128 89 103 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_52 = {
+				color = { 165 95 160 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_146 = {
+					province = 146
+					color = { 165 95 160 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_147 = {
+					province = 147
+					color = { 165 95 160 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_148 = {
+					province = 148
+					color = { 165 95 160 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_149 = {
+					province = 149
+					color = { 165 95 160 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_53 = {
+				color = { 164 63 117 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_150 = {
+					province = 150
+					color = { 164 63 117 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_163 = {
+					province = 163
+					color = { 164 63 117 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_164 = {
+					province = 164
+					color = { 164 63 117 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_13 = {
+			color = { 113 35 141 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_59
+			
+			c_iwa_county_59 = {
+				color = { 83 68 130 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_151 = {
+					province = 151
+					color = { 83 68 130 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_161 = {
+					province = 161
+					color = { 83 68 130 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_162 = {
+					province = 162
+					color = { 83 68 130 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_58 = {
+				color = { 109 98 141 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_165 = {
+					province = 165
+					color = { 109 98 141 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_166 = {
+					province = 166
+					color = { 109 98 141 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_167 = {
+					province = 167
+					color = { 109 98 141 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_60 = {
+				color = { 86 35 128 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_159 = {
+					province = 159
+					color = { 86 35 128 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_160 = {
+					province = 160
+					color = { 86 35 128 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_179 = {
+					province = 179
+					color = { 86 35 128 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_61 = {
+				color = { 145 62 140 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_168 = {
+					province = 168
+					color = { 145 62 140 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_177 = {
+					province = 177
+					color = { 145 62 140 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_178 = {
+					province = 178
+					color = { 145 62 140 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_62 = {
+				color = { 104 68 133 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_169 = {
+					province = 169
+					color = { 104 68 133 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_170 = {
+					province = 170
+					color = { 104 68 133 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_176 = {
+					province = 176
+					color = { 104 68 133 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_14 = {
+			color = { 158 34 149 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_54
+			
+			c_iwa_county_54 = {
+				color = { 179 57 150 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_183 = {
+					province = 183
+					color = { 179 57 150 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_212 = {
+					province = 212
+					color = { 179 57 150 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_214 = {
+					province = 214
+					color = { 179 57 150 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_55 = {
+				color = { 157 39 133 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_189 = {
+					province = 189
+					color = { 157 39 133 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_211 = {
+					province = 211
+					color = { 157 39 133 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_56 = {
+				color = { 177 36 143 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_209 = {
+					province = 209
+					color = { 177 36 143 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_221 = {
+					province = 221
+					color = { 177 36 143 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_222 = {
+					province = 222
+					color = { 177 36 143 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_57 = {
+				color = { 139 45 107 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_210 = {
+					province = 210
+					color = { 139 45 107 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_213 = {
+					province = 213
+					color = { 139 45 107 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_220 = {
+					province = 220
+					color = { 139 45 107 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_15 = {
+			color = { 128 36 158 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_63
+			
+			c_iwa_county_63 = {
+				color = { 121 61 167 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_180 = {
+					province = 180
+					color = { 121 61 167 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_181 = {
+					province = 181
+					color = { 121 61 167 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_216 = {
+					province = 216
+					color = { 121 61 167 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_217 = {
+					province = 217
+					color = { 121 61 167 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_64 = {
+				color = { 99 27 94 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_215 = {
+					province = 215
+					color = { 99 27 94 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_218 = {
+					province = 218
+					color = { 99 27 94 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_219 = {
+					province = 219
+					color = { 99 27 94 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_65 = {
+				color = { 141 67 157 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_249 = {
+					province = 249
+					color = { 141 67 157 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_250 = {
+					province = 250
+					color = { 141 67 157 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_251 = {
+					province = 251
+					color = { 141 67 157 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_66 = {
+				color = { 111 38 105 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_246 = {
+					province = 246
+					color = { 111 38 105 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_247 = {
+					province = 247
+					color = { 111 38 105 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_248 = {
+					province = 248
+					color = { 111 38 105 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_16 = {
+			color = { 127 76 156 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_67
+			
+			c_iwa_county_67 = {
+				color = { 111 45 159 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_200 = {
+					province = 200
+					color = { 111 45 159 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_201 = {
+					province = 201
+					color = { 111 45 159 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_229 = {
+					province = 229
+					color = { 111 45 159 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_68 = {
+				color = { 147 99 110 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_230 = {
+					province = 230
+					color = { 147 99 110 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_231 = {
+					province = 231
+					color = { 147 99 110 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_232 = {
+					province = 232
+					color = { 147 99 110 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_69 = {
+				color = { 150 110 105 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_202 = {
+					province = 202
+					color = { 150 110 105 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_203 = {
+					province = 203
+					color = { 150 110 105 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_228 = {
+					province = 228
+					color = { 150 110 105 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_70 = {
+				color = { 114 81 157 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_233 = {
+					province = 233
+					color = { 114 81 157 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_238 = {
+					province = 238
+					color = { 114 81 157 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_239 = {
+					province = 239
+					color = { 114 81 157 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_17 = {
+			color = { 117 4 144 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_71
+			
+			c_iwa_county_71 = {
+				color = { 92 9 136 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_234 = {
+					province = 234
+					color = { 92 9 136 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_235 = {
+					province = 235
+					color = { 92 9 136 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_236 = {
+					province = 236
+					color = { 92 9 136 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_237 = {
+					province = 237
+					color = { 92 9 136 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_72 = {
+				color = { 110 5 95 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_264 = {
+					province = 264
+					color = { 110 5 95 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_265 = {
+					province = 265
+					color = { 110 5 95 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_266 = {
+					province = 266
+					color = { 110 5 95 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_282 = {
+					province = 282
+					color = { 110 5 95 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_73 = {
+				color = { 144 2 131 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_267 = {
+					province = 267
+					color = { 144 2 131 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_268 = {
+					province = 268
+					color = { 144 2 131 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_283 = {
+					province = 283
+					color = { 144 2 131 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_74 = {
+				color = { 144 2 95 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_263 = {
+					province = 263
+					color = { 144 2 95 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_280 = {
+					province = 280
+					color = { 144 2 95 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_281 = {
+					province = 281
+					color = { 144 2 95 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_286 = {
+					province = 286
+					color = { 144 2 95 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_18 = {
+			color = { 137 8 111 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_76
+			
+			c_iwa_county_76 = {
+				color = { 130 16 72 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_171 = {
+					province = 171
+					color = { 130 16 72 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_174 = {
+					province = 174
+					color = { 130 16 72 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_175 = {
+					province = 175
+					color = { 130 16 72 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_75 = {
+				color = { 175 39 120 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_269 = {
+					province = 269
+					color = { 175 39 120 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_284 = {
+					province = 284
+					color = { 175 39 120 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_285 = {
+					province = 285
+					color = { 175 39 120 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_77 = {
+				color = { 161 33 77 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_172 = {
+					province = 172
+					color = { 161 33 77 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_173 = {
+					province = 173
+					color = { 161 33 77 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_270 = {
+					province = 270
+					color = { 161 33 77 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_271 = {
+					province = 271
+					color = { 161 33 77 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_78 = {
+				color = { 156 16 72 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_272 = {
+					province = 272
+					color = { 156 16 72 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_273 = {
+					province = 273
+					color = { 156 16 72 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_276 = {
+					province = 276
+					color = { 156 16 72 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_19 = {
+			color = { 150 19 124 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_82
+			
+			c_iwa_county_82 = {
+				color = { 155 37 98 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_243 = {
+					province = 243
+					color = { 155 37 98 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_258 = {
+					province = 258
+					color = { 155 37 98 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_259 = {
+					province = 259
+					color = { 155 37 98 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_79 = {
+				color = { 153 40 103 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_252 = {
+					province = 252
+					color = { 153 40 103 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_253 = {
+					province = 253
+					color = { 153 40 103 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_254 = {
+					province = 254
+					color = { 153 40 103 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_80 = {
+				color = { 121 26 128 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_255 = {
+					province = 255
+					color = { 121 26 128 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_257 = {
+					province = 257
+					color = { 121 26 128 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_274 = {
+					province = 274
+					color = { 121 26 128 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_81 = {
+				color = { 155 35 115 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_244 = {
+					province = 244
+					color = { 155 35 115 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_245 = {
+					province = 245
+					color = { 155 35 115 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_256 = {
+					province = 256
+					color = { 155 35 115 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_2 = {
+			color = { 162 37 121 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_6
+			
+			c_iwa_county_6 = {
+				color = { 186 64 96 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_19 = {
+					province = 19
+					color = { 186 64 96 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_79 = {
+					province = 79
+					color = { 186 64 96 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_87 = {
+					province = 87
+					color = { 186 64 96 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_88 = {
+					province = 88
+					color = { 186 64 96 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_10 = {
+				color = { 144 117 127 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_77 = {
+					province = 77
+					color = { 144 117 127 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_78 = {
+					province = 78
+					color = { 144 117 127 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_89 = {
+					province = 89
+					color = { 144 117 127 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_7 = {
+				color = { 167 44 75 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_20 = {
+					province = 20
+					color = { 167 44 75 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_21 = {
+					province = 21
+					color = { 167 44 75 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_22 = {
+					province = 22
+					color = { 167 44 75 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_58 = {
+					province = 58
+					color = { 167 44 75 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_8 = {
+				color = { 185 55 88 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_23 = {
+					province = 23
+					color = { 185 55 88 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_24 = {
+					province = 24
+					color = { 185 55 88 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_56 = {
+					province = 56
+					color = { 185 55 88 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_9 = {
+				color = { 153 45 85 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_57 = {
+					province = 57
+					color = { 153 45 85 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_59 = {
+					province = 59
+					color = { 153 45 85 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_60 = {
+					province = 60
+					color = { 153 45 85 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_20 = {
+			color = { 152 16 114 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_86
+			
+			c_iwa_county_86 = {
+				color = { 160 31 78 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_225 = {
+					province = 225
+					color = { 160 31 78 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_242 = {
+					province = 242
+					color = { 160 31 78 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_260 = {
+					province = 260
+					color = { 160 31 78 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_83 = {
+				color = { 144 69 87 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_275 = {
+					province = 275
+					color = { 144 69 87 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_277 = {
+					province = 277
+					color = { 144 69 87 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_289 = {
+					province = 289
+					color = { 144 69 87 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_84 = {
+				color = { 146 30 87 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_279 = {
+					province = 279
+					color = { 146 30 87 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_287 = {
+					province = 287
+					color = { 146 30 87 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_288 = {
+					province = 288
+					color = { 146 30 87 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_85 = {
+				color = { 153 64 75 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_261 = {
+					province = 261
+					color = { 153 64 75 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_262 = {
+					province = 262
+					color = { 153 64 75 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_278 = {
+					province = 278
+					color = { 153 64 75 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_87 = {
+				color = { 104 50 107 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_227 = {
+					province = 227
+					color = { 104 50 107 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_240 = {
+					province = 240
+					color = { 104 50 107 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_241 = {
+					province = 241
+					color = { 104 50 107 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_3 = {
+			color = { 159 33 127 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_12
+			
+			c_iwa_county_12 = {
+				color = { 173 64 103 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_80 = {
+					province = 80
+					color = { 173 64 103 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_85 = {
+					province = 85
+					color = { 173 64 103 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_86 = {
+					province = 86
+					color = { 173 64 103 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_11 = {
+				color = { 148 44 89 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_81 = {
+					province = 81
+					color = { 148 44 89 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_82 = {
+					province = 82
+					color = { 148 44 89 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_84 = {
+					province = 84
+					color = { 148 44 89 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_13 = {
+				color = { 174 42 91 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_83 = {
+					province = 83
+					color = { 174 42 91 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_129 = {
+					province = 129
+					color = { 174 42 91 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_130 = {
+					province = 130
+					color = { 174 42 91 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_14 = {
+				color = { 192 83 99 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_127 = {
+					province = 127
+					color = { 192 83 99 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_128 = {
+					province = 128
+					color = { 192 83 99 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_132 = {
+					province = 132
+					color = { 192 83 99 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_4 = {
+			color = { 162 55 117 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_15
+			
+			c_iwa_county_15 = {
+				color = { 186 98 88 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_25 = {
+					province = 25
+					color = { 186 98 88 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_26 = {
+					province = 26
+					color = { 186 98 88 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_34 = {
+					province = 34
+					color = { 186 98 88 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_35 = {
+					province = 35
+					color = { 186 98 88 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_16 = {
+				color = { 165 47 94 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_27 = {
+					province = 27
+					color = { 165 47 94 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_28 = {
+					province = 28
+					color = { 165 47 94 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_32 = {
+					province = 32
+					color = { 165 47 94 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_17 = {
+				color = { 198 67 94 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_29 = {
+					province = 29
+					color = { 198 67 94 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_30 = {
+					province = 30
+					color = { 198 67 94 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_31 = {
+					province = 31
+					color = { 198 67 94 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_40 = {
+					province = 40
+					color = { 198 67 94 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_18 = {
+				color = { 170 54 96 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_33 = {
+					province = 33
+					color = { 170 54 96 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_36 = {
+					province = 36
+					color = { 170 54 96 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_37 = {
+					province = 37
+					color = { 170 54 96 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_38 = {
+					province = 38
+					color = { 170 54 96 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_5 = {
+			color = { 108 31 161 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_19
+			
+			c_iwa_county_19 = {
+				color = { 75 61 169 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_39 = {
+					province = 39
+					color = { 75 61 169 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_47 = {
+					province = 47
+					color = { 75 61 169 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_48 = {
+					province = 48
+					color = { 75 61 169 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_20 = {
+				color = { 156 99 136 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_41 = {
+					province = 41
+					color = { 156 99 136 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_42 = {
+					province = 42
+					color = { 156 99 136 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_43 = {
+					province = 43
+					color = { 156 99 136 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_21 = {
+				color = { 137 35 132 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_44 = {
+					province = 44
+					color = { 137 35 132 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_45 = {
+					province = 45
+					color = { 137 35 132 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_46 = {
+					province = 46
+					color = { 137 35 132 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_22 = {
+				color = { 152 43 111 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_49 = {
+					province = 49
+					color = { 152 43 111 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_51 = {
+					province = 51
+					color = { 152 43 111 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_52 = {
+					province = 52
+					color = { 152 43 111 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_65 = {
+					province = 65
+					color = { 152 43 111 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_23 = {
+				color = { 107 37 145 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_50 = {
+					province = 50
+					color = { 107 37 145 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_66 = {
+					province = 66
+					color = { 107 37 145 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_67 = {
+					province = 67
+					color = { 107 37 145 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_6 = {
+			color = { 111 31 108 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_24
+			
+			c_iwa_county_24 = {
+				color = { 80 61 67 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_53 = {
+					province = 53
+					color = { 80 61 67 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_63 = {
+					province = 63
+					color = { 80 61 67 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_64 = {
+					province = 64
+					color = { 80 61 67 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_25 = {
+				color = { 112 87 101 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_54 = {
+					province = 54
+					color = { 112 87 101 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_55 = {
+					province = 55
+					color = { 112 87 101 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_61 = {
+					province = 61
+					color = { 112 87 101 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_62 = {
+					province = 62
+					color = { 112 87 101 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_26 = {
+				color = { 154 86 72 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_73 = {
+					province = 73
+					color = { 154 86 72 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_74 = {
+					province = 74
+					color = { 154 86 72 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_93 = {
+					province = 93
+					color = { 154 86 72 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_27 = {
+				color = { 138 34 75 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_75 = {
+					province = 75
+					color = { 138 34 75 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_76 = {
+					province = 76
+					color = { 138 34 75 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_90 = {
+					province = 90
+					color = { 138 34 75 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_91 = {
+					province = 91
+					color = { 138 34 75 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_7 = {
+			color = { 122 28 180 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_28
+			
+			c_iwa_county_28 = {
+				color = { 109 46 209 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_68 = {
+					province = 68
+					color = { 109 46 209 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_69 = {
+					province = 69
+					color = { 109 46 209 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_99 = {
+					province = 99
+					color = { 109 46 209 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_29 = {
+				color = { 116 38 151 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_70 = {
+					province = 70
+					color = { 116 38 151 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_97 = {
+					province = 97
+					color = { 116 38 151 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_115 = {
+					province = 115
+					color = { 116 38 151 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_30 = {
+				color = { 110 96 147 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_71 = {
+					province = 71
+					color = { 110 96 147 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_72 = {
+					province = 72
+					color = { 110 96 147 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_95 = {
+					province = 95
+					color = { 110 96 147 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_96 = {
+					province = 96
+					color = { 110 96 147 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_31 = {
+				color = { 131 45 169 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_116 = {
+					province = 116
+					color = { 131 45 169 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_117 = {
+					province = 117
+					color = { 131 45 169 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_190 = {
+					province = 190
+					color = { 131 45 169 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_8 = {
+			color = { 163 24 109 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_34
+			
+			c_iwa_county_34 = {
+				color = { 180 47 69 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_101 = {
+					province = 101
+					color = { 180 47 69 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_102 = {
+					province = 102
+					color = { 180 47 69 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_103 = {
+					province = 103
+					color = { 180 47 69 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_111 = {
+					province = 111
+					color = { 180 47 69 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_32 = {
+				color = { 145 34 96 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_104 = {
+					province = 104
+					color = { 145 34 96 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_105 = {
+					province = 105
+					color = { 145 34 96 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_106 = {
+					province = 106
+					color = { 145 34 96 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_107 = {
+					province = 107
+					color = { 145 34 96 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_33 = {
+				color = { 183 81 94 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_108 = {
+					province = 108
+					color = { 183 81 94 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_109 = {
+					province = 109
+					color = { 183 81 94 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_198 = {
+					province = 198
+					color = { 183 81 94 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_199 = {
+					province = 199
+					color = { 183 81 94 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_35 = {
+				color = { 150 27 74 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_110 = {
+					province = 110
+					color = { 150 27 74 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_196 = {
+					province = 196
+					color = { 150 27 74 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_197 = {
+					province = 197
+					color = { 150 27 74 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_iwa_duchy_9 = {
+			color = { 129 15 121 }
+			color2 = { 255 255 255 }
+			
+			capital = c_iwa_county_37
+			
+			c_iwa_county_37 = {
+				color = { 115 30 92 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_98 = {
+					province = 98
+					color = { 115 30 92 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_113 = {
+					province = 113
+					color = { 115 30 92 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_114 = {
+					province = 114
+					color = { 115 30 92 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_193 = {
+					province = 193
+					color = { 115 30 92 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_36 = {
+				color = { 98 28 139 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_100 = {
+					province = 100
+					color = { 98 28 139 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_112 = {
+					province = 112
+					color = { 98 28 139 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_195 = {
+					province = 195
+					color = { 98 28 139 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_38 = {
+				color = { 106 35 92 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_191 = {
+					province = 191
+					color = { 106 35 92 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_192 = {
+					province = 192
+					color = { 106 35 92 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_208 = {
+					province = 208
+					color = { 106 35 92 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_39 = {
+				color = { 92 36 94 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_207 = {
+					province = 207
+					color = { 92 36 94 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_223 = {
+					province = 223
+					color = { 92 36 94 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_224 = {
+					province = 224
+					color = { 92 36 94 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_iwa_county_40 = {
+				color = { 153 61 92 }
+				color2 = { 255 255 255 }
+				
+				b_iwa_barony_194 = {
+					province = 194
+					color = { 153 61 92 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_204 = {
+					province = 204
+					color = { 153 61 92 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_205 = {
+					province = 205
+					color = { 153 61 92 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_206 = {
+					province = 206
+					color = { 153 61 92 }
+					color2 = { 255 255 255 }
+				}
+				b_iwa_barony_226 = {
+					province = 226
+					color = { 153 61 92 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+	k_amegakure = {
+		color = { 110 30 90 }
+		color2 = { 255 255 255 }
+		
+		capital = c_ame_county_1
+		
+		d_ame_duchy_1 = {
+			color = { 101 39 85 }
+			color2 = { 255 255 255 }
+			
+			capital = c_ame_county_1
+			
+			c_ame_county_1 = {
+				color = { 88 51 78 }
+				color2 = { 255 255 255 }
+				
+				b_ame_barony_1 = {
+					province = 619
+					color = { 88 51 78 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+	k_kirigakure = {
+		color = { 189 120 63 }
+		color2 = { 255 255 255 }
+		
+		capital = c_kiri_county_1
+		
+		d_kiri_duchy_1 = {
+			color = { 198 111 67 }
+			color2 = { 255 255 255 }
+			
+			capital = c_kiri_county_1
+			
+			c_kiri_county_1 = {
+				color = { 202 106 69 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_1 = {
+					province = 290
+					color = { 202 106 69 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_2 = {
+					province = 291
+					color = { 202 106 69 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_3 = {
+					province = 292
+					color = { 202 106 69 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_4 = {
+					province = 293
+					color = { 202 106 69 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_5 = {
+					province = 294
+					color = { 202 106 69 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_2 = {
+				color = { 136 84 83 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_6 = {
+					province = 295
+					color = { 136 84 83 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_7 = {
+					province = 296
+					color = { 136 84 83 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_8 = {
+					province = 297
+					color = { 136 84 83 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_3 = {
+				color = { 141 141 105 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_9 = {
+					province = 298
+					color = { 141 141 105 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_4 = {
+				color = { 134 116 84 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_10 = {
+					province = 299
+					color = { 134 116 84 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_11 = {
+					province = 300
+					color = { 134 116 84 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_12 = {
+					province = 301
+					color = { 134 116 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_kiri_duchy_2 = {
+			color = { 155 107 75 }
+			color2 = { 255 255 255 }
+			
+			capital = c_kiri_county_5
+			
+			c_kiri_county_5 = {
+				color = { 120 98 84 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_13 = {
+					province = 302
+					color = { 120 98 84 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_14 = {
+					province = 303
+					color = { 120 98 84 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_16 = {
+					province = 305
+					color = { 120 98 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_6 = {
+				color = { 125 74 67 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_15 = {
+					province = 304
+					color = { 125 74 67 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_17 = {
+					province = 306
+					color = { 125 74 67 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_7 = {
+				color = { 156 83 61 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_18 = {
+					province = 307
+					color = { 156 83 61 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_21 = {
+					province = 310
+					color = { 156 83 61 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_22 = {
+					province = 311
+					color = { 156 83 61 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_8 = {
+				color = { 141 91 108 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_19 = {
+					province = 308
+					color = { 141 91 108 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_20 = {
+					province = 309
+					color = { 141 91 108 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_kiri_duchy_3 = {
+			color = { 148 93 70 }
+			color2 = { 255 255 255 }
+			
+			capital = c_kiri_county_9
+			
+			c_kiri_county_9 = {
+				color = { 106 72 75 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_23 = {
+					province = 312
+					color = { 106 72 75 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_24 = {
+					province = 313
+					color = { 106 72 75 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_10 = {
+				color = { 93 74 72 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_83 = {
+					province = 372
+					color = { 93 74 72 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_84 = {
+					province = 373
+					color = { 93 74 72 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_11 = {
+				color = { 97 78 75 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_25 = {
+					province = 314
+					color = { 97 78 75 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_26 = {
+					province = 315
+					color = { 97 78 75 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_27 = {
+					province = 316
+					color = { 97 78 75 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_12 = {
+				color = { 103 85 81 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_28 = {
+					province = 317
+					color = { 103 85 81 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_30 = {
+					province = 319
+					color = { 103 85 81 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_13 = {
+				color = { 110 121 57 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_29 = {
+					province = 318
+					color = { 110 121 57 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_31 = {
+					province = 320
+					color = { 110 121 57 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_32 = {
+					province = 321
+					color = { 110 121 57 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_kiri_duchy_4 = {
+			color = { 135 87 63 }
+			color2 = { 255 255 255 }
+			
+			capital = c_kiri_county_14
+			
+			c_kiri_county_14 = {
+				color = { 81 60 62 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_33 = {
+					province = 322
+					color = { 81 60 62 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_34 = {
+					province = 323
+					color = { 81 60 62 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_35 = {
+					province = 324
+					color = { 81 60 62 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_15 = {
+				color = { 113 108 73 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_53 = {
+					province = 342
+					color = { 113 108 73 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_54 = {
+					province = 343
+					color = { 113 108 73 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_55 = {
+					province = 344
+					color = { 113 108 73 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_16 = {
+				color = { 150 103 98 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_49 = {
+					province = 338
+					color = { 150 103 98 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_50 = {
+					province = 339
+					color = { 150 103 98 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_51 = {
+					province = 340
+					color = { 150 103 98 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_52 = {
+					province = 341
+					color = { 150 103 98 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_17 = {
+				color = { 157 110 101 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_56 = {
+					province = 345
+					color = { 157 110 101 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_57 = {
+					province = 346
+					color = { 157 110 101 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_58 = {
+					province = 347
+					color = { 157 110 101 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_kiri_duchy_5 = {
+			color = { 159 129 87 }
+			color2 = { 255 255 255 }
+			
+			capital = c_kiri_county_18
+			
+			c_kiri_county_18 = {
+				color = { 127 142 108 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_36 = {
+					province = 325
+					color = { 127 142 108 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_37 = {
+					province = 326
+					color = { 127 142 108 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_38 = {
+					province = 327
+					color = { 127 142 108 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_19 = {
+				color = { 146 92 98 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_39 = {
+					province = 328
+					color = { 146 92 98 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_40 = {
+					province = 329
+					color = { 146 92 98 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_42 = {
+					province = 331
+					color = { 146 92 98 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_20 = {
+				color = { 186 133 65 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_41 = {
+					province = 330
+					color = { 186 133 65 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_43 = {
+					province = 332
+					color = { 186 133 65 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_44 = {
+					province = 333
+					color = { 186 133 65 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_21 = {
+				color = { 177 136 72 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_45 = {
+					province = 334
+					color = { 177 136 72 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_46 = {
+					province = 335
+					color = { 177 136 72 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_47 = {
+					province = 336
+					color = { 177 136 72 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_48 = {
+					province = 337
+					color = { 177 136 72 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_kiri_duchy_6 = {
+			color = { 167 93 89 }
+			color2 = { 255 255 255 }
+			
+			capital = c_kiri_county_22
+			
+			c_kiri_county_22 = {
+				color = { 143 72 111 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_59 = {
+					province = 348
+					color = { 143 72 111 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_67 = {
+					province = 356
+					color = { 143 72 111 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_68 = {
+					province = 357
+					color = { 143 72 111 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_70 = {
+					province = 359
+					color = { 143 72 111 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_23 = {
+				color = { 178 88 87 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_69 = {
+					province = 358
+					color = { 178 88 87 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_75 = {
+					province = 364
+					color = { 178 88 87 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_76 = {
+					province = 365
+					color = { 178 88 87 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_77 = {
+					province = 366
+					color = { 178 88 87 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_24 = {
+				color = { 128 98 70 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_60 = {
+					province = 349
+					color = { 128 98 70 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_61 = {
+					province = 350
+					color = { 128 98 70 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_62 = {
+					province = 351
+					color = { 128 98 70 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_66 = {
+					province = 355
+					color = { 128 98 70 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_25 = {
+				color = { 127 144 114 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_71 = {
+					province = 360
+					color = { 127 144 114 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_72 = {
+					province = 361
+					color = { 127 144 114 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_74 = {
+					province = 363
+					color = { 127 144 114 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_kiri_duchy_7 = {
+			color = { 150 110 87 }
+			color2 = { 255 255 255 }
+			
+			capital = c_kiri_county_26
+			
+			c_kiri_county_26 = {
+				color = { 109 105 107 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_63 = {
+					province = 352
+					color = { 109 105 107 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_64 = {
+					province = 353
+					color = { 109 105 107 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_73 = {
+					province = 362
+					color = { 109 105 107 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_27 = {
+				color = { 132 82 94 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_65 = {
+					province = 354
+					color = { 132 82 94 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_79 = {
+					province = 368
+					color = { 132 82 94 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_80 = {
+					province = 369
+					color = { 132 82 94 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kiri_county_28 = {
+				color = { 169 105 100 }
+				color2 = { 255 255 255 }
+				
+				b_kiri_barony_78 = {
+					province = 367
+					color = { 169 105 100 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_81 = {
+					province = 370
+					color = { 169 105 100 }
+					color2 = { 255 255 255 }
+				}
+				b_kiri_barony_82 = {
+					province = 371
+					color = { 169 105 100 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+	k_konohagakure = {
+		color = { 139 20 117 }
+		color2 = { 255 255 255 }
+		
+		capital = c_konoha_county_1
+		
+		d_konoha_duchy_1 = {
+			color = { 130 29 112 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_1
+			
+			c_konoha_county_1 = {
+				color = { 117 41 105 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_1 = {
+					province = 374
+					color = { 117 41 105 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_8 = {
+					province = 381
+					color = { 117 41 105 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_11 = {
+					province = 384
+					color = { 117 41 105 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_2 = {
+				color = { 91 29 101 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_2 = {
+					province = 375
+					color = { 91 29 101 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_6 = {
+					province = 379
+					color = { 91 29 101 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_7 = {
+					province = 380
+					color = { 91 29 101 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_9 = {
+					province = 382
+					color = { 91 29 101 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_3 = {
+				color = { 112 50 129 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_3 = {
+					province = 376
+					color = { 112 50 129 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_4 = {
+					province = 377
+					color = { 112 50 129 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_5 = {
+					province = 378
+					color = { 112 50 129 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_4 = {
+				color = { 105 69 105 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_10 = {
+					province = 383
+					color = { 105 69 105 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_12 = {
+					province = 385
+					color = { 105 69 105 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_13 = {
+					province = 386
+					color = { 105 69 105 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_konoha_duchy_10 = {
+			color = { 106 14 120 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_38
+			
+			c_konoha_county_38 = {
+				color = { 71 13 121 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_87 = {
+					province = 460
+					color = { 71 13 121 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_88 = {
+					province = 461
+					color = { 71 13 121 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_89 = {
+					province = 462
+					color = { 71 13 121 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_39 = {
+				color = { 90 17 121 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_90 = {
+					province = 463
+					color = { 90 17 121 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_151 = {
+					province = 524
+					color = { 90 17 121 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_157 = {
+					province = 530
+					color = { 90 17 121 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_40 = {
+				color = { 155 72 87 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_158 = {
+					province = 531
+					color = { 155 72 87 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_160 = {
+					province = 533
+					color = { 155 72 87 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_191 = {
+					province = 564
+					color = { 155 72 87 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_41 = {
+				color = { 126 77 111 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_159 = {
+					province = 532
+					color = { 126 77 111 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_192 = {
+					province = 565
+					color = { 126 77 111 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_193 = {
+					province = 566
+					color = { 126 77 111 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_konoha_duchy_11 = {
+			color = { 119 18 107 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_42
+			
+			c_konoha_county_42 = {
+				color = { 96 20 96 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_128 = {
+					province = 501
+					color = { 96 20 96 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_148 = {
+					province = 521
+					color = { 96 20 96 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_149 = {
+					province = 522
+					color = { 96 20 96 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_43 = {
+				color = { 168 76 94 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_152 = {
+					province = 525
+					color = { 168 76 94 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_154 = {
+					province = 527
+					color = { 168 76 94 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_155 = {
+					province = 528
+					color = { 168 76 94 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_44 = {
+				color = { 155 50 151 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_163 = {
+					province = 536
+					color = { 155 50 151 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_164 = {
+					province = 537
+					color = { 155 50 151 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_166 = {
+					province = 539
+					color = { 155 50 151 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_188 = {
+					province = 561
+					color = { 155 50 151 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_189 = {
+					province = 562
+					color = { 155 50 151 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_45 = {
+				color = { 73 10 89 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_186 = {
+					province = 559
+					color = { 73 10 89 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_187 = {
+					province = 560
+					color = { 73 10 89 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_199 = {
+					province = 572
+					color = { 73 10 89 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_200 = {
+					province = 573
+					color = { 73 10 89 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_201 = {
+					province = 574
+					color = { 73 10 89 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_46 = {
+				color = { 144 11 80 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_156 = {
+					province = 529
+					color = { 144 11 80 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_161 = {
+					province = 534
+					color = { 144 11 80 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_162 = {
+					province = 535
+					color = { 144 11 80 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_konoha_duchy_12 = {
+			color = { 112 90 86 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_47
+			
+			c_konoha_county_47 = {
+				color = { 83 57 56 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_105 = {
+					province = 478
+					color = { 83 57 56 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_107 = {
+					province = 480
+					color = { 83 57 56 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_108 = {
+					province = 481
+					color = { 83 57 56 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_120 = {
+					province = 493
+					color = { 83 57 56 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_48 = {
+				color = { 89 87 72 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_109 = {
+					province = 482
+					color = { 89 87 72 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_110 = {
+					province = 483
+					color = { 89 87 72 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_118 = {
+					province = 491
+					color = { 89 87 72 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_49 = {
+				color = { 156 79 101 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_119 = {
+					province = 492
+					color = { 156 79 101 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_135 = {
+					province = 508
+					color = { 156 79 101 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_136 = {
+					province = 509
+					color = { 156 79 101 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_50 = {
+				color = { 139 111 62 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_134 = {
+					province = 507
+					color = { 139 111 62 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_144 = {
+					province = 517
+					color = { 139 111 62 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_145 = {
+					province = 518
+					color = { 139 111 62 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_165 = {
+					province = 538
+					color = { 139 111 62 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_konoha_duchy_13 = {
+			color = { 149 21 92 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_51
+			
+			c_konoha_county_51 = {
+				color = { 154 26 67 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_111 = {
+					province = 484
+					color = { 154 26 67 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_112 = {
+					province = 485
+					color = { 154 26 67 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_114 = {
+					province = 487
+					color = { 154 26 67 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_117 = {
+					province = 490
+					color = { 154 26 67 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_52 = {
+				color = { 189 95 85 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_113 = {
+					province = 486
+					color = { 189 95 85 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_115 = {
+					province = 488
+					color = { 189 95 85 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_116 = {
+					province = 489
+					color = { 189 95 85 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_53 = {
+				color = { 124 59 73 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_137 = {
+					province = 510
+					color = { 124 59 73 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_138 = {
+					province = 511
+					color = { 124 59 73 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_141 = {
+					province = 514
+					color = { 124 59 73 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_54 = {
+				color = { 188 24 106 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_139 = {
+					province = 512
+					color = { 188 24 106 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_140 = {
+					province = 513
+					color = { 188 24 106 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_170 = {
+					province = 543
+					color = { 188 24 106 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_171 = {
+					province = 544
+					color = { 188 24 106 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_konoha_duchy_14 = {
+			color = { 158 66 95 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_55
+			
+			c_konoha_county_55 = {
+				color = { 180 105 76 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_142 = {
+					province = 515
+					color = { 180 105 76 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_143 = {
+					province = 516
+					color = { 180 105 76 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_167 = {
+					province = 540
+					color = { 180 105 76 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_56 = {
+				color = { 119 56 145 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_168 = {
+					province = 541
+					color = { 119 56 145 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_169 = {
+					province = 542
+					color = { 119 56 145 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_185 = {
+					province = 558
+					color = { 119 56 145 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_57 = {
+				color = { 190 121 76 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_183 = {
+					province = 556
+					color = { 190 121 76 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_184 = {
+					province = 557
+					color = { 190 121 76 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_202 = {
+					province = 575
+					color = { 190 121 76 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_203 = {
+					province = 576
+					color = { 190 121 76 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_58 = {
+				color = { 189 59 115 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_172 = {
+					province = 545
+					color = { 189 59 115 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_173 = {
+					province = 546
+					color = { 189 59 115 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_182 = {
+					province = 555
+					color = { 189 59 115 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_59 = {
+				color = { 121 67 89 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_204 = {
+					province = 577
+					color = { 121 67 89 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_206 = {
+					province = 579
+					color = { 121 67 89 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_207 = {
+					province = 580
+					color = { 121 67 89 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_208 = {
+					province = 581
+					color = { 121 67 89 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_konoha_duchy_15 = {
+			color = { 160 25 86 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_60
+			
+			c_konoha_county_60 = {
+				color = { 175 33 55 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_174 = {
+					province = 547
+					color = { 175 33 55 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_175 = {
+					province = 548
+					color = { 175 33 55 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_181 = {
+					province = 554
+					color = { 175 33 55 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_61 = {
+				color = { 189 62 65 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_176 = {
+					province = 549
+					color = { 189 62 65 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_177 = {
+					province = 550
+					color = { 189 62 65 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_178 = {
+					province = 551
+					color = { 189 62 65 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_62 = {
+				color = { 195 34 103 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_179 = {
+					province = 552
+					color = { 195 34 103 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_210 = {
+					province = 583
+					color = { 195 34 103 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_214 = {
+					province = 587
+					color = { 195 34 103 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_63 = {
+				color = { 147 95 139 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_180 = {
+					province = 553
+					color = { 147 95 139 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_205 = {
+					province = 578
+					color = { 147 95 139 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_209 = {
+					province = 582
+					color = { 147 95 139 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_konoha_duchy_16 = {
+			color = { 129 28 121 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_64
+			
+			c_konoha_county_64 = {
+				color = { 115 39 122 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_211 = {
+					province = 584
+					color = { 115 39 122 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_212 = {
+					province = 585
+					color = { 115 39 122 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_213 = {
+					province = 586
+					color = { 115 39 122 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_65 = {
+				color = { 101 99 142 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_229 = {
+					province = 602
+					color = { 101 99 142 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_230 = {
+					province = 603
+					color = { 101 99 142 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_231 = {
+					province = 604
+					color = { 101 99 142 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_66 = {
+				color = { 161 59 85 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_227 = {
+					province = 600
+					color = { 161 59 85 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_228 = {
+					province = 601
+					color = { 161 59 85 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_233 = {
+					province = 606
+					color = { 161 59 85 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_67 = {
+				color = { 156 57 145 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_232 = {
+					province = 605
+					color = { 156 57 145 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_236 = {
+					province = 609
+					color = { 156 57 145 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_237 = {
+					province = 610
+					color = { 156 57 145 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_68 = {
+				color = { 152 29 137 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_222 = {
+					province = 595
+					color = { 152 29 137 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_223 = {
+					province = 596
+					color = { 152 29 137 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_238 = {
+					province = 611
+					color = { 152 29 137 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_konoha_duchy_17 = {
+			color = { 118 14 150 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_69
+			
+			c_konoha_county_69 = {
+				color = { 102 107 183 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_190 = {
+					province = 563
+					color = { 102 107 183 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_197 = {
+					province = 570
+					color = { 102 107 183 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_198 = {
+					province = 571
+					color = { 102 107 183 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_70 = {
+				color = { 131 37 148 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_194 = {
+					province = 567
+					color = { 131 37 148 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_220 = {
+					province = 593
+					color = { 131 37 148 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_221 = {
+					province = 594
+					color = { 131 37 148 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_71 = {
+				color = { 127 12 100 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_215 = {
+					province = 588
+					color = { 127 12 100 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_216 = {
+					province = 589
+					color = { 127 12 100 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_226 = {
+					province = 599
+					color = { 127 12 100 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_72 = {
+				color = { 147 37 108 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_217 = {
+					province = 590
+					color = { 147 37 108 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_218 = {
+					province = 591
+					color = { 147 37 108 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_225 = {
+					province = 598
+					color = { 147 37 108 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_73 = {
+				color = { 133 17 98 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_195 = {
+					province = 568
+					color = { 133 17 98 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_196 = {
+					province = 569
+					color = { 133 17 98 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_219 = {
+					province = 592
+					color = { 133 17 98 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_74 = {
+				color = { 171 37 101 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_224 = {
+					province = 597
+					color = { 171 37 101 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_234 = {
+					province = 607
+					color = { 171 37 101 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_235 = {
+					province = 608
+					color = { 171 37 101 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_konoha_duchy_2 = {
+			color = { 122 41 125 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_5
+			
+			c_konoha_county_5 = {
+				color = { 102 64 130 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_14 = {
+					province = 387
+					color = { 102 64 130 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_15 = {
+					province = 388
+					color = { 102 64 130 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_16 = {
+					province = 389
+					color = { 102 64 130 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_17 = {
+					province = 390
+					color = { 102 64 130 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_6 = {
+				color = { 140 93 105 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_18 = {
+					province = 391
+					color = { 140 93 105 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_19 = {
+					province = 392
+					color = { 140 93 105 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_20 = {
+					province = 393
+					color = { 140 93 105 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_7 = {
+				color = { 94 72 110 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_21 = {
+					province = 394
+					color = { 94 72 110 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_22 = {
+					province = 395
+					color = { 94 72 110 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_30 = {
+					province = 403
+					color = { 94 72 110 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_31 = {
+					province = 404
+					color = { 94 72 110 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_8 = {
+				color = { 95 42 109 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_32 = {
+					province = 405
+					color = { 95 42 109 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_33 = {
+					province = 406
+					color = { 95 42 109 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_58 = {
+					province = 431
+					color = { 95 42 109 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_konoha_duchy_3 = {
+			color = { 125 18 118 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_9
+			
+			c_konoha_county_9 = {
+				color = { 108 20 117 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_23 = {
+					province = 396
+					color = { 108 20 117 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_24 = {
+					province = 397
+					color = { 108 20 117 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_29 = {
+					province = 402
+					color = { 108 20 117 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_10 = {
+				color = { 96 59 109 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_28 = {
+					province = 401
+					color = { 96 59 109 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_63 = {
+					province = 436
+					color = { 96 59 109 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_64 = {
+					province = 437
+					color = { 96 59 109 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_11 = {
+				color = { 176 62 75 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_25 = {
+					province = 398
+					color = { 176 62 75 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_26 = {
+					province = 399
+					color = { 176 62 75 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_27 = {
+					province = 400
+					color = { 176 62 75 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_12 = {
+				color = { 133 38 155 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_65 = {
+					province = 438
+					color = { 133 38 155 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_66 = {
+					province = 439
+					color = { 133 38 155 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_74 = {
+					province = 447
+					color = { 133 38 155 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_konoha_duchy_4 = {
+			color = { 103 69 95 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_14
+			
+			c_konoha_county_14 = {
+				color = { 66 119 72 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_39 = {
+					province = 412
+					color = { 66 119 72 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_40 = {
+					province = 413
+					color = { 66 119 72 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_46 = {
+					province = 419
+					color = { 66 119 72 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_47 = {
+					province = 420
+					color = { 66 119 72 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_13 = {
+				color = { 98 106 128 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_41 = {
+					province = 414
+					color = { 98 106 128 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_42 = {
+					province = 415
+					color = { 98 106 128 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_43 = {
+					province = 416
+					color = { 98 106 128 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_15 = {
+				color = { 108 73 70 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_44 = {
+					province = 417
+					color = { 108 73 70 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_45 = {
+					province = 418
+					color = { 108 73 70 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_48 = {
+					province = 421
+					color = { 108 73 70 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_49 = {
+					province = 422
+					color = { 108 73 70 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_16 = {
+				color = { 90 69 105 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_50 = {
+					province = 423
+					color = { 90 69 105 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_51 = {
+					province = 424
+					color = { 90 69 105 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_86 = {
+					province = 459
+					color = { 90 69 105 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_konoha_duchy_5 = {
+			color = { 167 34 103 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_17
+			
+			c_konoha_county_17 = {
+				color = { 190 51 88 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_34 = {
+					province = 407
+					color = { 190 51 88 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_35 = {
+					province = 408
+					color = { 190 51 88 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_57 = {
+					province = 430
+					color = { 190 51 88 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_18 = {
+				color = { 193 45 102 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_36 = {
+					province = 409
+					color = { 193 45 102 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_55 = {
+					province = 428
+					color = { 193 45 102 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_56 = {
+					province = 429
+					color = { 193 45 102 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_19 = {
+				color = { 111 37 77 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_37 = {
+					province = 410
+					color = { 111 37 77 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_38 = {
+					province = 411
+					color = { 111 37 77 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_54 = {
+					province = 427
+					color = { 111 37 77 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_20 = {
+				color = { 151 58 122 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_79 = {
+					province = 452
+					color = { 151 58 122 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_80 = {
+					province = 453
+					color = { 151 58 122 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_81 = {
+					province = 454
+					color = { 151 58 122 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_konoha_duchy_6 = {
+			color = { 158 14 132 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_21
+			
+			c_konoha_county_21 = {
+				color = { 172 13 143 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_52 = {
+					province = 425
+					color = { 172 13 143 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_53 = {
+					province = 426
+					color = { 172 13 143 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_83 = {
+					province = 456
+					color = { 172 13 143 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_84 = {
+					province = 457
+					color = { 172 13 143 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_22 = {
+				color = { 176 46 87 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_82 = {
+					province = 455
+					color = { 176 46 87 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_94 = {
+					province = 467
+					color = { 176 46 87 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_95 = {
+					province = 468
+					color = { 176 46 87 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_23 = {
+				color = { 176 46 126 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_92 = {
+					province = 465
+					color = { 176 46 126 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_93 = {
+					province = 466
+					color = { 176 46 126 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_127 = {
+					province = 500
+					color = { 176 46 126 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_24 = {
+				color = { 132 68 79 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_85 = {
+					province = 458
+					color = { 132 68 79 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_91 = {
+					province = 464
+					color = { 132 68 79 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_150 = {
+					province = 523
+					color = { 132 68 79 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_konoha_duchy_7 = {
+			color = { 114 44 110 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_25
+			
+			c_konoha_county_25 = {
+				color = { 87 70 101 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_59 = {
+					province = 432
+					color = { 87 70 101 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_60 = {
+					province = 433
+					color = { 87 70 101 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_78 = {
+					province = 451
+					color = { 87 70 101 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_26 = {
+				color = { 147 40 109 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_61 = {
+					province = 434
+					color = { 147 40 109 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_62 = {
+					province = 435
+					color = { 147 40 109 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_77 = {
+					province = 450
+					color = { 147 40 109 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_27 = {
+				color = { 77 45 81 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_96 = {
+					province = 469
+					color = { 77 45 81 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_98 = {
+					province = 471
+					color = { 77 45 81 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_125 = {
+					province = 498
+					color = { 77 45 81 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_28 = {
+				color = { 83 37 94 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_97 = {
+					province = 470
+					color = { 83 37 94 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_126 = {
+					province = 499
+					color = { 83 37 94 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_129 = {
+					province = 502
+					color = { 83 37 94 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_konoha_duchy_8 = {
+			color = { 110 72 121 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_29
+			
+			c_konoha_county_29 = {
+				color = { 79 124 123 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_67 = {
+					province = 440
+					color = { 79 124 123 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_68 = {
+					province = 441
+					color = { 79 124 123 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_72 = {
+					province = 445
+					color = { 79 124 123 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_30 = {
+				color = { 101 101 131 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_69 = {
+					province = 442
+					color = { 101 101 131 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_70 = {
+					province = 443
+					color = { 101 101 131 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_71 = {
+					province = 444
+					color = { 101 101 131 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_31 = {
+				color = { 114 105 81 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_73 = {
+					province = 446
+					color = { 114 105 81 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_103 = {
+					province = 476
+					color = { 114 105 81 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_104 = {
+					province = 477
+					color = { 114 105 81 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_32 = {
+				color = { 85 61 102 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_75 = {
+					province = 448
+					color = { 85 61 102 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_101 = {
+					province = 474
+					color = { 85 61 102 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_102 = {
+					province = 475
+					color = { 85 61 102 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_33 = {
+				color = { 148 55 110 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_106 = {
+					province = 479
+					color = { 148 55 110 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_121 = {
+					province = 494
+					color = { 148 55 110 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_122 = {
+					province = 495
+					color = { 148 55 110 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_konoha_duchy_9 = {
+			color = { 115 40 125 }
+			color2 = { 255 255 255 }
+			
+			capital = c_konoha_county_34
+			
+			c_konoha_county_34 = {
+				color = { 89 62 130 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_76 = {
+					province = 449
+					color = { 89 62 130 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_99 = {
+					province = 472
+					color = { 89 62 130 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_100 = {
+					province = 473
+					color = { 89 62 130 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_35 = {
+				color = { 112 24 75 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_124 = {
+					province = 497
+					color = { 112 24 75 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_130 = {
+					province = 503
+					color = { 112 24 75 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_131 = {
+					province = 504
+					color = { 112 24 75 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_36 = {
+				color = { 170 80 96 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_123 = {
+					province = 496
+					color = { 170 80 96 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_132 = {
+					province = 505
+					color = { 170 80 96 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_133 = {
+					province = 506
+					color = { 170 80 96 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_konoha_county_37 = {
+				color = { 70 46 106 }
+				color2 = { 255 255 255 }
+				
+				b_konoha_barony_146 = {
+					province = 519
+					color = { 70 46 106 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_147 = {
+					province = 520
+					color = { 70 46 106 }
+					color2 = { 255 255 255 }
+				}
+				b_konoha_barony_153 = {
+					province = 526
+					color = { 70 46 106 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+	k_kumogakure = {
+		color = { 253 87 20 }
+		color2 = { 255 255 255 }
+		
+		capital = c_kumo_county_1
+		
+		d_kumo_duchy_1 = {
+			color = { 244 96 15 }
+			color2 = { 255 255 255 }
+			
+			capital = c_kumo_county_1
+			
+			c_kumo_county_1 = {
+				color = { 231 108 9 }
+				color2 = { 255 255 255 }
+				
+				b_kumo_barony_1 = {
+					province = 613
+					color = { 231 108 9 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+	k_kusagakure = {
+		color = { 90 53 66 }
+		color2 = { 255 255 255 }
+		
+		capital = c_kusa_county_1
+		
+		d_kusa_duchy_1 = {
+			color = { 81 61 61 }
+			color2 = { 255 255 255 }
+			
+			capital = c_kusa_county_1
+			
+			c_kusa_county_1 = {
+				color = { 68 73 54 }
+				color2 = { 255 255 255 }
+				
+				b_kusa_barony_1 = {
+					province = 618
+					color = { 68 73 54 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+	k_land_of_waves = {
+		color = { 62 45 84 }
+		color2 = { 255 255 255 }
+		
+		capital = c_waves_county_1
+		
+		d_waves_duchy_1 = {
+			color = { 53 54 79 }
+			color2 = { 255 255 255 }
+			
+			capital = c_waves_county_1
+			
+			c_waves_county_1 = {
+				color = { 40 66 72 }
+				color2 = { 255 255 255 }
+				
+				b_waves_barony_1 = {
+					province = 623
+					color = { 40 66 72 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+	k_otogakure = {
+		color = { 142 235 186 }
+		color2 = { 255 255 255 }
+		
+		capital = c_oto_county_1
+		
+		d_oto_duchy_1 = {
+			color = { 133 167 181 }
+			color2 = { 255 255 255 }
+			
+			capital = c_oto_county_1
+			
+			c_oto_county_1 = {
+				color = { 120 107 174 }
+				color2 = { 255 255 255 }
+				
+				b_oto_barony_1 = {
+					province = 616
+					color = { 120 107 174 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+	k_shimogakure = {
+		color = { 39 5 212 }
+		color2 = { 255 255 255 }
+		
+		capital = c_shimo_county_1
+		
+		d_shimo_duchy_1 = {
+			color = { 48 72 216 }
+			color2 = { 255 255 255 }
+			
+			capital = c_shimo_county_1
+			
+			c_shimo_county_1 = {
+				color = { 60 131 222 }
+				color2 = { 255 255 255 }
+				
+				b_shimo_barony_1 = {
+					province = 614
+					color = { 60 131 222 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+	k_sunagakure = {
+		color = { 96 75 69 }
+		color2 = { 255 255 255 }
+		
+		capital = c_suna_county_1
+		
+		d_suna_duchy_1 = {
+			color = { 86 84 64 }
+			color2 = { 255 255 255 }
+			
+			capital = c_suna_county_1
+			
+			c_suna_county_1 = {
+				color = { 73 96 57 }
+				color2 = { 255 255 255 }
+				
+				b_suna_barony_1 = {
+					province = 612
+					color = { 73 96 57 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+	k_takigakure = {
+		color = { 198 84 112 }
+		color2 = { 255 255 255 }
+		
+		capital = c_taki_county_1
+		
+		d_taki_duchy_1 = {
+			color = { 189 93 107 }
+			color2 = { 255 255 255 }
+			
+			capital = c_taki_county_1
+			
+			c_taki_county_1 = {
+				color = { 184 97 104 }
+				color2 = { 255 255 255 }
+				
+				b_taki_barony_1 = {
+					province = 617
+					color = { 184 97 104 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+	k_tanigakure = {
+		color = { 62 218 117 }
+		color2 = { 255 255 255 }
+		
+		capital = c_tani_county_1
+		
+		d_tani_duchy_1 = {
+			color = { 71 209 121 }
+			color2 = { 255 255 255 }
+			
+			capital = c_tani_county_1
+			
+			c_tani_county_1 = {
+				color = { 83 196 127 }
+				color2 = { 255 255 255 }
+				
+				b_tani_barony_1 = {
+					province = 620
+					color = { 83 196 127 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+	k_uzushiogakure = {
+		color = { 215 119 89 }
+		color2 = { 255 255 255 }
+		
+		capital = c_uzushio_county_1
+		
+		d_uzushio_duchy_1 = {
+			color = { 224 110 93 }
+			color2 = { 255 255 255 }
+			
+			capital = c_uzushio_county_1
+			
+			c_uzushio_county_1 = {
+				color = { 236 97 99 }
+				color2 = { 255 255 255 }
+				
+				b_uzushio_barony_1 = {
+					province = 622
+					color = { 236 97 99 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+	k_yugakure = {
+		color = { 201 17 142 }
+		color2 = { 255 255 255 }
+		
+		capital = c_yu_county_1
+		
+		d_yu_duchy_1 = {
+			color = { 192 26 137 }
+			color2 = { 255 255 255 }
+			
+			capital = c_yu_county_1
+			
+			c_yu_county_1 = {
+				color = { 179 38 130 }
+				color2 = { 255 255 255 }
+				
+				b_yu_barony_1 = {
+					province = 615
+					color = { 179 38 130 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+}
+

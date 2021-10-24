@@ -1,0 +1,29 @@
+﻿death_uchiha_incident = {
+	public_knowledge = yes
+	icon = "death_murder.dds"
+}
+
+death_tailed_beast_extraction = {
+	public_knowledge = yes
+	icon = "death_murder.dds"
+}
+
+death_rinne_rebirth = {
+	icon = "death_murder.dds"
+}
+
+death_reaper_death_seal = {
+	icon = "death_murder.dds"
+}
+
+death_sacrifice = {
+	icon = "death_murder.dds"
+}
+
+death_sealing = {
+	icon = "death_natural.dds"
+}
+
+death_ascended = {
+	icon = "death_natural.dds"
+}

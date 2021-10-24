@@ -2,8 +2,8 @@
 
 sharingan_theft.001 = {
     type = character_event
-    title = shairngan_theft.001.t
-    desc = shairngan_theft.001.d
+    title = sharingan_theft.001.t
+    desc = sharingan_theft.001.d
     theme = martial
 
     right_portrait = {
@@ -25,7 +25,7 @@ sharingan_theft.001 = {
                 has_trait = mangekyosharingan_1
             }
         }
-        effect = {
+        hidden_effect = {
             scope:actor = {
                 add_trait = mangkeyosharingan_1
             }
@@ -73,7 +73,7 @@ sharingan_theft.001 = {
                 has_trait = mangekyosharingan_3
             }
         }
-        effect = {
+        hidden_effect = {
             scope:actor = {
                 add_trait = mangkeyosharingan_3
             }
@@ -97,7 +97,7 @@ sharingan_theft.001 = {
             has_trait = mangekyosharingan_4
         }
     }
-        effect = {
+        hidden_effect = {
             scope:actor = {
                 add_trait = mangkeyosharingan_4
             }

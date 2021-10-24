@@ -1,0 +1,15 @@
+k_tanigakure = {
+	800.1.1={
+		liege=e_shinobi_world
+	}
+}
+d_tani_duchy_1 = {
+	800.1.1={
+		liege=k_tanigakure
+	}
+}
+c_tani_county_1 = {
+	800.1.1={
+		liege=d_tani_duchy_1
+	}
+}

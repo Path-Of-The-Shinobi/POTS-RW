@@ -1,0 +1,15 @@
+k_yu = {
+	800.1.1={
+		liege=e_land_of_hot_water
+	}
+}
+d_yugakure = {
+	800.1.1={
+		liege=k_yu
+	}
+}
+c_hot_water_village = {
+	800.1.1={
+		liege=d_yugakure
+	}
+}

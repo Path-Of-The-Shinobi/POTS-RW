@@ -1,0 +1,60 @@
+﻿lightning_country_culture_group = { 
+	graphical_cultures = {
+		tibetan_group_coa_gfx
+		indian_building_gfx
+		mongol_clothing_gfx
+		mongol_unit_gfx
+	}
+	
+	lightning_generic = {
+		graphical_cultures = {
+			tibetan_group_coa_gfx
+		}
+		color = rgb { 85 18 17 }
+
+		cadet_dynasty_names = {
+			"dynn_Yam"
+		}
+
+		dynasty_names = {
+			"dynn_Luke"
+		}
+
+		male_names = {
+			Kinzo Takejiro Akahito Yasunobu Tetsu Kinji Genji Ganji Shinji Roku Kojuro Jiro Juzaburo Yataro Ryushi Takeshi
+			Yosai Eijiro Yakumo Senzo Ryutaro Akira Toshiro Kano Tadashi Tanzan Chomei Izumo Ryuzaburo Shiro Teika Sanzo
+			Hokichi Saikaku Tadayuki Masami Akihito Shigeaki Terao Eisuke Kenichi Sumiteru Takeichi Tetsui Naomichi Tatsuya
+			Kanko Kazuko Munemori Seibei Isao Kiyoshi Torajiro Shunso Ukyo Kenshin Miki Marihito Kioshi Tameyoshi Nobuyoki
+			Kyuichi Kazuma Kazumo Tanyu Yasujiro Sugimoto Amane Fumio Masu Ryuichi Kinnosuke Kagehisa Eisen Kyuso Haruko
+		}
+		female_names = {
+			Azumi Ayumi Suzue Nomi Noriko Tetsu Eri Omitsu Fuuko Kumiko Chiyuki Hikari Hotaru Iyona Kasumi Erisa Sakuko Kiyomi
+			Suzume Chiyuri Fukami Reisa Yama Rika Hami Sawako Ichino Orimi Nariko Ise Sakuro Izumi Chima Atsuko Tazu Remi Shizue
+			Yoriko Wakana Nanase Sadako Chinatsu Ichiho Nami Megu Yukari Mura Hatsuka Kawa Aomi Hiroe Kuwa Ume Arisa Tami Misoka
+			Toku Aiga Tara Sayoko Momoko Taji Hosuzu Saito Warabi Yumi Miyuki Hibari Yukiji Yasumu Tamiko Ruka Madoka Tamaki Kaiyo
+			Nana Yori Marise Etsu Kaneko Kuma Chimari Hinako Konami Amari Asako Ikuko Misaki Kana Yukiyo Katsumi Akako Tatsu Michiru
+		}
+		
+		dynasty_of_location_prefix = ""
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		ethnicities = {
+			1 = caucasian
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}
+}
+

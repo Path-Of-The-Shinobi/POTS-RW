@@ -1,0 +1,10 @@
+##d_tani_duchy_1 ###################################
+###c_tani_county_1
+620 = {	# Tani Barony 1
+	culture = rivers_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+
+

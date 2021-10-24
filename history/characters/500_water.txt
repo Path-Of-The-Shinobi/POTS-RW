@@ -1,0 +1,772 @@
+﻿
+###########################################
+########## 		 MIZUKAGES		 ##########
+###########################################
+
+500 = { # 1st Mizukage
+	name = "Byakuren"
+	dna = byakuren_dna
+	religion = "sixpaths"
+	culture = "water_generic"
+	disallow_random_traits =  = yes
+	prowess = 8
+	896.1.20 = { # January 20
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			make_important_lore_character_effect = yes
+		}
+	}
+	950.1.1 = {
+		add_trait = ninjarank_kage
+	}
+	966.1.1 = {
+		death = yes
+	}
+}
+
+501 = { # 2nd Mizukage
+	name = "Gengetsu"
+	dynasty = 500 #Hozuki
+	religion = "sixpaths"
+	culture = "water_generic"
+	disallow_random_traits =  = yes
+	prowess = 10
+	926.10.26 = { # October 26
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	966.1.1 = {
+		add_trait = ninjarank_kage
+	}
+	966.6.6 = {
+		death = {
+			death_reason = death_battle
+			killer = 1501 # Mu
+		}
+	}
+}
+
+502 = { # 3rd Mizukage
+	name = "ThirdMizukage"
+	dynasty = 509 # Yuki, not canon member
+	religion = "sixpaths"
+	culture = "water_generic"
+	disallow_random_traits =  = yes
+	prowess = 8
+	936.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	966.1.1 = {
+		add_trait = ninjarank_kage
+	}
+	998.1.1 = {
+		death = yes
+	}
+}
+
+503 = { # 4th Mizukage
+	name = "Yagura"
+	dynasty = 501 #Karatachi
+	religion = "sixpaths"
+	culture = "water_generic"
+	disallow_random_traits =  = yes
+	prowess = 7
+	978.4.3 = { # April 3
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	998.1.1 = {
+		add_trait = ninjarank_kage
+	}
+	1000.1.1. = {
+		add_trait = three_tail
+	}
+	1010.1.1 = {
+		remove_trait = three_tail
+		death = {
+			death_reason = death_tailed_beast_extraction
+		}
+	}
+}
+
+504 = { # 5th Mizukage
+	name = "Mei"
+	female = yes
+	dynasty = 502 #Terumi
+	religion = "sixpaths"
+	culture = "water_generic"
+	disallow_random_traits =  = yes
+	prowess = 7
+	986.5.21 = { # May 21
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	995.1.1 = {
+		add_trait = ninjarank_genin
+	}
+	1010.1.1 = {
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_kage
+	}
+}
+
+505 = { # 6th Mizukage
+	name = "Chojuro"
+	religion = "sixpaths"
+	culture = "water_generic"
+	disallow_random_traits =  = yes
+	prowess = 7
+	997.11.1 = { # November 1
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1014.1.1 = {
+		add_trait = ninjarank_jonin
+	}
+	1025.1.1 = {
+		remove_trait = ninjarank_jonin
+		add_trait = ninjarank_kage
+	}
+}
+
+#####################################################
+########## 		 SEVEN NINJA SWORDSMEN	   ##########
+#####################################################
+
+506 = {
+	name = "Jinin" # Wielder of Kabutowari (Helmet Splitter)
+	dynasty = 503 #Akebino
+	religion = "sixpaths"
+	culture = "water_generic"
+	959.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	977.1.1 = { # became a Jonin at some point
+		trait = ninjarank_jonin
+	}
+	1001.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 86 # Might Duy, in anime canon
+		}
+	}
+}
+
+507 = {
+	name = "Fuguki" # Wielder of Samehada (Shark Skin)
+	dynasty = 504 #Suikazan
+	religion = "sixpaths"
+	culture = "water_generic"
+	974.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	992.1.1 = { # became a Jonin at some point
+		trait = ninjarank_jonin
+	}
+	1010.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 510 # Kisame
+		}
+	}
+}
+
+508 = {
+	name = "Kushimaru" # Wielder of Nuibari (Sewing Needle)
+	dynasty = 505 #Kuriarare
+	religion = "sixpaths"
+	culture = "water_generic"
+	976.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	994.1.1 = { # became a Jonin at some point
+		trait = ninjarank_jonin
+	}
+	1001.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 86 # Might Duy, in anime canon
+		}
+	}
+}
+
+509 = {
+	name = "Juzo" # Wielder of Kubikiribocho (Decapitating Carving Knife)
+	dynasty = 506 #Biwa
+	religion = "sixpaths"
+	culture = "water_generic"
+	979.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	997.1.1 = { # became a Jonin at some point
+		trait = ninjarank_jonin
+	}
+	1010.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 503 # Yagura, Fourth Mizukage
+		}
+	}
+}
+
+510 = {
+	name = "Kisame" # Wielder of Samehada (Shark Skin)
+	dynasty = 507 #Hoshigaki
+	religion = "sixpaths"
+	culture = "water_generic"
+	984.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	994.1.1 = {
+		trait = ninjarank_genin
+	}
+	1017.1.1 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+
+511 = {
+	name = "Zabuza" # Wielder of Kubikiribocho (Decapitating Carving Knife)
+	dynasty = 508 #Momochi
+	religion = "sixpaths"
+	culture = "water_generic"
+	986.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	995.1.1 = {
+		trait = ninjarank_genin
+	}
+	1013.3.30 = {
+		death = {
+			death_reason = death_battle
+			killer = 168 # Kakashi, technically died to his wounds
+		}
+	}
+}
+
+512 = {
+	name = "Haku" # Not one of the Ninja Swordsmen, but should be near Zabuza lol
+	dna = haku_dna
+	dynasty = 509 #Yuki
+	religion = "sixpaths"
+	culture = "water_generic"
+	998.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1013.3.30 = {
+		death = {
+			death_reason = death_battle
+			killer = 168 # Kakashi
+		}
+	}
+}
+
+513 = {
+	name = "Mangetsu" # Was capable of using all of the swords, most likely the official wielder of Hiramekarei
+	dynasty = 500 #Hozuki
+	religion = "sixpaths"
+	culture = "water_generic"
+	father = 537 #SuigetsuDad
+	mother = 538 #SuigetsuMom
+	995.1.1 = { # estimate
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1010.1.1 = { # child prodigy? idk
+		trait = ninjarank_jonin
+	}
+	1013.1.1 = { # unclear when he died, but he was probably 18 or so I'd say
+		death = yes
+	}
+}
+
+514 = {
+	name = "Raiga" # Wielder of Kiba (Fangs)
+	dynasty = 510 #Kurosuki
+	religion = "sixpaths"
+	culture = "water_generic"
+	990.1.1 = { # estimate
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1006.1.1 = { # became a Jonin at some point, was also an Anbu
+		trait = ninjarank_jonin
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_suicide # "kills himself in midair with one of his own bolts of lightning"
+		}
+	}
+}
+
+515 = {
+	name = "Ameyuri" # Wielder of Kiba (Fangs)
+	female = yes
+	dynasty = 511 #Ringo
+	religion = "sixpaths"
+	culture = "water_generic"
+	970.1.1 = { # randgen
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	984.1.1 = { # became a Jonin at some point
+		trait = ninjarank_jonin
+	}
+	985.1.1 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+516 = {
+	name = "Jinpachi" # Wielder of Shibuki (Splash)
+	dynasty = 512 #Munashi
+	religion = "sixpaths"
+	culture = "water_generic"
+	971.1.1 = { # randgen
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	987.1.1 = {
+		trait = sadistic # "committed many acts of cruelty in his lifetime"
+		trait = ninjarank_jonin # became a Jonin at some point
+	}
+	991.1.1 = {
+		trait = one_eyed # lost his eye at some point
+	}
+	1001.1.1 = { # had a pretty big beard, so probably around 30 when he died?
+		death = yes
+	}
+}
+
+###########################################
+########## 	   CLANLESS NINJAS	 ##########
+###########################################
+
+517 = {
+	name = "Ao"
+	religion = "sixpaths"
+	culture = "water_generic"
+	971.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	988.1.1 = {
+		trait = ninjarank_jonin # became a Jonin at some point
+	}
+	# 1017.1.1 = {} presumed to have died on this date
+	1033.1.1 = {
+		death = {
+			death_reason = death_battle
+			#killer = Kashin Koji
+		}
+	}
+}
+
+518 = {
+	name = "Kosuke" # Hunter-nin
+	religion = "sixpaths"
+	culture = "water_generic"
+	972.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	999.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 17 # Obito Uchiha
+		}
+	}
+}
+
+519 = {
+	name = "Gonbee"
+	religion = "sixpaths"
+	culture = "water_generic"
+	975.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	992.1.1 = {
+		trait = ninjarank_jonin
+	}
+}
+
+520 = {
+	name = "Heki"
+	religion = "sixpaths"
+	culture = "water_generic"
+	980.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	997.1.1 = {
+		trait = ninjarank_jonin
+	}
+}
+
+521 = {
+	name = "Gozu" # Meizu's Twin
+	religion = "sixpaths"
+	culture = "water_generic"
+	trait = twin
+	987.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	999.1.1 = {
+		trait = ninjarank_genin
+	}
+	1005.1.1 = {
+		remove_trait = ninjarank_genin
+		trait = ninjarank_chunin
+	}
+}
+
+522 = {
+	name = "Meizu" # Gozu's Twin
+	religion = "sixpaths"
+	culture = "water_generic"
+	trait = twin
+	987.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	999.1.1 = {
+		trait = ninjarank_genin
+	}
+	1005.1.1 = {
+		remove_trait = ninjarank_genin
+		trait = ninjarank_chunin
+	}
+}
+
+523 = {
+	name = "Utakata" # Six-Tails Jinchuriki
+	religion = "sixpaths"
+	culture = "water_generic"
+	989.1.1 = {
+		birth = yes
+		add_trait = six_tail # unclear when he became the Six-Tails' Jinchuriki
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1015.1.1 = {
+		remove_trait = six_tail
+		death = {
+			death_reason = death_tailed_beast_extraction
+		}
+	}
+}
+
+524 = {
+	name = "Miru" # Kirigakure Cypher Division
+	female = yes
+	religion = "sixpaths"
+	culture = "water_generic"
+	990.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1009.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 510 # Kisame
+		}
+	}
+}
+
+525 = {
+	name = "Kiri" # Medical-nin
+	religion = "sixpaths"
+	culture = "water_generic"
+	994.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1009.1.1 = {
+		trait = ninjarank_chunin # Became a Chunin at some point
+	}
+}
+
+526 = {
+	name = "Kussaku" # Allied Shinobi Forces Sensor Division
+	religion = "sixpaths"
+	culture = "water_generic"
+	994.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1017.1.1 = {
+		death = {
+			death_reason = death_battle # died when the HQ exploded in 4th War
+		}
+	}
+}
+
+536 = {
+	name = "Genji" # Kirigakure Elder, not sure if he was ever a Shinobi
+	religion = "sixpaths"
+	culture = "water_generic"
+	
+	927.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+
+###########################################
+########## 	    HOZUKI CLAN 	 ##########
+###########################################
+
+# Mangetsu is under Seven Ninja Swordsmen
+# Gengetsu is under Mizukages
+
+527 = {
+	name = "Suigetsu"
+	dynasty = 500 #Hozuki
+	religion = "sixpaths"
+	culture = "water_generic"
+	father = 537 #SuigetsuDad
+	mother = 538 #SuigetsuMom
+	1000.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1013.1.1 = {
+		employer = 2509 # Orochimaru
+	}
+}
+
+537 = {
+	name = "SuigetsuDad" # characters need parents to be connected as siblings in the game
+	dynasty = 500 #Hozuki
+	religion = "sixpaths"
+	culture = "water_generic"
+	975.1.1 = { # estimated
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+
+538 = {
+	name = "SuigetsuMom" # characters need parents to be connected as siblings in the game
+	female = yes
+	dynasty = 500 #Hozuki
+	religion = "sixpaths"
+	culture = "water_generic"
+	975.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+
+###########################################
+########## 	   HOSHIGAKI CLAN 	 ##########
+###########################################
+
+# Kisame is under Seven Ninja Swordsmen
+
+528 = {
+	name = "Shizuma"
+	dynasty = 507 #Hoshigaki
+	religion = "sixpaths"
+	culture = "water_generic"
+	1014.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+
+###########################################
+########## 	   KARATACHI CLAN 	 ##########
+###########################################
+
+# Yagura is under Seven Ninja Swordsmen
+
+529 = {
+	name = "Kagura" # Yagura's Grandson
+	dynasty = 501 #Karatachi
+	religion = "sixpaths"
+	culture = "water_generic"
+	father = 530 # KaguraDad
+	1018.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1030.1.1 = {
+		trait = ninjarank_chunin # "Thirteen years after the Fourth Shinobi World War, Kagura was promoted to Chūnin"
+	}
+}
+
+530 = {
+	name = "KaguraDad"
+	dynasty = 501 #Karatachi
+	religion = "sixpaths"
+	culture = "water_generic"
+	father = 503 # Yagura, Fourth Mizukage
+	998.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+
+###########################################
+########## 	     SENKA CLAN 	 ##########
+###########################################
+
+531 = {
+	name = "Makinami" # Senka Triplets
+	dynasty = 513 #Senka
+	religion = "sixpaths"
+	culture = "water_generic"
+	trait = twin
+	1020.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1032.1.1 = {
+		trait = ninjarank_genin
+	}
+}
+
+532 = {
+	name = "Sazanami" # Senka Triplets
+	dynasty = 513 #Senka
+	religion = "sixpaths"
+	culture = "water_generic"
+	trait = twin
+	1020.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1032.1.1 = {
+		trait = ninjarank_genin
+	}
+}
+
+533 = {
+	name = "Takanami" # Senka Triplets
+	dynasty = 513 #Senka
+	religion = "sixpaths"
+	culture = "water_generic"
+	trait = twin
+	1020.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1032.1.1 = {
+		trait = ninjarank_genin
+	}
+}
+
+534 = {
+	name = "SenkaDad" # characters need parents to be connected as siblings in the game
+	dynasty = 513 #Senka
+	religion = "sixpaths"
+	culture = "water_generic"
+	trait = twin
+	999.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+
+535 = {
+	name = "SenkaMom" # characters need parents to be connected as siblings in the game
+	female = yes
+	religion = "sixpaths"
+	culture = "water_generic"
+	trait = twin
+	999.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}

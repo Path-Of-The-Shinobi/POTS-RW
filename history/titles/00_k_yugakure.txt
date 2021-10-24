@@ -1,0 +1,15 @@
+k_yugakure = {
+	800.1.1={
+		liege=e_shinobi_world
+	}
+}
+d_yu_duchy_1 = {
+	800.1.1={
+		liege=k_yugakure
+	}
+}
+c_yu_county_1 = {
+	800.1.1={
+		liege=d_yu_duchy_1
+	}
+}

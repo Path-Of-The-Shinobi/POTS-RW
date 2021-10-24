@@ -1,0 +1,559 @@
+﻿first_shinobi_war = {
+	start_date = 965.1.1
+	is_playable = yes
+
+	# Land of Fire
+	character = {
+		name = "hashirama_senju_965"
+		dynasty = 1
+		dynasty_splendor_level = 1
+		type = male
+		birth = 924.10.23
+		title = k_konohagakure
+		government = tribal_government
+		culture = senju
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 2
+		position = { 800 700 }
+
+		animation = disapproval
+	}
+
+	# Land of Water
+	character = {
+		name = "byakuren_965"
+		#dynasty_splendor_level = 1
+		type = male
+		birth = 896.1.20
+		title = k_kirigakure
+		government = tribal_government
+		culture = water_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 500
+		position = { 1525 775 }
+
+		animation = disapproval
+	}
+
+	# Land of Wind
+	character = {
+		name = "reto_965"
+		dynasty = 700082505
+		dynasty_splendor_level = 1
+		type = male
+		birth = 908.6.27
+		title = k_sunagakure
+		government = tribal_government
+		culture = wind_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 1000
+		position = { 300 800 }
+
+		animation = disapproval
+	}
+
+	# Land of Lightning
+	character = {
+		name = "a_the_first_965"
+		#dynasty_splendor_level = 1
+		type = male
+		birth = 926.12.1
+		title = k_kumogakure
+		government = tribal_government
+		culture = lightning_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 2000
+		position = { 1300 200 }
+
+		animation = disapproval
+	}
+
+	# Land of Earth
+	character = {
+		name = "ishikawa_965"
+		dynasty = 1500
+		dynasty_splendor_level = 1
+		type = male
+		birth = 896.5.6
+		title = k_iwagakure
+		government = tribal_government
+		culture = earth_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 1500
+		position = { 300 250 }
+
+		animation = disapproval
+	}
+}
+
+second_shinobi_war = {
+	start_date = 986.12.3
+	is_playable = yes
+
+	# Land of Fire
+	character = {
+		name = "hiruzen_sarutobi_986"
+		dynasty = 3 # Sarutobi
+		dynasty_splendor_level = 1
+		type = male
+		birth = 944.2.8
+		title = k_konohagakure
+		government = tribal_government
+		culture = sarutobi
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 26
+		position = { 800 700 }
+
+		animation = disapproval
+	}
+
+	# Land of Water
+	character = {
+		name = "third_mizukage_986"
+		dynasty = 509 # Yuki
+		dynasty_splendor_level = 1
+		type = male
+		birth = 936.1.1
+		title = k_kirigakure
+		government = tribal_government
+		culture = water_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 502
+		position = { 1525 775 }
+
+		animation = disapproval
+	}
+
+	# Land of Wind
+	character = {
+		name = "shamon_986"
+		#dynasty_splendor_level = 1
+		type = male
+		birth = 931.3.12
+		title = k_sunagakure
+		government = tribal_government
+		culture = wind_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 1001
+		position = { 300 800 }
+
+		animation = disapproval
+	}
+
+	# Land of Lightning
+	character = {
+		name = "a_the_third_986"
+		#dynasty_splendor_level = 1
+		type = male
+		birth = 946.8.1
+		title = k_kumogakure
+		government = tribal_government
+		culture = lightning_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 2002
+		position = { 1300 200 }
+
+		animation = disapproval
+	}
+
+	# Land of Earth
+	character = {
+		name = "onoki_986"
+		dynasty = 1500 # Kamizuru
+		dynasty_splendor_level = 1
+		type = male
+		birth = 938.10.8
+		title = k_iwagakure
+		government = tribal_government
+		culture = earth_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 1502
+		position = { 300 250 }
+
+		animation = disapproval
+	}
+}
+
+third_shinobi_war = {
+	start_date = 996.1.1
+	is_playable = yes
+
+	# Land of Fire
+	character = {
+		name = "hiruzen_sarutobi_996"
+		dynasty = 3 # Sarutobi
+		dynasty_splendor_level = 1
+		type = male
+		birth = 944.2.8
+		title = k_konohagakure
+		government = tribal_government
+		culture = sarutobi
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 26
+		position = { 800 700 }
+
+		animation = disapproval
+	}
+
+	# Land of Water
+	character = {
+		name = "third_mizukage_996"
+		dynasty = 509 # Yuki
+		dynasty_splendor_level = 1
+		type = male
+		birth = 936.1.1
+		title = k_kirigakure
+		government = tribal_government
+		culture = water_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 502
+		position = { 1525 775 }
+
+		animation = disapproval
+	}
+
+	# Land of Wind
+	character = {
+		name = "third_kazekage_996"
+		#dynasty_splendor_level = 1
+		type = male
+		birth = 952.1.1
+		title = k_sunagakure
+		government = tribal_government
+		culture = wind_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 1002
+		position = { 300 800 }
+
+		animation = disapproval
+	}
+
+	# Land of Lightning
+	character = {
+		name = "a_the_fourth_996"
+		#dynasty_splendor_level = 1
+		type = male
+		birth = 970.6.1
+		title = k_kumogakure
+		government = tribal_government
+		culture = lightning_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 2003
+		position = { 1300 200 }
+
+		animation = disapproval
+	}
+
+	# Land of Earth
+	character = {
+		name = "onoki_996"
+		dynasty = 1500 # Kamizuru
+		dynasty_splendor_level = 1
+		type = male
+		birth = 938.10.8
+		title = k_iwagakure
+		government = tribal_government
+		culture = earth_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 1502
+		position = { 300 250 }
+
+		animation = disapproval
+	}
+}
+
+fourth_shinobi_war = {
+	start_date = 1017.10.8 # October 8
+	is_playable = yes
+
+	# Land of Fire
+	character = {
+		name = "tsunade_senju_1017"
+		dynasty = 1 # Senju
+		dynasty_splendor_level = 1
+		type = female
+		birth = 962.8.2
+		title = k_konohagakure
+		government = tribal_government
+		culture = sarutobi
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 26
+		position = { 800 700 }
+
+		animation = disapproval
+	}
+
+	# Land of Water
+	character = {
+		name = "mei_terumi_1017"
+		dynasty = 502 #Terumi
+		dynasty_splendor_level = 1
+		type = female
+		birth = 986.5.21
+		title = k_kirigakure
+		government = tribal_government
+		culture = water_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 504
+		position = { 1525 775 }
+
+		animation = disapproval
+	}
+
+	# Land of Wind
+	character = {
+		name = "gaara_1017"
+		dynasty = 700082505 #Kazekage Clan
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1000.1.19
+		title = k_sunagakure
+		government = tribal_government
+		culture = wind_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 1004
+		position = { 300 800 }
+
+		animation = disapproval
+	}
+
+	# Land of Lightning
+	character = {
+		name = "a_the_fourth_1017"
+		#dynasty_splendor_level = 1
+		type = male
+		birth = 970.6.1
+		title = k_kumogakure
+		government = tribal_government
+		culture = lightning_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 2003
+		position = { 1300 200 }
+
+		animation = disapproval
+	}
+
+	# Land of Earth
+	character = {
+		name = "onoki_1017"
+		dynasty = 1500 # Kamizuru
+		dynasty_splendor_level = 1
+		type = male
+		birth = 938.10.8
+		title = k_iwagakure
+		government = tribal_government
+		culture = earth_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 1502
+		position = { 300 250 }
+
+		animation = disapproval
+	}
+}
+
+og_naruto_start = {
+	start_date = 1012.1.1
+	is_playable = yes
+
+	# Land of Fire
+	character = {
+		name = "hiruzen_sarutobi_1012"
+		dynasty = 3 # Sarutobi
+		dynasty_splendor_level = 1
+		type = male
+		birth = 944.2.8
+		title = k_konohagakure
+		government = tribal_government
+		culture = sarutobi
+		religion = sixpaths
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 26
+		position = { 800 700 }
+
+		animation = disapproval
+	}
+
+	# Land of Water
+	character = {
+		name = "mei_terumi_1012"
+		dynasty = 502 #Terumi
+		dynasty_splendor_level = 1
+		type = female
+		birth = 986.5.21
+		title = k_kirigakure
+		government = tribal_government
+		culture = water_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 504
+		position = { 1525 775 }
+
+		animation = disapproval
+	}
+
+	# Land of Wind
+	character = {
+		name = "rasa_1012"
+		dynasty = 700082505 #Kazekage Clan
+		dynasty_splendor_level = 1
+		type = male
+		birth = 973.3.29
+		title = k_sunagakure
+		government = tribal_government
+		culture = wind_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 1003
+		position = { 300 800 }
+
+		animation = disapproval
+	}
+
+	# Land of Lightning
+	character = {
+		name = "a_the_fourth_1012"
+		#dynasty_splendor_level = 1
+		type = male
+		birth = 970.6.1
+		title = k_kumogakure
+		government = tribal_government
+		culture = lightning_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 2003
+		position = { 1300 200 }
+
+		animation = disapproval
+	}
+
+	# Land of Earth
+	character = {
+		name = "onoki_1012"
+		dynasty = 1500 # Kamizuru
+		dynasty_splendor_level = 1
+		type = male
+		birth = 938.10.8
+		title = k_iwagakure
+		government = tribal_government
+		culture = earth_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 1502
+		position = { 300 250 }
+
+		animation = disapproval
+	}
+}
+
+boruto_movie = {
+	start_date = 1032.1.1
+	is_playable = yes
+
+	# Land of Fire
+	character = {
+		name = "naruto_uzumaki_1032"
+		dynasty = 9 # Uzumaki
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1000.10.10
+		title = k_konohagakure
+		government = tribal_government
+		culture = uzumaki
+		religion = sixpaths
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 64
+		position = { 800 700 }
+
+		animation = disapproval
+	}
+
+	# Land of Water
+	character = {
+		name = "chojuro_1032"
+		#dynasty_splendor_level = 1
+		type = male
+		birth = 997.11.1
+		title = k_kirigakure
+		government = tribal_government
+		culture = water_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 505
+		position = { 1525 775 }
+
+		animation = disapproval
+	}
+
+	# Land of Wind
+	character = {
+		name = "gaara_1032"
+		dynasty = 700082505 #Kazekage Clan
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1000.1.19
+		title = k_sunagakure
+		government = tribal_government
+		culture = wind_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 1004
+		position = { 300 800 }
+
+		animation = disapproval
+	}
+
+	# Land of Lightning
+	character = {
+		name = "darui_1032"
+		#dynasty_splendor_level = 1
+		type = male
+		birth = 991.1.6
+		title = k_kumogakure
+		government = tribal_government
+		culture = lightning_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 2004
+		position = { 1300 200 }
+
+		animation = disapproval
+	}
+
+	# Land of Earth
+	character = {
+		name = "kurotsuchi_1032"
+		dynasty = 1500 # Kamizuru
+		dynasty_splendor_level = 1
+		type = female
+		birth = 999.9.6
+		title = k_iwagakure
+		government = tribal_government
+		culture = earth_generic
+		religion = sixpaths
+		#difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 1503
+		position = { 300 250 }
+
+		animation = disapproval
+	}
+}

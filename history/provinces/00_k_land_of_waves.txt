@@ -1,0 +1,10 @@
+##d_waves_duchy_1 ###################################
+###c_waves_county_1
+623 = {	# Waves Barony 1
+	culture = waves_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+
+

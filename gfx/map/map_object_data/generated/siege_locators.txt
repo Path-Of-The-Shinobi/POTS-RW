@@ -1,0 +1,7 @@
+﻿game_object_locator={
+	name="siege"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="unit_layer"
+}

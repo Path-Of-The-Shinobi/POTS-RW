@@ -1,0 +1,10 @@
+##d_ame_duchy_1 ###################################
+###c_ame_county_1
+619 = {	# Ame Barony 1
+	culture = rain_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+
+

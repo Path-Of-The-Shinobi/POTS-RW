@@ -1,0 +1,90 @@
+k_sunagakure = {
+	800.1.1={
+		liege=e_land_of_wind
+	}
+}
+d_duchy_4 = {
+	800.1.1={
+		liege=k_sunagakure
+	}
+}
+c_placeholder_8 = {
+	800.1.1={
+		liege=d_duchy_4
+	}
+}
+c_roran = {
+	800.1.1={
+		liege=d_duchy_4
+	}
+}
+c_placeholder_12 = {
+	800.1.1={
+		liege=d_duchy_4
+	}
+}
+c_placeholder_14 = {
+	800.1.1={
+		liege=d_duchy_4
+	}
+}
+d_duchy_5 = {
+	800.1.1={
+		liege=k_sunagakure
+	}
+}
+c_placeholder_9 = {
+	800.1.1={
+		liege=d_duchy_5
+	}
+}
+c_placeholder_10 = {
+	800.1.1={
+		liege=d_duchy_5
+	}
+}
+c_placeholder_11 = {
+	800.1.1={
+		liege=d_duchy_5
+	}
+}
+d_sunagakure = {
+	800.1.1={
+		liege=k_sunagakure
+	}
+}
+c_demon_desert = {
+	800.1.1={
+		liege=d_sunagakure
+	}
+}
+c_sand_village = {
+	800.1.1={
+		liege=d_sunagakure
+	}
+}
+c_placeholder_17 = {
+	800.1.1={
+		liege=d_sunagakure
+	}
+}
+d_duchy_3 = {
+	800.1.1={
+		liege=k_sunagakure
+	}
+}
+c_placeholder_13 = {
+	800.1.1={
+		liege=d_duchy_3
+	}
+}
+c_placeholder_15 = {
+	800.1.1={
+		liege=d_duchy_3
+	}
+}
+c_placeholder_16 = {
+	800.1.1={
+		liege=d_duchy_3
+	}
+}

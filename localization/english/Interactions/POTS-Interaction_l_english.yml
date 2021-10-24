@@ -14,6 +14,7 @@
  killed_for_power_killer:0 "was killed for power by [TARGET_CHARACTER.GetUIName]"
  absorbed_for_health_killer:0 "was absorbed for bonus health by [TARGET_CHARACTER.GetUIName]"
  obtain_mangekyo_sharingan_interaction:0 "Obtain Mangekyo Sharingan"
+ obtain_mangekyo_sharingan_interaction_desc:0 "Will You kill for extra power"
  train_sharingan_level_one_interaction:0 "Train Sharingan"
  train_sharingan_level_one_interaction_desc:0 "Train to try and level up your sharingan"
  train_sharingan_level_two_interaction:0 "Train Sharingan level Two"

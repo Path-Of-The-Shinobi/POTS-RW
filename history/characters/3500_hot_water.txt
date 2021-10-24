@@ -1,0 +1,40 @@
+﻿3500 = {
+	name = "Hidan"
+	religion = "sixpaths" # Jashinism
+	culture = "hot_water_generic"
+	disallow_random_traits = yes
+	994.4.2 = { # April 2
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+			add_character_flag = forever_25
+		}
+		employer = 3501 # HotWaterDaimyo
+	}
+	1006.1.1 = {
+		add_trait = ninjarank_genin # wore a headband so at least a Genin
+		add_trait = immortal # wasn't immortal since birth
+	}
+	1009.1.1 = {
+		add_trait = s_rank # probably joined Akatsuki around this time
+	}
+	1016.10.24 = {
+		death = {
+			death_reason = death_battle
+			killer = 39 # Shikamaru
+		}
+	}
+}
+
+3501 = {
+	name = "HotWaterDaimyo"
+	religion = "sixpaths"
+	culture = "hot_water_generic"
+	
+	956.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}

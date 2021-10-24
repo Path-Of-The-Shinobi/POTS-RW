@@ -1,0 +1,276 @@
+﻿# Automated Ninja Ranks
+
+on_birthday = {
+    on_actions = {
+        genin_graduation_1
+        genin_graduation_2
+        genin_graduation_3
+        genin_graduation_4
+        child_prodigy_genin_1
+        child_prodigy_genin_2
+        child_prodigy_genin_3
+        chunin_promotion
+        jonin_promotion
+        anbu_promotion
+        early_chunin_to_jonin_1
+        medical_ninja
+    }
+}
+
+genin_graduation_1 = {
+    trigger = {
+        AND = {
+            age = 9
+            NOT = { 
+                has_trait = ninjarank_anbu
+                has_trait = ninjarank_genin
+                has_trait = ninjarank_kage
+                has_trait = ninjarank_chunin
+                has_trait = ninjarank_jonin
+                has_trait = civilian_genetic
+                has_trait = civilian_nongenetic
+                has_trait = samurai
+            }
+        }
+    }
+    events = {
+        ninja_ranks.1
+    }
+}
+
+genin_graduation_2 = {
+    trigger = {
+        AND = {
+            age = 10
+            NOT = { 
+                has_trait = ninjarank_anbu
+                has_trait = ninjarank_genin
+                has_trait = ninjarank_kage
+                has_trait = ninjarank_chunin
+                has_trait = ninjarank_jonin
+                has_trait = civilian_genetic
+                has_trait = civilian_nongenetic
+                has_trait = samurai
+            }
+        }
+    }
+    events = {
+        ninja_ranks.2
+    }
+}
+
+genin_graduation_3 = {
+    trigger = {
+        AND = {
+            age = 11
+            NOT = { 
+                has_trait = ninjarank_anbu
+                has_trait = ninjarank_genin
+                has_trait = ninjarank_kage
+                has_trait = ninjarank_chunin
+                has_trait = ninjarank_jonin
+                has_trait = civilian_genetic
+                has_trait = civilian_nongenetic
+                has_trait = samurai
+            }
+        }
+    }
+    events = {
+        ninja_ranks.3
+    }
+}
+
+genin_graduation_4 = {
+    trigger = {
+        AND = {
+            age >= 12
+            age <= 30
+            NOT = { 
+                has_trait = ninjarank_anbu
+                has_trait = ninjarank_jonin
+                has_trait = ninjarank_chunin
+                has_trait = ninjarank_genin 
+                has_trait = ninjarank_kage
+                has_trait = civilian_genetic
+                has_trait = civilian_nongenetic
+                has_trait = samurai
+            }
+        }
+    }
+    events = {
+        ninja_ranks.4
+    }
+}
+
+child_prodigy_genin_1 = {
+    trigger = {
+        AND = {
+            age = 8
+            NOT = { 
+                has_trait = ninjarank_anbu
+                has_trait = ninjarank_genin
+                has_trait = ninjarank_kage
+                has_trait = ninjarank_chunin
+                has_trait = ninjarank_jonin
+                has_trait = civilian_genetic
+                has_trait = civilian_nongenetic
+                has_trait = samurai
+            }
+        }
+    }
+    events = {
+        ninja_ranks.5
+    }
+}
+
+child_prodigy_genin_2 = {
+    trigger = {
+        AND = {
+            age = 7
+            NOT = { 
+                has_trait = ninjarank_anbu
+                has_trait = ninjarank_genin
+                has_trait = ninjarank_kage
+                has_trait = ninjarank_chunin
+                has_trait = ninjarank_jonin
+                has_trait = civilian_genetic
+                has_trait = civilian_nongenetic
+                has_trait = samurai
+            }
+        }
+    }
+    events = {
+        ninja_ranks.6
+    }
+}
+
+child_prodigy_genin_3 = {
+    trigger = {
+        AND = {
+            age = 6
+            NOT = { 
+                has_trait = ninjarank_anbu
+                has_trait = ninjarank_genin
+                has_trait = ninjarank_kage
+                has_trait = ninjarank_chunin
+                has_trait = ninjarank_jonin
+                has_trait = civilian_genetic
+                has_trait = civilian_nongenetic
+                has_trait = samurai
+            }
+        }
+    }
+    events = {
+        ninja_ranks.7
+    }
+}
+
+chunin_promotion = {
+    trigger = {
+        AND = {
+            age >= 9
+            has_trait = ninjarank_genin
+            NOT = { 
+                has_trait = ninjarank_anbu
+                has_trait = ninjarank_kage
+                has_trait = ninjarank_chunin
+                has_trait = ninjarank_jonin
+                has_trait = civilian_genetic
+                has_trait = civilian_nongenetic
+                has_trait = samurai
+            }
+        }
+    }
+
+    events = {
+        ninja_ranks.8
+    }
+}
+
+jonin_promotion = {
+    trigger = {
+        AND = {
+            age >= 15
+            has_trait = ninjarank_chunin
+            NOT = { 
+                has_trait = ninjarank_anbu
+                has_trait = ninjarank_genin
+                has_trait = ninjarank_kage
+                has_trait = ninjarank_jonin
+                has_trait = civilian_genetic
+                has_trait = civilian_nongenetic
+                has_trait = samurai
+            }
+        }
+    }
+
+    events = {
+        ninja_ranks.9
+    }
+}
+
+anbu_promotion = {
+    trigger = {
+        AND = {
+            age >= 12
+            age <= 21
+            has_trait = ninjarank_jonin
+            NOT = { 
+                has_trait = ninjarank_anbu
+                has_trait = ninjarank_genin
+                has_trait = ninjarank_kage
+                has_trait = ninjarank_chunin
+                has_trait = civilian_genetic
+                has_trait = civilian_nongenetic
+                has_trait = samurai
+            }
+        }
+    }
+
+    events = {
+        ninja_ranks.10
+    }
+}
+
+early_chunin_to_jonin_1 = {
+    trigger = {
+        AND = {
+            age >= 9
+            age <= 15
+            has_trait = ninjarank_chunin
+            NOT = { 
+                has_trait = ninjarank_anbu
+                has_trait = ninjarank_genin
+                has_trait = ninjarank_kage
+                has_trait = ninjarank_jonin
+                has_trait = civilian_genetic
+                has_trait = civilian_nongenetic
+                has_trait = samurai
+            }
+        }
+    }
+    events = {
+        ninja_ranks.11
+    }
+}
+
+medical_ninja = {
+    trigger = {
+        AND = {
+            age >= 12
+            age <= 20
+            OR = {
+                has_trait = ninjarank_genin
+                has_trait = ninjarank_chunin
+                has_trait = ninjarank_jonin
+                has_trait = ninjarank_anbu
+                has_trait = civilian_genetic
+                has_trait = civilian_nongenetic
+                has_trait = samurai
+            }
+        }
+    }
+    events = {
+        ninja_ranks.12
+    }
+}

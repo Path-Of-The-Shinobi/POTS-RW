@@ -1,0 +1,123 @@
+﻿k_iwagakure = {
+	950.1.1 = {
+		holder = 1500 # Ishikawa
+		government = tribal_government
+		succession_laws = {
+			saxon_elective_succession_law
+		}
+	}
+	966.1.1 = {
+		holder = 1501 # Mu
+	}
+	966.6.6 = {
+		holder = 1502 # Onoki
+	}
+	1021.1.1 = {
+		holder = 1503 # Kurotsuchi
+	}
+}
+
+d_greater_stone_village = {
+	950.1.1 = {
+		holder = 1500 # Ishikawa
+	}
+	966.1.1 = {
+		holder = 1501 # Mu
+	}
+	966.6.6 = {
+		holder = 1502 # Onoki
+	}
+	1021.1.1 = {
+		holder = 1503 # Kurotsuchi
+	}
+}
+
+c_stone_village = {
+	950.1.1 = {
+		holder = 1500 # Ishikawa
+	}
+	966.1.1 = {
+		holder = 1501 # Mu
+	}
+	966.6.6 = {
+		holder = 1502 # Onoki
+	}
+	1021.1.1 = {
+		holder = 1503 # Kurotsuchi
+	}
+}
+
+d_duchy_6 = {
+	950.1.1 = {
+		holder = 1500 # Ishikawa
+	}
+	966.1.1 = {
+		holder = 1501 # Mu
+	}
+	966.6.6 = {
+		holder = 1502 # Onoki
+	}
+	1021.1.1 = {
+		holder = 1503 # Kurotsuchi
+	}
+}
+
+c_placeholder_18 = {
+	950.1.1 = {
+		holder = 1500 # Ishikawa
+	}
+	966.1.1 = {
+		holder = 1501 # Mu
+	}
+	966.6.6 = {
+		holder = 1502 # Onoki
+	}
+	1021.1.1 = {
+		holder = 1503 # Kurotsuchi
+	}
+}
+
+c_placeholder_19 = {
+	950.1.1 = {
+		holder = 1500 # Ishikawa
+	}
+	966.1.1 = {
+		holder = 1501 # Mu
+	}
+	966.6.6 = {
+		holder = 1502 # Onoki
+	}
+	1021.1.1 = {
+		holder = 1503 # Kurotsuchi
+	}
+}
+
+c_placeholder_20 = {
+	950.1.1 = {
+		holder = 1500 # Ishikawa
+	}
+	966.1.1 = {
+		holder = 1501 # Mu
+	}
+	966.6.6 = {
+		holder = 1502 # Onoki
+	}
+	1021.1.1 = {
+		holder = 1503 # Kurotsuchi
+	}
+}
+
+c_placeholder_21 = {
+	950.1.1 = {
+		holder = 1500 # Ishikawa
+	}
+	966.1.1 = {
+		holder = 1501 # Mu
+	}
+	966.6.6 = {
+		holder = 1502 # Onoki
+	}
+	1021.1.1 = {
+		holder = 1503 # Kurotsuchi
+	}
+}

@@ -1,0 +1,55 @@
+d_duchy_1 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_placeholder_1 = {
+	800.1.1={
+		liege=d_duchy_1
+	}
+}
+c_valley_of_the_end = {
+	800.1.1={
+		liege=d_duchy_1
+	}
+}
+c_tanzaku = {
+	800.1.1={
+		liege=d_duchy_1
+	}
+}
+d_konohagakure = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_placeholder_3 = {
+	800.1.1={
+		liege=d_konohagakure
+	}
+}
+c_placeholder_2 = {
+	800.1.1={
+		liege=d_konohagakure
+	}
+}
+c_leaf_village = {
+	800.1.1={
+		liege=d_konohagakure
+	}
+}
+d_duchy_2 = {
+	800.1.1={
+		liege=k_konohagakure
+	}
+}
+c_placeholder_4 = {
+	800.1.1={
+		liege=d_duchy_2
+	}
+}
+c_placeholder_5 = {
+	800.1.1={
+		liege=d_duchy_2
+	}
+}

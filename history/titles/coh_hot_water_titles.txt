@@ -1,0 +1,9 @@
+﻿k_yugakure = {
+	986.1.1 = {
+		holder = 3501 # HotWaterDaimyo
+		government = tribal_government
+		succession_laws = {
+			saxon_elective_succession_law
+		}
+	}
+}

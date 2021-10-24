@@ -1,0 +1,15 @@
+k_tani = {
+	800.1.1={
+		liege=e_land_of_rivers
+	}
+}
+d_tanigakure = {
+	800.1.1={
+		liege=k_tani
+	}
+}
+c_valley_village = {
+	800.1.1={
+		liege=d_tanigakure
+	}
+}

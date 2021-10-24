@@ -1,0 +1,15 @@
+k_kumogakure = {
+	800.1.1={
+		liege=e_land_of_lightning
+	}
+}
+d_kumogakure = {
+	800.1.1={
+		liege=k_kumogakure
+	}
+}
+c_cloud_village = {
+	800.1.1={
+		liege=d_kumogakure
+	}
+}

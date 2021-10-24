@@ -1,0 +1,1282 @@
+##d_konoha_duchy_1 ###################################
+###c_konoha_county_1
+374 = {	# Konoha Barony 1
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+381 = {	# Konoha Barony 8
+	holding = none
+}
+
+384 = {	# Konoha Barony 11
+	holding = none
+}
+
+
+###c_konoha_county_2
+375 = {	# Konoha Barony 2
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+379 = {	# Konoha Barony 6
+	holding = none
+}
+
+380 = {	# Konoha Barony 7
+	holding = none
+}
+
+382 = {	# Konoha Barony 9
+	holding = none
+}
+
+
+###c_konoha_county_3
+376 = {	# Konoha Barony 3
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+377 = {	# Konoha Barony 4
+	holding = none
+}
+
+378 = {	# Konoha Barony 5
+	holding = none
+}
+
+
+###c_konoha_county_4
+383 = {	# Konoha Barony 10
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+385 = {	# Konoha Barony 12
+	holding = none
+}
+
+386 = {	# Konoha Barony 13
+	holding = none
+}
+
+
+
+##d_konoha_duchy_2 ###################################
+###c_konoha_county_5
+387 = {	# Konoha Barony 14
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+388 = {	# Konoha Barony 15
+	holding = none
+}
+
+389 = {	# Konoha Barony 16
+	holding = none
+}
+
+390 = {	# Konoha Barony 17
+	holding = none
+}
+
+
+###c_konoha_county_6
+391 = {	# Konoha Barony 18
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+392 = {	# Konoha Barony 19
+	holding = none
+}
+
+393 = {	# Konoha Barony 20
+	holding = none
+}
+
+
+###c_konoha_county_7
+394 = {	# Konoha Barony 21
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+395 = {	# Konoha Barony 22
+	holding = none
+}
+
+403 = {	# Konoha Barony 30
+	holding = none
+}
+
+404 = {	# Konoha Barony 31
+	holding = none
+}
+
+
+###c_konoha_county_8
+405 = {	# Konoha Barony 32
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+406 = {	# Konoha Barony 33
+	holding = none
+}
+
+431 = {	# Konoha Barony 58
+	holding = none
+}
+
+
+
+##d_konoha_duchy_3 ###################################
+###c_konoha_county_9
+396 = {	# Konoha Barony 23
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+397 = {	# Konoha Barony 24
+	holding = none
+}
+
+402 = {	# Konoha Barony 29
+	holding = none
+}
+
+
+###c_konoha_county_11
+398 = {	# Konoha Barony 25
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+399 = {	# Konoha Barony 26
+	holding = none
+}
+
+400 = {	# Konoha Barony 27
+	holding = none
+}
+
+
+###c_konoha_county_10
+401 = {	# Konoha Barony 28
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+436 = {	# Konoha Barony 63
+	holding = none
+}
+
+437 = {	# Konoha Barony 64
+	holding = none
+}
+
+
+###c_konoha_county_12
+438 = {	# Konoha Barony 65
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+439 = {	# Konoha Barony 66
+	holding = none
+}
+
+447 = {	# Konoha Barony 74
+	holding = none
+}
+
+
+
+##d_konoha_duchy_5 ###################################
+###c_konoha_county_17
+407 = {	# Konoha Barony 34
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+408 = {	# Konoha Barony 35
+	holding = none
+}
+
+430 = {	# Konoha Barony 57
+	holding = none
+}
+
+
+###c_konoha_county_18
+409 = {	# Konoha Barony 36
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+428 = {	# Konoha Barony 55
+	holding = none
+}
+
+429 = {	# Konoha Barony 56
+	holding = none
+}
+
+
+###c_konoha_county_19
+410 = {	# Konoha Barony 37
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+411 = {	# Konoha Barony 38
+	holding = none
+}
+
+427 = {	# Konoha Barony 54
+	holding = none
+}
+
+
+###c_konoha_county_20
+452 = {	# Konoha Barony 79
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+453 = {	# Konoha Barony 80
+	holding = none
+}
+
+454 = {	# Konoha Barony 81
+	holding = none
+}
+
+
+
+##d_konoha_duchy_4 ###################################
+###c_konoha_county_14
+412 = {	# Konoha Barony 39
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+413 = {	# Konoha Barony 40
+	holding = none
+}
+
+419 = {	# Konoha Barony 46
+	holding = none
+}
+
+420 = {	# Konoha Barony 47
+	holding = none
+}
+
+
+###c_konoha_county_13
+414 = {	# Konoha Barony 41
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+415 = {	# Konoha Barony 42
+	holding = none
+}
+
+416 = {	# Konoha Barony 43
+	holding = none
+}
+
+
+###c_konoha_county_15
+417 = {	# Konoha Barony 44
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+418 = {	# Konoha Barony 45
+	holding = none
+}
+
+421 = {	# Konoha Barony 48
+	holding = none
+}
+
+422 = {	# Konoha Barony 49
+	holding = none
+}
+
+
+###c_konoha_county_16
+423 = {	# Konoha Barony 50
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+424 = {	# Konoha Barony 51
+	holding = none
+}
+
+459 = {	# Konoha Barony 86
+	holding = none
+}
+
+
+
+##d_konoha_duchy_6 ###################################
+###c_konoha_county_21
+425 = {	# Konoha Barony 52
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+426 = {	# Konoha Barony 53
+	holding = none
+}
+
+456 = {	# Konoha Barony 83
+	holding = none
+}
+
+457 = {	# Konoha Barony 84
+	holding = none
+}
+
+
+###c_konoha_county_22
+455 = {	# Konoha Barony 82
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+467 = {	# Konoha Barony 94
+	holding = none
+}
+
+468 = {	# Konoha Barony 95
+	holding = none
+}
+
+
+###c_konoha_county_24
+458 = {	# Konoha Barony 85
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+464 = {	# Konoha Barony 91
+	holding = none
+}
+
+523 = {	# Konoha Barony 150
+	holding = none
+}
+
+
+###c_konoha_county_23
+465 = {	# Konoha Barony 92
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+466 = {	# Konoha Barony 93
+	holding = none
+}
+
+500 = {	# Konoha Barony 127
+	holding = none
+}
+
+
+
+##d_konoha_duchy_7 ###################################
+###c_konoha_county_25
+432 = {	# Konoha Barony 59
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+433 = {	# Konoha Barony 60
+	holding = none
+}
+
+451 = {	# Konoha Barony 78
+	holding = none
+}
+
+
+###c_konoha_county_26
+434 = {	# Konoha Barony 61
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+435 = {	# Konoha Barony 62
+	holding = none
+}
+
+450 = {	# Konoha Barony 77
+	holding = none
+}
+
+
+###c_konoha_county_27
+469 = {	# Konoha Barony 96
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+471 = {	# Konoha Barony 98
+	holding = none
+}
+
+498 = {	# Konoha Barony 125
+	holding = none
+}
+
+
+###c_konoha_county_28
+470 = {	# Konoha Barony 97
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+499 = {	# Konoha Barony 126
+	holding = none
+}
+
+502 = {	# Konoha Barony 129
+	holding = none
+}
+
+
+
+##d_konoha_duchy_8 ###################################
+###c_konoha_county_29
+440 = {	# Konoha Barony 67
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+441 = {	# Konoha Barony 68
+	holding = none
+}
+
+445 = {	# Konoha Barony 72
+	holding = none
+}
+
+
+###c_konoha_county_30
+442 = {	# Konoha Barony 69
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+443 = {	# Konoha Barony 70
+	holding = none
+}
+
+444 = {	# Konoha Barony 71
+	holding = none
+}
+
+
+###c_konoha_county_31
+446 = {	# Konoha Barony 73
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+476 = {	# Konoha Barony 103
+	holding = none
+}
+
+477 = {	# Konoha Barony 104
+	holding = none
+}
+
+
+###c_konoha_county_32
+448 = {	# Konoha Barony 75
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+474 = {	# Konoha Barony 101
+	holding = none
+}
+
+475 = {	# Konoha Barony 102
+	holding = none
+}
+
+
+###c_konoha_county_33
+479 = {	# Konoha Barony 106
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+494 = {	# Konoha Barony 121
+	holding = none
+}
+
+495 = {	# Konoha Barony 122
+	holding = none
+}
+
+
+
+##d_konoha_duchy_9 ###################################
+###c_konoha_county_34
+449 = {	# Konoha Barony 76
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+472 = {	# Konoha Barony 99
+	holding = none
+}
+
+473 = {	# Konoha Barony 100
+	holding = none
+}
+
+
+###c_konoha_county_36
+496 = {	# Konoha Barony 123
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+505 = {	# Konoha Barony 132
+	holding = none
+}
+
+506 = {	# Konoha Barony 133
+	holding = none
+}
+
+
+###c_konoha_county_35
+497 = {	# Konoha Barony 124
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+503 = {	# Konoha Barony 130
+	holding = none
+}
+
+504 = {	# Konoha Barony 131
+	holding = none
+}
+
+
+###c_konoha_county_37
+519 = {	# Konoha Barony 146
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+520 = {	# Konoha Barony 147
+	holding = none
+}
+
+526 = {	# Konoha Barony 153
+	holding = none
+}
+
+
+
+##d_konoha_duchy_10 ###################################
+###c_konoha_county_38
+460 = {	# Konoha Barony 87
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+461 = {	# Konoha Barony 88
+	holding = none
+}
+
+462 = {	# Konoha Barony 89
+	holding = none
+}
+
+
+###c_konoha_county_39
+463 = {	# Konoha Barony 90
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+524 = {	# Konoha Barony 151
+	holding = none
+}
+
+530 = {	# Konoha Barony 157
+	holding = none
+}
+
+
+###c_konoha_county_40
+531 = {	# Konoha Barony 158
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+533 = {	# Konoha Barony 160
+	holding = none
+}
+
+564 = {	# Konoha Barony 191
+	holding = none
+}
+
+
+###c_konoha_county_41
+532 = {	# Konoha Barony 159
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+565 = {	# Konoha Barony 192
+	holding = none
+}
+
+566 = {	# Konoha Barony 193
+	holding = none
+}
+
+
+
+##d_konoha_duchy_12 ###################################
+###c_konoha_county_47
+478 = {	# Konoha Barony 105
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+480 = {	# Konoha Barony 107
+	holding = none
+}
+
+481 = {	# Konoha Barony 108
+	holding = none
+}
+
+493 = {	# Konoha Barony 120
+	holding = none
+}
+
+
+###c_konoha_county_48
+482 = {	# Konoha Barony 109
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+483 = {	# Konoha Barony 110
+	holding = none
+}
+
+491 = {	# Konoha Barony 118
+	holding = none
+}
+
+
+###c_konoha_county_49
+492 = {	# Konoha Barony 119
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+508 = {	# Konoha Barony 135
+	holding = none
+}
+
+509 = {	# Konoha Barony 136
+	holding = none
+}
+
+
+###c_konoha_county_50
+507 = {	# Konoha Barony 134
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+517 = {	# Konoha Barony 144
+	holding = none
+}
+
+518 = {	# Konoha Barony 145
+	holding = none
+}
+
+538 = {	# Konoha Barony 165
+	holding = none
+}
+
+
+
+##d_konoha_duchy_13 ###################################
+###c_konoha_county_51
+484 = {	# Konoha Barony 111
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+485 = {	# Konoha Barony 112
+	holding = none
+}
+
+487 = {	# Konoha Barony 114
+	holding = none
+}
+
+490 = {	# Konoha Barony 117
+	holding = none
+}
+
+
+###c_konoha_county_52
+486 = {	# Konoha Barony 113
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+488 = {	# Konoha Barony 115
+	holding = none
+}
+
+489 = {	# Konoha Barony 116
+	holding = none
+}
+
+
+###c_konoha_county_53
+510 = {	# Konoha Barony 137
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+511 = {	# Konoha Barony 138
+	holding = none
+}
+
+514 = {	# Konoha Barony 141
+	holding = none
+}
+
+
+###c_konoha_county_54
+512 = {	# Konoha Barony 139
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+513 = {	# Konoha Barony 140
+	holding = none
+}
+
+543 = {	# Konoha Barony 170
+	holding = none
+}
+
+544 = {	# Konoha Barony 171
+	holding = none
+}
+
+
+
+##d_konoha_duchy_11 ###################################
+###c_konoha_county_42
+501 = {	# Konoha Barony 128
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+521 = {	# Konoha Barony 148
+	holding = none
+}
+
+522 = {	# Konoha Barony 149
+	holding = none
+}
+
+
+###c_konoha_county_43
+525 = {	# Konoha Barony 152
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+527 = {	# Konoha Barony 154
+	holding = none
+}
+
+528 = {	# Konoha Barony 155
+	holding = none
+}
+
+
+###c_konoha_county_46
+529 = {	# Konoha Barony 156
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+534 = {	# Konoha Barony 161
+	holding = none
+}
+
+535 = {	# Konoha Barony 162
+	holding = none
+}
+
+
+###c_konoha_county_44
+536 = {	# Konoha Barony 163
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+537 = {	# Konoha Barony 164
+	holding = none
+}
+
+539 = {	# Konoha Barony 166
+	holding = none
+}
+
+561 = {	# Konoha Barony 188
+	holding = none
+}
+
+562 = {	# Konoha Barony 189
+	holding = none
+}
+
+
+###c_konoha_county_45
+559 = {	# Konoha Barony 186
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+560 = {	# Konoha Barony 187
+	holding = none
+}
+
+572 = {	# Konoha Barony 199
+	holding = none
+}
+
+573 = {	# Konoha Barony 200
+	holding = none
+}
+
+574 = {	# Konoha Barony 201
+	holding = none
+}
+
+
+
+##d_konoha_duchy_14 ###################################
+###c_konoha_county_55
+515 = {	# Konoha Barony 142
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+516 = {	# Konoha Barony 143
+	holding = none
+}
+
+540 = {	# Konoha Barony 167
+	holding = none
+}
+
+
+###c_konoha_county_56
+541 = {	# Konoha Barony 168
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+542 = {	# Konoha Barony 169
+	holding = none
+}
+
+558 = {	# Konoha Barony 185
+	holding = none
+}
+
+
+###c_konoha_county_58
+545 = {	# Konoha Barony 172
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+546 = {	# Konoha Barony 173
+	holding = none
+}
+
+555 = {	# Konoha Barony 182
+	holding = none
+}
+
+
+###c_konoha_county_57
+556 = {	# Konoha Barony 183
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+557 = {	# Konoha Barony 184
+	holding = none
+}
+
+575 = {	# Konoha Barony 202
+	holding = none
+}
+
+576 = {	# Konoha Barony 203
+	holding = none
+}
+
+
+###c_konoha_county_59
+577 = {	# Konoha Barony 204
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+579 = {	# Konoha Barony 206
+	holding = none
+}
+
+580 = {	# Konoha Barony 207
+	holding = none
+}
+
+581 = {	# Konoha Barony 208
+	holding = none
+}
+
+
+
+##d_konoha_duchy_15 ###################################
+###c_konoha_county_60
+547 = {	# Konoha Barony 174
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+548 = {	# Konoha Barony 175
+	holding = none
+}
+
+554 = {	# Konoha Barony 181
+	holding = none
+}
+
+
+###c_konoha_county_61
+549 = {	# Konoha Barony 176
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+550 = {	# Konoha Barony 177
+	holding = none
+}
+
+551 = {	# Konoha Barony 178
+	holding = none
+}
+
+
+###c_konoha_county_62
+552 = {	# Konoha Barony 179
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+583 = {	# Konoha Barony 210
+	holding = none
+}
+
+587 = {	# Konoha Barony 214
+	holding = none
+}
+
+
+###c_konoha_county_63
+553 = {	# Konoha Barony 180
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+578 = {	# Konoha Barony 205
+	holding = none
+}
+
+582 = {	# Konoha Barony 209
+	holding = none
+}
+
+
+
+##d_konoha_duchy_17 ###################################
+###c_konoha_county_69
+563 = {	# Konoha Barony 190
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+570 = {	# Konoha Barony 197
+	holding = none
+}
+
+571 = {	# Konoha Barony 198
+	holding = none
+}
+
+
+###c_konoha_county_70
+567 = {	# Konoha Barony 194
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+593 = {	# Konoha Barony 220
+	holding = none
+}
+
+594 = {	# Konoha Barony 221
+	holding = none
+}
+
+
+###c_konoha_county_73
+568 = {	# Konoha Barony 195
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+569 = {	# Konoha Barony 196
+	holding = none
+}
+
+592 = {	# Konoha Barony 219
+	holding = none
+}
+
+
+###c_konoha_county_71
+588 = {	# Konoha Barony 215
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+589 = {	# Konoha Barony 216
+	holding = none
+}
+
+599 = {	# Konoha Barony 226
+	holding = none
+}
+
+
+###c_konoha_county_72
+590 = {	# Konoha Barony 217
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+591 = {	# Konoha Barony 218
+	holding = none
+}
+
+598 = {	# Konoha Barony 225
+	holding = none
+}
+
+
+###c_konoha_county_74
+597 = {	# Konoha Barony 224
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+607 = {	# Konoha Barony 234
+	holding = none
+}
+
+608 = {	# Konoha Barony 235
+	holding = none
+}
+
+
+
+##d_konoha_duchy_16 ###################################
+###c_konoha_county_64
+584 = {	# Konoha Barony 211
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+585 = {	# Konoha Barony 212
+	holding = none
+}
+
+586 = {	# Konoha Barony 213
+	holding = none
+}
+
+
+###c_konoha_county_68
+595 = {	# Konoha Barony 222
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+596 = {	# Konoha Barony 223
+	holding = none
+}
+
+611 = {	# Konoha Barony 238
+	holding = none
+}
+
+
+###c_konoha_county_66
+600 = {	# Konoha Barony 227
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+601 = {	# Konoha Barony 228
+	holding = none
+}
+
+606 = {	# Konoha Barony 233
+	holding = none
+}
+
+
+###c_konoha_county_65
+602 = {	# Konoha Barony 229
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+603 = {	# Konoha Barony 230
+	holding = none
+}
+
+604 = {	# Konoha Barony 231
+	holding = none
+}
+
+
+###c_konoha_county_67
+605 = {	# Konoha Barony 232
+	culture = fire_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+609 = {	# Konoha Barony 236
+	holding = none
+}
+
+610 = {	# Konoha Barony 237
+	holding = none
+}
+
+
+

@@ -1,0 +1,10 @@
+##d_oto_duchy_1 ###################################
+###c_oto_county_1
+616 = {	# Oto Barony 1
+	culture = sound_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+
+

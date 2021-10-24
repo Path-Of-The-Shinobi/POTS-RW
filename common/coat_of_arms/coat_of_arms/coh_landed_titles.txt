@@ -1,0 +1,10 @@
+# Land of Fire
+
+k_konohagakure = {
+	pattern = "pattern_solid.dds"	
+	color1 = "grey"	
+	colored_emblem = {
+		texture = "ce_konoha.dds"
+		color1 = "black"
+	}	
+}

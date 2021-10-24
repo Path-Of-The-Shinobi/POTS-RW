@@ -1,0 +1,19 @@
+﻿otsutsuki = {
+	template = "hyuga"
+	
+	skin_color = {
+		1 = { 0 0 0 0 } # White
+	}
+	
+	hair_color = {
+		1 = { 0.698 0.075 0.698 0.184 } # White -> Blue
+	}
+
+	hairstyles = {
+	    10 = { name = western_hairstyles          range = { 0.0 1.0 } }
+	}
+
+	beards = {
+	    1 = { name = no_beard       range = { 0.0 1.0 } }
+	}
+}

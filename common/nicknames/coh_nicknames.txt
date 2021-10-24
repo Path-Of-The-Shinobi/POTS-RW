@@ -1,0 +1,21 @@
+﻿#############################################
+# CHARACTER NICKNAMES
+#############################################
+
+# Exclusively Historical Nicknames
+nick_eternal_genin = {}
+nick_white_fang = {}
+nick_the_teleporter = {}
+nick_of_the_sharingan = {}
+nick_pervy_sage = {}
+nick_god_of_shinobi = {}
+nick_slug_princess = {}
+nick_red_hot_habanero = {}
+nick_yellow_flash = {}
+nick_noble_green_beast = {}
+nick_of_the_desert = {}
+nick_supporting_kage = {}
+nick_sage_of_six_paths = {}
+nick_rabbit_goddess = {}
+nick_fence_sitter = {}
+nick_of_the_red_sand = {}

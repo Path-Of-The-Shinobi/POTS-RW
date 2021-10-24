@@ -1,0 +1,40 @@
+k_iwagakure = {
+	800.1.1={
+		liege=e_land_of_earth
+	}
+}
+d_greater_stone_village = {
+	800.1.1={
+		liege=k_iwagakure
+	}
+}
+c_stone_village = {
+	800.1.1={
+		liege=d_greater_stone_village
+	}
+}
+d_duchy_6 = {
+	800.1.1={
+		liege=k_iwagakure
+	}
+}
+c_placeholder_18 = {
+	800.1.1={
+		liege=d_duchy_6
+	}
+}
+c_placeholder_19 = {
+	800.1.1={
+		liege=d_duchy_6
+	}
+}
+c_placeholder_20 = {
+	800.1.1={
+		liege=d_duchy_6
+	}
+}
+c_placeholder_21 = {
+	800.1.1={
+		liege=d_duchy_6
+	}
+}

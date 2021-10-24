@@ -1,0 +1,21 @@
+﻿k_kumogakure = {
+	956.1.1 = {
+		holder = 2000 # A the First
+		government = tribal_government
+		succession_laws = {
+			saxon_elective_succession_law
+		}
+	}
+	966.1.1 = {
+		holder = 2001 # A the Second
+	}
+	966.6.6 = {
+		holder = 2002 # A the Third
+	}
+	996.6.6 = {
+		holder = 2003 # A the Fourth
+	}
+	1021.1.1 = {
+		holder = 2004 # Darui
+	}
+}

@@ -1,0 +1,327 @@
+﻿k_sunagakure = {
+	956.1.1 = {
+		holder = 1000 # Reto
+		government = tribal_government
+		succession_laws = {
+			saxon_elective_succession_law
+		}
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+d_duchy_4 = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+c_placeholder_8 = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+c_roran = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+c_placeholder_12 = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+c_placeholder_14 = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+d_duchy_5 = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+c_placeholder_9 = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+c_placeholder_10 = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+c_placeholder_11 = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+d_sunagakure = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+c_demon_desert = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+c_sand_village = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+c_placeholder_17 = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+d_duchy_3 = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+c_placeholder_13 = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+c_placeholder_15 = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}
+
+c_placeholder_16 = {
+	956.1.1 = {
+		holder = 1000 # Reto
+	}
+	966.1.1 = {
+		holder = 1001 # Shamon
+	}
+	989.1.1 = {
+		holder = 1002 # Third Kazekage
+	}
+	999.6.9 = {
+		holder = 1003 # Rasa
+	}
+	1014.8.23 = {
+		holder = 1004 # Gaara
+	}
+}

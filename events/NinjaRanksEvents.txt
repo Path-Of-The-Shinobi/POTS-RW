@@ -1,0 +1,480 @@
+﻿namespace = ninja_ranks
+
+# Genin Graduation 1
+ninja_ranks.1 = {
+    type = character_event
+    title = ninja_ranks.1.t
+    desc = ninja_ranks.1.d
+
+    theme = martial
+
+    right_portrait = {
+        character = root
+        animation = worry
+    }
+
+    option = {
+		name = ninja_ranks.1.o
+		trigger = { age = 9 }
+		    random_list = {
+	 			40 = { add_trait = ninjarank_genin }
+                59 = { 
+                    add_character_modifier = { 
+                        modifier = failed_training_modifier 
+                        days = 30
+                    }
+                }
+                0.1 = { add_trait = ninjarank_anbu }
+			}
+		}
+    
+    option = {
+        name = ninja_ranks.1.n
+        trigger = { age = 9 }
+            random_list = {
+                100 = { 
+                    add_character_modifier = { 
+                        modifier = denied_training_modifier 
+                        days = 30
+                    }
+                }
+            }
+    }
+}
+
+# Genin Graduation 2
+ninja_ranks.2 = {
+    type = character_event
+    title = ninja_ranks.2.t
+    desc = ninja_ranks.2.d
+
+    theme = martial
+
+    right_portrait = {
+        character = root
+        animation = worry
+    }
+
+    option = {
+		name = ninja_ranks.2.o
+		trigger = { age = 10 }
+		    random_list = {
+	 			50 = { add_trait = ninjarank_genin }
+                49 = { 
+                    add_character_modifier = { 
+                        modifier = failed_training_modifier 
+                        days = 30
+                    }
+                }
+                0.1 = { add_trait = ninjarank_anbu }
+			}
+		}
+    
+    option = {
+        name = ninja_ranks.2.n
+        trigger = { age = 10 }
+            random_list = {
+                100 = { 
+                    add_character_modifier = { 
+                        modifier = denied_training_modifier 
+                        days = 30
+                    }
+                }
+            }
+    }
+}
+
+# Genin Graduation 3
+ninja_ranks.3 = {
+    type = character_event
+    title = ninja_ranks.3.t
+    desc = ninja_ranks.3.d
+
+    theme = martial
+
+    right_portrait = {
+        character = root
+        animation = worry
+    }
+
+    option = {
+		name = ninja_ranks.3.o
+		trigger = { age = 11 }
+		    random_list = {
+	 			60 = { add_trait = ninjarank_genin }
+                39 = { 
+                    add_character_modifier = { 
+                        modifier = failed_training_modifier 
+                        days = 30
+                    }
+                }
+                0.1 = { add_trait = ninjarank_anbu }
+			}
+		}
+
+    option = {
+        name = ninja_ranks.3.n
+        trigger = { age = 11 }
+            random_list = {
+                100 = { 
+                    add_character_modifier = { 
+                        modifier = denied_training_modifier 
+                        days = 30
+                    }
+                }
+            }
+    }
+}
+
+# Genin Graduation 4
+ninja_ranks.4 = {
+    type = character_event
+    title = ninja_ranks.4.t
+    desc = ninja_ranks.4.d
+
+    theme = martial
+
+    right_portrait = {
+        character = root
+        animation = worry
+    }
+
+    option = {
+		name = ninja_ranks.4.o
+		trigger = { 
+            age >= 12
+            age <= 30
+        }
+		    random_list = {
+	 			70 = { add_trait = ninjarank_genin }
+                29 = { 
+                    add_character_modifier = { 
+                        modifier = failed_training_modifier 
+                        days = 30
+                    }
+                }
+                0.1 = { add_trait = ninjarank_anbu }
+			}
+		}
+    option = {
+        name = ninja_ranks.4.n
+        trigger = { age = 12 }
+            random_list = {
+                100 = { 
+                    add_character_modifier = { 
+                        modifier = denied_training_modifier 
+                        days = 30
+                    }
+                }
+            }
+    }
+}
+
+# Genin Child Prodigy 1
+ninja_ranks.5 = {
+    type = character_event
+    title = ninja_ranks.5.t
+    desc = ninja_ranks.5.d
+
+    theme = martial
+
+    right_portrait = {
+        character = root
+        animation = worry
+    }
+
+    option = {
+		name = ninja_ranks.5.o
+		trigger = { age = 8 }
+		    random_list = {
+	 			30 = { add_trait = ninjarank_genin }
+                69 = { 
+                    add_character_modifier = { 
+                        modifier = failed_training_modifier 
+                        days = 30
+                    }
+                }
+                0.1 = { add_trait = ninjarank_anbu }
+			}
+		}
+    option = {
+        name = ninja_ranks.5.n
+        trigger = { age = 8 }
+            random_list = {
+                100 = { 
+                    add_character_modifier = { 
+                        modifier = denied_training_modifier 
+                        days = 30
+                    }
+                }
+            }
+    }
+}
+
+# Genin Child Prodigy 2
+ninja_ranks.6 = {
+    type = character_event
+    title = ninja_ranks.6.t
+    desc = ninja_ranks.6.d
+
+    theme = martial
+
+    right_portrait = {
+        character = root
+        animation = worry
+    }
+
+    option = {
+		name = ninja_ranks.6.o
+		trigger = { age = 7 }
+		    random_list = {
+	 			20 = { add_trait = ninjarank_genin }
+                79 = { 
+                    add_character_modifier = { 
+                        modifier = failed_training_modifier 
+                        days = 30
+                    }
+                }
+                0.1 = { add_trait = ninjarank_anbu }
+			}
+		}
+    option = {
+        name = ninja_ranks.6.n
+        trigger = { age = 7 }
+            random_list = {
+                100 = { 
+                    add_character_modifier = { 
+                        modifier = denied_training_modifier 
+                        days = 30
+                    }
+                }
+            }
+    }
+}
+
+# Genin Child Prodigy 3
+ninja_ranks.7 = {
+    type = character_event
+    title = ninja_ranks.7.t
+    desc = ninja_ranks.7.d
+
+    theme = martial
+
+    right_portrait = {
+        character = root
+        animation = worry
+    }
+
+    option = {
+		name = ninja_ranks.7.o
+		trigger = { age = 6 }
+		    random_list = {
+	 			10 = { add_trait = ninjarank_genin }
+                89 = { 
+                    add_character_modifier = { 
+                        modifier = failed_training_modifier 
+                        days = 30
+                    }
+                }
+                0.1 = { add_trait = ninjarank_anbu }
+			}
+		}
+    option = {
+        name = ninja_ranks.7.n
+        trigger = { age = 6 }
+            random_list = {
+                100 = { 
+                    add_character_modifier = { 
+                        modifier = denied_training_modifier 
+                        days = 30
+                    }
+                }
+            }
+    }
+}
+
+# Normal Chunin Promotion
+ninja_ranks.8 = {
+    type = character_event
+    title = ninja_ranks.8.t
+    desc = ninja_ranks.8.d
+    
+    theme = martial
+
+    right_portrait = {
+        character = root
+        animation = worry
+    }
+
+    option = {
+        name = ninja_ranks.8.o
+        trigger = { 
+            has_trait = ninjarank_genin
+            age >=9
+        }
+        random_list = {
+            34 = { 
+                remove_trait = ninjarank_genin 
+                add_trait = ninjarank_chunin 
+            }
+            65 = {
+                add_character_modifier = { 
+                    modifier = failed_training_modifier 
+                    days = 30
+                }
+            }
+            1 = {
+                remove_trait = ninjarank_genin
+                add_trait = ninjarank_anbu
+            }
+        }
+    }
+}
+
+# Normal Jonin Promotion
+ninja_ranks.9 = {
+    type = character_event
+    title = ninja_ranks.9.t
+    desc = ninja_ranks.9.d
+
+    theme = martial
+
+    right_portrait = {
+        character = root
+        animation = worry
+    }
+    
+    option = {
+        name = ninja_ranks.9.o
+        trigger = {
+            has_trait = ninjarank_chunin
+            age >= 15
+            age <= 30
+        }
+        random_list = {
+            25 = { 
+                remove_trait = ninjarank_chunin
+                add_trait = ninjarank_jonin
+             }
+            74 = { 
+                add_character_modifier = { 
+                    modifier = failed_training_modifier 
+                    days = 30
+                }
+            }
+            1 = {
+                remove_trait = ninjarank_chunin
+                add_trait = ninjarank_anbu 
+            }
+        }
+    }
+}
+
+# Normal Anbu Promotion
+ninja_ranks.10 = {
+    type = character_event
+    title = ninja_ranks.10.t
+    desc = ninja_ranks.10.d
+
+    theme = martial
+
+    right_portrait = {
+        character = root
+        animation = worry
+    }
+    
+    option = {
+        name = ninja_ranks.10.o
+        trigger = {
+            has_trait = ninjarank_jonin
+            age >= 15
+            age <= 21
+        }
+        random_list = {
+            5 = {
+                remove_trait = ninjarank_jonin
+                add_trait = ninjarank_anbu 
+            }
+            95 = {
+                add_character_modifier = { 
+                    modifier = failed_training_modifier 
+                    days = 30
+                }
+            }
+        }
+    }
+}
+
+# Early Chunin to Jonin
+ninja_ranks.11 = {
+    type = character_event
+    title = ninja_ranks.11.t
+    desc = ninja_ranks.11.d
+
+    theme = martial
+
+    right_portrait = {
+        character = root
+        animation = worry
+    }
+
+    option = {
+		name = ninja_ranks.11.o
+		trigger = {
+            has_trait = ninjarank_chunin
+            age >= 9
+            age <= 15
+        }
+		random_list = {
+            5 = {
+                remove_trait = ninjarank_chunin
+                add_trait = ninjarank_jonin 
+            }
+            95 = {
+                add_character_modifier = { 
+                    modifier = failed_training_modifier 
+                    days = 30
+                }
+            }
+        }
+    }
+}
+
+# Medical Ninjas
+ninja_ranks.12 = {
+    type = character_event
+    title = ninja_ranks.12.t
+    desc = ninja_ranks.12.d
+
+    theme = martial
+
+    right_portrait = {
+        character = root
+        animation = worry
+    }
+
+    option = {
+		name = ninja_ranks.12.o
+		trigger = {
+            OR = {
+                has_trait = ninjarank_genin
+                has_trait = ninjarank_chunin
+                has_trait = ninjarank_jonin
+                has_trait = ninjarank_anbu
+            }
+            age >= 12
+            age <= 20
+        }
+		random_list = {
+            10 = {
+                add_trait = medical_nin
+            }
+            90 = {
+                add_character_modifier = { 
+                    modifier = failed_training_modifier 
+                    days = 30
+                }
+            }
+        }
+    }
+}

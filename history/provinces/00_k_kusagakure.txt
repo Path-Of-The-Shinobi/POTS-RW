@@ -1,0 +1,10 @@
+##d_kusa_duchy_1 ###################################
+###c_kusa_county_1
+618 = {	# Kusa Barony 1
+	culture = grass_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+
+

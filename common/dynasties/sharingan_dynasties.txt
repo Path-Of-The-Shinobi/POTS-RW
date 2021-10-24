@@ -24,3 +24,458 @@
     name = dynn_senju
     culture = "french"
 }
+
+700085 = {
+	name = "dynn_Kaguya"
+	culture = "otsutsuki"
+}
+
+700086 = {
+	name = "dynn_Abumi"
+	culture = "sound_generic"
+}
+
+700087 = {
+	name = "dynn_Akado"
+	culture = "sound_generic"
+}
+
+700088 = {
+	name = "dynn_Tsurugi"
+	culture = "sound_generic"
+}
+
+700089 = {
+	name = "dynn_Kinuta"
+	culture = "sound_generic"
+}
+
+700090 = {
+	name = "dynn_Tsuchi"
+	culture = "sound_generic"
+}
+
+700091 = {
+	name = "dynn_KazekageClan"
+	culture = "wind_generic"
+}
+
+2506 = {
+	name = "dynn_Nii"
+	culture = "lightning_generic"
+}
+
+2507 = {
+	name = "dynn_Yotsuki"
+	culture = "lightning_generic"
+}
+
+1500 = {
+	name = "dynn_Kamizuru" # Anime canon
+	culture = "earth_generic"
+}
+
+1501 = {
+	name = "dynn_Azuma"
+	culture = "earth_generic"
+}
+
+500 = { # Has custom CoA
+	name = "dynn_Hozuki"
+	culture = "water_generic"
+}
+
+501 = {
+	name = "dynn_Karatachi"
+	culture = "water_generic"
+}
+
+502 = {
+	name = "dynn_Terumi"
+	culture = "water_generic"
+}
+
+503 = {
+	name = "dynn_Akebino"
+	culture = "water_generic"
+}
+
+504 = {
+	name = "dynn_Suikazan"
+	culture = "water_generic"
+}
+
+505 = {
+	name = "dynn_Kuriarare"
+	culture = "water_generic"
+}
+
+506 = {
+	name = "dynn_Biwa"
+	culture = "water_generic"
+}
+
+507 = {
+	name = "dynn_Hoshigaki"
+	culture = "water_generic"
+}
+
+508 = {
+	name = "dynn_Momochi"
+	culture = "water_generic"
+}
+
+509 = {
+	name = "dynn_Yuki"
+	culture = "water_generic"
+}
+
+510 = {
+	name = "dynn_Kurosuki"
+	culture = "water_generic"
+}
+
+511 = {
+	name = "dynn_Ringo"
+	culture = "water_generic"
+}
+
+512 = {
+	name = "dynn_Munashi"
+	culture = "water_generic"
+}
+
+513 = {
+	name = "dynn_Senka"
+	culture = "water_generic"
+}
+
+3 = { # Has custom CoA
+	name = "dynn_Sarutobi"
+	culture = "sarutobi"
+}
+
+4 = {
+	name = "dynn_Yuhi"
+	culture = "yuhi"
+}
+
+5 = { # Has custom CoA
+	name = "dynn_Nara"
+	culture = "nara"
+}
+
+6 = { # Has custom CoA
+	name = "dynn_Yamanaka"
+	culture = "yamanaka"
+}
+
+7 = { # Has custom CoA
+	name = "dynn_Akimichi"
+	culture = "akimichi"
+}
+
+8 = { # Has custom CoA
+	name = "dynn_Aburame"
+	culture = "aburame"
+}
+
+11 = {
+	name = "dynn_Namikaze"
+	culture = "fire_generic"
+}
+
+12 = {
+	name = "dynn_Lee"
+	culture = "fire_generic"
+}
+
+13 = { # Has custom CoA
+	name = "dynn_Haruno"
+	culture = "fire_generic"
+}
+
+14 = { # Has custom CoA
+	name = "dynn_Hatake"
+	culture = "fire_generic"
+}
+
+15 = {
+	name = "dynn_Uzuki"
+	culture = "fire_generic"
+}
+
+16 = {
+	name = "dynn_Yakushi"
+	culture = "fire_generic"
+}
+
+17 = { # Has custom CoA
+	name = "dynn_Inuzuka"
+	culture = "fire_generic"
+}
+
+18 = {
+	name = "dynn_Kaminarimon"
+	culture = "fire_generic"
+}
+
+19 = {
+	name = "dynn_Umino"
+	culture = "fire_generic"
+}
+
+20 = {
+	name = "dynn_Mitokado"
+	culture = "fire_generic"
+}
+
+21 = {
+	name = "dynn_Shimura"
+	culture = "fire_generic"
+}
+
+22 = {
+	name = "dynn_Utatane"
+	culture = "fire_generic"
+}
+
+23 = {
+	name = "dynn_Mokume"
+	culture = "fire_generic"
+}
+
+24 = {
+	name = "dynn_Kato"
+	culture = "fire_generic"
+}
+
+25 = {
+	name = "dynn_Minazuki"
+	culture = "fire_generic"
+}
+
+26 = {
+	name = "dynn_Mimura"
+	culture = "fire_generic"
+}
+
+27 = {
+	name = "dynn_Akado"
+	culture = "fire_generic"
+}
+
+28 = {
+	name = "dynn_Funeno"
+	culture = "fire_generic"
+}
+
+29 = {
+	name = "dynn_Akame"
+	culture = "fire_generic"
+}
+
+30 = {
+	name = "dynn_Dokuraku"
+	culture = "fire_generic"
+}
+
+31 = {
+	name = "dynn_Namiashi"
+	culture = "fire_generic"
+}
+
+32 = {
+	name = "dynn_Tokisuki"
+	culture = "fire_generic"
+}
+
+33 = {
+	name = "dynn_Yamashiro"
+	culture = "fire_generic"
+}
+
+34 = {
+	name = "dynn_Shiranui"
+	culture = "fire_generic"
+}
+
+35 = {
+	name = "dynn_Morino"
+	culture = "fire_generic"
+}
+
+36 = {
+	name = "dynn_Toriichi"
+	culture = "fire_generic"
+}
+
+37 = {
+	name = "dynn_Nohara"
+	culture = "fire_generic"
+}
+
+38 = {
+	name = "dynn_Tobitake"
+	culture = "fire_generic"
+}
+
+39 = {
+	name = "dynn_Mibu"
+	culture = "fire_generic"
+}
+
+40 = {
+	name = "dynn_Mitarashi"
+	culture = "fire_generic"
+}
+
+41 = {
+	name = "dynn_Sarugaku"
+	culture = "fire_generic"
+}
+
+42 = {
+	name = "dynn_Gekko"
+	culture = "fire_generic"
+}
+
+43 = {
+	name = "dynn_Hagane"
+	culture = "fire_generic"
+}
+
+44 = {
+	name = "dynn_Kamizuki"
+	culture = "fire_generic"
+}
+
+45 = {
+	name = "dynn_Inari"
+	culture = "fire_generic"
+}
+
+46 = {
+	name = "dynn_Tatami"
+	culture = "fire_generic"
+}
+
+47 = {
+	name = "dynn_Hijiri"
+	culture = "fire_generic"
+}
+
+48 = {
+	name = "dynn_Izumo"
+	culture = "fire_generic"
+}
+
+49 = {
+	name = "dynn_Mitsuki"
+	culture = "fire_generic"
+}
+
+50 = {
+	name = "dynn_Togeito"
+	culture = "fire_generic"
+}
+
+51 = {
+	name = "dynn_Uzuki"
+	culture = "fire_generic"
+}
+
+52 = {
+	name = "dynn_Yanagikage"
+	culture = "fire_generic"
+}
+
+53 = {
+	name = "dynn_Torikai"
+	culture = "fire_generic"
+}
+
+54 = {
+	name = "dynn_Kamano"
+	culture = "fire_generic"
+}
+
+55 = {
+	name = "dynn_Ryugen"
+	culture = "fire_generic"
+}
+
+56 = {
+	name = "dynn_Tono"
+	culture = "fire_generic"
+}
+
+57 = {
+	name = "dynn_Ise"
+	culture = "fire_generic"
+}
+
+58 = {
+	name = "dynn_Kazamatsuri"
+	culture = "fire_generic"
+}
+
+59 = {
+	name = "dynn_Minakura"
+	culture = "fire_generic"
+}
+
+60 = {
+	name = "dynn_Yuino"
+	culture = "fire_generic"
+}
+
+61 = {
+	name = "dynn_Goetsu"
+	culture = "fire_generic"
+}
+
+62 = {
+	name = "dynn_Itoi"
+	culture = "fire_generic"
+}
+
+63 = {
+	name = "dynn_Izuno"
+	culture = "fire_generic"
+}
+
+64 = {
+	name = "dynn_Kakei"
+	culture = "fire_generic"
+}
+
+65 = {
+	name = "dynn_Kakuremino"
+	culture = "fire_generic"
+}
+
+66 = {
+	name = "dynn_Kokubo"
+	culture = "fire_generic"
+}
+
+67 = {
+	name = "dynn_Kuroi"
+	culture = "fire_generic"
+}
+
+68 = {
+	name = "dynn_Onikuma"
+	culture = "fire_generic"
+}
+
+69 = {
+	name = "dynn_Suzumeno"
+	culture = "fire_generic"
+}
+
+70 = {
+	name = "dynn_Taketori"
+	culture = "fire_generic"
+}

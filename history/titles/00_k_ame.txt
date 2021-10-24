@@ -1,0 +1,15 @@
+k_amegakure = {
+	800.1.1={
+		liege=e_land_of_rain
+	}
+}
+d_amegakure = {
+	800.1.1={
+		liege=k_amegakure
+	}
+}
+c_rain_village = {
+	800.1.1={
+		liege=d_amegakure
+	}
+}

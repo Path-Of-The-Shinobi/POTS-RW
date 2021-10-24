@@ -1,0 +1,10 @@
+##d_uzushio_duchy_1 ###################################
+###c_uzushio_county_1
+622 = {	# Uzushio Barony 1
+	culture = whirlpool_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+
+

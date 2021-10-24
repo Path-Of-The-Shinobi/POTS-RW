@@ -1,0 +1,327 @@
+﻿
+#######################################################
+########## 	  SOUND FOUR/FIVE + TEAM DOSU	 ##########
+#######################################################
+
+2500 = {
+	name = "Kimimaro"
+	dynasty = 9001 # Kaguya Clan
+	religion = "sixpaths"
+	culture = "sound_generic"
+	prowess = 7
+	998.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+2501 = {
+	name = "Zaku"
+	dynasty = 700082500 # Abumi
+	religion = "sixpaths"
+	culture = "sound_generic"
+	prowess = 1
+	998.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = 2509 # Orochimaru
+		}
+	}
+}
+
+2502 = {
+	name = "Kidomaru"
+	religion = "sixpaths"
+	culture = "sound_generic"
+	prowess = 4
+	998.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 76 #Neji Hyuga
+		}
+	}
+}
+
+2503 = {
+	name = "Dosu"
+	dynasty = 700082503 #Kinuta
+	religion = "sixpaths"
+	culture = "sound_generic"
+	999.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 1004 #Gaara
+		}
+	}
+}
+
+2504 = {
+	name = "Sakon" # Ukon's Twin
+	religion = "sixpaths"
+	culture = "sound_generic"
+	trait = twin
+	prowess = 3
+	999.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 1010 # Kankuro
+		}
+	}
+}
+
+2505 = {
+	name = "Ukon" # Sakon's Twin
+	religion = "sixpaths"
+	culture = "sound_generic"
+	trait = twin
+	prowess = 3
+	999.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 1010 #Kankuro
+		}
+	}
+}
+
+2506 = {
+	name = "Jirobo"
+	religion = "sixpaths"
+	culture = "sound_generic"
+	prowess = 2
+	999.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 52 # Choji Akimichi
+		}
+	}
+}
+
+2507 = {
+	name = "Tayuya"
+	female = yes
+	religion = "sixpaths"
+	culture = "sound_generic"
+	prowess = 3
+	999.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 1009 # Temari
+		}
+	}
+}
+
+2508 = {
+	name = "Kin"
+	female = yes
+	dynasty = 700082504 #Tsuchi
+	religion = "sixpaths"
+	culture = "sound_generic"
+	prowess = 1
+	999.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = 2509 # Orochimaru
+		}
+	}
+}
+
+###########################################
+##########	 TEAM TAKA + OTHERS	 ##########
+###########################################
+
+63 = {
+	name = "Karin"
+	female = yes
+	dynasty = 9 #Uzumaki
+	religion = "sixpaths"
+	culture = "uzumaki"
+	trait = uzumaki_blood
+	prowess = 5
+	1000.1.1 = {
+		birth = yes
+	}
+	1013.1.1 = {
+		employer = 2509 # Orochimaru
+	}
+}
+
+2509 = {
+	name = "Orochimaru"
+	dna = orochimaru_dna
+	religion = "sixpaths"
+	culture = "sound_generic"
+	disallow_random_traits = yes
+	trait = immortal
+	prowess = 10
+	962.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			add_character_flag = is_orochimaru
+			add_character_flag = forever_25
+			make_important_lore_character_effect = yes
+		}
+	}
+	968.1.1 = {
+		add_trait = ninjarank_genin
+		add_trait = ambitious
+		add_trait = diligent
+		add_trait = deceitful
+		add_trait = patient
+	}
+	985.1.1 = { # became Anbu at some point "after Team Hiruzen disbanded"
+		remove_trait = ninjarank_genin
+		add_trait = ninjarank_anbu
+	}
+	1002.1.1 = { # this is when Orochimaru left Konohagakure
+		add_trait = s_rank
+	}
+}
+
+2510 = {
+	name = "Jugo"
+	religion = "sixpaths"
+	culture = "sound_generic"
+	disallow_random_traits =  = yes
+	prowess = 6
+	998.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+
+2511 = {
+	name = "Yoroi"
+	dynasty = 700082501 #Akado
+	religion = "sixpaths"
+	culture = "sound_generic"
+	prowess = 1
+	990.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1002.1.1 = {
+		add_trait = ninjarank_genin # became a genin at some point
+	}
+	1005.1.1 = {
+		trait = s_rank # defected from Konohagakure and joined Orochimaru at some point
+	}
+}
+
+2512 = {
+	name = "Misumi"
+	dynasty = 700082502 #Tsurugi
+	religion = "sixpaths"
+	culture = "sound_generic"
+	prowess = 1
+	990.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1002.1.1 = {
+		add_trait = ninjarank_genin # became a genin at some point
+	}
+	1005.1.1 = {
+		add_trait = s_rank # defected from Konohagakure and joined Orochimaru at some point
+	}
+}
+
+2513 = {
+	name = "Gen'yumaru"
+	religion = "sixpaths"
+	culture = "sound_generic"
+	prowess = 2
+	990.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1002.1.1 = {
+		add_trait = ninjarank_genin # became a genin at some point
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_murder_known # absorbed his body
+			killer = 2509 # Orochimaru
+		}
+	}
+}
+
+2514 = {
+	name = "Mitsuki"
+	religion = "sixpaths"
+	culture = "sound_generic"
+	father = 2509 # he is Orochimaru's clone
+	prowess = 7
+	1020.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1032.1.1 = {
+		add_trait = ninjarank_genin
+	}
+}

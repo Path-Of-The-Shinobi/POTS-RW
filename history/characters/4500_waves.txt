@@ -1,0 +1,243 @@
+﻿###################################################
+##########     WAVES SHINOBI/SAMURAIS	 ##########
+###################################################
+
+4500 = {
+	name = "Waraji" # Samurai, mercenary hired by Gato
+	religion = "sixpaths"
+	culture = "waves_generic"
+	disallow_random_traits = yes
+	trait = samurai
+	980.4.6 = { # April 1
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+
+4501 = {
+	name = "Zori" # Samurai, mercenary hired by Gato
+	religion = "sixpaths"
+	culture = "waves_generic"
+	disallow_random_traits = yes
+	trait = samurai
+	985.12.1 = { # December 1
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+
+4502 = {
+	name = "Kusabi" # A mercenary hired by Gato
+	religion = "sixpaths"
+	culture = "waves_generic"
+	disallow_random_traits = yes
+	trait = samurai
+	990.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+
+###########################################
+########## 		 CITIZENS		 ##########
+###########################################
+
+4503 = {
+	name = "Kaiza" # Inari's stepfather
+	religion = "sixpaths"
+	culture = "waves_generic"
+	disallow_random_traits = yes
+	
+	982.8.21 = { # August 21
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 4504 # Tazuna
+	}
+	1010.1.23 = {
+		add_spouse = 4509 # Tsunami
+	}
+	1012.3.15 = {
+		death = {
+			death_reason = death_murder_known
+			#killer = Gato's henchmen
+		}
+	}
+}
+
+4504 = {
+	name = "Tazuna" # Inari's grandfather
+	religion = "sixpaths"
+	culture = "waves_generic"
+	disallow_random_traits = yes
+	
+	953.4.5 = { # April 5
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+}
+
+4505 = {
+	name = "Giichi" # old friend of Tazuna, Agari's husband
+	religion = "sixpaths"
+	culture = "waves_generic"
+	disallow_random_traits = yes
+	
+	964.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	978.1.1 = {
+		employer = 4504 # Tazuna
+	}
+	984.1.1 = {
+		add_spouse = 4506 # Agari
+	}
+}
+
+4506 = {
+	name = "Agari" # Giichi's wife
+	female = yes
+	religion = "sixpaths"
+	culture = "waves_generic"
+	disallow_random_traits = yes
+	
+	965.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	978.1.1 = {
+		employer = 4504 # Tazuna
+	}
+}
+
+4507 = {
+	name = "Teguse" # poor man living in the Land of Waves
+	religion = "sixpaths"
+	culture = "waves_generic"
+	disallow_random_traits = yes
+	
+	969.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	978.1.1 = {
+		employer = 4504 # Tazuna
+	}
+}
+
+4508 = {
+	name = "Kaji" # ferryman
+	religion = "sixpaths"
+	culture = "waves_generic"
+	disallow_random_traits = yes
+	
+	974.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	978.1.1 = {
+		employer = 4504 # Tazuna
+	}
+}
+
+4509 = {
+	name = "Tsunami" # Inari's mother / Tazuna's daughter / Kaiza's wife
+	female = yes
+	religion = "sixpaths"
+	culture = "waves_generic"
+	disallow_random_traits = yes
+	father = 4504 # Tazuna
+	
+	984.5.4 = { # May 4
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 4504 # Tazuna
+	}
+}
+
+4510 = {
+	name = "Inari"
+	religion = "sixpaths"
+	culture = "waves_generic"
+	disallow_random_traits = yes
+	mother = 4509 # Tsunami
+	
+	1004.12.25 = { # December 25
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 4504 # Tazuna
+	}
+}
+
+4511 = {
+	name = "Akane" # Inari's bully
+	religion = "sixpaths"
+	culture = "waves_generic"
+	disallow_random_traits = yes
+	
+	1004.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 4504 # Tazuna
+	}
+}
+
+4512 = {
+	name = "Ageha" # poor girl living in the Land of Waves
+	female = yes
+	religion = "sixpaths"
+	culture = "waves_generic"
+	disallow_random_traits = yes
+	
+	1006.1.1 = { # UNKNOWN DATE
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+		employer = 4504 # Tazuna
+	}
+}
+
+4513 = {
+	name = "Gato" # Founder of Gato Company
+	religion = "sixpaths"
+	culture = "waves_generic"
+	disallow_random_traits = yes
+	
+	965.4.30 = { # April 30
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1013.3.30 = {
+		death = {
+			death_reason = death_battle
+			killer = 511 # Zabuza
+		}
+	}
+}

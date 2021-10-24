@@ -1,0 +1,25 @@
+k_kirigakure = {
+	800.1.1={
+		liege=e_land_of_water
+	}
+}
+d_kirigakure = {
+	800.1.1={
+		liege=k_kirigakure
+	}
+}
+c_mist_village = {
+	800.1.1={
+		liege=d_kirigakure
+	}
+}
+c_placeholder_7 = {
+	800.1.1={
+		liege=d_kirigakure
+	}
+}
+c_placeholder_6 = {
+	800.1.1={
+		liege=d_kirigakure
+	}
+}

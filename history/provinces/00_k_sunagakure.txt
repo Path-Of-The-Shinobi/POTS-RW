@@ -1,0 +1,10 @@
+##d_suna_duchy_1 ###################################
+###c_suna_county_1
+612 = {	# Suna Barony 1
+	culture = sand_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+
+

@@ -1,0 +1,135 @@
+# Land of Fire
+
+2 = { # Uchiha
+	pattern = "pattern_solid.dds"	
+	color1 = "black"	
+	colored_emblem = {
+		texture = "ce_uchiha.dds"
+		color1 = "white"
+		color2 = "red"
+	}	
+}
+
+1 = { # Senju
+	pattern = "pattern_solid.dds"	
+	color1 = "white"	
+	colored_emblem = {
+		texture = "ce_senju.dds"
+		color1 = "black"
+	}	
+}
+
+9 = { # Uzumaki
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_uzumaki.dds"
+		color1 = "black"
+		color2 = rgb { 188 75 75 } # Red
+	}	
+}
+
+5 = { # Nara
+	pattern = "pattern_solid.dds"	
+	color1 = rgb { 167 164 122 } # Light Green / Yellowish
+	colored_emblem = {
+		texture = "ce_nara.dds"
+		color1 = rgb { 63 64 48 } # Dark Green / Brown
+	}	
+}
+
+7 = { # Akimichi
+	pattern = "pattern_solid.dds"	
+	color1 = rgb { 178 179 197 } # Light Gray
+	colored_emblem = {
+		texture = "ce_akimichi.dds"
+		color1 = rgb { 188 75 75 } # Red
+	}	
+}
+
+3 = { # Sarutobi
+	pattern = "pattern_solid.dds"	
+	color1 = rgb { 92 110 91 } # Light Green
+	colored_emblem = {
+		texture = "ce_sarutobi.dds"
+		color1 = "white"
+	}	
+}
+
+6 = { # Yamanaka
+	pattern = "pattern_solid.dds"	
+	color1 = rgb { 113 65 122 } # Purple
+	colored_emblem = {
+		texture = "ce_yamanaka.dds"
+		color1 = "white"
+	}	
+}
+
+8 = { # Aburame
+	pattern = "pattern_solid.dds"	
+	color1 = rgb { 84 84 84 } # Gray
+	colored_emblem = {
+		texture = "ce_aburame.dds"
+		color1 = "white"
+	}	
+}
+
+10 = { # Hyuga
+	pattern = "pattern_solid.dds"	
+	color1 = rgb { 244 233 158 } # Light Yellow
+	colored_emblem = {
+		texture = "ce_hyuga2.dds"
+		color1 = "black"
+		color2 = rgb { 188 75 75 } # Red
+	}	
+}
+
+13 = { # Haruno
+	pattern = "pattern_solid.dds"	
+	color1 = rgb { 163 18 18 } # Saturated Red
+	colored_emblem = {
+		texture = "ce_haruno.dds"
+		color1 = "white"
+	}	
+}
+
+14 = { # Hatake
+	pattern = "pattern_solid.dds"	
+	color1 = rgb { 53 70 74 } # Blue-Gray
+	colored_emblem = {
+		texture = "ce_hatake.dds"
+		color1 = "white"
+	}	
+}
+
+17 = { # Inuzuka
+	pattern = "pattern_solid.dds"	
+	color1 = rgb { 140 140 140 } # Blue-Gray
+	colored_emblem = {
+		texture = "ce_inuzuka.dds"
+		color1 = "red"
+	}	
+}
+
+
+# Otsutsuki
+
+9000 = { # Otsutsuki
+	pattern = "pattern_solid.dds"	
+	color1 = "white"	
+	colored_emblem = {
+		texture = "ce_otsutsuki.dds"
+		color1 = "black"
+	}	
+}
+
+# Land of Water
+
+500 = { # Hozuki
+	pattern = "pattern_solid.dds"	
+	color1 = rgb { 119 166 202 }
+	colored_emblem = {
+		texture = "ce_hozuki.dds"
+		color1 = rgb { 255 255 255 }
+	}	
+}

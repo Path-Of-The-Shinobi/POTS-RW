@@ -1,0 +1,237 @@
+﻿uzumaki = {
+	template = "caucasian"
+	eye_color = {
+		# Brown
+		20 = { 0.05 0.5 0.33 0.8 }
+		# Green
+		20 = { 0.33 0.5 0.67 0.8 }
+		# Blue
+		60 = { 0.67 0.5 1.0 0.8 }
+	}
+	hair_color = {
+		1 = { 0 0.5 0 0.773 } #Uzumakis have red hair
+	}
+
+	hairstyles = {
+	    10 = { name = western_hairstyles          range = { 0.0 1.0 } }
+	}
+
+	beards = {
+	    1 = { name = no_beard       range = { 0.0 1.0 } }
+	}
+}
+
+senju = {
+	template = "caucasian"
+	eye_color = {
+		# Brown
+		20 = { 0.05 0.5 0.33 0.8 }
+		# Green
+		20 = { 0.33 0.5 0.67 0.8 }
+		# Blue
+		60 = { 0.67 0.5 1.0 0.8 }
+	}
+	hair_color = {
+		10 = { 0 0.024 0 0.055 } # Gray/White
+		5 = { 0.102 0.376 0.141 0.424 } # Blonde
+		50 = { 0.059 0.867 0.110 0.957 } # Brown
+		
+	}
+
+	hairstyles = {
+	    10 = { name = western_hairstyles          range = { 0.0 1.0 } }
+	}
+
+	beards = {
+	    1 = { name = no_beard       range = { 0.0 1.0 } }
+	}
+}
+
+uchiha = {
+	template = "caucasian"
+	eye_color = {
+		# Black
+		1 = { 0.749 0.918 0.749 1 }
+	}
+	hair_color = {
+		50 = { 0.753 0.910 0.820 1 } # Dark Blue -> Black
+		10 = { 0.059 0.950 0.110 1 } # Dark Brown -> Black
+		1 = { 0 0.024 0 0.055 } # Gray/White
+		
+	}
+
+	hairstyles = {
+	    10 = { name = western_hairstyles          range = { 0.0 1.0 } }
+	}
+
+	beards = {
+	    1 = { name = no_beard       range = { 0.0 1.0 } }
+	}
+}
+
+sarutobi = {
+	template = "caucasian"
+	eye_color = {
+		# Brown
+		20 = { 0.05 0.5 0.33 0.8 }
+		# Green
+		20 = { 0.33 0.5 0.67 0.8 }
+		# Blue
+		60 = { 0.67 0.5 1.0 0.8 }
+	}
+	hair_color = {
+		50 = { 0.059 0.900 0.110 1 } # Brown -> Black
+		
+	}
+
+	hairstyles = {
+	    10 = { name = western_hairstyles          range = { 0.0 1.0 } }
+	}
+
+	beards = {
+	    10 = { name = western_beards          range = { 0.776 0.776 } }
+		5 = { name = mena_beards          range = { 0.682 0.682 } }
+		80 = { name = no_beard          range = { 0.682 0.682 } }
+	}
+}
+
+yamanaka = {
+	template = "caucasian"
+	eye_color = {
+		# Brown
+		20 = { 0.05 0.5 0.33 0.8 }
+		# Green
+		20 = { 0.33 0.5 0.67 0.8 }
+		# Blue
+		60 = { 0.67 0.5 1.0 0.8 }
+	}
+	hair_color = {
+		30 = { 0.122 0.255 0.169 0.353 } # Blonde
+		5 = { 0.047 0.455 0.086 0.773 } # Orange, Brown
+		
+	}
+
+	hairstyles = {
+	    10 = { name = western_hairstyles          range = { 0.0 1.0 } }
+	}
+
+	beards = {
+	    1 = { name = no_beard       range = { 0.0 1.0 } }
+	}
+}
+
+nara = {
+	template = "caucasian"
+	eye_color = {
+		# Brown
+		20 = { 0.05 0.5 0.33 0.8 }
+		# Green
+		20 = { 0.33 0.5 0.67 0.8 }
+		# Blue
+		60 = { 0.67 0.5 1.0 0.8 }
+	}
+	hair_color = {
+		1 = { 0.059 0.950 0.110 1 } # Dark Brown -> Black
+		
+	}
+
+	hairstyles = {
+	    10 = { name = western_hairstyles          range = { 0.0 1.0 } }
+	}
+
+	beards = {
+	    1 = { name = no_beard       range = { 0.0 1.0 } }
+	}
+}
+
+akimichi = {
+	template = "caucasian"
+	eye_color = {
+		# Brown
+		20 = { 0.05 0.5 0.33 0.8 }
+		# Green
+		20 = { 0.33 0.5 0.67 0.8 }
+		# Blue
+		60 = { 0.67 0.5 1.0 0.8 }
+	}
+	hair_color = {
+		1 = { 0.059 0.631 0.078 0.886 } # Orange -> Dark Brown
+		
+	}
+
+	hairstyles = {
+	    10 = { name = western_hairstyles          range = { 0.0 1.0 } }
+	}
+
+	beards = {
+	    1 = { name = no_beard       range = { 0.0 1.0 } }
+	}
+	
+	gene_bs_body_type = {
+	    1 = { name = body_fat_head_fat_low       range = { 0.65 1 } }
+		1 = { name = body_fat_head_fat_medium       range = { 0.65 1 } }
+	}
+}
+
+hyuga = {
+	template = "caucasian"
+	eye_color = {
+		# White (PH)
+		1 = { 0 0.047 0 0.047 }
+	}
+	hair_color = {
+		5 = { 0.059 0.950 0.110 1 } # Dark Brown -> Black
+		1 = { 0.753 0.910 0.820 1 } # Dark Blue -> Black
+	}
+
+	hairstyles = {
+	    10 = { name = western_hairstyles          range = { 0.0 1.0 } }
+	}
+
+	beards = {
+	    1 = { name = no_beard       range = { 0.0 1.0 } }
+	}
+}
+
+yuhi = {
+	template = "caucasian"
+	eye_color = {
+		# Red
+		1 = { 0 0.494 0 0.702 }
+	}
+	hair_color = {
+		5 = { 0.059 0.950 0.110 1 } # Dark Brown -> Black
+		1 = { 0.753 0.910 0.820 1 } # Dark Blue -> Black
+	}
+
+	hairstyles = {
+	    10 = { name = western_hairstyles          range = { 0.0 1.0 } }
+	}
+
+	beards = {
+	    1 = { name = no_beard       range = { 0.0 1.0 } }
+	}
+}
+
+aburame = {
+	template = "caucasian"
+	eye_color = {
+		# Brown
+		20 = { 0.05 0.5 0.33 0.8 }
+		# Green
+		20 = { 0.33 0.5 0.67 0.8 }
+		# Blue
+		60 = { 0.67 0.5 1.0 0.8 }
+	}
+	hair_color = {
+		5 = { 0.059 0.950 0.110 1 } # Dark Brown -> Black
+	}
+
+	hairstyles = {
+	    10 = { name = western_hairstyles          range = { 0.0 1.0 } }
+	}
+
+	beards = {
+	    1 = { name = no_beard       range = { 0.0 1.0 } }
+	}
+}

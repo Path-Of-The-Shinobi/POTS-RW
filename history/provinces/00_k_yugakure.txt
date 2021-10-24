@@ -1,0 +1,10 @@
+##d_yu_duchy_1 ###################################
+###c_yu_county_1
+615 = {	# Yu Barony 1
+	culture = hot_water_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+
+

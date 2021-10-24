@@ -1,0 +1,10 @@
+##d_kumo_duchy_1 ###################################
+###c_kumo_county_1
+613 = {	# Kumo Barony 1
+	culture = lightning_generic
+	religion = test_faith
+	holding = castle_holding
+}
+
+
+

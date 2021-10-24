@@ -1,0 +1,21 @@
+﻿k_otogakure = {
+	1007.1.1 = {
+		holder = 2509 # Orochimaru
+		government = tribal_government
+		succession_laws = {
+			saxon_elective_succession_law
+		}
+	}
+}
+
+d_otogakure = {
+	1007.1.1 = {
+		holder = 2509 # Orochimaru
+	}
+}
+
+c_sound_village = {
+	1007.1.1 = {
+		holder = 2509 # Orochimaru
+	}
+}

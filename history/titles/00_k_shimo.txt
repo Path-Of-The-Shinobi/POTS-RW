@@ -1,0 +1,15 @@
+k_shimogakure = {
+	800.1.1={
+		liege=e_land_of_frost
+	}
+}
+d_shimogakure = {
+	800.1.1={
+		liege=k_shimogakure
+	}
+}
+c_frost_village = {
+	800.1.1={
+		liege=d_shimogakure
+	}
+}

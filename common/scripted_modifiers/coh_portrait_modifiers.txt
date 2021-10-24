@@ -1,0 +1,42 @@
+﻿clean_shaven_modifier = {
+	# The chance is 30% + This Modifier
+	modifier = {
+		save_temporary_scope_value_as = {
+			name = negative
+			value = flag:$negative$
+		}
+		
+		add = {
+			value = 0
+			if = {
+				limit = { portrait_northern_clothing_trigger = yes }
+				add = -5
+			}
+			if = {
+				limit = { portrait_steppe_clothing_trigger = yes }
+				add = -5
+			}
+			if = {
+				limit = { portrait_mena_clothing_trigger = yes }
+				add = -25
+			}
+			# Everyone is clean-shaven
+			if = {
+				limit = {
+					OR = {
+						culture = { has_graphical_culture = tibetan_group_coa_gfx }
+					}
+				}
+				add = 130
+			}
+			
+			#Must be at the end
+			if = {
+				limit = {
+					scope:negative = flag:yes
+				}
+				multiply = -1
+			}
+		}
+	}
+}

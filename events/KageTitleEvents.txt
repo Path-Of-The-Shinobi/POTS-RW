@@ -1,0 +1,38 @@
+﻿namespace = KageTitle
+
+KageTitle.1 = {
+    type = character_event
+    title = KageTitle.1.t
+    desc = KageTitle.1.d
+
+    theme = martial
+
+    right_portrait = {
+        character = root
+        animation = personality_bold
+    }
+
+    trigger = {
+        NOT = {
+            has_trait = ninjarank_kage
+        }
+        OR = {
+            scope:title = title:k_konohagakure
+			scope:title = title:k_kumogakure
+			scope:title = title:k_kirigakure
+			scope:title = title:k_iwagakure
+			scope:title = title:k_sunagakure
+        }
+    }
+
+    option = {
+        name = KageTitle.1.a
+        add_trait = ninjarank_kage
+        remove_trait = {
+            remove_trait = ninjarank_genin
+            remove_trait = ninjarank_chunin
+            remove_trait = ninjarank_jonin
+            remove_trait = ninjarank_anbu
+        }
+    }
+}

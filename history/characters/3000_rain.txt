@@ -1,0 +1,274 @@
+﻿3000 = {
+	name = "Hanzo"
+	religion = "sixpaths"
+	culture = "rain_generic"
+	952.2.12 = { # February 12
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1010.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 67 # Nagato/Pain
+		}
+	}
+}
+
+3001 = {
+	name = "Ise" # Nagato's Father
+	religion = "sixpaths"
+	culture = "rain_generic"
+	
+	953.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	987.1.1 = { #Killed by Konoha Shinobi
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+3002 = {
+	name = "Kie" # Member of the original Akatsuki
+	religion = "sixpaths"
+	culture = "rain_generic"
+	981.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	999.1.1 = { # He was presumably killed afterwards when Madara Uchiha attacked the members of Akatsuki who were on their way to save Yahiko, Nagato and Konan from Hanzō and the Konohagakure Anbu. 
+		death = {
+			death_reason = death_battle
+			killer = 8 # Madara
+		}
+	}
+}
+
+3003 = {
+	name = "Konan" # Founding member of the original Akatsuki
+	female = yes
+	religion = "sixpaths"
+	culture = "rain_generic"
+	982.2.20 = { # February 20
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	999.6.9 = { # Founding of the New Akatsuki
+		add_trait = s_rank
+	}
+	1017.3.18 = {
+		death = {
+			death_reason = death_battle
+			killer = 17 # Obito Uchiha
+		}
+	}
+}
+
+3004 = {
+	name = "Yahiko" # Founding member of the original Akatsuki
+	religion = "sixpaths"
+	culture = "rain_generic"
+	984.2.20 = { # February 20
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	999.6.9 = { # June 9th
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+
+3005 = {
+	name = "Ugatsu"
+	religion = "sixpaths"
+	culture = "rain_generic"
+	983.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1011.1.1 = { # Attempted to assassinate Nagato/Pain. Probably died
+		death = {
+			death_reason = death_battle
+			killer = 67 # Nagato/Pain
+		}
+	}
+}
+
+3005 = {
+	name = "Ugatsu"
+	religion = "sixpaths"
+	culture = "rain_generic"
+	983.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1011.1.1 = { # Attempted to assassinate Nagato/Pain. Probably died
+		death = {
+			death_reason = death_battle
+			killer = 67 # Nagato/Pain
+		}
+	}
+}
+
+###########################################
+##########	     AME GENINS	     ##########
+###########################################
+
+3006 = {
+	name = "Ryusui"
+	religion = "sixpaths"
+	culture = "rain_generic"
+	983.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	995.1.1 = {
+		add_trait = ninjarank_genin # Became a Genin at some point
+	}
+}
+
+3007 = {
+	name = "Yudachi"
+	religion = "sixpaths"
+	culture = "rain_generic"
+	989.1.1 = {
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1001.1.1 = {
+		add_trait = ninjarank_genin # Became a Genin at some point
+	}
+}
+
+### TEAM SHIGURE ###
+
+3008 = {
+	name = "Shigure"
+	religion = "sixpaths"
+	culture = "rain_generic"
+	994.2.11 = { # February 11
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1006.1.1 = {
+		add_trait = ninjarank_genin # Became a Genin at some point
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 1004 # Gaara
+		}
+	}
+}
+
+3009 = {
+	name = "Midare"
+	religion = "sixpaths"
+	culture = "rain_generic"
+	994.5.7 = { # May 7
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1006.1.1 = {
+		add_trait = ninjarank_genin # Became a Genin at some point
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 1004 # Gaara
+		}
+	}
+}
+
+3010 = {
+	name = "Baiu"
+	religion = "sixpaths"
+	culture = "rain_generic"
+	995.5.30 = { # May 30
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1007.1.1 = {
+		add_trait = ninjarank_genin # Became a Genin at some point
+	}
+	1013.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 1004 # Gaara
+		}
+	}
+}
+
+### TEAM OBORO ###
+
+3011 = {
+	name = "Kagari"
+	religion = "sixpaths"
+	culture = "rain_generic"
+	996.11.16 = { # November 16
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1008.1.1 = {
+		add_trait = ninjarank_genin # Became a Genin at some point
+	}
+}
+
+3012 = {
+	name = "Mubi"
+	religion = "sixpaths"
+	culture = "rain_generic"
+	996.11.15 = { # November 15
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1008.1.1 = {
+		add_trait = ninjarank_genin # Became a Genin at some point
+	}
+}
+
+3013 = {
+	name = "Oboro"
+	religion = "sixpaths"
+	culture = "rain_generic"
+	996.12.20 = { # December 20
+		birth = yes
+		effect = {
+			make_important_lore_character_effect = yes
+		}
+	}
+	1008.1.1 = {
+		add_trait = ninjarank_genin # Became a Genin at some point
+	}
+}
