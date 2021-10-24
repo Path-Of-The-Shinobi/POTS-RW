@@ -2,7 +2,7 @@
 ###c_uzushio_county_1
 622 = {	# Uzushio Barony 1
 	culture = whirlpool_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 

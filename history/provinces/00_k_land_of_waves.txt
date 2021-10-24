@@ -2,7 +2,7 @@
 ###c_waves_county_1
 623 = {	# Waves Barony 1
 	culture = waves_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 

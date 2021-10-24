@@ -2,7 +2,7 @@
 ###c_kumo_county_1
 613 = {	# Kumo Barony 1
 	culture = lightning_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 

@@ -2,7 +2,7 @@
 ###c_ame_county_1
 619 = {	# Ame Barony 1
 	culture = rain_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 

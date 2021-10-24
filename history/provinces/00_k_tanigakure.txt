@@ -2,7 +2,7 @@
 ###c_tani_county_1
 620 = {	# Tani Barony 1
 	culture = rivers_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 

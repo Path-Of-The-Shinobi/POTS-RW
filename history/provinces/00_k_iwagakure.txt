@@ -2,7 +2,7 @@
 ###c_iwa_county_1
 1 = {	# Iwa Barony 1
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -22,7 +22,7 @@
 ###c_iwa_county_2
 4 = {	# Iwa Barony 4
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -38,7 +38,7 @@
 ###c_iwa_county_3
 8 = {	# Iwa Barony 8
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -54,7 +54,7 @@
 ###c_iwa_county_4
 9 = {	# Iwa Barony 9
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -74,7 +74,7 @@
 ###c_iwa_county_5
 11 = {	# Iwa Barony 11
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -96,7 +96,7 @@
 ###c_iwa_county_6
 19 = {	# Iwa Barony 19
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -116,7 +116,7 @@
 ###c_iwa_county_7
 20 = {	# Iwa Barony 20
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -136,7 +136,7 @@
 ###c_iwa_county_8
 23 = {	# Iwa Barony 23
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -152,7 +152,7 @@
 ###c_iwa_county_9
 57 = {	# Iwa Barony 57
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -168,7 +168,7 @@
 ###c_iwa_county_10
 77 = {	# Iwa Barony 77
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -186,7 +186,7 @@
 ###c_iwa_county_15
 25 = {	# Iwa Barony 25
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -206,7 +206,7 @@
 ###c_iwa_county_16
 27 = {	# Iwa Barony 27
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -222,7 +222,7 @@
 ###c_iwa_county_17
 29 = {	# Iwa Barony 29
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -242,7 +242,7 @@
 ###c_iwa_county_18
 33 = {	# Iwa Barony 33
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -264,7 +264,7 @@
 ###c_iwa_county_19
 39 = {	# Iwa Barony 39
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -280,7 +280,7 @@
 ###c_iwa_county_20
 41 = {	# Iwa Barony 41
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -296,7 +296,7 @@
 ###c_iwa_county_21
 44 = {	# Iwa Barony 44
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -312,7 +312,7 @@
 ###c_iwa_county_22
 49 = {	# Iwa Barony 49
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -332,7 +332,7 @@
 ###c_iwa_county_23
 50 = {	# Iwa Barony 50
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -350,7 +350,7 @@
 ###c_iwa_county_24
 53 = {	# Iwa Barony 53
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -366,7 +366,7 @@
 ###c_iwa_county_25
 54 = {	# Iwa Barony 54
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -386,7 +386,7 @@
 ###c_iwa_county_26
 73 = {	# Iwa Barony 73
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -402,7 +402,7 @@
 ###c_iwa_county_27
 75 = {	# Iwa Barony 75
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -424,7 +424,7 @@
 ###c_iwa_county_28
 68 = {	# Iwa Barony 68
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -440,7 +440,7 @@
 ###c_iwa_county_29
 70 = {	# Iwa Barony 70
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -456,7 +456,7 @@
 ###c_iwa_county_30
 71 = {	# Iwa Barony 71
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -476,7 +476,7 @@
 ###c_iwa_county_31
 116 = {	# Iwa Barony 116
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -494,7 +494,7 @@
 ###c_iwa_county_12
 80 = {	# Iwa Barony 80
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -510,7 +510,7 @@
 ###c_iwa_county_11
 81 = {	# Iwa Barony 81
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -526,7 +526,7 @@
 ###c_iwa_county_13
 83 = {	# Iwa Barony 83
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -542,7 +542,7 @@
 ###c_iwa_county_14
 127 = {	# Iwa Barony 127
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -560,7 +560,7 @@
 ###c_iwa_county_42
 92 = {	# Iwa Barony 92
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -576,7 +576,7 @@
 ###c_iwa_county_41
 94 = {	# Iwa Barony 94
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -596,7 +596,7 @@
 ###c_iwa_county_43
 122 = {	# Iwa Barony 122
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -616,7 +616,7 @@
 ###c_iwa_county_44
 126 = {	# Iwa Barony 126
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -632,7 +632,7 @@
 ###c_iwa_county_45
 184 = {	# Iwa Barony 184
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -650,7 +650,7 @@
 ###c_iwa_county_37
 98 = {	# Iwa Barony 98
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -670,7 +670,7 @@
 ###c_iwa_county_36
 100 = {	# Iwa Barony 100
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -686,7 +686,7 @@
 ###c_iwa_county_38
 191 = {	# Iwa Barony 191
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -702,7 +702,7 @@
 ###c_iwa_county_40
 194 = {	# Iwa Barony 194
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -726,7 +726,7 @@
 ###c_iwa_county_39
 207 = {	# Iwa Barony 207
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -744,7 +744,7 @@
 ###c_iwa_county_34
 101 = {	# Iwa Barony 101
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -764,7 +764,7 @@
 ###c_iwa_county_32
 104 = {	# Iwa Barony 104
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -784,7 +784,7 @@
 ###c_iwa_county_33
 108 = {	# Iwa Barony 108
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -804,7 +804,7 @@
 ###c_iwa_county_35
 110 = {	# Iwa Barony 110
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -822,7 +822,7 @@
 ###c_iwa_county_46
 131 = {	# Iwa Barony 131
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -842,7 +842,7 @@
 ###c_iwa_county_47
 134 = {	# Iwa Barony 134
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -858,7 +858,7 @@
 ###c_iwa_county_48
 138 = {	# Iwa Barony 138
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -874,7 +874,7 @@
 ###c_iwa_county_49
 156 = {	# Iwa Barony 156
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -892,7 +892,7 @@
 ###c_iwa_county_50
 141 = {	# Iwa Barony 141
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -912,7 +912,7 @@
 ###c_iwa_county_51
 142 = {	# Iwa Barony 142
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -932,7 +932,7 @@
 ###c_iwa_county_52
 146 = {	# Iwa Barony 146
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -952,7 +952,7 @@
 ###c_iwa_county_53
 150 = {	# Iwa Barony 150
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -970,7 +970,7 @@
 ###c_iwa_county_59
 151 = {	# Iwa Barony 151
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -986,7 +986,7 @@
 ###c_iwa_county_60
 159 = {	# Iwa Barony 159
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1002,7 +1002,7 @@
 ###c_iwa_county_58
 165 = {	# Iwa Barony 165
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1018,7 +1018,7 @@
 ###c_iwa_county_61
 168 = {	# Iwa Barony 168
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1034,7 +1034,7 @@
 ###c_iwa_county_62
 169 = {	# Iwa Barony 169
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1052,7 +1052,7 @@
 ###c_iwa_county_76
 171 = {	# Iwa Barony 171
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1068,7 +1068,7 @@
 ###c_iwa_county_77
 172 = {	# Iwa Barony 172
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1088,7 +1088,7 @@
 ###c_iwa_county_75
 269 = {	# Iwa Barony 269
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1104,7 +1104,7 @@
 ###c_iwa_county_78
 272 = {	# Iwa Barony 272
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1122,7 +1122,7 @@
 ###c_iwa_county_63
 180 = {	# Iwa Barony 180
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1142,7 +1142,7 @@
 ###c_iwa_county_64
 215 = {	# Iwa Barony 215
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1158,7 +1158,7 @@
 ###c_iwa_county_66
 246 = {	# Iwa Barony 246
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1174,7 +1174,7 @@
 ###c_iwa_county_65
 249 = {	# Iwa Barony 249
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1192,7 +1192,7 @@
 ###c_iwa_county_54
 183 = {	# Iwa Barony 183
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1208,7 +1208,7 @@
 ###c_iwa_county_55
 189 = {	# Iwa Barony 189
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1220,7 +1220,7 @@
 ###c_iwa_county_56
 209 = {	# Iwa Barony 209
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1236,7 +1236,7 @@
 ###c_iwa_county_57
 210 = {	# Iwa Barony 210
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1254,7 +1254,7 @@
 ###c_iwa_county_67
 200 = {	# Iwa Barony 200
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1270,7 +1270,7 @@
 ###c_iwa_county_69
 202 = {	# Iwa Barony 202
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1286,7 +1286,7 @@
 ###c_iwa_county_68
 230 = {	# Iwa Barony 230
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1302,7 +1302,7 @@
 ###c_iwa_county_70
 233 = {	# Iwa Barony 233
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1320,7 +1320,7 @@
 ###c_iwa_county_86
 225 = {	# Iwa Barony 225
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1336,7 +1336,7 @@
 ###c_iwa_county_87
 227 = {	# Iwa Barony 227
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1352,7 +1352,7 @@
 ###c_iwa_county_85
 261 = {	# Iwa Barony 261
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1368,7 +1368,7 @@
 ###c_iwa_county_83
 275 = {	# Iwa Barony 275
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1384,7 +1384,7 @@
 ###c_iwa_county_84
 279 = {	# Iwa Barony 279
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1402,7 +1402,7 @@
 ###c_iwa_county_71
 234 = {	# Iwa Barony 234
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1422,7 +1422,7 @@
 ###c_iwa_county_74
 263 = {	# Iwa Barony 263
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1442,7 +1442,7 @@
 ###c_iwa_county_72
 264 = {	# Iwa Barony 264
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1462,7 +1462,7 @@
 ###c_iwa_county_73
 267 = {	# Iwa Barony 267
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1480,7 +1480,7 @@
 ###c_iwa_county_82
 243 = {	# Iwa Barony 243
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1496,7 +1496,7 @@
 ###c_iwa_county_81
 244 = {	# Iwa Barony 244
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1512,7 +1512,7 @@
 ###c_iwa_county_79
 252 = {	# Iwa Barony 252
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -1528,7 +1528,7 @@
 ###c_iwa_county_80
 255 = {	# Iwa Barony 255
 	culture = earth_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 

@@ -2,7 +2,7 @@
 ###c_yu_county_1
 615 = {	# Yu Barony 1
 	culture = hot_water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 

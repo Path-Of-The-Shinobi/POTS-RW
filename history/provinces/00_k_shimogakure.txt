@@ -2,7 +2,7 @@
 ###c_shimo_county_1
 614 = {	# Shimo Barony 1
 	culture = frost_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 

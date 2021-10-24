@@ -2,7 +2,7 @@
 ###c_kiri_county_1
 290 = {	# Kiri Barony 1
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -26,7 +26,7 @@
 ###c_kiri_county_2
 295 = {	# Kiri Barony 6
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -42,7 +42,7 @@
 ###c_kiri_county_3
 298 = {	# Kiri Barony 9
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -50,7 +50,7 @@
 ###c_kiri_county_4
 299 = {	# Kiri Barony 10
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -68,7 +68,7 @@
 ###c_kiri_county_5
 302 = {	# Kiri Barony 13
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -84,7 +84,7 @@
 ###c_kiri_county_6
 304 = {	# Kiri Barony 15
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -96,7 +96,7 @@
 ###c_kiri_county_7
 307 = {	# Kiri Barony 18
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -112,7 +112,7 @@
 ###c_kiri_county_8
 308 = {	# Kiri Barony 19
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -126,7 +126,7 @@
 ###c_kiri_county_9
 312 = {	# Kiri Barony 23
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -138,7 +138,7 @@
 ###c_kiri_county_11
 314 = {	# Kiri Barony 25
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -154,7 +154,7 @@
 ###c_kiri_county_12
 317 = {	# Kiri Barony 28
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -166,7 +166,7 @@
 ###c_kiri_county_13
 318 = {	# Kiri Barony 29
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -182,7 +182,7 @@
 ###c_kiri_county_10
 372 = {	# Kiri Barony 83
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -196,7 +196,7 @@
 ###c_kiri_county_14
 322 = {	# Kiri Barony 33
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -212,7 +212,7 @@
 ###c_kiri_county_16
 338 = {	# Kiri Barony 49
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -232,7 +232,7 @@
 ###c_kiri_county_15
 342 = {	# Kiri Barony 53
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -248,7 +248,7 @@
 ###c_kiri_county_17
 345 = {	# Kiri Barony 56
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -266,7 +266,7 @@
 ###c_kiri_county_18
 325 = {	# Kiri Barony 36
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -282,7 +282,7 @@
 ###c_kiri_county_19
 328 = {	# Kiri Barony 39
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -298,7 +298,7 @@
 ###c_kiri_county_20
 330 = {	# Kiri Barony 41
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -314,7 +314,7 @@
 ###c_kiri_county_21
 334 = {	# Kiri Barony 45
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -336,7 +336,7 @@
 ###c_kiri_county_22
 348 = {	# Kiri Barony 59
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -356,7 +356,7 @@
 ###c_kiri_county_24
 349 = {	# Kiri Barony 60
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -376,7 +376,7 @@
 ###c_kiri_county_23
 358 = {	# Kiri Barony 69
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -396,7 +396,7 @@
 ###c_kiri_county_25
 360 = {	# Kiri Barony 71
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -414,7 +414,7 @@
 ###c_kiri_county_26
 352 = {	# Kiri Barony 63
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -430,7 +430,7 @@
 ###c_kiri_county_27
 354 = {	# Kiri Barony 65
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
@@ -446,7 +446,7 @@
 ###c_kiri_county_28
 367 = {	# Kiri Barony 78
 	culture = water_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 

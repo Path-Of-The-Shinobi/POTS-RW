@@ -2,7 +2,7 @@
 ###c_taki_county_1
 617 = {	# Taki Barony 1
 	culture = waterfalls_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 

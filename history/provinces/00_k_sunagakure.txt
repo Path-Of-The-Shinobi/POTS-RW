@@ -2,7 +2,7 @@
 ###c_suna_county_1
 612 = {	# Suna Barony 1
 	culture = sand_generic
-	religion = test_faith
+	religion = sixpaths
 	holding = castle_holding
 }
 
