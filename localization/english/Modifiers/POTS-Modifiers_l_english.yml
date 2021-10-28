@@ -14,3 +14,4 @@ l_english:
  ningendo_modifier:0 "Ningendo"
  train_recently:0 "Recently Trained"
  failed_training_modifier:0 "Failed Training"
+ denied_training_modifier:0 "Denied Training"

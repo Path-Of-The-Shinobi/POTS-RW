@@ -42,6 +42,7 @@
 		add_trait = gregarious
 		add_trait = stubborn
 		add_trait = trait = senjugene
+		add_trait = woodrelease
 	}
 	943.1.1 = {
 		add_spouse = 61 # Mito Uzumaki
@@ -535,10 +536,12 @@
 	}
 	1002.1.1 = {
 		add_trait = ninjarank_jonin
+		add_trait = mangekyosharingan_2
 	}
 	1005.1.1 = { # it's unclear when Shisui became Anbu
 		remove_trait = ninjarank_jonin
 		add_trait = ninjarank_anbu
+		remove_trait = mangekyosharingan_2
 	}
 	1006.1.1 = { #Suicide
 		death = {
@@ -616,6 +619,7 @@
 	1006.1.1 = {
 		remove_trait = ninjarank_chunin
 		add_trait = ninjarank_anbu
+		trait = mangekyosharingan_4
 	}
 	1008.1.1 = {
 		add_trait = s_rank
@@ -2006,7 +2010,7 @@
 		remove_trait = ninjarank_chunin
 		add_trait = ninjarank_jonin
 		give_nickname = nick_of_the_sharingan # of the Sharingan
-		add_trait = sharingan_left
+		add_trait = mangekyosharingan_1
 		# he becomes more mature after Obito's death
 		remove_trait = arrogant
 		remove_trait = callous

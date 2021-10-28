@@ -161,6 +161,13 @@
 			boy = male
 			girl = female
 		}
+		orochimaru_eyes = {
+			index = 21
+			male = {	1 = "male_eyes_orochimaru"		}
+			female = {	1 = "female_eyes_reanimated"	}
+			boy = male
+			girl = female
+		}
 	}
 
 

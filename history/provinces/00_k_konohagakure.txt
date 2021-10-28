@@ -7,11 +7,11 @@
 }
 
 381 = {	# Konoha Barony 8
-	holding = none
+	holding = castle_holding
 }
 
 384 = {	# Konoha Barony 11
-	holding = none
+	holding = castle_holding
 }
 
 
@@ -23,15 +23,15 @@
 }
 
 379 = {	# Konoha Barony 6
-	holding = none
+	holding = castle_holding
 }
 
 380 = {	# Konoha Barony 7
-	holding = none
+	holding = castle_holding
 }
 
 382 = {	# Konoha Barony 9
-	holding = none
+	holding = castle_holding
 }
 
 
@@ -43,11 +43,11 @@
 }
 
 377 = {	# Konoha Barony 4
-	holding = none
+	holding = castle_holding
 }
 
 378 = {	# Konoha Barony 5
-	holding = none
+	holding = v
 }
 
 
@@ -59,11 +59,11 @@
 }
 
 385 = {	# Konoha Barony 12
-	holding = none
+	holding = castle_holding
 }
 
 386 = {	# Konoha Barony 13
-	holding = none
+	holding = castle_holding
 }
 
 
@@ -77,15 +77,15 @@
 }
 
 388 = {	# Konoha Barony 15
-	holding = none
+	holding = castle_holding
 }
 
 389 = {	# Konoha Barony 16
-	holding = none
+	holding = castle_holding
 }
 
 390 = {	# Konoha Barony 17
-	holding = none
+	holding = castle_holding
 }
 
 
@@ -97,11 +97,11 @@
 }
 
 392 = {	# Konoha Barony 19
-	holding = none
+	holding = castle_holding
 }
 
 393 = {	# Konoha Barony 20
-	holding = none
+	holding = castle_holding
 }
 
 
@@ -113,15 +113,15 @@
 }
 
 395 = {	# Konoha Barony 22
-	holding = none
+	holding = castle_holding
 }
 
 403 = {	# Konoha Barony 30
-	holding = none
+	holding = castle_holding
 }
 
 404 = {	# Konoha Barony 31
-	holding = none
+	holding = castle_holding
 }
 
 
@@ -133,11 +133,11 @@
 }
 
 406 = {	# Konoha Barony 33
-	holding = none
+	holding = castle_holding
 }
 
 431 = {	# Konoha Barony 58
-	holding = none
+	holding = castle_holding
 }
 
 

@@ -3,11 +3,6 @@
 	icon = "death_murder.dds"
 }
 
-death_tailed_beast_extraction = {
-	public_knowledge = yes
-	icon = "death_murder.dds"
-}
-
 death_rinne_rebirth = {
 	icon = "death_murder.dds"
 }

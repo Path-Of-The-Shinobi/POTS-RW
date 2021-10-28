@@ -48,5 +48,75 @@
  rain_generic_collective_noun:0 "Rain Country"
  rain_country_culture_group:0 "Rain Country"
  rain_country_culture_group_collective_noun:0 "Rain Country"
+ 
+ #Hotwater
+ hot_water_generic:0 "HotWater Country"
+ hot_water_generic_collective_noun:0 "HotWater Country"
+ hot_water_country_culture_group:0 "HotWater Country"
+ hot_water_country_culture_group_collective_noun:0 "HotWater Country"
+ 
+ #Lightning
+ lightning_generic:0 "Lightning Country"
+ lightning_generic_collective_noun:0 "Lightning Country"
+ lightning_country_culture_group:0 "Lightning Country"
+ lightning_country_culture_group_collective_noun:0 "Lightning Country"
+ 
+ #Waves
+ waves_generic:0 "Wave Country"
+ waves_generic_collective_noun:0 "Wave Country"
+ waves_country_culture_group:0 "Wave Country"
+ waves_country_culture_group_collective_noun:0 "Wave Country"
+
+ #Whirlpool
  whirlpool_generic:0 "Whirlpool Country"
  whirlpool_generic_collective_noun:0 "Whirlpool Country"
+ whirlpool_country_culture_group:0 "Whirlpool Country"
+ whirlpool_country_culture_group_collective_noun:0 "Whirlpool Country"
+
+ #Sound
+ sound_generic:0 "Sound Country"
+ sound_generic_collective_noun:0 "Sound Country"
+ sound_country_culture_group:0 "Sound Country"
+ sound_country_culture_group_collective_noun:0 "Sound Country"
+
+ #iron
+ sound_generic:0 "Iron Country"
+ iron_generic_collective_noun:0 "Iron Country"
+ iron_country_culture_group:0 "Iron Country"
+ iron_country_culture_group_collective_noun:0 "Iron Country"
+
+ #Frost
+ frost_generic:0 "Frost Country"
+ frost_generic_collective_noun:0 "Frost Country"
+ frost_country_culture_group:0 "Frost Country"
+ frost_country_culture_group_collective_noun:0 "Frost Country"
+
+ #Grass
+ grass_generic:0 "Grass Country"
+ grass_generic_collective_noun:0 "Grass Country"
+ grass_country_culture_group:0 "Grass Country"
+ grass_country_culture_group_collective_noun:0 "Grass Country"
+
+ #River
+ river_generic:0 "River Country"
+ river_generic_collective_noun:0 "River Country"
+ river_country_culture_group:0 "River Country"
+ river_country_culture_group_collective_noun:0 "River Country"
+
+ #Otsutsuki
+ otsutsuki_generic:0 "Otsutsuki Country"
+ otsutsuki_generic_collective_noun:0 "Otsutsuki Country"
+ otsutsuki_country_culture_group:0 "Otsutsuki Country"
+ otsutsuki_country_culture_group_collective_noun:0 "Otsutsuki Country"
+
+ #Waterfall
+ waterfall_generic:0 "Waterfall Country"
+ waterfall_generic_collective_noun:0 "Waterfall Country"
+ waterfall_country_culture_group:0 "Waterfall Country"
+ waterfall_country_culture_group_collective_noun:0 "Waterfall Country"
+
+ #Rivers
+ rivers_generic:0 "Rivers Country"
+ rivers_generic_collective_noun:0 "Rivers Country"
+ rivers_country_culture_group:0 "Rivers Country"
+ rivers_country_culture_group_collective_noun:0 "Rivers Country"

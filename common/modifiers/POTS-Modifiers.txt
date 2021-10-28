@@ -58,3 +58,22 @@ stolensharingan_modifier = {
     icon = health_negative
     health = -2
 }
+important_lore_character = {
+	icon = health_positive
+	
+	health = 1
+	hostile_scheme_resistance_add = 20
+	enemy_hostile_scheme_success_chance_add = -15
+}
+
+failed_training_modifier = {
+	icon = martial_negative
+	
+	prowess = -1
+}
+
+denied_training_modifier = {
+	icon = diplomacy_negative
+
+	diplomacy = -1
+}

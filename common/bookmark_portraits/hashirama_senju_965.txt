@@ -1,6 +1,6 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:2
-hashirama_senju_965={
+hashirama_senju={
 	type=male
 	id=28
 	age=0.400000

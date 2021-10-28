@@ -1,6 +1,6 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:500
-byakuren_965={
+byakuren={
 	type=male
 	id=15
 	age=0.680000

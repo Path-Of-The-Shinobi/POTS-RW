@@ -30,6 +30,7 @@
 	culture = "earth_generic"
 	disallow_random_traits = yes
 	prowess = 10
+	traot = dustrelease
 	926.6.6 = { # June 6
 		birth = yes
 		effect = {
@@ -72,6 +73,7 @@
 	}
 	966.6.6 = {
 		add_trait =  = ninjarank_kage
+		add_trait = dustrelease
 		give_nickname = nick_fence_sitter # the Fence-Sitter, unclear when he got this nickname
 	}
 	1032.6.6 = {

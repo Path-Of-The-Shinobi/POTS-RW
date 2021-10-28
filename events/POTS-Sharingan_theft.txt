@@ -25,10 +25,8 @@ sharingan_theft.001 = {
                 has_trait = mangekyosharingan_1
             }
         }
+        add_trait = mangekyosharingan_1
         hidden_effect = {
-            scope:actor = {
-                add_trait = mangkeyosharingan_1
-            }
             scope:recipient = {
                 remove_trait = mangekyosharingan_1
                 add_trait = blind
@@ -49,10 +47,8 @@ sharingan_theft.001 = {
                 has_trait = mangekyosharingan_2
             }
         }
+        add_trait = mangekyosharingan_2
         hidden_effect = {
-            scope:actor = {
-                add_trait = mangekyosharingan_2
-            }
             scope:recipient = {
                 remove_trait = mangekyosharingan_2
                 add_trait = blind
@@ -73,10 +69,8 @@ sharingan_theft.001 = {
                 has_trait = mangekyosharingan_3
             }
         }
+        add_trait = mangekyosharingan_3
         hidden_effect = {
-            scope:actor = {
-                add_trait = mangkeyosharingan_3
-            }
             scope:recipient = {
                 remove_trait = mangekyosharingan_3
                 add_trait = blind
@@ -88,19 +82,17 @@ sharingan_theft.001 = {
         }
     }
     option = {
-    name = sharingan_theft.001.d
-    trigger = {
-        scope:actor = {
-            has_mangekyosharingan = no
-        }
-        scope:recipient = {
-            has_trait = mangekyosharingan_4
-        }
-    }
-        hidden_effect = {
+        name = sharingan_theft.001.d
+        trigger = {
             scope:actor = {
-                add_trait = mangkeyosharingan_4
+                has_mangekyosharingan = no
             }
+            scope:recipient = {
+                has_trait = mangekyosharingan_4
+            }
+        }
+        add_trait = mangekyosharingan_4
+        hidden_effect = {
             scope:recipient = {
                 remove_trait = mangekyosharingan_4
                 add_trait = blind
