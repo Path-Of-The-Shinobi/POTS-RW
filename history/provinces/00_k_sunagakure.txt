@@ -5,6 +5,3 @@
 	religion = sixpaths
 	holding = castle_holding
 }
-
-
-

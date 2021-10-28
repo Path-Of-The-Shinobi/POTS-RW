@@ -393,6 +393,7 @@ summon_gedo_mazo_interaction = {
             }
         }
     }
+    auto_accept = yes
 }
 
 awaken_rinnegan_interaction = {

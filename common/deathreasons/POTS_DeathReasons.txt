@@ -18,6 +18,5 @@ absorbed_for_health = {
 
 tailedbeast_absorbed = {
 	public_knowledge = yes
-	publick_knowledge = yes
 	icon = "death_murder.dds"
 }
