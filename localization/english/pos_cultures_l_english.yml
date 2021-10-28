@@ -1,0 +1,52 @@
+﻿l_english:
+ # Land of Fire Culture Group
+ fire_country_culture_group:0 "Fire Country"
+ fire_country_culture_group_collective_noun:0 "Fire Country"
+ fire_generic:0 "Fire Country"
+ fire_generic_collective_noun:0 "Fire Country"
+ uzumaki:0 "Uzumaki"
+ uzumaki_collective_noun:0 "Uzumaki"
+ senju:0 "Senju"
+ senju_collective_noun:0 "Senju"
+ uchiha:0 "Uchiha"
+ uchiha_collective_noun:0 "Uchiha"
+ sarutobi:0 "Sarutobi"
+ sarutobi_collective_noun:0 "Sarutobi"
+ yamanaka:0 "Yamanaka"
+ yamanaka_collective_noun:0 "Yamanaka"
+ nara:0 "Nara"
+ nara_collective_noun:0 "Nara"
+ akimichi:0 "Akimichi"
+ akimichi_collective_noun:0 "Akimichi"
+ hyuga:0 "Hyuga"
+ hyuga_collective_noun:0 "Hyuga"
+ aburame:0 "Aburame"
+ aburame_collective_noun:0 "Aburame"
+ yuhi:0 "Yuhi"
+ yuhi_collective_noun:0 "Yuhi"
+
+ # Land of Water Culture Group
+ water_country_culture_group:0 "Water Country"
+ water_country_culture_group_collective_noun:0 "Water Country"
+ water_generic:0 "Water Country"
+ water_generic_collective_noun:0 "Water Country"
+
+ # Land of Wind Culture Group
+ wind_country_culture_group:0 "Wind Country"
+ wind_country_culture_group_collective_noun:0 "Wind Country"
+ wind_generic:0 "Wind Country"
+ wind_generic_collective_noun:0 "Wind Country"
+
+ # Land of Earth Culture Group
+ earth_country_culture_group:0 "Earth Country"
+ earth_country_culture_group_collective_noun:0 "Earth Country"
+ earth_generic:0 "Earth Country"
+ earth_generic_collective_noun:0 "Earth Country"
+
+ #Land Of Rain Culture Group
+ rain_generic:0 "Rain Country"
+ rain_generic_collective_noun:0 "Rain Country"
+ rain_country_culture_group:0 "Rain Country"
+ rain_country_culture_group_collective_noun:0 "Rain Country"
+ whirlpool_generic:0 "Whirlpool Country"
+ whirlpool_generic_collective_noun:0 "Whirlpool Country"

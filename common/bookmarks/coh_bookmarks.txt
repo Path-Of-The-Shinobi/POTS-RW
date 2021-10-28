@@ -4,8 +4,8 @@
 
 	# Land of Fire
 	character = {
-		name = "hashirama_senju_965"
-		dynasty = 1
+		name = "hashirama_senju"
+		dynasty = 700084
 		dynasty_splendor_level = 1
 		type = male
 		birth = 924.10.23
@@ -22,7 +22,7 @@
 
 	# Land of Water
 	character = {
-		name = "byakuren_965"
+		name = "byakuren"
 		#dynasty_splendor_level = 1
 		type = male
 		birth = 896.1.20
@@ -39,8 +39,7 @@
 
 	# Land of Wind
 	character = {
-		name = "reto_965"
-		dynasty = 700082505
+		name = "reto"
 		dynasty_splendor_level = 1
 		type = male
 		birth = 908.6.27
@@ -57,7 +56,7 @@
 
 	# Land of Lightning
 	character = {
-		name = "a_the_first_965"
+		name = "a_the_first"
 		#dynasty_splendor_level = 1
 		type = male
 		birth = 926.12.1
@@ -74,8 +73,7 @@
 
 	# Land of Earth
 	character = {
-		name = "ishikawa_965"
-		dynasty = 1500
+		name = "ishikawa"
 		dynasty_splendor_level = 1
 		type = male
 		birth = 896.5.6
