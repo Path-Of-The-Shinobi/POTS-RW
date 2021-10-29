@@ -660,6 +660,7 @@
 	}
 	1013.1.1 = {
 		employer = 2509 # Orochimaru
+		add_trait = mangekyosharingan_4
 		add_trait = s_rank
 	}
 	1017.10.10 = {
@@ -1698,6 +1699,7 @@
 	father = 71
 	trait = twin
 	trait = byakugan # Byakugan
+	trait = hyugagene
 	971.1.8 = { # January 8
 		birth = yes
 		employer = 26 # Hiruzen
@@ -1717,6 +1719,7 @@
 	father = 71
 	trait = twin
 	trait = byakugan # Byakugan
+	trait = hyugagene
 	971.1.8 = { # January 8
 		birth = yes
 		employer = 26 # Hiruzen
@@ -1730,6 +1733,7 @@
 	culture = "hyuga"
 	trait = twin
 	trait = byakugan # Byakugan
+	trait = hyugagene
 	941.1.1 = {
 		birth = yes
 	}
@@ -1744,6 +1748,7 @@
 	religion = "sixpaths"
 	culture = "hyuga"
 	trait = byakugan # Byakugan
+	trait = hyugagene
 	988.1.1 = { # UNKNOWN DATE
 		birth = yes
 		employer = 26 # Hiruzen
@@ -1756,6 +1761,7 @@
 	religion = "sixpaths"
 	culture = "hyuga"
 	trait = byakugan # Byakugan
+	trait = hyugagene
 	990.1.1 = { # UNKNOWN DATE
 		birth = yes
 		employer = 26 # Hiruzen
@@ -1768,6 +1774,7 @@
 	religion = "sixpaths"
 	culture = "hyuga"
 	trait = byakugan # Byakugan
+	trait = hyugagene
 	992.1.1 = { # UNKNOWN DATE
 		birth = yes
 		employer = 26 # Hiruzen
@@ -1780,6 +1787,7 @@
 	religion = "sixpaths"
 	culture = "hyuga"
 	trait = byakugan # Byakugan
+	trait = hyugagene
 	993.1.1 = { # UNKNOWN DATE
 		birth = yes
 		employer = 26 # Hiruzen
@@ -1794,6 +1802,7 @@
 	disallow_random_traits = yes
 	father = 69 # Hizashi
 	trait = byakugan # Byakugan
+	trait = hyugagene
 	999.7.3 = { # July 3
 		birth = yes
 		effect = {
@@ -1831,6 +1840,7 @@
 	disallow_random_traits = yes
 	father = 70 # Hiashi
 	trait = byakugan # Byakugan
+	trait = hyugagene
 	1000.12.27 = { # December 27
 		birth = yes
 		employer = 26 # Hiruzen
@@ -1856,6 +1866,7 @@
 	disallow_random_traits = yes
 	father = 70 # Hiashi
 	trait = byakugan # Byakugan
+	trait = hyugagene
 	1006.3.27 = { # March 27
 		birth = yes
 		employer = 26 # Hiruzen
