@@ -1,7 +1,7 @@
 ﻿l_english:
 
  perform_amaterasu_interaction:0 "Perform The Amaterasu"
- perform_kotoamtsukami_interaction:0 "Use Kotoamatsukami"
+ perform_kotoamatsukami_interaction:0 "Use Kotoamatsukami"
  perform_tsukuyomi_interaction:0 "Use Tsukuyomi On Your Target"
  interaction_category_dojutsu:0 "POTS Dojutsu"
  Dojutsu_Interaction_Desc:0 "Dojutsu Interactions"

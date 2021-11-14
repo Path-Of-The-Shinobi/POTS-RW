@@ -470,7 +470,7 @@ boruto_movie = {
 	# Land of Fire
 	character = {
 		name = "naruto_uzumaki_1032"
-		dynasty = 9 # Uzumaki
+		dynasty = 700083 # Uzumaki
 		dynasty_splendor_level = 1
 		type = male
 		birth = 1000.10.10

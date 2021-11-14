@@ -16,14 +16,18 @@ perform_amaterasu_interaction = {
     }
 
     on_send = {
-        scope:actor = {
-            trigger_event = {
-                id = MangekyoEvents.001
-                days = 1
+        hidden_effect = {
+            scope:actor = {
+                add_character_modifier = {
+                    modifier = used_amaterasu_modifier
+                    months = 6
+                }
             }
-            add_character_flag = {
-                flag = performed_amaterasu
-                months = 6
+            scope:recipient = {
+                add_character_modifier = {
+                    modifier = amaterasu_modifier
+                    months = 6
+                }
             }
         }
     }
@@ -40,12 +44,17 @@ perform_kotoamatsukami_interaction = {
     }
 
     on_send = {
-        scope:actor = {
-			trigger_event = MangekyoEvents.002
-			add_character_flag = {
-				flag = recently_performed_kotoamatsukami
-				years = 15
-			}
+        hidden_effect = {
+            scope:actor = {
+			    add_character_flag = {
+				    flag = recently_performed_kotoamatsukami
+				    years = 15
+			    }
+                add_hook = {
+                    type = fabrication_hook
+                    target = scope:recipient
+                }
+            }
         }
     }
 }
@@ -56,15 +65,22 @@ perform_tsukuyomi_interaction = {
     is_shown = {
         scope:actor = {
             has_trait = mangekyosharingan_4
-            NOT = { has_character_flag = used_tsukuyomi }
         }
     }
+    
     on_send = {
-        scope:actor = {
-            trigger_event = MangekyoEvents.003
-            add_character_flag = {
-                flag = used_tsukuyomi
-                months = 6
+        hidden_effect = {
+            scope:recipient = {
+                add_character_modifier = {
+                    modifier = used_tsukuyomi_modifier
+                    months = 6
+                }
+            }
+            scope:actor = {
+                add_character_modifier = {
+                    modifier = tsukuyomi_modifier
+                    months = 6
+                }
             }
         }
     }
@@ -84,23 +100,15 @@ obtain_mangekyo_sharingan_interaction = {
             is_adult = yes
             has_mangekyosharingan = no
             has_trait = uchihagene
-            NOT = { has_character_flag = mangekyo1 }
-
         }
         scope:recipient = {
             is_close_family_of = scope:actor
-            has_trait = uchihagene
-            is_adult = yes
         }
         NOT = { scope:actor = scope:recipient }
     }
     on_accept = {
         scope:actor = {
             trigger_event = MangekyoEvents.004
-            add_character_flag = {
-                flag = mangekyo1
-                years = 400
-            }
         }
     }
     ai_targets = {
@@ -360,17 +368,15 @@ ningendo_interaction = {
             }
         }
         scope:recipient = {
-            hidden_effect = {
-                death = {
-                    killer = scope:actor
-                    death_reason = absorbed_for_health
-                }
+            death = {
+                killer = scope:actor
+                death_reason = absorbed_for_health
             }
         }
     }
 }
 
-summon_gedo_mazo_interaction = {
+summon_gedo_mazo1_interaction = {
     category = interaction_category_hostile
     common_interaction = no
     desc = summon_gedo_mazo_interaction_desc
@@ -379,6 +385,7 @@ summon_gedo_mazo_interaction = {
         scope:actor = {
             has_trait = rinnegan
             NOT = { has_character_modifier = summoned_gedo_mazo_modifier }
+            NOT = { has_character_flag = onetail }
         }
         scope:recipient = {
             is_jinchuriki = yes
@@ -387,9 +394,326 @@ summon_gedo_mazo_interaction = {
     }
     on_accept = {
         scope:actor = {
-            trigger_event = {
-                id = RinneganEvents.003
-                days = 5
+            add_character_modifier = {
+                modifier = summoned_gedo_mazo_modifier
+                months = 6
+            }
+            add_character_flag = {
+                flag = onetail
+                years = 100
+            }
+        }
+        scope:recipient = {
+            remove_trait = one_tail
+            death = {
+                killer = scope:actor
+                death_reason = tailedbeast_absorbed
+            }
+        }
+    }
+    auto_accept = yes
+}
+
+summon_gedo_mazo2_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    desc = summon_gedo_mazo_interaction_desc
+    ai_maybe = yes
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
+            NOT = { has_character_modifier = summoned_gedo_mazo_modifier }
+            NOT = { has_character_flag = twotail }
+            has_character_flag = onetail
+        }
+        scope:recipient = {
+            is_jinchuriki = yes
+            is_alive = yes
+        }
+    }
+    on_accept = {
+        scope:actor = {
+            add_character_modifier = {
+                modifier = summoned_gedo_mazo_modifier
+                months = 6
+            }
+            add_character_flag = {
+                flag = twotail
+                years = 100
+            }
+        }
+        scope:recipient = {
+            remove_trait = two_tail
+            death = {
+                killer = scope:actor
+                death_reason = tailedbeast_absorbed
+            }
+        }
+    }
+    auto_accept = yes
+}
+
+summon_gedo_mazo3_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    desc = summon_gedo_mazo_interaction_desc
+    ai_maybe = yes
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
+            NOT = { has_character_modifier = summoned_gedo_mazo_modifier }
+            NOT = { has_character_flag = threetail }
+            has_character_flag = twotail
+        }
+        scope:recipient = {
+            is_jinchuriki = yes
+            is_alive = yes
+        }
+    }
+    on_accept = {
+        scope:actor = {
+            add_character_modifier = {
+                modifier = summoned_gedo_mazo_modifier
+                months = 6
+            }
+            add_character_flag = {
+                flag = threetail
+                years = 100
+            }
+        }
+        scope:recipient = {
+            remove_trait = three_tail
+            death = {
+                killer = scope:actor
+                death_reason = tailedbeast_absorbed
+            }
+        }
+    }
+    auto_accept = yes
+}
+summon_gedo_mazo4_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    desc = summon_gedo_mazo_interaction_desc
+    ai_maybe = yes
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
+            NOT = { has_character_modifier = summoned_gedo_mazo_modifier }
+            NOT = { has_character_flag = fourtail }
+            has_character_flag = threetail
+        }
+        scope:recipient = {
+            is_jinchuriki = yes
+            is_alive = yes
+        }
+    }
+    on_accept = {
+        scope:actor = {
+            add_character_modifier = {
+                modifier = summoned_gedo_mazo_modifier
+                months = 6
+            }
+            add_character_flag = {
+                flag = fourtail
+                years = 100
+            }
+        }
+        scope:recipient = {
+            remove_trait = four_tail
+            death = {
+                killer = scope:actor
+                death_reason = tailedbeast_absorbed
+            }
+        }
+    }
+    auto_accept = yes
+}
+summon_gedo_mazo5_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    desc = summon_gedo_mazo_interaction_desc
+    ai_maybe = yes
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
+            NOT = { has_character_modifier = summoned_gedo_mazo_modifier }
+            NOT = { has_character_flag = fivetail }
+            has_character_flag = fourtail
+        }
+        scope:recipient = {
+            is_jinchuriki = yes
+            is_alive = yes
+        }
+    }
+    on_accept = {
+        scope:actor = {
+            add_character_modifier = {
+                modifier = summoned_gedo_mazo_modifier
+                months = 6
+            }
+            add_character_flag = {
+                flag = fivetail
+                years = 100
+            }
+        }
+        scope:recipient = {
+            remove_trait = five_tail
+            death = {
+                killer = scope:actor
+                death_reason = tailedbeast_absorbed
+            }
+        }
+    }
+    auto_accept = yes
+}
+summon_gedo_mazo6_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    desc = summon_gedo_mazo_interaction_desc
+    ai_maybe = yes
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
+            NOT = { has_character_modifier = summoned_gedo_mazo_modifier }
+            NOT = { has_character_flag = sixtail }
+            has_character_flag = fivetail
+        }
+        scope:recipient = {
+            is_jinchuriki = yes
+            is_alive = yes
+        }
+    }
+    on_accept = {
+        scope:actor = {
+            add_character_modifier = {
+                modifier = summoned_gedo_mazo_modifier
+                months = 6
+            }
+            add_character_flag = {
+                flag = sixtail
+                years = 100
+            }
+        }
+        scope:recipient = {
+            remove_trait = six_tail
+            death = {
+                killer = scope:actor
+                death_reason = tailedbeast_absorbed
+            }
+        }
+    }
+    auto_accept = yes
+}
+summon_gedo_mazo7_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    desc = summon_gedo_mazo_interaction_desc
+    ai_maybe = yes
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
+            NOT = { has_character_modifier = summoned_gedo_mazo_modifier }
+            NOT = { has_character_flag = seventail }
+            has_character_flag = sixtail
+        }
+        scope:recipient = {
+            is_jinchuriki = yes
+            is_alive = yes
+        }
+    }
+    on_accept = {
+        scope:actor = {
+            add_character_modifier = {
+                modifier = summoned_gedo_mazo_modifier
+                months = 6
+            }
+            add_character_flag = {
+                flag = seventail
+                years = 100
+            }
+        }
+        scope:recipient = {
+            remove_trait = seven_tail
+            death = {
+                killer = scope:actor
+                death_reason = tailedbeast_absorbed
+            }
+        }
+    }
+    auto_accept = yes
+}
+summon_gedo_mazo8_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    desc = summon_gedo_mazo_interaction_desc
+    ai_maybe = yes
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
+            NOT = { has_character_modifier = summoned_gedo_mazo_modifier }
+            NOT = { has_character_flag = eighttail }
+            has_character_flag = seventail
+        }
+        scope:recipient = {
+            is_jinchuriki = yes
+            is_alive = yes
+        }
+    }
+    on_accept = {
+        scope:actor = {
+            add_character_modifier = {
+                modifier = summoned_gedo_mazo_modifier
+                months = 6
+            }
+            add_character_flag = {
+                flag = eighttail
+                years = 100
+            }
+        }
+        scope:recipient = {
+            remove_trait = eight_tail
+            death = {
+                killer = scope:actor
+                death_reason = tailedbeast_absorbed
+            }
+        }
+    }
+    auto_accept = yes
+}
+summon_gedo_mazo9_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    desc = summon_gedo_mazo_interaction_desc
+    ai_maybe = yes
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
+            NOT = { has_character_modifier = summoned_gedo_mazo_modifier }
+            NOT = { has_character_flag = ninetail }
+            has_character_flag = eighttail
+        }
+        scope:recipient = {
+            is_jinchuriki = yes
+            is_alive = yes
+        }
+    }
+    on_accept = {
+        scope:actor = {
+            add_character_modifier = {
+                modifier = summoned_gedo_mazo_modifier
+                months = 6
+            }
+            add_character_flag = {
+                flag = ninetail
+                years = 100
+            }
+        }
+        scope:recipient = {
+            remove_trait = nine_tail
+            death = {
+                killer = scope:actor
+                death_reason = tailedbeast_absorbed
             }
         }
     }
@@ -459,4 +783,33 @@ steal_sharingan_interaction = {
         }
     }
     auto_accept = yes
+}
+
+become_ten_tails_jinchuriki_interaction = {
+    category = interaction_category_hostile
+    common_interaction = no
+    desc = become_god_interaction_desc
+    ai_maybe = yes
+    is_shown = {
+        scope:actor = {
+            has_trait = rinnegan
+            has_character_flag = ninetail
+            is_adult = yes
+            NOT = { has_trait = ten_tail }
+        }
+    }
+    ai_targets = {
+        ai_recipients = self
+    }
+    ai_frequency = 24
+    ai_will_do = {
+        base = 20
+    }
+    on_accept = {
+        scope:actor = {
+            add_trait = ten_tail
+            add_gold = 200
+            add_prestige = 500
+        }
+    }
 }
